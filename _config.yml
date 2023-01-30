@@ -2,7 +2,9 @@ title: SOVL Rules
 description: Rules document for SOVL
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://perwahl.github.io/SOVLRules/
 
 aux_links:
   Steam: https://store.steampowered.com/app/1870300/SOVL
+
+color_scheme: dark
