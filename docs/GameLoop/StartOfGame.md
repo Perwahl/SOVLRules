@@ -2,10 +2,10 @@
 title: Start of Game
 layout: default
 parent: Game Loop
-nav_order: 2
+nav_order: 0
 ---
 
 
-Start of Game
+# Start of Game
 
 ----
