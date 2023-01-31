@@ -2,10 +2,8 @@
 title: Combat Phase
 layout: default
 parent: Game Loop
-nav_order: 3
+nav_order: 2
 ---
-
-# Combat Phase
 
 ## Unit combat
 

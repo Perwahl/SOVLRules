@@ -2,7 +2,7 @@
 title: Strategic Phase
 layout: default
 parent: Game Loop
-nav_order: 2
+nav_order: 1
 ---
 
 # Strategic Phase

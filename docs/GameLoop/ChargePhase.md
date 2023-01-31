@@ -2,11 +2,9 @@
 title: Charge Phase
 layout: default
 parent: Game Loop
-nav_order: 1
+nav_order: 0
 ---
 
-
-# Charge Phase
 
 ## Declare Charges
 
