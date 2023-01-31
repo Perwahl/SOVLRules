@@ -4,7 +4,7 @@ layout: home
 nav_order: 0
 ---
 
-![warchief](/assets/images/warchief.png)
+![warchief](SOVLRules/assets/images/warchief.png)
 SOVL is a ruleset for fantasy tabletop wargaming. 
 
 ----
