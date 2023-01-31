@@ -3,8 +3,9 @@ title: Home
 layout: home
 nav_order: 0
 ---
-SOVL master rules document
-![](/../assets/images/warchief.png)
+
+![warchief](/assets/images/warchief.png)
+SOVL is a ruleset for fantasy tabletop wargaming. 
 
 ----
 
