@@ -3,12 +3,20 @@ title: Unit Stats and Types
 layout: default
 nav_order: 5
 ---
+<img src="../assets/images/unitcard.png" width="400">
 
-Armies consist of units of combatants with varying stats and abilities. A units fighting capabilities are described by it's Stat Block and its Equipment and Properties.
-<img src="../assets/images/unitcard.png" width="250">
+Armies consist of units of combatants with varying stats and abilities. A units fighting capabilities are described by it's Stat Block, Equipment and Properties.
+
 
 ## The Stat Block
+Blahaha the stat block is something
 
+### Skill
+### Power
+### Defense
+### Attacks
+### Wounds
+### Discipline
 
 
 ## Unit Types
