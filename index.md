@@ -4,7 +4,7 @@ layout: home
 nav_order: 0
 ---
 SOVL master rules document
-
+![](../../assets/images/warchief.png)
 
 ----
 
