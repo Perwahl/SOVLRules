@@ -1,5 +1,5 @@
 ---
-title: Unit Properties
+title: Equipment and Unit Properties
 layout: default
 nav_order: 6
 ---
