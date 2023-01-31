@@ -6,7 +6,7 @@ nav_order: 5
 
 Armies consist of units of combatants with varying stats and abilities. A units fighting capabilities are described by it's Stat Block and its Equipment and Properties.
 
-<img style="float: center;" src="../assets/images/statblock.png">
+<img style="float: center;" src="../assets/images/unitcard.png">
 ## The Stat Block
 
 
