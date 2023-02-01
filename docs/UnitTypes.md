@@ -12,7 +12,7 @@ Armies consist of units of combatants with varying stats and abilities. A units 
 Blahaha the stat block is something
 
 |:---|:----------|
-|**Skill**| good swedish fish |
+|**Skill**| Armies consist of units of combatants with varying stats and abilities. A units fighting capabilities are described by it's Stat Block, Equipment and Properties. |
 |**Power**| good and plenty   |
 |**Defense**| good `oreos`      |
 |**Attacks**| good `zoute` drop |
