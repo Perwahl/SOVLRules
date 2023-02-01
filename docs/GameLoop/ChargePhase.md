@@ -12,4 +12,6 @@ nav_order: 0
 
 ## Charge Priority
 
+<img style="float: center;" src="../assets/images/boarrider.png">
+
 ----
