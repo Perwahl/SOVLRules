@@ -12,12 +12,12 @@ Armies consist of units of combatants with varying stats and abilities. A units 
 Blahaha the stat block is something
 
 |:-----|:------------------|
-| ## Skill           | good swedish fish |
-| ## Power | good and plenty   |
-| ## Defense           | good `oreos`      |
-| ## Attacks         | good `zoute` drop |
-| ## Wounds         | good `zoute` drop |
-| **Discipline**         | good `zoute` drop |
+|**Skill**| good swedish fish |
+|**Power**| good and plenty   |
+|**Defense**| good `oreos`      |
+|**Attacks**| good `zoute` drop |
+|**Wounds**| good `zoute` drop |
+|**Discipline**| good `zoute` drop |
 
 
 
