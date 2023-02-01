@@ -22,7 +22,7 @@ Each unit has a list of stats that describe how good it is at various things.
 Units come in different types which determines some basic properties.
 
 | Unit Type | Base Size | Movement Rate |Description |
-|:----|:-----|:----------|
+|:-----|:----|:---|:----------|
 |**Infantry** | **20x20**| 8 | Basic infantry with a standard base size |
 |**Infantry** | **25x25**| 8 | Basic infantry with a bigger base size |
 |**Cavalry** | **25x50**| 16 | Cavalry like Imperial Knights or Wolf Riders |
