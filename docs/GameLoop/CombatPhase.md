@@ -12,5 +12,5 @@ nav_order: 2
 
 ## Fleeing Units
 
-<img style="float: center;" src="../assets/images/veteran.png">
+<img style="float: center;" src="../../assets/images/veteran.png" width="400">
 ----

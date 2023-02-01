@@ -9,6 +9,6 @@ nav_order: 6
 
 ## General Properties
 
-<img style="float: center;" src="../assets/images/miner.png">
+<img style="float: center;" src="../assets/images/miner.png" width="400">
 
 ----

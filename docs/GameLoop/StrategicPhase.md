@@ -15,6 +15,6 @@ nav_order: 1
 
 ## Other Actions
 
-<img style="float: center;" src="../assets/images/shaman.png">
+<img style="float: center;" src="../../assets/images/shaman.png" width="400">
 
 ----

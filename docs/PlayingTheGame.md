@@ -14,6 +14,6 @@ SOVL is a ruleset for playing fantasy wargames. It can be played with miniatures
 
 
 
-<img style="float: center;" src="../assets/images/deepguard.png">
+<img style="float: center;" src="../assets/images/deepguard.png" width="400">
 
 ----
