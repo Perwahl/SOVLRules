@@ -11,6 +11,4 @@ nav_order: 2
 ## Break tests
 
 ## Fleeing Units
-
-<img style="float: center;" src="../../assets/images/veteran.png" width="400">
 ----

@@ -4,16 +4,28 @@ layout: default
 nav_order: 1
 ---
 
+SOVL is played on a table with miniatures representing individual soldiers. Dice are used to determine the outcomes of combat, magic and many other mechanics that can occur during a game. The first step to playing a game of SOVL is usually to build and army.
 
+## Building an Army
+Start by choosing one of the factions available in SOVL. Then select a character to lead your army. A stubborn Dwarf Foreman or a savage Orc Warchief? Then fill out the rest of your points alotment with units and their equipment. SOVL can be played at different point sizes:
 
-## Objective of the game
+|:-----|:-----|
+|**Warband**| 500 pts |
+|**Battalion**| 1000 pts |
+|**Legion**| 1500 pts |
 
-SOVL is a ruleset for playing fantasy wargames. It can be played with miniatures on a table or digitaly on Steam. Armies made up of humans or fantasy creatures like Orcs or Dwarves meet on the battlefield and fight until one side is the bloody victor. Units of miniatures are moved around on the table and the outcome of melee combat, volleys of arrows or destructive magical spells is decided with dice rolls.
-
-## Objective of the game
-
+Full details for how to build your amy can be found in the [Faction Source documents](Faction Source Lists)!
 
 
 <img style="float: center;" src="../assets/images/deepguard.png" width="400">
+
+
+## Objective of the game
+
+
+
+
+
+
 
 ----

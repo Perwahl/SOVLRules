@@ -5,8 +5,6 @@ parent: Game Loop
 nav_order: 1
 ---
 
-# Strategic Phase
-
 ## Unit Activation
 
 ## Movement
@@ -14,7 +12,5 @@ nav_order: 1
 ## Shooting
 
 ## Other Actions
-
-<img style="float: center;" src="../../assets/images/shaman.png" width="400">
 
 ----
