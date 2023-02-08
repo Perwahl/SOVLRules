@@ -14,6 +14,7 @@ Armies made up of humans or fantasy creatures like Orcs or Dwarves meet on the b
 \
 \
 \
+
 ----
 
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate

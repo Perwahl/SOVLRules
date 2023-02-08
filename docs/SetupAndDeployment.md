@@ -9,7 +9,7 @@ nav_order: 2
 |**Standard**| 40x60" |
 |**Large**| 48x72" |
 
-
+<img style="float: center;" src="../assets/images/harrowingWoods.png" width="350">
 
 ## Deployment
 
