@@ -22,10 +22,10 @@ Players begin by setting up the table with terrain, deploying their armies and d
 The game then plays out over several Rounds. Each Round is divide into 3 Phases, [Charge](ChargePhase), [Strategic](StrategicPhase) and [Combat](CombatPhase). Players take turns activating units and performing actions like moving, charging or firing missile weapons. Full details on the Round Loop and the 3 Phases can be found [here](GameLoop). 
 
 ## Alternating Activations
-In the Charge and Strategic Phases players activate units and perform actions. The acting player chooses a unit to activate, performs all actions with it and then hands over the initiative to the other player. Players alternate activations like this until all units have been activated, or untill both players pass the phase. It can be helpful to have a physical token to hand over to keep track of the active player!
+In the Charge and Strategic Phases players take turns activating units and performing actions. The acting player chooses a unit to activate, performs all actions with it and then hands over the initiative to the other player. Players alternate like this until all units have been activated, or until both players pass the phase. It can be helpful to have a physical token to hand over to keep track of the active player!
 
 ## Objective of the game
-SOVL can be played using many different scenarios and victory conditions. In a srandard field battle the game continues until all units from one side are either destroyed or fleeing. If this doesn't happen by the end of turn 8 (or some other predefined limit), the game ends immediately and the outcome is resolved by score. Details on how to score a game can be found [here](EndOfGame). 
+SOVL can be played using many different scenarios and victory conditions. In a standard field battle the game continues until all units from one side are either destroyed or fleeing. If this hasn't happened by the end of turn 8 (or some other agreed upon limit), the game ends immediately and the outcome is resolved by score. Details on how to score a game can be found [here](EndOfGame). 
 
 <img style="float: center;" src="../assets/images/deepguard.png" width="350">
 
