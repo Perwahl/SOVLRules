@@ -13,21 +13,21 @@ SOVL can be played on any playing surface, usually a table. The standard dimensi
 <img style="float: center;" src="../assets/images/harrowingWoods.png" width="600">
 
 
-To make an interesting playing surface the table should be set up with some terrain features. There are no hard rules for how many featues to use or how much of the table should be covered. Around 3-6 pieces while also leaving enough room to maneveur is usually a good number.
+To make an interesting playing surface the table should be set up with some terrain features. There are no hard rules for how many featues to use or how much of the table should be covered. Around 4-8 pieces while also leaving enough room to maneveur is usually a good number.
 
 ## Terrain Types
 
 Different types of terrain have different impacts on the battlefield.
 
-### Impassable Terrain
+#### Impassable Terrain
 Solid terrain like cliffs and buildings block movement completely.
 
-### Difficult Terrain
+#### Difficult Terrain
  Some features like forests and swamps can be traversed, but slow down movement. Any unit that enters or starts its turn inside Difficult Terrain reduces its movement by 25%. If a unit has less than 25% of its movement allowance left its not allowed to enter difficult terrain.
 
-### Line of Sight
+#### Line of Sight
 
- Terrain features like forests, cliffs and buildings are tall enough to block line of sight for most units. Line of sight is needed to declare a charge, use missile weapons and for casting some spells.
+ Terrain features like forests, cliffs and buildings are tall enough to block line of sight for most units. Line of sight is needed to declare a charge, use missile weapons and casting some spells.
 
 |:------|:-----|
 |**Forest**| Difficult Terrain, blocks LOS |
@@ -38,7 +38,7 @@ Solid terrain like cliffs and buildings block movement completely.
 
 ## Deployment Zones
 
-In a standard game of SOVL the playing surface has 2 deployment zones laid out along the sides of the table. On a Standard table (40" across) the deployment zones are 8" deep, leaving 24" between them. 
+In a standard game of SOVL the playing surface has 2 deployment zones laid out along the sides of the table. On a Standard table (40" across) the deployment zones are 8" deep, leaving 24" between them. When players deploy their units they have to be placed fully within their owners deployment zone!
 
 <img style="float: center;" src="../assets/images/deploymentZones.png" width="600">
 
@@ -51,8 +51,14 @@ The player with the lower result gets the remaining choice.
 
 ## Deployment
 
-There are two ways to deploy units in SOVL, Blind Simultaneous and Alternating deploymwnt. 
+There are two ways to deploy units in SOVL, Simultaneous and Alternating deployment.  
 
+#### Simultaneous Deployment
+Simultaneous deplyoment is used in the digital version of the game. It can also be used when playing with miniatures if you have a screen that blocks the view of the opponents deployment zone.
 
+Both players deploy their entire army simultaneously, without any knowledge of the opponents positions. This deployment method is fast but can be less strategic.
+
+#### Alternating Deployment
+Players alternate deploying single units, with the player who made the choice of deployment zone starting. When one player runs out of units the other player continues until all units have been deployed. 
 
 ----
