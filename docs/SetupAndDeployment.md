@@ -19,15 +19,17 @@ To make an interesting playing surface the table should be set up with some terr
 
 Different types of terrain have different impacts on the battlefield.
 
-#### Impassable Terrain
+### Impassable Terrain
 Solid terrain like cliffs and buildings block movement completely.
 
 #### Difficult Terrain
  Some features like forests and swamps can be traversed, but slow down movement. Any unit that enters or starts its turn inside Difficult Terrain reduces its movement by 25%. If a unit has less than 25% of its movement allowance left its not allowed to enter difficult terrain.
 
-#### Line of Sight
+##### Line of Sight
 
  Terrain features like forests, cliffs and buildings are tall enough to block line of sight for most units. Line of sight is needed to declare a charge, use missile weapons and casting some spells.
+
+ 
 
 |:------|:-----|
 |**Forest**| Difficult Terrain, blocks LOS |
