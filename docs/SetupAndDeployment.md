@@ -34,7 +34,7 @@ Terrain features like forests, cliffs and buildings are tall enough to block **L
 
 ## Deployment Zones
 
-In a standard game of SOVL the playing surface has 2 deployment zones laid out along the sides of the table. On a Standard table (40" across) the deployment zones are 8" deep, leaving 24" between them. When players deploy their units they have to be placed fully within their owners deployment zone!
+In a regular game of SOVL the playing surface has 2 deployment zones laid out along the sides of the table. On a Standard table (40" across) the deployment zones are 8" deep, leaving 24" between them. When players deploy their units they have to be placed fully within their owners deployment zone!
 
 <img style="float: center;" src="../assets/images/deploymentZones.png" width="600">
 
@@ -49,12 +49,10 @@ The player with the lower result gets the remaining choice.
 
 There are two ways to deploy units in SOVL, Simultaneous and Alternating deployment.  
 
-##### Simultaneous Deployment
-Simultaneous deplyoment is used in the digital version of the game. It can also be used when playing with miniatures if you have a screen that blocks the view of the opponents deployment zone.
+**Simultaneous deplyoment** is used in the digital version of the game. It can also be used when playing with miniatures if you have a screen that blocks the view of the opponents deployment zone.
 
 Both players deploy their entire army simultaneously, without any knowledge of the opponents positions. This deployment method is fast but can be less strategic.
 
-##### Alternating Deployment
-Players alternate deploying single units, with the player who made the choice of deployment zone starting. When one player runs out of units the other player continues until all units have been deployed. 
+**Alternating Deployment** instead has both players take turns deploying a single unit, with the player who made the choice of deployment zone going first. When one player runs out the other player continues until all units are on the table. 
 
 ----
