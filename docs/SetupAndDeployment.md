@@ -19,17 +19,11 @@ To make an interesting playing surface the table should be set up with some terr
 
 Different types of terrain have different impacts on the battlefield.
 
-### Impassable Terrain
-Solid terrain like cliffs and buildings block movement completely.
+Solid terrain like cliffs and buildings are **Impassable** and block movement completely.
 
-#### Difficult Terrain
- Some features like forests and swamps can be traversed, but slow down movement. Any unit that enters or starts its turn inside Difficult Terrain reduces its movement by 25%. If a unit has less than 25% of its movement allowance left its not allowed to enter difficult terrain.
+Some features like forests and swamps can be traversed, but slow down movement. Any unit that enters or starts its turn inside **Difficult Terrain** reduces its movement by 25%. If a unit has less than 25% of its movement allowance left its not allowed to enter difficult terrain.
 
-##### Line of Sight
-
- Terrain features like forests, cliffs and buildings are tall enough to block line of sight for most units. Line of sight is needed to declare a charge, use missile weapons and casting some spells.
-
- 
+Terrain features like forests, cliffs and buildings are tall enough to block **Line of Sight** for most units. Line of sight is needed to declare charges, use missile weapons and for casting some spells.
 
 |:------|:-----|
 |**Forest**| Difficult Terrain, blocks LOS |
@@ -55,12 +49,12 @@ The player with the lower result gets the remaining choice.
 
 There are two ways to deploy units in SOVL, Simultaneous and Alternating deployment.  
 
-#### Simultaneous Deployment
+##### Simultaneous Deployment
 Simultaneous deplyoment is used in the digital version of the game. It can also be used when playing with miniatures if you have a screen that blocks the view of the opponents deployment zone.
 
 Both players deploy their entire army simultaneously, without any knowledge of the opponents positions. This deployment method is fast but can be less strategic.
 
-#### Alternating Deployment
+##### Alternating Deployment
 Players alternate deploying single units, with the player who made the choice of deployment zone starting. When one player runs out of units the other player continues until all units have been deployed. 
 
 ----
