@@ -23,6 +23,7 @@ Different types of terrain have different impacts on the battlefield.
  Some terrain like forests and swamps can be traversed by units but slow them down. These are classified as Difficult Terrain. Any unit that enters or starts its turn inside Difficult Terrain reduces its movement by 25%.
 
 ### Line of Sight
+
  Terrain like forests, cliffs or buildings are tall enough to block line of sight from most units. This stops units from charging or firing missile weapons at targets hidden by these terrain features.
 
 |:------|:-----|
