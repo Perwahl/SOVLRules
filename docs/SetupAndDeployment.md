@@ -10,7 +10,7 @@ SOVL can be played on any playing surface, usually a table. The standard dimensi
 |**Standard**| 40x60" |
 |**Large**| 48x72" |
 
-<img style="float: center;" src="../assets/images/harrowingWoods.png" width="500">
+<img style="float: center;" src="../assets/images/harrowingWoods.png" width="600">
 
 
 To make an interesting playing surface the table should be set up with various terrain pieces. There are no hard rules for how many terrain pieces to use or how much of the table should be covered. Around 3-6 pieces while also leaving enough room to maneveur units is usually a good number.
@@ -38,7 +38,7 @@ Solid terrain like cliffs and buildings block movement completely.
 
 ## Deployment
 
-<img style="float: center;" src="../assets/images/deploymentZones.png" width="500">
+<img style="float: center;" src="../assets/images/deploymentZones.png" width="600">
 
 
 ## Determining starting initiative
