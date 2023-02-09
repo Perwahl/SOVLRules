@@ -36,18 +36,18 @@ Solid terrain like cliffs and buildings block movement completely.
 |**River/Lake**| Impassable |
 |**Swamp**| Difficult Terrain |
 
-## Deploymwnt Zones
+## Deployment Zones
 
 In a standard game of SOVL the playing surface has 2 deployment zones laid out along the sides of the table. On a Standard table (40" across) the deployment zones are 8" deep, leaving 24" between them. 
 
 <img style="float: center;" src="../assets/images/deploymentZones.png" width="600">
 
-After terrain elements have been laid out both players roll 1d6. The player with the highest result (re-roll ties) picks from the following:
+After terrain placement both players roll 1d6. The player with the highest roll (re-roll ties) picks from the following:
 
-1. Choice of deployment zone. Choose wich side you will deploy your units on.
-2. Choice of starting initiative. Choose which player is the active player when the game starts.
+1. **Choice of deployment zone**. Choose wich side to deploy your units on.
+2. **Choice of starting initiative**. Choose which player is the active player when the game starts.
 
-The player with the lower result takes the remaining choice.
+The player with the lower result gets the remaining choice.
 
 ## Deployment
 
