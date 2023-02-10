@@ -10,6 +10,12 @@ SOVL can be played on any playing surface, usually a table. The standard dimensi
 |**Standard**| 40x60" |
 |**Large**| 48x72" |
 
+Column 1 | Column 2 | Column 3
+-------- | -------- | --------
+Row_1_1  | Row_1_2  | Row_1_3
+Row_2_1  | Row_2_2  | Row_2_3
+Row_3_1  | Row_3_2  | Row_3_3
+
 <img style="float: center;" src="../assets/images/harrowingWoods.png" width="600">
 
 
@@ -19,7 +25,7 @@ To make an interesting playing surface the table should be set up with some terr
 
 Different types of terrain have different impacts on the battlefield.
 
-Solid terrain like cliffs and buildings are <span style="color:blue"> **Impassable** </style>  and block movement completely.
+Solid terrain like cliffs and buildings are <span style="color:#77a8a3"> **Impassable** </span>  and block movement completely.
 
 Some features like forests and swamps can be traversed, but slow down movement. Any unit that enters or starts its turn inside **Difficult Terrain** reduces its movement by 25%. If a unit has less than 25% of its movement allowance left its not allowed to enter difficult terrain.
 
