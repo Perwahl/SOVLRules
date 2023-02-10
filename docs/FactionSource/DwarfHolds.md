@@ -13,7 +13,7 @@ nav_order: 0
 ### Dwarf Warriors
 
 |**3**|**3**|**3**|**3**|**3**|**3**|
-|----|----|----|----|----|----|
+|:----:|:----:|:----:|:----:|:----:|:----:|
 |Skill|Power|Defense|Attacks|Wounds|Discipline|
 
 
