@@ -19,7 +19,7 @@ To make an interesting playing surface the table should be set up with some terr
 
 Different types of terrain have different impacts on the battlefield.
 
-Solid terrain like cliffs and buildings are **`Impassable`** and block movement completely.
+Solid terrain like cliffs and buildings are <span style="color:red"> **Impassable** </style>  and block movement completely.
 
 Some features like forests and swamps can be traversed, but slow down movement. Any unit that enters or starts its turn inside **Difficult Terrain** reduces its movement by 25%. If a unit has less than 25% of its movement allowance left its not allowed to enter difficult terrain.
 
