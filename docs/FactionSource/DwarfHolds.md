@@ -15,10 +15,10 @@ nav_order: 0
 
  <div style="position:absolute; top: 150px; left:20px;">Hand Weapon and Shield, Reanimated</div>
 
-<div style="position:absolute; bottom:78px; background: red; height:10px">
-  <span style="position:absolute; left:57px;">3</span>
+<div style="position:absolute; bottom:84px; font-size:26px; font-weight:700; height:10px">
+  <span style="position:absolute; left:56px;">3</span>
   <span style="position:absolute; left:150px;">3</span>
-  <span style="position:absolute; left:205px;">3</span>
+  <span style="position:absolute; left:245px;">3</span>
   <span style="position:absolute; left:283px;">3</span>
   <span style="position:absolute; left:360px;">3</span>
   <span style="position:absolute; left:440px;">3</span>
@@ -26,20 +26,4 @@ nav_order: 0
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<img style="float: center;" src="../../assets/images/veteran.png" width="400">
 ----
