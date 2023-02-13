@@ -38,7 +38,7 @@ nav_order: 0
 
 
 
-<div style= "position:relative; width:650px; height: 350px;>
+<div style= "position:relative; width:650px; height: 350px;">
 
   <div style= "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey">
 
