@@ -8,12 +8,39 @@ nav_order: 0
 <style>
   .statbox {
     border: 1px solid black;
+    display:inline-block; 
+    width:60px; 
+    height:50px; 
+    background-color: rgba(76,101,76, 1); 
+    text-align: center;
+     margin-top:10px; 
+     margin-left:10px; 
+     margin-right:10px; 
+     font-size:30px; 
+     font-weight:700;
+     border-radius: 8px;
   }
 </style>
 
+<style>
+  .stat-text {
+    display:inline-block; 
+    width:60px; 
+    text-align: center;
+     margin-left:10px; 
+     margin-right:10px; 
+     margin-top:3px; 
+     font-size:13px; 
+     font-weight:500;
+     padding:1px
+  }
+</style>
+
+
+
 <div style= "position:relative; width:650px; height: 350px; background: black; border:1px solid">
 
-  <div style= "position:absolute; top:50px; width:600px; height:300px; background:#374a49; border:1px solid; border-color:grey">
+  <div style= "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1); ; border:1px solid; border-color:grey">
 
 
   <div style= "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey">
@@ -26,14 +53,20 @@ nav_order: 0
 
  <div style="position:absolute; top: 100px; left:20px; font-size:16px">Hand Weapon and Shield, Reanimated</div>
 
-<div  style="position:absolute; bottom:19px; font-size:26px; font-weight:700; height:92px; left:20px; width:560px; background:grey; opacity:0.5; text-align: center; z-index: 1">
-  <span class = "statbox" style="display:inline-block; width:60px; background-color: rgba(255,71,66, 1);; text-align: center; margin:10px; border-color:black; opacity:1;">3</span>
+<div  style="position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;">
+  <span class = "statbox" >3</span>
+  <span class = "statbox" >3</span>
+  <span class = "statbox" >3</span>
+  <span class = "statbox" >3</span>
+  <span class = "statbox" >3</span>
+  <span class = "statbox" >3</span>
 
-    
- 
-  
-
-
+   <span class = "stat-text" >Skill</span>
+  <span class = "stat-text" >Power</span>
+  <span class = "stat-text" >Defense</span>
+  <span class = "stat-text" >Attacks</span>
+  <span class = "stat-text" >Wounds</span>
+  <span class = "stat-text" >Discipline</span>
 </div>
 
 </div>
