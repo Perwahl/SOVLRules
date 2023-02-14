@@ -1,6 +1,6 @@
 ---
-title:Dwarf Holds
-layout:default
+title: Dwarf Holds
+layout: default
 parent: Faction Source Lists
 nav_order: 0
 ---
