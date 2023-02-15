@@ -4,8 +4,7 @@ layout: default
 parent: Faction Source Lists
 nav_order: 0
 ---
-
-<style>
+ <style>
   .statbox {
     border: 1px solid black;
     display:inline-block; 
@@ -34,18 +33,16 @@ nav_order: 0
      font-weight:500;
      padding:1px
   }
-</style>
-
- # Dwarf Holds #
+</style># Dwarf Holds #
 ## Commanders ##
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DwarfForeman.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Dwarf Foreman </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Foreman</div>
            
 </div>
 
@@ -55,7 +52,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >4</span>
-<span class = "statbox" >4</span>
+<span class = "statbox" >4 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >3</span>
 <span class = "statbox" >3</span>
@@ -69,16 +66,16 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Dwarf Foreman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/RangerCaptain.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Ranger Captain </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Ranger Captain</div>
            
 </div>
 
@@ -88,7 +85,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >4</span>
-<span class = "statbox" >4</span>
+<span class = "statbox" >4 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >3</span>
 <span class = "statbox" >3</span>
@@ -102,7 +99,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Ranger Captain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/RangerCaptain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 ## Battle Line ##
 <div style="position:relative; width:650px; height:350px;">
@@ -110,9 +107,9 @@ nav_order: 0
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DwarfWarriors.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Dwarf Warriors </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Warriors</div>
            
 </div>
 
@@ -122,7 +119,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >3</span>
-<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
@@ -136,16 +133,16 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Dwarf Warriors.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfWarriors.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DwarfVeterans.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Dwarf Veterans </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Veterans</div>
            
 </div>
 
@@ -155,7 +152,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >4</span>
-<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
@@ -169,16 +166,16 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Dwarf Veterans.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfVeterans.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DwarfMiners.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Dwarf Miners </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Miners</div>
            
 </div>
 
@@ -188,7 +185,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >3</span>
-<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
@@ -202,7 +199,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Dwarf Miners.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfMiners.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 ## Ranged Support ##
 <div style="position:relative; width:650px; height:350px;">
@@ -210,9 +207,9 @@ nav_order: 0
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DwarfCrossbows.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Dwarf Crossbows </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Crossbows</div>
            
 </div>
 
@@ -222,7 +219,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >3</span>
-<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
@@ -236,16 +233,16 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Dwarf Crossbows.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfCrossbows.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DwarfHandguns.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Dwarf Handguns </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Handguns</div>
            
 </div>
 
@@ -255,7 +252,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >3</span>
-<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
@@ -269,16 +266,16 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Dwarf Handguns.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfHandguns.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DwarfRangers.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Dwarf Rangers </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Rangers</div>
            
 </div>
 
@@ -288,7 +285,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >4</span>
-<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
@@ -302,7 +299,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Dwarf Rangers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfRangers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 ## Elites ##
 <div style="position:relative; width:650px; height:350px;">
@@ -310,9 +307,9 @@ nav_order: 0
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DwarfBerserkers.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Dwarf Berserkers </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Berserkers</div>
            
 </div>
 
@@ -322,7 +319,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >4</span>
-<span class = "statbox" >4</span>
+<span class = "statbox" >4 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
@@ -336,16 +333,16 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Dwarf Berserkers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfBerserkers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
    
-<img src = "../../assets/images/icon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/DwarfHolds/DeepGuard.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px" >Deep Guard </div>
+<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Deep Guard</div>
            
 </div>
 
@@ -355,7 +352,7 @@ nav_order: 0
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
 <span class = "statbox" >4</span>
-<span class = "statbox" >4</span>
+<span class = "statbox" >4 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
@@ -369,5 +366,5 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/Deep Guard.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DeepGuard.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
