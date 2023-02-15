@@ -3,6 +3,9 @@ title: Home
 layout: home
 nav_order: 0
 ---
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+</style>
 
 <img style="float: right; margin-left: 30px;" src="assets/images/warchief.png" width="300" >
 
