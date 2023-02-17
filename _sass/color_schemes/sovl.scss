@@ -1,5 +1,16 @@
 @import "./color_schemes/dark";
 $link-color: $yellow-100;
 $body-font-family: 'IM Fell English', serif;
-$font-size-4: 16px;
-$font-size-5: 17px;
+
+$font-size-1: 10px;
+$font-size-1-sm: 11px;
+$font-size-2: 12px; // h4 - uppercased!, h6 not uppercased, text-small
+$font-size-3: 13px; // h5
+$font-size-4: 15px;
+$font-size-5: 17px; // h3
+$font-size-6: 19px; // h2
+$font-size-7: 25px;
+$font-size-8: 33px; // h1
+$font-size-9: 37px;
+$font-size-10: 43px;
+$font-size-10-sm: 49px;
