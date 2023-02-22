@@ -17,6 +17,11 @@ An enemy unit is a **Valid Target** if it is within range and Line of Sight of t
 
 <img style="display: block; margin: 0 auto;" src="../../assets/images/validCharge.png" width="300">
 
+<div style="color:#77a8a3; text-align: center; font-style: italic;">Left unit is inside LoS arc and in range. Right unit is too far away! </div>
+
+
+
+
 ## Charge Priority
 
 ## Resolve Charges
