@@ -24,6 +24,6 @@ The game then plays out over several Rounds. Each Round is divide into 3 Phases,
 ## Objective of the game
 SOVL can be played using many different scenarios and victory conditions. The game continues until all units from one side are either destroyed or fleeing. If this hasn't happened by the end of turn 8 (or some other agreed upon limit), the game ends immediately and the outcome is resolved by score. Details on how to score a game can be found [here](EndOfGame). 
 
-<img style="float: center;" src="../assets/images/deepguard.png" width="350">
+<img style="display: block; margin: 0 auto;" src="../assets/images/deepguard.png" width="350">
 
 ----

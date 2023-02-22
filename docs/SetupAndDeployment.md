@@ -11,7 +11,7 @@ SOVL can be played on any playing surface, usually a table. The standard dimensi
 **Large**| 48x72" 
 
 
-<img style="float: center;" src="../assets/images/harrowingWoods.png" width="600">
+<img style="display: block; margin: 0 auto;" src="../assets/images/harrowingWoods.png" width="600">
 
 
 To make an interesting playing surface the table should be set up with some terrain features. There are no hard rules for how many featues to use or how much of the table should be covered. Around 4-8 pieces while also leaving enough room to maneveur is usually a good number.
@@ -37,7 +37,7 @@ Terrain features like forests, cliffs and buildings are tall enough to block **L
 
 In a regular game of SOVL the playing surface has 2 deployment zones laid out along the sides of the table. On a Standard table (40" across) the deployment zones are 8" deep, leaving 24" between them. When players deploy their units they have to be placed fully within their owners deployment zone!
 
-<img style="float: center;" src="../assets/images/deploymentZones.png" width="600">
+<img style="display: block; margin: 0 auto;" src="../assets/images/deploymentZones.png" width="600">
 
 After terrain placement both players roll 1d6. The player with the highest roll (re-roll ties) picks from the following:
 
