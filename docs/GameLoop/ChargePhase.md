@@ -42,9 +42,9 @@ Flank and Rear: A charge against the side or rear of a unit has higher priority 
 If the new charge has higher priority a Charge Intercept can be declared and the previous charge is canceled. The intercepted unit is allowed to declare a counter charge if able.
 
 ## Resolve Charges
-When both players have declared all their charges it's time to resolve them. Charges are resolved one by one by moving the charging unit into base contact with its target. The charger should be centered against the target if possible. If there are units or terrain in the way it should be placed in a way that maximises base contact.
+When both players have declared all their charges it's time to resolve them. Charges are resolved one by one by moving the charging unit into base contact with its target. The charger should be centered against the target if possible. If it's blocked by terrain or other units, place it in a way that maximises base contact.
 
-To resolve a **Counter Charge**, rotate both units so they face eachother. Find the half way point between them and move them into base contact with each other on that point.  
+To resolve a **Counter Charge**, rotate both units so they face eachother. Find the half way point between them and move them into base contact on that point.  
 
 
 <img style="display: block; margin: 0 auto;" src="../../assets/images/boarrider.png" width="400">
