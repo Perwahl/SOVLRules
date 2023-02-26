@@ -50,9 +50,7 @@ The player with the lower result gets the remaining choice.
 
 There are two ways to deploy units in SOVL, Simultaneous and Alternating deployment.  
 
-<span style="color:#77a8a3">  **Simultaneous deplyoment** </span> is used in the digital version of the game. It can also be used when playing with miniatures if you have a screen that blocks the view of the opponents deployment zone.
-
-Both players deploy their entire army simultaneously, without any knowledge of the opponents positions. This deployment method is fast but can be less strategic.
+<span style="color:#77a8a3">  **Simultaneous deplyoment** </span> is used in the digital version and can also be used when playing with miniatures if you have a screen that blocks the view of the opponents deployment zone. Both players deploy their entire army simultaneously, without any knowledge of the opponents positions. This deployment method is fast but can be less strategic.
 
 <span style="color:#77a8a3">  **Alternating Deployment** </span> instead has both players take turns deploying a single unit, with the player who made the choice of deployment zone going first. When one player runs out the other player continues until all units are on the table. 
 
