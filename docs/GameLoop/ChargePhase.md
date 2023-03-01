@@ -17,11 +17,11 @@ An enemy unit is a **Valid Target** if it is within range and **Line of Sight** 
 
 
 <span style="display:inline-block; width:45%; height:350px">
-<img style="display: block; margin: 0 auto;" src="../../assets/images/validCharge.png" height="300">
+<img style="display: block; margin: 0 auto; height:300px" src="../../assets/images/validCharge.png">
 <span style="color:#77a8a3; text-align: center; font-style: italic;">Left unit is inside LoS arc and in range. Right unit is too far away! </span>
 </span>
 <span style="display:inline-block; width:45%; height:350px">
-<img style="display: block; margin: 0 auto;" src="../../assets/images/chargeLosBlock.png" height="300">
+<img style="display: block; margin: 0 auto; ; height:300px" src="../../assets/images/chargeLosBlock.png" height="300">
 <span style="color:#77a8a3; text-align: center; font-style: italic;">The target is in charge range of the cavalry, but hidden behind the cliff. Not a valid charge. </span>
 </span>
 
