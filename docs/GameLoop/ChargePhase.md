@@ -18,10 +18,12 @@ An enemy unit is a **Valid Target** if it is within range and **Line of Sight** 
 
 <span style="display:inline-block; width:45%; height:350px">
 <img style="display: block; margin: 0 auto;" src="../../assets/images/validCharge.png" height="300">
-<div style="color:#77a8a3; text-align: center; font-style: italic;">Left unit is inside LoS arc and in range. Right unit is too far away! </div></span>
+<span style="color:#77a8a3; text-align: center; font-style: italic;">Left unit is inside LoS arc and in range. Right unit is too far away! </span>
+</span>
 <span style="display:inline-block; width:45%; height:350px">
 <img style="display: block; margin: 0 auto;" src="../../assets/images/chargeLosBlock.png" height="300">
-<div style="color:#77a8a3; text-align: center; font-style: italic;">The target is in charge range of the cavalry, but hidden behind the cliff. Not a valid charge. </div></span>
+<span style="color:#77a8a3; text-align: center; font-style: italic;">The target is in charge range of the cavalry, but hidden behind the cliff. Not a valid charge. </span>
+</span>
 
  <br />
 
@@ -38,10 +40,10 @@ If a side of a a unit is already engaged or has a charge declared against it, it
 <div style="color:#77a8a3; text-align: center; font-style: italic;">A majority of the Troll unit lies in the left flank.  </div>
 
  
- ## Counter Charge
+## Counter Charge
 A unit that already has a charge declared against it is not allowed to declare a charge of it's own. However, if a unit has an incoming charge in the front, and no other charges against the flanks or rear, it is allowed to declare a **Counter Charge**.  This charge has to be declared against the incoming charger, and needs to be in charge range.
 
- ## Charge Intercept
+## Charge Intercept
 A unit that has already declared a charge this turn is not a **Valid Target**, unless the new charge has higher **Charge Priority**. Priority is determined like this:
 
 **Distance**: A shorter charge distance has higher priority.
