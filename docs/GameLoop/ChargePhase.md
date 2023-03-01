@@ -4,6 +4,13 @@ layout: default
 parent: Game Loop
 nav_order: 0
 ---
+
+<style>
+p {
+  font-family: sans-serif
+}
+</style>
+
 In the **Charge Phase** players send their warriors into melee combat with the enemy. Charges are declared and resolved and units are moved into base contact.
 
 Players take turns using Alternating Activations to declare one charge at a time, until both players pass.
