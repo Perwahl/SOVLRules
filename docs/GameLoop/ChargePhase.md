@@ -8,7 +8,7 @@ nav_order: 0
 <style>
 p {
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 </style>
 
