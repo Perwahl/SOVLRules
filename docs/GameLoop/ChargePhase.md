@@ -7,7 +7,8 @@ nav_order: 0
 
 <style>
 p {
-  font-family: sans-serif
+  font-family: sans-serif;
+  font-size: 14px;
 }
 </style>
 
@@ -63,6 +64,9 @@ If the new charge has higher priority a Charge Intercept can be declared and the
 When both players have declared all their charges it's time to resolve them. Charges are resolved one by one by moving the charging unit into base contact with its target. The charger should be centered against the target if possible. If it's blocked by terrain or other units, place it in a way that maximises base contact.
 
 To resolve a **Counter Charge**, rotate both units so they face eachother. Find the half way point between them, then move them into base contact on that point.
+
+## Fleeing from a Charge
+TODO
 
 
 <img style="display: block; margin: 0 auto;" src="../../assets/images/boarrider.png" width="400">

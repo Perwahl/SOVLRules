@@ -8,9 +8,9 @@ nav_order: 1
 In the **Strategic Phase** players take turns activating their units and manoeuvre them on the battlefield. A unit can perform several actions like moving, using ranged attacks, or using other abilities like spells.
 
 ## Movement
-A unit can move on the battlefield in two ways; **Advancing Move** and **Pivoting**.
+A unit can move on the battlefield in two ways; **Advancing** and **Pivoting**.
 
-To make an **Advancing Move**, move a unit straight forward. If it comes into contact with another unit or impassable terrain it stops. The movement cost of an **Advancing Move** is equal to the number of inches moved. 
+To make an **Advance**, move a unit straight forward. If it comes into contact with another unit or impassable terrain it stops. The movement cost of an **Advance** is equal to the number of inches moved. 
 
 **Pivoting** is used to turn a unit to a new facing. To **Pivot**, rotate a unit up to 90° around it's center point. Each pivot has a movement cost of 25% of a units total movement.
 
