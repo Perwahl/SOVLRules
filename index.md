@@ -3,6 +3,7 @@ title: Home
 layout: home
 nav_order: 0
 ---
+<link rel="stylesheet" href="style.css">
 
 <img style="float: right; margin-left: 30px;" src="assets/images/warchief.png" width="300" >
 

@@ -5,6 +5,8 @@ parent: Game Loop
 nav_order: 1
 ---
 
+<link rel="stylesheet" href="../../style.css">
+
 In the **Strategic Phase** players take turns activating their units and manoeuvre them on the battlefield. A unit can perform several actions like moving, using ranged attacks, or using other abilities like spells.
 
 ## Movement

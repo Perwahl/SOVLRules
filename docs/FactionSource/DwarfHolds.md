@@ -4,36 +4,10 @@ layout: default
 parent: Faction Source Lists
 nav_order: 0
 ---
- <style>
-  .statbox {
-    border: 1px solid black;
-    display:inline-block; 
-    width:60px; 
-    height:50px; 
-    background-color: rgba(76,101,76, 1); 
-    text-align: center;
-     margin-top:10px; 
-     margin-left:10px; 
-     margin-right:10px; 
-     font-size:30px; 
-     font-weight:700;
-     border-radius: 8px;
-  }
-</style>
-
-<style>
-  .stat-text {
-    display:inline-block; 
-    width:60px; 
-    text-align: center;
-     margin-left:10px; 
-     margin-right:10px; 
-     margin-top:3px; 
-     font-size:12px; 
-     font-weight:500;
-     padding:1px
-  }
-</style># Dwarf Holds #
+<link rel="stylesheet" href="../../style.css">
+<link rel="stylesheet" href="factionSource.css">
+ 
+# Dwarf Holds #
 ## Commanders ##
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -46,7 +20,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield(5) or Greatweapon(10), Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -68,6 +42,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -79,7 +54,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Dual Hand Weapons(5) or Greatweapon(10), Crossbow, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -101,6 +76,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/RangerCaptain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 ## Battle Line ##
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -113,7 +89,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield(0) or Greatweapon(1), , Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -135,6 +111,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfWarriors.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -146,7 +123,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy, Fearless </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -168,6 +145,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfVeterans.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -179,7 +157,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Greatweapon, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -201,6 +179,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfMiners.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 ## Ranged Support ##
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -213,7 +192,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Crossbow, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -235,6 +214,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfCrossbows.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -246,7 +226,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Handgun, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -268,6 +248,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfHandguns.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -279,7 +260,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Greatweapon(1) or Dual Hand Weapons(0), Crossbow, Sturdy, Scout </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -301,6 +282,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfRangers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 ## Elites ##
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -313,7 +295,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Dual Hand Weapons, Frenzy, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -335,6 +317,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfBerserkers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -346,7 +329,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield, Reanimated </div>
+<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy, Heavy Armor </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -368,3 +351,4 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DeepGuard.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+

@@ -3,6 +3,8 @@ title: Setup and Deployment
 layout: default
 nav_order: 2
 ---
+<link rel="stylesheet" href="../style.css">
+
 ## Setting up the table
 SOVL can be played on any playing surface, usually a table. The standard dimensions (used in the digital version) are as follows:
 

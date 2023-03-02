@@ -5,12 +5,8 @@ parent: Game Loop
 nav_order: 0
 ---
 
-<style>
-p {
-  font-family: sans-serif;
-  font-size: 15px;
-}
-</style>
+<link rel="stylesheet" href="../../style.css">
+
 
 In the **Charge Phase** players send their warriors into melee combat with the enemy. Charges are declared and resolved and units are moved into base contact.
 

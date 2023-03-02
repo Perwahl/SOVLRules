@@ -1,0 +1,27 @@
+
+  .statbox {
+    border: 1px solid black;
+    display:inline-block; 
+    width:60px; 
+    height:50px; 
+    background-color: rgba(76,101,76, 1); 
+    text-align: center;
+     margin-top:10px; 
+     margin-left:10px; 
+     margin-right:10px; 
+     font-size:30px; 
+     font-weight:700;
+     border-radius: 8px;
+  }
+
+  .stat-text {
+    display:inline-block; 
+    width:60px; 
+    text-align: center;
+     margin-left:10px; 
+     margin-right:10px; 
+     margin-top:3px; 
+     font-size:12px; 
+     font-weight:500;
+     padding:1px
+  }

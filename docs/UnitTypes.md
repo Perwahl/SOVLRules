@@ -3,6 +3,8 @@ title: Unit Stats and Types
 layout: default
 nav_order: 5
 ---
+<link rel="stylesheet" href="../style.css">
+
 <img src="../assets/images/unitcard.png" width="400">
 
 Armies consist of units of soldiers with varying stats and abilities. A units fighting capabilities are described by it's Stat Block, Equipment and Properties.

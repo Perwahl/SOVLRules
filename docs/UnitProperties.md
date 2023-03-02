@@ -3,6 +3,8 @@ title: Equipment and Unit Properties
 layout: default
 nav_order: 6
 ---
+<link rel="stylesheet" href="../style.css">
+
 ## Weapon Sets
 
 ## Ranged Attacks
