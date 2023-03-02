@@ -25,6 +25,7 @@
      font-size:12px; 
      font-weight:500;
      padding:1px;
+    font-family: 'IM Fell English', serif;
   }
 
   .unit-name {
@@ -33,4 +34,13 @@
     top: 15px;
     left:70px;
     font-size:28px
+  }
+
+  .unit-props {
+    font-family: 'IM Fell English', serif;
+    position:absolute;
+    top: 100px;
+    left:20px;
+    width: 350px;
+    font-size:17px;
   }

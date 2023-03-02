@@ -20,7 +20,7 @@ nav_order: 0
            
 </div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield(5) or Greatweapon(10), Sturdy </div>
+<div class = "unit-props" > Hand Weapon and Shield(5) or Greatweapon(10), Sturdy, hhhuhuh, uhuhuhuhu, huhu, huhhhhuhuh, uhuh uhuhuh</div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -40,8 +40,10 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfForeman1.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
+
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
