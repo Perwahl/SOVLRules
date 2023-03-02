@@ -16,7 +16,7 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DwarfForeman.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Foreman</div>
+<div class = "unit-name">Dwarf Foreman</div>
            
 </div>
 

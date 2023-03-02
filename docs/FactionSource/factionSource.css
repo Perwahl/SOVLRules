@@ -12,6 +12,7 @@
      font-size:30px; 
      font-weight:700;
      border-radius: 8px;
+     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 
   .stat-text {
@@ -23,5 +24,13 @@
      margin-top:3px; 
      font-size:12px; 
      font-weight:500;
-     padding:1px
+     padding:1px;
+  }
+
+  .unit-name {
+    font-family: 'IM Fell English', serif;
+    position:absolute;
+    top: 15px;
+    left:70px;
+    font-size:28px
   }
