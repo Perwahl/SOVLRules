@@ -24,8 +24,8 @@ If a unit has a ranged attack available it can use it once at any point during i
 A **Ranged Attact Roll** is performed by rolling a D6 for each model in the unit making a ranged attack. Any roll of 4+ is a succesful hit with the following modifiers:
 
 :------|:-----
-**Unit Skill**| Chance to hit increases by one for each point of Skill over 3, to a maximum of 2+. It decreases by one for each point of skill under 3, to a minimum of 6+; 
-**Range**| 48x72" 
+**Unit Skill**| Chance to hit increases by one for each point of Skill over 3 and decreases by one for each point of skill under 3. 
+**Long Range**| Ranged Attacks have a maximum range, units outside of that range can't be targeted. Targets that are further away than *half the maximum range* are considered at **Long Range** and have a -1 penalty to be hit.
 
 
 ## Other Actions
