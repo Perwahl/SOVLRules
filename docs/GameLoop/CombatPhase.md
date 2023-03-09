@@ -10,11 +10,26 @@ nav_order: 2
 In the **Combat Phase** units that have charged or remain in base contact from previous turns fight in deadly meelee combat. **Engagaments** are resolved one by one, casualties removed, and **Break Tests** are rolled to see if the losers stick around or turn tail and run.
 
 ## Resolve Engagements
-Each pair of units in base contact is considered an **Engagement**. Sometimes more than two units are part of the same **Engagement**, due to rear or flank charges. 
+Each grouping of two or more units in base contact is considered an **Engagement**.
 
-## To Hit Roll
+**Engagements** are resolved one by one by taking the following steps:
 
-## Damage Save Roll
+1. All units in the engagement attack opponents in base contact. Attacks happen simultaneously. The attacking unit makes an **Attack Roll**, then the defending unit makes a **Damage Save** for each succesfull attack.
+2. Remove casualties and calculate **Combat Score**
+3. Roll **Break Tests** and move fleeing units.
+
+## Attack Roll
+Each model in the engaged flank can make an **Attack Roll**. The **Attacks** stat of the unit determines how many dice to roll.   
+
+## Damage Save
+
+## Combat Score
+When all units in an engagement has attacked you calculate the **Combat Score** for each player. The total combat score for each player is made up of the following:
+
+:------|
+One point for each wound caused. While adding this up you can also remove all casualties from each unit.
+One Point for each unit engaging in the flank.
+Two points for each unit engaged in the rear.
 
 ## Break Tests
 

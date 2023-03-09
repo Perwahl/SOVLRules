@@ -32,4 +32,7 @@ Units come in different types which determines some basic properties.
 |**Large Monster** | **50x50**| 12 | Huge monsters like Giants |
 |**Chariot** | **50x100**| 16 | Wheeled chariots |
 
+## Characters
+
+
 ----
