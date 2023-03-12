@@ -19,7 +19,16 @@ Each grouping of two or more units in base contact is considered an **Engagement
 3. Roll **Break Tests** and move fleeing units.
 
 ## Attack Roll
-Each model in the engaged flank can make an **Attack Roll**. The **Attacks** stat of the unit determines how many dice to roll.   
+Each model in an engaged flank can make an **Attack Roll**. The **Attacks** stat of the unit determines how many dice to roll.
+
+Example: This unit of X is engaged in the front and is five models wide. X has 1 Attack on it's unit stats, so it rolls five d6 for it's **Attack Roll**
+
+To determine if an **Attack Roll** is succesfull you compare the attackers and defenders **Skill** stat. 
+
+|:-----|:-----|
+|**Attacker Higher = 3+**| If the attacking unit has higher **Skill**, a result of 3 or higher is succesfull.|
+|**Attacker equal or lower = 4+**| If the attacking unit has lower or equal **Skill**, a result of 4 or higher is succesfull.|
+
 
 ## Damage Save
 
