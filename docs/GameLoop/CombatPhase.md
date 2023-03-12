@@ -24,12 +24,15 @@ Each model in the engaged flank can make an **Attack Roll**. The **Attacks** sta
 ## Damage Save
 
 ## Combat Score
-When all units in an engagement has attacked you calculate the **Combat Score** for each player. The total combat score for each player is made up of the following:
+When all units in an engagement has attacked you calculate the **Combat Score** for each player. The total combat score is made up of the following:
 
-:------|
-One point for each wound caused. While adding this up you can also remove all casualties from each unit.
-One Point for each unit engaging in the flank.
-Two points for each unit engaged in the rear.
+|:-----|:-----|
+|**Wounds**| One point for each wound caused. |
+|**Flank Bonus**| One Point for each unit engaging in the flank. |
+|**Rear Bonus**| Two points for each unit engaged in the rear.|
+
+While adding this up you can also remove all casualties from each unit.
+
 
 ## Break Tests
 
