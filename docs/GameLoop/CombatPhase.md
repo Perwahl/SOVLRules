@@ -26,11 +26,20 @@ Example: This unit of X is engaged in the front and is five models wide. X has 1
 To determine if an **Attack Roll** is succesfull you compare the attackers and defenders **Skill** stat. 
 
 |:-----|:-----|
-|**Attacker Higher = 3+**| If the attacking unit has higher **Skill**, a result of 3 or higher is succesfull.|
-|**Attacker equal or lower = 4+**| If the attacking unit has lower or equal **Skill**, a result of 4 or higher is succesfull.|
+|**Higher Skill**| If the attacking unit has higher **Skill**, a result of 3 or higher is succesfull.|
+|** Equal or lower**| If the attacking unit has equal or lower **Skill**, a result of 4 or higher is succesfull.|
 
+A model can only attack once per combat phase. If a unit is engaged in multiple sides, models will prioritize attacking to the front, and sides over rear.
+
+## Supporting Attacks
+If a unit is engaged in the front models in the second rank can make **Supporting Attacks**. Add only one **Attack Roll** per supporting model regardless of the units **Attack** stat. **Supporting Attacks** are never made to the sides or rear.
+
+## Attacking Characters
 
 ## Damage Save
+The defending player rolls a **Damage Save** for each succesfull attack. The defending unit suffers one wound for each failed save. 
+
+To determine if a **Damage Save** is succesfull you compare the attackers **Power**  to the defenders **Defense**.
 
 ## Combat Score
 When all units in an engagement has attacked you calculate the **Combat Score** for each player. The total combat score is made up of the following:
@@ -42,8 +51,13 @@ When all units in an engagement has attacked you calculate the **Combat Score** 
 
 While adding this up you can also remove all casualties from each unit.
 
-
 ## Break Tests
+The side with the highest **Combat Score** wins, and all units on the loosing side rolls a **Discipline Test**. 
+
+Roll 2d6, a succes is under or equal to the units **Discipline** plus **Rank Bonus**, minus the difference in combat score.
 
 ## Fleeing Units
+
+
+
 ----
