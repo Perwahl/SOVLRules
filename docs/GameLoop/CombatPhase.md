@@ -52,13 +52,14 @@ When all units in an engagement has attacked you calculate the **Combat Score** 
 While adding this up you can also remove all casualties from each unit.
 
 ## Break Tests
-The side with the highest **Combat Score** wins, and all units on the loosing side rolls a **Discipline Test**. 
-
-Roll 2d6, a succes is under or equal to the units **Discipline** plus **Rank Bonus**, minus the difference in combat score.
+The side with the highest **Combat Score** wins, and all units on the loosing side rolls a **[Discipline Test]**.  
+A succes is under or equal to the units **[Discipline]** plus **Rank Bonus**, minus the difference in combat score!
 
 ## Fleeing Units
-Any unit that fails it's **Discipline Test** immediately makes a flee move away from combat. Turn the unit around and move it half it's movement allowance + 2d6.
-
+Any unit that fails it's **Discipline Test** immediately makes a **[Flight Move]** move away from combat.
 
 
 ----
+
+[Discipline Test]: ../UnitTypes#Discipline-and-Rank-Bonus
+[Flight Move]: ../UnitTypes#Flight-Move

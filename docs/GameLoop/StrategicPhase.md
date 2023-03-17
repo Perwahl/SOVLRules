@@ -32,10 +32,12 @@ A **Ranged Attact Roll** is performed by rolling a D6 for each model in the unit
 
 
 ## Rally Fleeing Units
-A fleeing unit that has not been activated this turn can be activated as normal, but can only perform one action; a Rally. To rally a unit, roll a **Discipline Test**. Roll 2d6 plus the units **Rank Bonus**, under or equal to the units **Discipline Stat**. On a succesfull roll the unit rallies and is no longer considered feeling.
+A fleeing unit that has not been activated this turn can be activated as normal, but can only perform one action; a Rally. To rally a unit, roll a **[Discipline Test]**. On a succesfull roll the unit rallies and is no longer considered feeling.
 
-At the end of the **Strategic Phase**, any unit still fleeing must make a flee move towards the nearest table edge. A flee move is always half the units movement allowance + 2d6.
+At the end of the **Strategic Phase**, any unit still fleeing must make a **[Flight Move]** towards the nearest table edge. 
 
 ----
 
 [Unit Types]: ../UnitTypes#Unit-Types
+[Discipline Test]: ../UnitTypes#Discipline-and-Rank-Bonus
+[Flight Move]: ../UnitTypes#Flight-Move

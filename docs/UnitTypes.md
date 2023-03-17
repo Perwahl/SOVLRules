@@ -20,6 +20,13 @@ Each unit has a list of stats that describe how good it is at various things.
 |**Wounds**| The **Wounds** stat tells us how many points of damage each model in a unit can take before it is removed. |
 |**Discipline**| **Discipline** is a measure of the units bravery and tendency to stick around when things look grim. It's used for Discipline tests after combat and heavy casualties. |
 
+## Discipline and Rank Bonus
+In some cases a unit might be required to make a **Discipline Test**. For example, after a unit loses a combat, or when rallying a fleeing unit. 
+
+A discpline test is made by rolling 2d6 and adding the units **Rank Bonus**, if any. If the result is lower than or equal to the units **Discipline** stat, it is succesful. 
+
+A unit gets **Rank Bonus** for each rank of models behind the first. A rank that is missing models counts as long as it's half full.
+
 ## Unit Types
 Units come in different types which determines some basic properties.
 
@@ -31,6 +38,9 @@ Units come in different types which determines some basic properties.
 |**Monstrous Infantry** | **40x40**| 12 | Bigger infantry units like Trolls or Minotaurs |
 |**Large Monster** | **50x50**| 12 | Huge monsters like Giants |
 |**Chariot** | **50x100**| 16 | Wheeled chariots |
+
+## Flight Move
+In some situations a unit might lose it's nerve and try  to flee from the battlefield. A **Flight Move** is chaotic, instead of moving normally roll one d6 for each 4 points of base movement allowance. Move the unit that distance in a straight line, avoiding other units and terrain. 
 
 ## Characters
 
