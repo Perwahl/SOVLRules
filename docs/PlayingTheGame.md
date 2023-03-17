@@ -20,7 +20,7 @@ SOVL is played on a table with miniatures representing individual soldiers. Dice
 
 Players begin by setting up the table with terrain, deploying their armies, and determining who goes first. This part of the game is called Setup and Deployment and more detailed rules for it can be found [here](SetupAndDeplyment). 
 
-The game then plays out over several Rounds. Each Round is divided into 3 Phases, [Charge](ChargePhase), [Strategic](StrategicPhase), and [Combat](CombatPhase). Players take turns activating units and performing actions like moving, charging, or firing missile weapons. Full details on the Round Loop and the 3 Phases can be found [here](GameLoop). 
+The game then plays out over several Rounds. Each Round is divided into 3 Phases, [Charge](ChargePhase), [Strategic](StrategicPhase), and [Combat](CombatPhase). Players take turns activating units and performing actions like moving, charging, or firing missile weapons. Full details on the Game Loop and the 3 Phases can be found [here](GameLoop). 
 
 ## Objective of the game
 SOVL can be played using many different scenarios and victory conditions. The game continues until all units from one side are either destroyed or fleeing. If this hasn't happened by the end of turn 8 (or some other agreed-upon limit), the game ends immediately and the outcome is resolved by score. Details on how to score a game can be found [here](EndOfGame). 
@@ -32,7 +32,6 @@ The outcome of many actions in SOVL are determined by rolling dice. Usually this
 <div style="color:#77a8a3; text-align: center; font-style: italic;">Ten Goblin Archers make a Ranged Atack of 5+. They roll ten d6 dice and results of 5 or higher are succeful hits! </div>
  <br />
  <br />
-
 
 <img style="display: block; margin: 0 auto;" src="../assets/images/deepguard.png" width="350">
 

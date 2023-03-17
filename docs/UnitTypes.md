@@ -23,7 +23,7 @@ Each unit has a list of stats that describe how good it is at various things.
 ## Unit Types
 Units come in different types which determines some basic properties.
 
-| Unit Type | Base Size | Movement Rate |Description |
+| Unit Type | Base Size | Movement Allowance |Description |
 |:-----|:----|:---|:----------|
 |**Infantry** | **20x20**| 8 | Basic infantry with a standard base size |
 |**Infantry** | **25x25**| 8 | Basic infantry with a bigger base size |
