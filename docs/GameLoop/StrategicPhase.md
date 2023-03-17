@@ -28,6 +28,6 @@ A **Ranged Attact Roll** is performed by rolling a D6 for each model in the unit
 **Long Range**| Ranged Attacks have a maximum range, units outside of that range can't be targeted. Targets that are further away than *half the maximum range* are considered at **Long Range** and have a -1 penalty to be hit.
 
 
-## Other Actions
+## Rally Fleeing Units
 
 ----
