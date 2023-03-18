@@ -15,6 +15,10 @@ nav_order: 6
 |**Two Hand Weapons**| +1 Attack |
 |**Lance and Shield**| +1 Defense. Charge Bonus: +2 Power |
 
+### Charge Bonus
+
+### Charge Defense
+
 ## Ranged Attacks
 
 |:------|:-----|
