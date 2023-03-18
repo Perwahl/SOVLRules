@@ -27,6 +27,11 @@ A discpline test is made by rolling 2d6 and adding the units **Rank Bonus**, if 
 
 A unit gets **Rank Bonus** for each rank of models behind the first. A rank that is missing models counts as long as it's half full.
 
+## Flight Move
+In some situations a unit might lose it's nerve and try to flee from the battlefield. A **Flight Move** is chaotic, instead of moving normally roll one d6 for each 4 points of base movement allowance. Move the unit that distance in a straight line, avoiding other units and terrain.
+
+If a **Flight Move** reaches a table edge the unit flees the battlefield. It is considered destroyed for scoring purposes.
+
 ## Unit Types
 Units come in different types which determines some basic properties.
 
@@ -39,8 +44,6 @@ Units come in different types which determines some basic properties.
 |**Large Monster** | **50x50**| 12 | Huge monsters like Giants |
 |**Chariot** | **50x100**| 16 | Wheeled chariots |
 
-## Flight Move
-In some situations a unit might lose it's nerve and try  to flee from the battlefield. A **Flight Move** is chaotic, instead of moving normally roll one d6 for each 4 points of base movement allowance. Move the unit that distance in a straight line, avoiding other units and terrain. 
 
 ## Characters
 

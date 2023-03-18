@@ -6,19 +6,20 @@ nav_order: 1
 <link rel="stylesheet" href="../style.css">
 
 ## Building an Army
-The first step to playing a game of SOVL is to build an army. Start by choosing one of the factions available. Then select a character to lead your army. A stubborn Dwarf Foreman or a savage Orc Warchief? Then fill out the rest of your points allotment with units and their equipment. SOVL can be played at different point sizes:
+The first step to playing a game of SOVL is building an army. Start by choosing one of the [Factions] available. Then select a character to lead your army. A stubborn Dwarf Foreman or a savage Orc Warchief? Then fill out the rest of your points allotment with units and their equipment. SOVL can be played at different point sizes:
 
 |:-----|:-----|
 |**Warband**| 500 pts |
 |**Battalion**| 1000 pts |
 |**Legion**| 1500 pts |
 
-Full details for how to build your army can be found in the [Faction Source documents](FactionSource)!
 
 ## Gameplay
 SOVL is played on a table with miniatures representing individual soldiers. Dice are used to determine the outcomes of combat, magic and many other mechanics that can occur during a game. 
 
 Players begin by setting up the table with terrain, deploying their armies, and determining who goes first. This part of the game is called Setup and Deployment and more detailed rules for it can be found [here](SetupAndDeplyment). 
+
+<img style="display: block; margin: 0 auto;" src="../assets/images/battle.png" width="650">
 
 The game then plays out over several Rounds. Each Round is divided into 3 Phases, [Charge](ChargePhase), [Strategic](StrategicPhase), and [Combat](CombatPhase). Players take turns activating units and performing actions like moving, charging, or firing missile weapons. Full details on the Game Loop and the 3 Phases can be found [here](GameLoop). 
 
@@ -36,3 +37,6 @@ The outcome of many actions in SOVL are determined by rolling dice. Usually this
 <img style="display: block; margin: 0 auto;" src="../assets/images/deepguard.png" width="350">
 
 ----
+
+
+[factions]: FactionSource/FactionSource

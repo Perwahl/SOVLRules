@@ -2,7 +2,6 @@
 title: Faction Source Lists
 layout: default
 has_children: true
-color_scheme: dark
 nav_order: 7
 ---
 
