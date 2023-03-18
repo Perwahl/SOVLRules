@@ -6,6 +6,7 @@ nav_order: 6
 <link rel="stylesheet" href="../style.css">
 
 ## Weapon Sets
+
 |:------|:-----|
 |**Hand Weapon and Shield**| +1 Defense. Charge Bonus: +1 Power |
 |**Spear and Shield**| +1 Defense. Charge Defense: +1 Power |
@@ -15,12 +16,16 @@ nav_order: 6
 |**Lance and Shield**| +1 Defense. Charge Bonus: +2 Power |
 
 ## Ranged Attacks
+
+|:------|:-----|
 |**Longbow**| Range: 30. Power 3. |
 |**Shortbow**|Range: 20. Power 3. |
 |**Crossbow**| Range: 30. Power 3.|
 |**Handgun**| Range: 24. Power 4.  |
 
 ## General Properties
+
+|:------|:-----|
 |**Heavy Armor**| -1 Movement. +1 Defense |
 |**Fearless**| Ignores all penalties to Discipline tests. |
 |**Frenzy**| Must charge closest valid target. Re-roll misses in combat.|
