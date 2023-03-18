@@ -26,7 +26,7 @@ An enemy unit is a **Valid Target** if it is within range and **Line of Sight** 
 </span>
 <span style="display:inline-block; width:45%; height:350px">
 <img style="display: block; margin: 0 auto; ; height:300px" src="../../assets/images/chargeLosBlock.png" height="300">
-<span style="color:#77a8a3; text-align: center; font-style: italic;">The target is in charge range of the cavalry, but hidden behind the cliff. Not a valid charge. </span>
+<span style="color:#77a8a3; text-align: center; font-style: italic;">The target is in charge range, but hidden behind the cliff. </span>
 </span>
 
  <br />

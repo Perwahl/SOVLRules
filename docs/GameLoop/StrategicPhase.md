@@ -19,7 +19,7 @@ To make an **Advance**, move a unit straight forward. If it comes into contact w
 When a unit is activated it can string togheter **Advances** and **Pivots** in any order, with a movement cost up to it's movement stat.
 
 ## Terrain
-Some terrain features like Forests or Swamps are considered **Difficult Terrain**. Any unit starting it's activation in or entering **Difficult Terrain** lose 2 points of movement allowance. If a unit has less than 25% left, it can not enter **Difficult Terrain**!
+Some terrain features like Forests or Swamps are considered **Difficult Terrain**. Any unit starting it's activation in or entering **Difficult Terrain** lose 2 points of movement allowance. If a unit has less than 2 movement left, it can not enter **Difficult Terrain**!
 
 ## Ranged Attacks
 If a unit has a ranged attack available it can use it once at any point during it's activation. To use a ranged attack first select a target that is within range and LoS, then roll a **Ranged Attack Roll**. The defending player rolls a **Defense Roll** against succesful hits and removes any casualties. 
@@ -32,7 +32,7 @@ A **Ranged Attact Roll** is performed by rolling a D6 for each model in the unit
 
 
 ## Rally Fleeing Units
-A fleeing unit that has not been activated this turn can be activated as normal, but can only perform one action; a Rally. To rally a unit, roll a **[Discipline Test]**. On a succesfull roll the unit rallies and is no longer considered feeling.
+A fleeing unit that has not been activated this turn can be activated as normal, but can only perform one action; a Rally. To rally a unit, roll a **[Discipline Test]**. On a succesfull roll the unit rallies and is no longer considered fleeing.
 
 At the end of the **Strategic Phase**, any unit still fleeing must make a **[Flight Move]** towards the nearest table edge. 
 
