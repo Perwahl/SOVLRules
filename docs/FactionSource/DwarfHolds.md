@@ -4,9 +4,8 @@ layout: default
 parent: Faction Source Lists
 nav_order: 0
 ---
-<link rel="stylesheet" href="../../style.css">
-<link rel="stylesheet" href="factionSource.css">
- 
+ <link rel="stylesheet" href=".. / .. / style.css">
+    < link rel = "stylesheet" href = "factionSource.css" >
 # Dwarf Holds #
 ## Commanders ##
 <div style="position:relative; width:650px; height:350px;">
@@ -17,10 +16,10 @@ nav_order: 0
 <img src = "icons/DwarfHolds/DwarfForeman.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
 <div class = "unit-name">Dwarf Foreman</div>
-           
-</div>
 
-<div class = "unit-props" > Hand Weapon and Shield(5) or Greatweapon(10), Sturdy, hhhuhuh, uhuhuhuhu, huhu, huhhhhuhuh, uhuh uhuhuh</div>
+  </div>
+
+<div class = "unit-props" > Hand Weapon and Shield(5) or Greatweapon(10), Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -40,10 +39,8 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfForeman1.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
-
-
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -52,11 +49,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/RangerCaptain.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Ranger Captain</div>
-           
-</div>
+<div class = "unit-name">Ranger Captain</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Dual Hand Weapons(5) or Greatweapon(10), Crossbow, Sturdy </div>
+  </div>
+
+<div class = "unit-props" > Dual Hand Weapons(5) or Greatweapon(10), Crossbow, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -87,11 +84,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DwarfWarriors.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Warriors</div>
-           
-</div>
+<div class = "unit-name">Dwarf Warriors</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield(0) or Greatweapon(1), , Sturdy </div>
+  </div>
+
+<div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), , Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -121,11 +118,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DwarfVeterans.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Veterans</div>
-           
-</div>
+<div class = "unit-name">Dwarf Veterans</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy, Fearless </div>
+  </div>
+
+<div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy, Fearless </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -155,11 +152,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DwarfMiners.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Miners</div>
-           
-</div>
+<div class = "unit-name">Dwarf Miners</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Greatweapon, Sturdy </div>
+  </div>
+
+<div class = "unit-props" > Greatweapon, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -190,11 +187,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DwarfCrossbows.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Crossbows</div>
-           
-</div>
+<div class = "unit-name">Dwarf Crossbows</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Crossbow, Sturdy </div>
+  </div>
+
+<div class = "unit-props" > Crossbow, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -224,11 +221,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DwarfHandguns.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Handguns</div>
-           
-</div>
+<div class = "unit-name">Dwarf Handguns</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Handgun, Sturdy </div>
+  </div>
+
+<div class = "unit-props" > Handgun, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -258,11 +255,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DwarfRangers.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Rangers</div>
-           
-</div>
+<div class = "unit-name">Dwarf Rangers</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Greatweapon(1) or Dual Hand Weapons(0), Crossbow, Sturdy, Scout </div>
+  </div>
+
+<div class = "unit-props" > Greatweapon(1) or Dual Hand Weapons(0), Crossbow, Sturdy, Scout </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -293,11 +290,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DwarfBerserkers.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Dwarf Berserkers</div>
-           
-</div>
+<div class = "unit-name">Dwarf Berserkers</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Dual Hand Weapons, Frenzy, Sturdy </div>
+  </div>
+
+<div class = "unit-props" > Dual Hand Weapons, Frenzy, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -327,11 +324,11 @@ nav_order: 0
    
 <img src = "icons/DwarfHolds/DeepGuard.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
       
-<div style = "position:absolute; top: 15px; left:70px; font-size:28px">Deep Guard</div>
-           
-</div>
+<div class = "unit-name">Deep Guard</div>
 
-<div style = "position:absolute; top: 100px; left:20px; font-size:18px" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy, Heavy Armor </div>
+  </div>
+
+<div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy, Heavy Armor </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
