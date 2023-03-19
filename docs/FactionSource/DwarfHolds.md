@@ -5,7 +5,8 @@ parent: Faction Source Lists
 nav_order: 0
 ---
  <link rel="stylesheet" href=".. / .. / style.css">
-    < link rel = "stylesheet" href = "factionSource.css" >
+<link rel = "stylesheet" href = "factionSource.css">
+
 # Dwarf Holds #
 ## Commanders ##
 <div style="position:relative; width:650px; height:350px;">
