@@ -44,7 +44,7 @@ Min: 1 Max: 1
 <img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 
-|:-----|:-----|:-----|:-----|
+|:---|:---|:---|:-----|
 |**Points Cost**| 500 pts |**Retinue** | Dwarf Warriors|
 
 
