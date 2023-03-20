@@ -19,7 +19,7 @@ Min: 1 Max: 1
       
 <div class = "unit-name">Dwarf Foreman</div>
 
-  </div>
+</div>
 
 <div class = "unit-props" > Hand Weapon and Shield(5) or Greatweapon(10), Sturdy </div>
                 
@@ -44,8 +44,11 @@ Min: 1 Max: 1
 <img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 
+<div style = "top:50px; width:600px; height:100px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:red" >
+
 |:---|:---|:---|:-----|
 |**Points Cost**| 500 pts |**Retinue** | Dwarf Warriors|
+</div>
 
 
 
