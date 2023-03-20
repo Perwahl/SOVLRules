@@ -4,11 +4,12 @@ layout: default
 parent: Faction Source Lists
 nav_order: 0
 ---
- <link rel="stylesheet" href=".. / .. / style.css">
+ <link rel="stylesheet" href="../../style.css">
 <link rel = "stylesheet" href = "factionSource.css">
 
 # Dwarf Holds #
 ## Commanders ##
+Min: 1 Max: 1
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -42,6 +43,11 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+
+|:-----|:-----|:-----|:-----|
+|**Points Cost**| 500 pts |**Retinue** | Dwarf Warriors|
+
+
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
