@@ -44,14 +44,12 @@ Min: 1 Max: 1
 <img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 
-<div style = "top:50px; width:600px; height:100px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:red" >
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;" >
 
-
-|:---|:---|:---|:-----|
-|**Points Cost**| 500 pts |**Retinue** | Dwarf Warriors|
+<span style = "display: inline-block; margin: 10px;">Cost: 50 pts</span>
+<span style = "display: inline-block; padding: 10px;">Retinue: Dwarf Warriors</span>
 
 </div>
-
 
 
 <div style="position:relative; width:650px; height:350px;">
