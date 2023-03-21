@@ -4,11 +4,13 @@ layout: default
 parent: Faction Source Lists
 nav_order: 0
 ---
-<link rel="stylesheet" href=".. / .. / style.css">
-<link rel = "stylesheet" href = "factionSource.css">
-
+ <link rel="stylesheet" href="../../style.css">
+ <link rel = "stylesheet" href = "factionSource.css">
 # Greenskin Tribes #
-## Commanders ##
+<br />
+<span class = "section - name">Commanders</span>
+<span class = "section-min-max">Min: 1 Max: 1</span>
+<hr>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -42,8 +44,15 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/WarChief.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+ <span style = "display: inline-block; padding: 10px;"><b> Retinue </b>: orcWarriors</span>
+</div>
 
-## Battle Line ##
+<br />
+<span class = "section - name">Battle Line</span>
+<span class = "section-min-max">Min: 1 Max: 3</span>
+<hr>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -146,7 +155,10 @@ nav_order: 0
 <img src = "images/GreenskinTribes/GoblinMob.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 
-## Raiders ##
+<br />
+<span class = "section - name">Raiders</span>
+<span class = "section-min-max">Min: 0 Max: 1</span>
+<hr>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -215,7 +227,10 @@ nav_order: 0
 <img src = "images/GreenskinTribes/GoblinWolfRiders.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 
-## Big Stuff ##
+<br />
+<span class = "section - name">Big Stuff</span>
+<span class = "section-min-max">Min: 0 Max: 1</span>
+<hr>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
