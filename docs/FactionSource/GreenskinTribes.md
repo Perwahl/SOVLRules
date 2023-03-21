@@ -8,7 +8,7 @@ nav_order: 0
  <link rel = "stylesheet" href = "factionSource.css">
 # Greenskin Tribes #
 <br />
-<span class = "section - name">Commanders</span>
+<span class = "section-name">Commanders</span>
 <span class = "section-min-max">Min: 1 Max: 1</span>
 <hr>
 <div style="position:relative; width:650px; height:350px;">
@@ -46,11 +46,11 @@ nav_order: 0
 </div>
 <div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
- <span style = "display: inline-block; padding: 10px;"><b> Retinue </b>: orcWarriors</span>
+ <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> orcWarriors</span>
 </div>
 
 <br />
-<span class = "section - name">Battle Line</span>
+<span class = "section-name">Battle Line</span>
 <span class = "section-min-max">Min: 1 Max: 3</span>
 <hr>
 <div style="position:relative; width:650px; height:350px;">
@@ -86,6 +86,9 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/OrcWarriors.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10 - 20 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -120,6 +123,9 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/OrcBrutes.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 13 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10 - 15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -154,9 +160,12 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/GoblinMob.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 4 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10 - 25 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
 
 <br />
-<span class = "section - name">Raiders</span>
+<span class = "section-name">Raiders</span>
 <span class = "section-min-max">Min: 0 Max: 1</span>
 <hr>
 <div style="position:relative; width:650px; height:350px;">
@@ -192,6 +201,9 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/BoarRiders.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 18 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 - 10 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -226,9 +238,12 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/GoblinWolfRiders.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 - 10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
 
 <br />
-<span class = "section - name">Big Stuff</span>
+<span class = "section-name">Big Stuff</span>
 <span class = "section-min-max">Min: 0 Max: 1</span>
 <hr>
 <div style="position:relative; width:650px; height:350px;">
@@ -264,6 +279,9 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/Trolls.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 25 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 3 - 4 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -298,4 +316,7 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/Giant.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 100 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 - 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
 
