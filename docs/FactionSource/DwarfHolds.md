@@ -12,8 +12,8 @@ nav_order: 0
 <br />
 
 <span class = "section-name" >Commanders</span>
-<span class = "section-min-max">Min: 1 Max: 1</span>
-<hr>
+<span class = "section-min-max">Min: 1 Max: 1 <hr></span>
+
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -90,7 +90,6 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/RangerCaptain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
-
 <br />
 
 ## Battle Line ##
