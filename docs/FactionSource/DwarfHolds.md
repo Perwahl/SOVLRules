@@ -46,8 +46,10 @@ Min: 1 Max: 1
 
 <div style = "top:50px; width:600px; height:100px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:red" >
 
+
 |:---|:---|:---|:-----|
 |**Points Cost**| 500 pts |**Retinue** | Dwarf Warriors|
+
 </div>
 
 
