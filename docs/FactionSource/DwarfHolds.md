@@ -8,8 +8,15 @@ nav_order: 0
 <link rel = "stylesheet" href = "factionSource.css">
 
 # Dwarf Holds #
-## Commanders ##
-Min: 1 Max: 1
+
+
+
+<span style = "display: inline-block; border:1px solid; width: 50%; font-size: 25px; font-family: 'IM Fell English', serif; ">Commanders</span>
+<span style = "display: inline-block; text-align: right; border:1px solid; width:45%">Min: 1 Max: 1</span>
+
+
+
+
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
