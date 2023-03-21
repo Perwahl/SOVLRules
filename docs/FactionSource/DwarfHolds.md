@@ -10,12 +10,8 @@ nav_order: 0
 # Dwarf Holds #
 
 
-
-<span style = "display: inline-block; border:1px solid; width: 50%; font-size: 25px; font-family: 'IM Fell English', serif; ">Commanders</span>
-<span style = "display: inline-block; text-align: right; border:1px solid; width:45%">Min: 1 Max: 1</span>
-
-
-
+<span class = "section-name" >Commanders</span>
+<span class = "section-min-max">Min: 1 Max: 1</span>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -53,8 +49,8 @@ nav_order: 0
 
 <div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;" >
 
-<span style = "display: inline-block; margin: 10px;">Cost: 50 pts</span>
-<span style = "display: inline-block; padding: 10px;">Retinue: Dwarf Warriors</span>
+<span style = "display: inline-block; margin: 10px;"><b>Cost:</b> 50 pts</span>
+<span style = "display: inline-block; padding: 10px;"><b>Retinue</b>: Dwarf Warriors</span>
 
 </div>
 

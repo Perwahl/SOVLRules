@@ -43,4 +43,20 @@
     left:20px;
     width: 350px;
     font-size:17px;
+    z-index: 2;
+  }
+
+  .section-name {
+    display: inline-block;
+    width: 45%;
+    font-size: 30px;
+    font-family: 'IM Fell English', serif;
+  }
+
+  .section-min-max {
+    display: inline-block;
+    width: 45%;
+    font-size: 20px;
+    font-family: 'IM Fell English', serif;
+    text-align: right; 
   }
