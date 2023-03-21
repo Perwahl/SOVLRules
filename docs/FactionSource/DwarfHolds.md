@@ -13,6 +13,7 @@ nav_order: 0
 
 <span class = "section-name" >Commanders</span>
 <span class = "section-min-max">Min: 1 Max: 1</span>
+<hr>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -90,7 +91,10 @@ nav_order: 0
 <img src = "images/DwarfHolds/RangerCaptain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
 
+<br />
+
 ## Battle Line ##
+<hr>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
@@ -100,9 +104,9 @@ nav_order: 0
       
 <div class = "unit-name">Dwarf Warriors</div>
 
-  </div>
+</div>
 
-<div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), , Sturdy </div>
+<div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
