@@ -27,7 +27,7 @@ To determine if an **Attack Roll** is succesfull you compare the attackers and d
 
 |:-----|:-----|
 |**Higher Skill**| If the attacking unit has higher **Skill**, a result of 3 or higher is succesfull.|
-|** Equal or lower**| If the attacking unit has equal or lower **Skill**, a result of 4 or higher is succesfull.|
+|**Equal or lower**| If the attacking unit has equal or lower **Skill**, a result of 4 or higher is succesfull.|
 
 A model can only attack once per combat phase. If a unit is engaged in multiple sides, models will prioritize attacking to the front, and sides over rear.
 
