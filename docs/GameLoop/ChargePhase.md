@@ -19,15 +19,18 @@ A **Valid Charger** is any one of your units that has not been activated this tu
 
 An enemy unit is a **Valid Target** if it is within range and **Line of Sight** of the charger. Charge range is the same as the units movement speed and is measured from the front center of the charger to the center of the side of the target being charged. Line of Sight is a 45° arc from the front of the unit. 
 
+<div class="row">
+  <div class="column">
+    <img src="../../assets/images/validCharge.png" alt="charge" style="width:100%; max-height:350px">
+     <span style="color:#77a8a3; text-align: center; font-style: italic;">Left unit is inside LoS arc and in range. Right unit is too far away! </span>
+  </div>
+  <div class="column">
+    <img src="../../assets/images/chargeLosBlock.png" alt="charge" style="width:100%; max-height:350px">
+       <span style="color:#77a8a3; text-align: center; font-style: italic;">The target is in charge range, but hidden behind the cliff. </span>
+  </div> 
+</div>
 
-<span style="display:inline-block; width:45%; height:350px">
-<img style="display: block; margin: 0 auto; height:300px" src="../../assets/images/validCharge.png">
-<span style="color:#77a8a3; text-align: center; font-style: italic;">Left unit is inside LoS arc and in range. Right unit is too far away! </span>
-</span>
-<span style="display:inline-block; width:45%; height:350px">
-<img style="display: block; margin: 0 auto; ; height:300px" src="../../assets/images/chargeLosBlock.png" height="300">
-<span style="color:#77a8a3; text-align: center; font-style: italic;">The target is in charge range, but hidden behind the cliff. </span>
-</span>
+
 
  <br />
 
