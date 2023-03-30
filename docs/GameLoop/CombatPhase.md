@@ -34,7 +34,7 @@ A model can only attack once per combat phase. If a unit is engaged in multiple 
 ## Supporting Attacks
 If a unit is engaged in the front models in the second rank can make **Supporting Attacks**. Add only one **Attack Roll** per supporting model regardless of the units **Attack** stat. **Supporting Attacks** are never made to the sides or rear.
 
-## Attacking Characters
+## Attacking Commanders
 
 ## Damage Save
 The defending player rolls a **Damage Save** for each succesfull attack. The defending unit suffers one wound for each failed save. 
