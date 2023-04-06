@@ -6,7 +6,7 @@ nav_order: 1
 <link rel="stylesheet" href="../style.css">
 
 ## Building an Army
-The first step to playing a game of SOVL is building an army. Start by choosing one of the [Factions] available. Then select a **Commander** to lead your army. A stubborn Dwarf Foreman or a savage Orc Warchief? Then fill out the rest of your points allotment with units and their equipment.
+The first step to playing a game of SOVL is building an army. Start by choosing one of the [Factions] available. Then select a **Commander** to lead your army. A stubborn Dwarf Foreman or a savage Orc Warchief? Then fill out the rest of your army with units of soldiers and their equipment.
 
 ## Gameplay
 SOVL is played on a table with miniatures representing individual soldiers. Dice are used to determine the outcomes of combat, magic and many other mechanics that can occur during a game. 
