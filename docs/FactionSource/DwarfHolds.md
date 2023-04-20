@@ -5,22 +5,23 @@ parent: Faction Source Lists
 nav_order: 0
 ---
  <link rel="stylesheet" href="../../style.css">
-<link rel = "stylesheet" href = "factionSource.css">
-
+ <link rel = "stylesheet" href = "factionSource.css">
 # Dwarf Holds #
-
 <br />
-<span class = "section-name" >Commanders</span>
+<span class = "section-name">Commanders</span>
 <span class = "section-min-max">Min: 1 Max: 1</span>
 <hr>
-
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DwarfForeman.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Dwarf Foreman</div>
 
 </div>
@@ -47,27 +48,27 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
-
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;" >
-
-<span style = "display: inline-block; margin: 10px;"><b>Cost:</b> 50 pts</span>
-<span style = "display: inline-block; padding: 10px;"><b>Retinue</b>: Dwarf Warriors</span>
-
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> dwarfMiners</span>
 </div>
-
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/RangerCaptain.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Ranger Captain</div>
 
-  </div>
+</div>
 
-<div class = "unit-props" > Dual Hand Weapons(5) or Greatweapon(10), Crossbow, Sturdy </div>
+<div class = "unit-props" > Two Hand Weapons(5) or Greatweapon(10), Crossbow, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -89,22 +90,31 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/RangerCaptain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
-<br />
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> dwarfRangers</span>
+</div>
 
-## Battle Line ##
+<br />
+<span class = "section-name">Battle Line</span>
+<span class = "section-min-max">Min: 1 Max: 5</span>
 <hr>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DwarfWarriors.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Dwarf Warriors</div>
 
 </div>
 
-<div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy </div>
+<div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), , Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -126,17 +136,24 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfWarriors.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 7 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DwarfVeterans.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Dwarf Veterans</div>
 
-  </div>
+</div>
 
 <div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy, Fearless </div>
                 
@@ -160,17 +177,24 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfVeterans.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DwarfMiners.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Dwarf Miners</div>
 
-  </div>
+</div>
 
 <div class = "unit-props" > Greatweapon, Sturdy </div>
                 
@@ -194,18 +218,28 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfMiners.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
 
-## Ranged Support ##
+<br />
+<span class = "section-name">Ranged Support</span>
+<span class = "section-min-max">Min: 0 Max: 1</span>
+<hr>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DwarfCrossbows.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Dwarf Crossbows</div>
 
-  </div>
+</div>
 
 <div class = "unit-props" > Crossbow, Sturdy </div>
                 
@@ -229,17 +263,24 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfCrossbows.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DwarfHandguns.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Dwarf Handguns</div>
 
-  </div>
+</div>
 
 <div class = "unit-props" > Handgun, Sturdy </div>
                 
@@ -263,19 +304,26 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfHandguns.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DwarfRangers.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Dwarf Rangers</div>
 
-  </div>
+</div>
 
-<div class = "unit-props" > Greatweapon(1) or Dual Hand Weapons(0), Crossbow, Sturdy, Scout </div>
+<div class = "unit-props" > Greatweapon(1) or Two Hand Weapons(0), Crossbow, Sturdy, Scout </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -297,20 +345,30 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfRangers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
 
-## Elites ##
+<br />
+<span class = "section-name">Elites</span>
+<span class = "section-min-max">Min: 0 Max: 1</span>
+<hr>
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DwarfBerserkers.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Dwarf Berserkers</div>
 
-  </div>
+</div>
 
-<div class = "unit-props" > Dual Hand Weapons, Frenzy, Sturdy </div>
+<div class = "unit-props" > Two Hand Weapons, Frenzy, Sturdy </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -332,17 +390,24 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfBerserkers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-   
+
+<div class="tooltip">
 <img src = "icons/DwarfHolds/DeepGuard.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
-      
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
 <div class = "unit-name">Deep Guard</div>
 
-  </div>
+</div>
 
 <div class = "unit-props" > Hand Weapon and Shield(0) or Greatweapon(1), Sturdy, Heavy Armor </div>
                 
@@ -366,4 +431,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DeepGuard.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 </div>
+<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
 
