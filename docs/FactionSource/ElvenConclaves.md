@@ -26,7 +26,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Hand Weapon and Shield(5) or Greatweapon(10) or Two Hand Weapons(10), Swift </div>
+<div class = "unit-props" > Hand Weapon and Shield (5 pts) or Greatweapon (10 pts) or Two Hand Weapons (10 pts), Swift </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -96,7 +96,7 @@ nav_order: 0
 </div>
 <div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -137,7 +137,7 @@ nav_order: 0
 </div>
 <div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -154,7 +154,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Greatweapon(0) or Halberd(0), Swift, Heavy Armor </div>
+<div class = "unit-props" > Greatweapon or Halberd, Swift, Heavy Armor </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -178,7 +178,7 @@ nav_order: 0
 </div>
 <div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
 
 <br />
 <span class = "section-name">Ranged Support</span>
@@ -223,7 +223,7 @@ nav_order: 0
 </div>
 <div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -264,7 +264,7 @@ nav_order: 0
 </div>
 <div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-15 </span></div>
 
 <br />
 <span class = "section-name">Fast Attack</span>
@@ -309,7 +309,7 @@ nav_order: 0
 </div>
 <div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 21 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: {size.minCount} - {size.maxCount} </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div>
 
 <div style="position:relative; width:650px; height:350px;">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
