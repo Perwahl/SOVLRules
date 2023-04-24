@@ -5,7 +5,6 @@ html {-webkit-text-size-adjust: none;}
   position:relative;
    width:650px; 
    height:400px;
-   background-color: blue;
 }
 
 .unit-details{
@@ -23,7 +22,7 @@ html {-webkit-text-size-adjust: none;}
   .unit-card{
      transform: scale(0.8);
      transform-origin: 0 0;
-    background-color: red;/*
+    /*
      
       zoom: 0.70;
       -ms-zoom: 0.7;
@@ -37,7 +36,7 @@ html {-webkit-text-size-adjust: none;}
   .unit-card{
      transform: scale(0.7);
      transform-origin: 0 0;
-    background-color: green;/*
+   /*
      
       zoom: 0.70;
       -ms-zoom: 0.7;
@@ -50,8 +49,7 @@ html {-webkit-text-size-adjust: none;}
   .unit-card{
      transform: scale(0.6);
      transform-origin: 0 0;
-    background-color: yellow;/*
-     
+     /*
       zoom: 0.70;
       -ms-zoom: 0.7;
       -webkit-zoom: 0.7;
@@ -62,8 +60,7 @@ html {-webkit-text-size-adjust: none;}
     .unit-card{
        transform: scale(0.5);
        transform-origin: 0 0;
-    background-color: pink;/*
-    
+    /*
         zoom: 0.60;
         -ms-zoom: 0.6;
       -webkit-zoom: 0.6;
@@ -140,7 +137,7 @@ html {-webkit-text-size-adjust: none;}
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+   /* border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
   }
   
   /* Tooltip text */

@@ -11,7 +11,7 @@ nav_order: 0
 <span class = "section-name">Commanders</span>
 <span class = "section-min-max">Min: 1 Max: 1</span>
 <hr>
-<div style="position:relative; width:650px; height:350px;">
+<div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
@@ -26,7 +26,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Hand Weapon and Shield (5 pts) or Greatweapon (10 pts) or Two Hand Weapons (10 pts), Swift </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>  or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>  or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -47,17 +47,16 @@ nav_order: 0
 
 </div>
 <img src = "images/ElvenConclaves/ElfNoble.png" style="position:absolute; bottom:30px; right:0px; height:320px">
-</div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> elfSpears</span>
-</div>
+</div></div>
 
 <br />
 <span class = "section-name">Battle Line</span>
 <span class = "section-min-max">Min: 1 Max: 5</span>
 <hr>
-<div style="position:relative; width:650px; height:350px;">
+<div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
@@ -72,7 +71,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Spear and Shield, Swift </div>
+<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Charge Defense: +1 Power</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -93,12 +92,11 @@ nav_order: 0
 
 </div>
 <img src = "images/ElvenConclaves/ElfSpears.png" style="position:absolute; bottom:30px; right:0px; height:320px">
-</div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
 
-<div style="position:relative; width:650px; height:350px;">
+<div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
@@ -113,7 +111,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Spear and Shield, Longbow, Swift </div>
+<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Charge Defense: +1 Power</span></div> , <div class="tooltip">Longbow<span class="tooltiptext">Range: 30. Power 3.</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -134,12 +132,11 @@ nav_order: 0
 
 </div>
 <img src = "images/ElvenConclaves/ElfCityGuard.png" style="position:absolute; bottom:30px; right:0px; height:320px">
-</div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
-<div style="position:relative; width:650px; height:350px;">
+<div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
@@ -154,7 +151,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Greatweapon or Halberd, Swift, Heavy Armor </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>  or <div class="tooltip">Halberd<span class="tooltiptext">+1 Power. Charge Defense: +1 Power</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> , <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -175,16 +172,15 @@ nav_order: 0
 
 </div>
 <img src = "images/ElvenConclaves/WeaponMasters.png" style="position:absolute; bottom:30px; right:0px; height:320px">
-</div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <br />
 <span class = "section-name">Ranged Support</span>
 <span class = "section-min-max">Min: 0 Max: 1</span>
 <hr>
-<div style="position:relative; width:650px; height:350px;">
+<div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
@@ -199,7 +195,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Longbow, Swift </div>
+<div class = "unit-props" > <div class="tooltip">Longbow<span class="tooltiptext">Range: 30. Power 3.</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -220,12 +216,11 @@ nav_order: 0
 
 </div>
 <img src = "images/ElvenConclaves/ElfArchers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
-</div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
 
-<div style="position:relative; width:650px; height:350px;">
+<div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
@@ -240,7 +235,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Two Hand Weapons, Longbow, Swift, Scout </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> , <div class="tooltip">Longbow<span class="tooltiptext">Range: 30. Power 3.</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> , <div class="tooltip">Scout<span class="tooltiptext">Forward Deployment</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -261,16 +256,15 @@ nav_order: 0
 
 </div>
 <img src = "images/ElvenConclaves/ElfWatchers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
-</div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-15 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-15 </span></div></div>
 
 <br />
 <span class = "section-name">Fast Attack</span>
 <span class = "section-min-max">Min: 0 Max: 1</span>
 <hr>
-<div style="position:relative; width:650px; height:350px;">
+<div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
@@ -285,7 +279,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Lance and Shield, Swift, Heavy Armor </div>
+<div class = "unit-props" > <div class="tooltip">Lance and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> , <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -306,12 +300,11 @@ nav_order: 0
 
 </div>
 <img src = "images/ElvenConclaves/ElfLancers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
-</div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 21 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
 
-<div style="position:relative; width:650px; height:350px;">
+<div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
 
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
@@ -326,7 +319,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > Hand Weapon, Shortbow, Swift </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div> , <div class="tooltip">Shortbow<span class="tooltiptext">Range: 20. Power 3.</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -347,8 +340,7 @@ nav_order: 0
 
 </div>
 <img src = "images/ElvenConclaves/ElfReavers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
-</div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center;">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 19 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
