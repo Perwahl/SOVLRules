@@ -1,4 +1,6 @@
 
+html {-webkit-text-size-adjust: none;}
+
 .unit-card{
   position:relative;
    width:650px; 
