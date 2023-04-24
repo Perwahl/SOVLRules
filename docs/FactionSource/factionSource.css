@@ -22,6 +22,7 @@ html {-webkit-text-size-adjust: none;}
   .unit-card{
      transform: scale(0.8);
      transform-origin: 0 0;
+     margin-bottom:-80px;
     /*
      
       zoom: 0.70;
@@ -36,6 +37,8 @@ html {-webkit-text-size-adjust: none;}
   .unit-card{
      transform: scale(0.7);
      transform-origin: 0 0;
+     margin-bottom:-100px;
+  
    /*
      
       zoom: 0.70;
@@ -49,6 +52,7 @@ html {-webkit-text-size-adjust: none;}
   .unit-card{
      transform: scale(0.6);
      transform-origin: 0 0;
+     margin-bottom:-140px;
      /*
       zoom: 0.70;
       -ms-zoom: 0.7;
@@ -60,6 +64,7 @@ html {-webkit-text-size-adjust: none;}
     .unit-card{
        transform: scale(0.5);
        transform-origin: 0 0;
+       margin-bottom:-180px;
     /*
         zoom: 0.60;
         -ms-zoom: 0.6;
