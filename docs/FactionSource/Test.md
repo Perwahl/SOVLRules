@@ -46,13 +46,18 @@ nav_order: 0
 <span class = "stat-text" >Wounds</span>
 <span class = "stat-text" >Discipline</span>
 </div>
-
 </div>
-<img src = "images/EmpiresofMen/Captain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 
+<img src = "images/EmpiresofMen/Captain.png" style="position:absolute; top:0px; right:0px; height:320px">
 
-</div>
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> imperialSword</span>
 </div>
+
+</div>
+
+
+
+
+
