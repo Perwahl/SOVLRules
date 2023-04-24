@@ -3,6 +3,7 @@
   position:relative;
    width:650px; 
    height:350px;
+   -webkit-text-size-adjust: none;
 }
 
 .unit-details{
@@ -13,6 +14,7 @@
    border:1px solid;
     border-color:grey; 
     text-align: center;
+    -webkit-text-size-adjust: none;
 }
 
 @media (max-width:600px) {
