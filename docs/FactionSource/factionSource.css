@@ -35,6 +35,11 @@ html {-webkit-text-size-adjust: none;}
   .unit-card, .unit-details{
       zoom: 0.70;
   }
+
+  @media (max-width:360px) {
+    .unit-card, .unit-details{
+        zoom: 0.60;
+    }
 }
 
   .statbox {
@@ -51,6 +56,7 @@ html {-webkit-text-size-adjust: none;}
      font-weight:700;
      border-radius: 8px;
      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+     -webkit-text-size-adjust: none;
   }
 
   .stat-text {
@@ -64,6 +70,7 @@ html {-webkit-text-size-adjust: none;}
      font-weight:500;
      padding:1px;
     font-family: 'IM Fell English', serif;
+    -webkit-text-size-adjust: none;
   }
 
   .unit-name {
@@ -71,7 +78,8 @@ html {-webkit-text-size-adjust: none;}
     position:absolute;
     top: 15px;
     left:70px;
-    font-size:28px
+    font-size:28px;
+    -webkit-text-size-adjust: none;
   }
 
   .unit-props {
