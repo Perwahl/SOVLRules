@@ -5,15 +5,25 @@
    height:350px;
 }
 
-@media (max-width:650px) {
-  .unit-card{
-      zoom: 0.8;
+.unit-details{
+  position:relative;
+   width:600px; 
+   height:50px;
+   background-color: rgba(66,75,76, 1);
+   border:1px solid;
+    border-color:grey; 
+    text-align: center;
+}
+
+@media (max-width:600px) {
+  .unit-card, .unit-details{
+      zoom: 0.85;
   }
 }
 
 @media (max-width:500px) {
-  .unit-card{
-      zoom: 0.7;
+  .unit-card, .unit-details{
+      zoom: 0.70;
   }
 }
 
@@ -66,14 +76,14 @@
 
   .section-name {
     display: inline-block;
-    width: 40%;
+    width: 65%;
     font-size: 30px;
     font-family: 'IM Fell English', serif;
   }
 
   .section-min-max {
     display: inline-block;
-    width: 45%;
+    width: 35;
     font-size: 20px;
     font-family: 'IM Fell English', serif;
     text-align: right; 
