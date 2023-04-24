@@ -52,7 +52,7 @@ nav_order: 0
 
 
 </div>
-<div style = "width:600px; height:50px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey; text-align: center; zoom: 1">
+<div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> imperialSword</span>
 </div>

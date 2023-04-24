@@ -18,12 +18,18 @@
 }
 
 @media (max-width:600px) {
-  .unit-card, .unit-details{
-      zoom: 0.85;
+  .unit-card .unit-details{
+      zoom: 0.9;
   }
 }
 
-@media (max-width:500px) {
+@media (max-width:540px) {
+  .unit-card .unit-details{
+      zoom: 0.80;
+  }
+}
+
+@media (max-width:480px) {
   .unit-card, .unit-details{
       zoom: 0.70;
   }
