@@ -35,7 +35,7 @@ html {-webkit-text-size-adjust: none;}
   .unit-card, .unit-details{
       zoom: 0.70;
   }
-
+}
   @media (max-width:360px) {
     .unit-card, .unit-details{
         zoom: 0.60;
