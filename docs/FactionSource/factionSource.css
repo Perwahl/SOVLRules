@@ -5,18 +5,17 @@
    height:350px;
 }
 
-
-@media (max-width:500px) {
-
-  /* your conditional / responsive CSS inside this condition */
-
+@media (max-width:650px) {
   .unit-card{
-   
-      zoom: 0.7;
+      zoom: 0.8;
   }
-
 }
 
+@media (max-width:500px) {
+  .unit-card{
+      zoom: 0.7;
+  }
+}
 
   .statbox {
     border: 1px solid black;
