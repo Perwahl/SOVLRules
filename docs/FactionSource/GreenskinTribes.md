@@ -71,7 +71,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>  or <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>  or <div class="tooltip">Two Hand Weapons (1 pts)<span class="tooltiptext">+1 Attack</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -116,7 +116,7 @@ nav_order: 0
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >4</span>
+<span class = "statbox" >3</span>
 <span class = "statbox" >4 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >1</span>
@@ -174,7 +174,7 @@ nav_order: 0
 <img src = "images/GreenskinTribes/GoblinMob.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 4 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-25 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 15-24 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <br />
 <span class = "section-name">Raiders</span>
@@ -202,7 +202,7 @@ nav_order: 0
                  
 <span class = "statbox" >3</span>
 <span class = "statbox" >4 </span>
-<span class = "statbox" >3</span>
+<span class = "statbox" >4</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >6</span>
@@ -217,7 +217,7 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/BoarRiders.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 18 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 22 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
 
 <div class="unit-card">
@@ -235,7 +235,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> , <div class="tooltip">Shortbow<span class="tooltiptext">Range: 20. Power 3.</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> , <div class="tooltip">Shortbow (2 pts)<span class="tooltiptext">Range: 20. Power 3.</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -257,7 +257,7 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/GoblinWolfRiders.png" style="position:absolute; bottom:30px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <br />
@@ -279,7 +279,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Unarmed<span class="tooltiptext">Unarmed attacks</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>  or <div class="tooltip">Greatweapon (3 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -319,7 +319,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Unarmed<span class="tooltiptext">Unarmed attacks</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >

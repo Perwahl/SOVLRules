@@ -235,7 +235,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> , <div class="tooltip">Longbow<span class="tooltiptext">Range: 30. Power 3.</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> , <div class="tooltip">Scout<span class="tooltiptext">Forward Deployment</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> , <div class="tooltip">Longbow<span class="tooltiptext">Range: 30. Power 3.</span></div> , <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> , <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -286,7 +286,7 @@ nav_order: 0
                  
 <span class = "statbox" >4</span>
 <span class = "statbox" >3 </span>
-<span class = "statbox" >4</span>
+<span class = "statbox" >3</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >8</span>

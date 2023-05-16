@@ -112,7 +112,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>  or <div class="tooltip">Greatweapon (1 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> , , <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>  or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> , <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -152,7 +152,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>  or <div class="tooltip">Greatweapon (1 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> , <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div> , <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>  or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> , <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div> , <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -316,7 +316,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Greatweapon (1 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>  or <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> , <div class="tooltip">Crossbow<span class="tooltiptext">Range: 30. Power 3.</span></div> , <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div> , <div class="tooltip">Scout<span class="tooltiptext">Forward Deployment</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>  or <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> , <div class="tooltip">Crossbow<span class="tooltiptext">Range: 30. Power 3.</span></div> , <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div> , <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -360,7 +360,7 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> , <div class="tooltip">Frenzy<span class="tooltiptext">Must charge closest valid target. Re-roll misses in combat.</span></div> , <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>  </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> , <div class="tooltip">Frenzy<span class="tooltiptext">Re-roll misses in combat.</span></div> , <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>  </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
