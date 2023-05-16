@@ -46,7 +46,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfForeman.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> dwarfMiners</span>
@@ -87,7 +87,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/RangerCaptain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/RangerCaptain.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> dwarfRangers</span>
@@ -132,7 +132,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfWarriors.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfWarriors.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 7 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-25 </span></div></div>
@@ -172,7 +172,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfVeterans.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfVeterans.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -212,7 +212,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfMiners.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfMiners.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -256,7 +256,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfCrossbows.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfCrossbows.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
@@ -296,7 +296,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfHandguns.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfHandguns.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
@@ -336,7 +336,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfRangers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfRangers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
@@ -380,7 +380,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DwarfBerserkers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DwarfBerserkers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
@@ -420,7 +420,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/DwarfHolds/DeepGuard.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/DwarfHolds/DeepGuard.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>

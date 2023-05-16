@@ -46,7 +46,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/Captain.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/Captain.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> imperialSword</span>
@@ -87,7 +87,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/KnightCommander.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/KnightCommander.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> imperialKnights</span>
@@ -132,7 +132,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialSword.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/ImperialSword.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -172,7 +172,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/FootKnights.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/FootKnights.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -212,7 +212,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialHalberd.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/ImperialHalberd.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -252,7 +252,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialSpear.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/ImperialSpear.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -296,7 +296,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialKnights.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/ImperialKnights.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 18 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -340,7 +340,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialArchers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/ImperialArchers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -380,7 +380,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialCrossbowmen.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/ImperialCrossbowmen.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -420,7 +420,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialHandguns.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/EmpiresofMen/ImperialHandguns.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>

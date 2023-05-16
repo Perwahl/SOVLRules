@@ -46,7 +46,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/GreenskinTribes/WarChief.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/GreenskinTribes/WarChief.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> orcWarriors</span>
@@ -91,7 +91,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/GreenskinTribes/OrcWarriors.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/GreenskinTribes/OrcWarriors.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -131,7 +131,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/GreenskinTribes/OrcBrutes.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/GreenskinTribes/OrcBrutes.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 13 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -171,7 +171,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/GreenskinTribes/GoblinMob.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/GreenskinTribes/GoblinMob.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 4 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 15-24 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -215,7 +215,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/GreenskinTribes/BoarRiders.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/GreenskinTribes/BoarRiders.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 22 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
@@ -255,7 +255,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/GreenskinTribes/GoblinWolfRiders.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/GreenskinTribes/GoblinWolfRiders.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -299,7 +299,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/GreenskinTribes/Trolls.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/GreenskinTribes/Trolls.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 25 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 3-4 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -339,7 +339,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/GreenskinTribes/Giant.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/GreenskinTribes/Giant.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 100 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>

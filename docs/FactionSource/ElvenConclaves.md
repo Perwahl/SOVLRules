@@ -46,7 +46,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/ElvenConclaves/ElfNoble.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/ElvenConclaves/ElfNoble.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Retinue: </b> elfSpears</span>
@@ -91,7 +91,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/ElvenConclaves/ElfSpears.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/ElvenConclaves/ElfSpears.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -131,7 +131,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/ElvenConclaves/ElfCityGuard.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/ElvenConclaves/ElfCityGuard.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -171,7 +171,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/ElvenConclaves/WeaponMasters.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/ElvenConclaves/WeaponMasters.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -215,7 +215,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/ElvenConclaves/ElfArchers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/ElvenConclaves/ElfArchers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
@@ -255,7 +255,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/ElvenConclaves/ElfWatchers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/ElvenConclaves/ElfWatchers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-15 </span></div></div>
@@ -299,7 +299,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/ElvenConclaves/ElfLancers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/ElvenConclaves/ElfLancers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 21 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
@@ -339,7 +339,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/ElvenConclaves/ElfReavers.png" style="position:absolute; bottom:30px; right:0px; height:320px">
+<img src = "images/ElvenConclaves/ElfReavers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 19 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
