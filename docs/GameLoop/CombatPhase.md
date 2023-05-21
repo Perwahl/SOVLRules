@@ -40,7 +40,7 @@ TODO
 ## Damage Save
 The defending player rolls a **Damage Save** for each succesfull attack. The defending unit suffers one wound for each failed save. 
 
-To determine if a **Damage Save** is succesfull you compare the attackers **Power**  to the defenders **Defense**. If they are equal, a roll of 4 or higher is a succesful save. Each point of difference in **Power** and **Defense** modifies the number needed. For example, **Power** 4 vs **Defense** 3 needs a roll of 5 or higher. **Power** 3 vs **Defense** 5 saves on a 2 or higher. A 1 on the die is always a failed save and a 6 on the die is always a success.
+To determine if a **Damage Save** is succesfull you compare the attackers **Power**  to the defenders **Defense**. If they are equal, a roll of 4 or higher is a succesful save. Each point of difference in **Power** and **Defense** modifies the number needed. For example, **Power** 4 vs **Defense** 3 needs a roll of 5 or higher. **Power** 3 vs **Defense** 5 saves on a 2 or higher. A one on the die is always a failed save and a six on the die is always a success.
 
 ## Combat Score
 When all units in an engagement has attacked you calculate the **Combat Score** for each player. The total combat score is made up of the following:
