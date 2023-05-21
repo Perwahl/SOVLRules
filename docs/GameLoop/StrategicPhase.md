@@ -22,7 +22,7 @@ When a unit is activated it can string togheter **Advances** and **Pivots** in a
 Some terrain features like Forests or Swamps are considered **Difficult Terrain**. Any unit starting it's activation in or entering **Difficult Terrain** lose 2 points of movement allowance. If a unit has less than 2 movement left, it can not enter **Difficult Terrain**!
 
 ## Ranged Attacks
-If a unit has a ranged attack available it can use it once at any point during it's activation. To use a ranged attack first select a target that is within range and LoS, then roll a **Ranged Attack Roll**. The defending player rolls a **Defense Roll** against succesful hits and removes any casualties. 
+If a unit has a ranged attack available it can use it once at any point during it's activation. To use a ranged attack first select a target that is within range and LoS, then roll a **Ranged Attack Roll**. The defending player rolls a **[Damage Save]** against succesful hits and removes any casualties. 
 
 A **Ranged Attact Roll** is performed by rolling a D6 for each model in the unit making a ranged attack. Any roll of 4+ is a succesful hit with the following modifiers:
 
@@ -41,3 +41,4 @@ At the end of the **Strategic Phase**, any unit still fleeing must make a **[Fli
 [Unit Types]: ../UnitTypes#Unit-Types
 [Discipline Test]: ../UnitTypes#Discipline-and-Rank-Bonus
 [Flight Move]: ../UnitTypes#Flight-Move
+[Damage Save]: CombatPhase#Damage-Save
