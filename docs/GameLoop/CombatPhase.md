@@ -39,6 +39,7 @@ If a unit is engaged in the front models in the second rank can make **Supportin
 The defending player rolls a **Damage Save** for each succesfull attack. The defending unit suffers one wound for each failed save. 
 
 To determine if a **Damage Save** is succesfull you compare the attackers **Power**  to the defenders **Defense**. 
+
 |:-----|:-----|
 |**Higher Power**| If the attacking unit has higher **Power**, a result of **5+** (5 or higher) is succesfull.|
 |**Equal Power**| If the attacking unit has equal **Power**, a result of **4+** (4 or higher) is succesfull.|
