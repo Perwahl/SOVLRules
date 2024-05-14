@@ -26,21 +26,23 @@ Example: This unit of X is engaged in the front and is five models wide. X has 1
 To determine if an **Attack Roll** is succesfull you compare the attackers and defenders **Skill** stat. 
 
 |:-----|:-----|
-|**Higher Skill**| If the attacking unit has higher **Skill**, a result of 3 or higher is succesfull.|
-|**Equal or lower**| If the attacking unit has equal or lower **Skill**, a result of 4 or higher is succesfull.|
+|**Higher Skill**| If the attacking unit has higher **Skill**, a result of **3+** (3 or higher) is succesfull.|
+|**Equal or lower**| If the attacking unit has equal or lower **Skill**, a result of **4+** (4 or higher) is succesfull.|
 
-A model can only attack once per combat phase. If a unit is engaged in multiple sides, models will prioritize attacking to the front, and sides over rear.
+A model can only attack once per combat phase. If a unit is engaged in multiple sides, models will prioritize attacking to the front, then sides, then  rear.
 
 ## Supporting Attacks
 If a unit is engaged in the front models in the second rank can make **Supporting Attacks**. Add only one **Attack Roll** per supporting model regardless of the units **Attack** stat. **Supporting Attacks** are never made to the sides or rear.
 
-## Attacking Commanders
-TODO
 
 ## Damage Save
 The defending player rolls a **Damage Save** for each succesfull attack. The defending unit suffers one wound for each failed save. 
 
-To determine if a **Damage Save** is succesfull you compare the attackers **Power**  to the defenders **Defense**. If they are equal, a roll of 4 or higher is a succesful save. Each point of difference in **Power** and **Defense** modifies the number needed. For example, **Power** 4 vs **Defense** 3 needs a roll of 5 or higher. **Power** 3 vs **Defense** 5 saves on a 2 or higher. A one on the die is always a failed save and a six on the die is always a success.
+To determine if a **Damage Save** is succesfull you compare the attackers **Power**  to the defenders **Defense**. 
+|:-----|:-----|
+|**Higher Power**| If the attacking unit has higher **Power**, a result of **5+** (5 or higher) is succesfull.|
+|**Equal Power**| If the attacking unit has equal **Power**, a result of **4+** (4 or higher) is succesfull.|
+|**Lower Power**| If the attacking unit has lower **Power**, a result of **3+** (3 or higher) is succesfull.|
 
 ## Combat Score
 When all units in an engagement has attacked you calculate the **Combat Score** for each player. The total combat score is made up of the following:
