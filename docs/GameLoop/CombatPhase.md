@@ -32,7 +32,7 @@ To determine if an **Attack Roll** is succesfull you compare the attackers and d
 A model can only attack once per combat phase. If a unit is engaged in multiple sides, models will prioritize attacking to the front, then sides, then  rear.
 
 ## Supporting Attacks
-If a unit is engaged in the front models in the second rank can make **Supporting Attacks**. Add only one **Attack Roll** per supporting model regardless of the units **Attack** stat. **Supporting Attacks** are never made to the sides or rear.
+If a unit is engaged in the front, models in the second rank can make **Supporting Attacks**. Add only one **Attack Roll** per supporting model regardless of the units **Attack** stat. **Supporting Attacks** are never made to the sides or rear.
 
 
 ## Damage Save
@@ -41,9 +41,10 @@ The defending player rolls a **Damage Save** for each succesfull attack. The def
 To determine if a **Damage Save** is succesfull you compare the attackers **Power**  to the defenders **Defense**. 
 
 |:-----|:-----|
-|**Higher Power**| If the attacking unit has higher **Power**, a result of **5+** (5 or higher) is succesfull.|
-|**Equal Power**| If the attacking unit has equal **Power**, a result of **4+** (4 or higher) is succesfull.|
-|**Lower Power**| If the attacking unit has lower **Power**, a result of **3+** (3 or higher) is succesfull.|
+|**Higher Power**| If the attacking unit has higher **Power**, a result of **5+** (5 or higher) is succesfull. If the difference is **more than 2**, a result of **6+** is required! |
+|**Equal Power**| If **Power** and **Defense** are equal, a result of **4+** (4 or higher) is succesfull.|
+|**Lower Power**| If the attacking unit has lower **Power**, a result of **3+** (3 or higher) is succesfull. If the difference is **more than 2**, a result of **2+** is enough!|
+
 
 ## Combat Score
 When all units in an engagement has attacked you calculate the **Combat Score** for each player. The total combat score is made up of the following:
