@@ -19,7 +19,7 @@ Each grouping of two or more units in base contact is considered an **Engagement
 3. Roll **Break Tests** and move fleeing units.
 
 ## Attack Roll
-Each model in an engaged flank can make an **Attack Roll**. The **Attacks** stat of the unit determines how many dice to roll.
+Each model in an engaged in the front or side makes an **Attack Roll**. Models engaged in the rear can not attack! The **Attacks** stat of the unit determines how many dice to roll. 
 
 Example: This unit of X is engaged in the front and is five models wide. X has 1 Attack on it's unit stats, so it rolls five d6 for it's **Attack Roll**
 
@@ -52,7 +52,7 @@ When all units in an engagement has attacked you calculate the **Combat Score** 
 |:-----|:-----|
 |**Wounds**| One point for each wound caused. |
 |**Flank Bonus**| One Point for each unit engaging in the flank. |
-|**Rear Bonus**| Two points for each unit engaged in the rear.|
+|**Rear Bonus**| One point for each unit engaged in the rear.|
 
 While adding this up you can also remove all casualties from each unit.
 
