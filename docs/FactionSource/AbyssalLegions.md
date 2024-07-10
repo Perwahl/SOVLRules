@@ -26,7 +26,9 @@ nav_order: 0
 
 </div>
 
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Abyssal Armor<span class="tooltiptext">-1 Movement.  +1 to Damage Saves</span></div>, <div class="tooltip">Demonic Possession<span class="tooltiptext">Activate once per battle. +3 Attacks, -3 Skill this turn.</span></div>, Magic Weapon/Item </div>
+<div style= "height: 125px; display: flex; align-items: center; margin-left: 20px;">
+<div class = "unit-props"> <div class="tooltip">Hand Weapon + Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Abyssal Armor<span class="tooltiptext">-1 Movement.  +1 to Damage Saves</span></div>, <div class="tooltip">Demonic Possession<span class="tooltiptext">Activate once per battle. +3 Attacks, -3 Skill this turn.</span></div>, Magic Weapon/Item </div>
+</div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
@@ -67,7 +69,9 @@ nav_order: 0
 
 </div>
 
+<div style= "height: 125px; display: flex; align-items: center; margin-left: 20px;">
 <div class = "unit-props" > <div class="tooltip">Abyssal Armor<span class="tooltiptext">-1 Movement.  +1 to Damage Saves</span></div>, Magic Item, Spellcaster(2) </div>
+</div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
