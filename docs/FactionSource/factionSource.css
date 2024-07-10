@@ -153,12 +153,12 @@ html {-webkit-text-size-adjust: none;}
   .tooltip .tooltiptext {
     visibility: hidden;
     /*width: 120px; */
-    width: auto;
-    min-width: 150px;
+    width: max-content;
+    max-width: 300px;
     background-color: black;
     color: #fff;
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 10px;
     border-radius: 6px;
     
     bottom: 100%;
