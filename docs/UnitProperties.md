@@ -9,9 +9,9 @@ nav_order: 6
 
 |:------|:-----|
 |**Hand Weapon and Shield**| +1 Defense. Charge Bonus: +1 Power |
-|**Spear and Shield**| +1 Defense. Charge Defense: +1 Power |
+|**Spear and Shield**| +1 Defense. Extra Rank supporting attacks when not charging. |
 |**Greatweapon**| +1 Power. Charge Bonus: +1 Power |
-|**Halberd**| +1 Power. Charge Defense: +1 Power |
+|**Halberd**| Damage Saves against this weapon are never better than 4+. |
 |**Two Hand Weapons**| +1 Attack |
 |**Lance and Shield**| +1 Defense. Charge Bonus: +2 Power |
 
