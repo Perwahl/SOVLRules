@@ -11,7 +11,7 @@ The first step to playing a game of SOVL is building an army. Start by choosing 
 ## Gameplay
 SOVL is played on a table with miniatures representing individual soldiers. Dice are used to determine the outcomes of combat, magic and many other mechanics that can occur during a game. 
 
-Players begin by setting up the table with terrain, deploying their armies, and determining who goes first. This part of the game is called Setup and Deployment and more detailed rules for it can be found [here](SetupAndDeplyment). 
+Players begin by setting up the table with terrain, deploying their armies, and determining who goes first. This part of the game is called Setup and Deployment and more detailed rules for it can be found [here](SetupAndDeployment). 
 
 <img style="display: block; margin: 0 auto;" src="../assets/images/battle.png" width="650">
 
