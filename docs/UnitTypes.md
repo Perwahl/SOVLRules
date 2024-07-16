@@ -35,14 +35,15 @@ If a **Flight Move** reaches a table edge the unit flees the battlefield. It is 
 ## Unit Types
 Units come in different types which determines some basic properties.
 
-| Unit Type | Base Size | Movement Allowance |Description |
+| Unit Type | Base Size | Movement Allowance | Pivot Cost | Description |
 |:-----|:----|:---|:----------|
-|**Infantry** | **20x20**| 8 | Basic infantry with a standard base size |
-|**Infantry** | **25x25**| 8 | Basic infantry with a bigger base size |
-|**Cavalry** | **25x50**| 16 | Cavalry like Imperial Knights or Wolf Riders |
-|**Monstrous Infantry** | **40x40**| 12 | Bigger infantry units like Trolls or Minotaurs |
-|**Large Monster** | **50x50**| 12 | Huge monsters like Giants |
-|**Chariot** | **50x100**| 16 | Wheeled chariots |
+|**Infantry** | **20x20**| 8 | 1 | Basic infantry with a standard base size |
+|**Infantry** | **25x25**| 8 | 1 |Basic infantry with a bigger base size |
+|**Cavalry** | **25x50**| 16 | 2 |Cavalry like Imperial Knights or Wolf Riders |
+|**Monstrous Infantry** | **40x40**| 12 | 1.5 | Bigger infantry units like Trolls or Minotaurs |
+|**Large Monster** | **50x50**| 12 | 1.5 | Huge monsters like Giants |
+|**Chariot** | **50x100**| 16 | 2 |Wheeled chariots |
+|**War Machine** | **50x50**| 6 | 0 | Warmachines like cannons or catapults |
 
 
 ## Characters
