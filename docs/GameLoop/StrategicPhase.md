@@ -38,8 +38,8 @@ At the end of the **Strategic Phase**, any unit still fleeing must make a **[Fli
 
 ----
 
-[Unit Types]: ../UnitTypes#Unit-Types
-[Unit Type]: ../UnitTypes#Unit-Types
+[Unit Types]: ../UnitTypes#unit-types
+[Unit Type]: ../UnitTypes#unit-types
 [Discipline Test]: ../UnitTypes#Discipline-and-Rank-Bonus
 [Flight Move]: ../UnitTypes#Flight-Move
 [Damage Save]: CombatPhase#Damage-Save
