@@ -14,7 +14,7 @@ All unit types have a movement allowance that determines how far they can move d
 
 To make an **Advance**, move a unit straight forward. If it comes into contact with another unit or impassable terrain it stops. The movement cost of an **Advance** is equal to the number of inches moved. 
 
-**Pivoting** is used to turn a unit to a new facing. To **Pivot**, rotate a unit up to 90° around it's center point. Each pivot has a movement cost 2 points of movement allowance.
+**Pivoting** is used to turn a unit to a new facing. To **Pivot**, rotate a unit up to 90° around it's center point. Each pivot has a movement cost equal to 25% of the units base movement allowance.
 
 When a unit is activated it can string togheter **Advances** and **Pivots** in any order, with a movement cost up to it's movement stat.
 
