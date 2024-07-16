@@ -16,7 +16,7 @@ To make an **Advance**, move a unit straight forward. If it comes into contact w
 
 **Pivoting** is used to turn a unit to a new facing. To **Pivot**, rotate a unit up to 45° around it's center point. Each pivot has a movement cost depending on [Unit Type]. For example, an Infantry unit rotating 10° makes 1 pivot, costing 1 movement. A Cavalry unit pivoting 180° makes 4 pivots costing 2 each, for a total of 8 movement.
 
-When a unit is activated it can string togheter **Advances** and **Pivots** in any order, with a movement cost up to it's movement stat.
+When a unit is activated it can string togheter **Advances** and **Pivots** in any order, with a movement cost up to it's movement allowance.
 
 ## Terrain
 Some terrain features like Forests or Swamps are considered **Difficult Terrain**. Any unit starting it's activation in or entering **Difficult Terrain** lose 2 points of movement allowance. If a unit has less than 2 movement left, it can not enter **Difficult Terrain**!
