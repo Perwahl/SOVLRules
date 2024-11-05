@@ -43,10 +43,14 @@ Units come in different types which determines some basic properties.
 |**Monstrous Infantry** | **40x40**| 12 | 1.5 | Bigger infantry units like Trolls or Minotaurs |
 |**Large Monster** | **50x50**| 12 | 1.5 | Huge monsters like Giants |
 |**Chariot** | **50x100**| 16 | 2 |Wheeled chariots |
-|**War Machine** | **50x50**| 6 | 0 | Warmachines like cannons or catapults |
+|**War Machine** | **50x50**| 0 | 0 | Warmachines like cannons or catapults |
+|**Weapon Team** | **25x50**| 8 | 1 | Weapon Teams like Ratkin Longrifles |
+|**War Wagon** | **50x100**| 12 | 1.5| War Wagons are similar to chariots, but slower and bulkier. |
+|**Swarm** | **40x40**| 8 | 1 | Swarms of critters like snakes or rats. |
 
 
-## Characters
+## Commanders
+Commanders are always the same model type as their retinue or mount. Some commanders are monstrous entities on their own and act as **Large Monsters** on the battlefield!
 
 
 ----

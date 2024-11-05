@@ -16,8 +16,7 @@ nav_order: 6
 |**Lance and Shield**| +1 Defense. Charge Bonus: +2 Power |
 
 ### Charge Bonus
-
-### Charge Defense
+A unit only benefits from Charge Bonus effects in the first turn of combat after it has charged.
 
 ## Ranged Attacks
 
@@ -26,6 +25,14 @@ nav_order: 6
 |**Shortbow**|Range: 20. Power 3. |
 |**Crossbow**| Range: 30. Power 3.|
 |**Handgun**| Range: 24. Power 4.  |
+|**Sling**| Range: 20. Power 2.  |
+|**Javelin**| Range: 8. Power 3.  |
+
+|:------|:-----|
+|**Cannon**| Range: 48. D3 hits. Power 8. |
+|**Catapult**|Range: 48. 2D3 hits. Power 5. |
+|**Bolt Thrower**| Range: 48. 3x Shots. Power 6.|
+|**Mortar**| Range: 48. 2D3+1 Hits. Power 4.  |
 
 ## General Properties
 
@@ -37,6 +44,9 @@ nav_order: 6
 |**Swift**| +1 Movement |
 |**Reanimated**| -1 Movement. Never fails Discipline tests.|
 |**Scout**| Forward Deployment|
+|**Flying**| Fly Speed 20. Ignores Terrain.|
+|**Regeneration**| Unit recovers all missing wounds at end of turn.|
+|**Poisoned Attacks**| Enemies re-roll 6s on Damage Saves.|
 
 <img style="display: block; margin: 0 auto;" src="../assets/images/miner.png" width="400">
 

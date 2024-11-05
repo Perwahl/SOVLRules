@@ -65,9 +65,20 @@ When both players have declared all their charges it's time to resolve them. Cha
 To resolve a **Counter Charge**, rotate both units so they face eachother. Find the half way point between them, then move them into base contact on that point.
 
 ## Fleeing from a Charge
-TODO
+Instead of declaring a charge a player may choose to declare a **Flee From Charge** action instead. A unit can flee from a charge if:
+
+- One enemy unit has declared a charge against it and it has not declared a counter charge.
+- It is not already engaged in combat or fleeing.
+- It does not have the Reanimated or Frenzy unit properties.
+- It has more than 0 movement speed.
+- The units Move Speed is greater than (chargers Move Speed - Charge Distance).
+
+At the end of the phase when resolving charges, any units that have declared a **Flee From Charge** make a **[Flight Move]** away from the charging unit. Then, move the charging unit it's full move speed towards the fleeing unit.
 
 
 <img style="display: block; margin: 0 auto;" src="../../assets/images/boarrider.png" width="400">
 
 ----
+
+
+[Flight Move]: ../UnitTypes#Flight-Move

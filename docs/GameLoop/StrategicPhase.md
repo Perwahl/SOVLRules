@@ -30,6 +30,8 @@ A **Ranged Attact Roll** is performed by rolling a D6 for each model in the unit
 **Unit Skill**| Chance to hit increases by one for each point of Skill over 3 and decreases by one for each point of skill under 3. 
 **Long Range**| Ranged Attacks have a maximum range, units outside of that range can't be targeted. Targets that are further away than *half the maximum range* are considered at **Long Range** and have a -1 penalty to be hit.
 
+## Activated Abilities
+Some units have other abilities that can be activated. These are activated in the same way as ranged attacks. Note that a unit can only use one ability or ranged attack each activation. If the unit contains a Commander both the Unit and Commander can activate one ability each!
 
 ## Rally Fleeing Units
 A fleeing unit that has not been activated this turn can be activated as normal, but can only perform one action; a Rally. To rally a unit, roll a **[Discipline Test]**. On a succesfull roll the unit rallies and is no longer considered fleeing.
