@@ -23,9 +23,9 @@ Each unit has a list of stats that describe how good it is at various things.
 ## Discipline and Rank Bonus
 In some cases a unit might be required to make a **Discipline Test**. For example, after a unit loses a combat, or when rallying a fleeing unit. 
 
-A discpline test is made by rolling 2d6 and adding the units **Rank Bonus**, if any. If the result is lower than or equal to the units **Discipline** stat, it is succesful. 
+A discpline test is made by rolling 2d6. If the result is lower than or equal to the units **Discipline** stat, it is succesful. 
 
-A unit gets **Rank Bonus** for each rank of models behind the first. A rank that is missing models counts as long as it's half full.
+When rolling a discipline test units can add their **Rank Bonus** to their **Discipline** stat. Each rank with at least 3 models gives +1 **Rank Bonus**, including the first rank. 
 
 ## Flight Move
 In some situations a unit might lose it's nerve and try to flee from the battlefield. A **Flight Move** is chaotic, instead of moving normally roll one d6 for each 4 points of base movement allowance. Move the unit that distance in a straight line, avoiding other units and terrain.
