@@ -540,7 +540,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/AbyssalLegions/Archdevil.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/AbyssalLegions/ArchDevil.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 150 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -583,7 +583,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/AbyssalLegions/Devilspawn.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/AbyssalLegions/DevilSpawn.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 15 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
