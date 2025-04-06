@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div>, <div class="tooltip">Rallying Cry<span class="tooltiptext">Rally a fleeing unit. One use per battle.</span></div> </div>
 </div>
                 
 
@@ -143,7 +143,7 @@ nav_order: 0
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Weapon Masters, Elf Spears, Elf Lancers, Elf Reavers, Elf Chariot, Gryphon, Ancient Dragon</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Divine Favour, Radiant Shield, Fireball</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Fiery Blades, Divine Favour, Radiant Shield, Fireball</span>
 
 <br />
 <span class = "section-name">Mounts</span>
@@ -322,7 +322,7 @@ nav_order: 0
 <img src = "images/ElvenConclaves/ElfCityGuard.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -352,7 +352,7 @@ nav_order: 0
 <span class = "statbox" >3</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
-<span class = "statbox" >8</span>
+<span class = "statbox" >9</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -364,7 +364,7 @@ nav_order: 0
 </div>
 <img src = "images/ElvenConclaves/WeaponMasters.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-18 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <br />
@@ -412,7 +412,7 @@ nav_order: 0
 <img src = "images/ElvenConclaves/ElfArchers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -474,7 +474,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -497,8 +497,8 @@ nav_order: 0
 </div>
 <img src = "images/ElvenConclaves/ElfBoltThrower.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 65 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 60 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <br />
 <span class = "section-name">Fast Attack</span>
@@ -587,7 +587,7 @@ nav_order: 0
 </div>
 <img src = "images/ElvenConclaves/ElfReavers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 19 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 17 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
@@ -673,6 +673,49 @@ nav_order: 0
 </div>
 <img src = "images/ElvenConclaves/GiantEagle.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/ElvenConclaves/DragonKnights.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Cavalry</span>
+</div>
+
+
+<div class = "unit-name">Dragon Knights</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Lance and Shield (2 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >5</span>
+<span class = "statbox" >4 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >9</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/ElvenConclaves/DragonKnights.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 25 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 

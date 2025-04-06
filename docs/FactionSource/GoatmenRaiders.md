@@ -54,7 +54,7 @@ nav_order: 0
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Mongrel Pack, Goatmen Warriors, Ibex Warriors, Raiding Chariot, Mongrel Skirmishers</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Wildform, Shadow Bolt, Thousand Mouths, Hex Of Ruin, Primal Fury</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Wildform, Shadow Bolt, Thousand Mouths, Hex Of Ruin, Primal Fury, Shroud</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -73,7 +73,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Raider<span class="tooltiptext">Commanders retinue deploys with Ambush.</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">Activate once per battle. Give all your units Charge Bonus: +1 Power this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Raider<span class="tooltiptext">Commanders retinue deploys with Ambush.</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power this turn.</span></div> </div>
 </div>
                 
 
@@ -100,6 +100,50 @@ nav_order: 0
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Goatmen Warriors, Ibex Warriors, Raiding Chariot</span>
 
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/GoatmenRaiders/MinotaurLord.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Monstrous Infantry</span>
+</div>
+
+
+<div class = "unit-name">Minotaur Lord</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, Magic Weapon/Item, <div class="tooltip">Frenzy<span class="tooltiptext">Re-roll missed Attack Rolls in the first round of combat.</span></div>, <div class="tooltip">Blood Fury<span class="tooltiptext">+2 Attacks this turn. Activate once per battle when wounded.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >5 </span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >8</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/GoatmenRaiders/MinotaurLord.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
+</div></div>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Minotaurs</span>
+
 <br />
 <span class = "section-name">Battle Line</span>
 <span class = "section-min-max">Min: 1 Max: 3</span>
@@ -121,7 +165,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Halberd<span class="tooltiptext">Damage Saves against this weapon are never better than 4+.</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div> </div>
 </div>
                 
 
@@ -144,7 +188,7 @@ nav_order: 0
 </div>
 <img src = "images/GoatmenRaiders/IbexWarriors.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
 
 <div class="unit-card">
@@ -154,7 +198,7 @@ nav_order: 0
 
 <div class="tooltip">
 <img src = "icons/GoatmenRaiders/GoatmenWarriors.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Infantry</span>
+ <span class="tooltiptext">Infantry Large</span>
 </div>
 
 
@@ -207,7 +251,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Extra Rank supporting attacks when not charging.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div> </div>
 </div>
                 
 
@@ -229,6 +273,49 @@ nav_order: 0
 
 </div>
 <img src = "images/GoatmenRaiders/MongrelPack.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 15-25 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/GoatmenRaiders/MongrelSpear.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
+<div class = "unit-name">Mongrel Spear</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Extra Rank supporting attacks when not charging.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >1</span>
+<span class = "statbox" >1</span>
+<span class = "statbox" >6</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/GoatmenRaiders/MongrelSpear.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 15-25 </span></div></div>
@@ -320,7 +407,7 @@ nav_order: 0
 </div>
 <img src = "images/GoatmenRaiders/FeralHounds.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
@@ -383,7 +470,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div> or <div class="tooltip">Hand Weapon and Shield (1 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Two Hand Weapons (2 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Shortbows (1 pts)<span class="tooltiptext">Range: 20. Power 3.</span></div>, Magic Banner (up to 100pts) </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Javelins<span class="tooltiptext">Range: 8. Power 3.</span></div> or <div class="tooltip">Shortbows (1 pts)<span class="tooltiptext">Range: 20. Power 3.</span></div>, Magic Banner (up to 100pts) </div>
 </div>
                 
 
@@ -406,7 +493,7 @@ nav_order: 0
 </div>
 <img src = "images/GoatmenRaiders/Centaurs.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 15 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 17 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
 
 <br />
@@ -539,6 +626,6 @@ nav_order: 0
 </div>
 <img src = "images/GoatmenRaiders/FeralGiant.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 85 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 90 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 

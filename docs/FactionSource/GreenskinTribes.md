@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">Activate once per battle. Give all your units Charge Bonus: +1 Power this turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power this turn.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -83,7 +83,7 @@ nav_order: 0
 <span class = "statbox" >3</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >3</span>
-<span class = "statbox" >7</span>
+<span class = "statbox" >6</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -97,7 +97,7 @@ nav_order: 0
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 35 pts </span>
 </div></div>
-<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Goblin Shortbows, Goblin Mob, Goblin Spear Mob, Goblin Wolf Riders, Orc Chariot</span>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Goblin Shortbows, Goblin Mob, Goblin Spear Mob, Goblin Wolf Riders, Orc Chariot, Giant Spider</span>
 <span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Primal Fury, Thousand Mouths, Shadow Bolt, Hex Of Ruin</span>
 
 <div class="unit-card">
@@ -142,7 +142,7 @@ nav_order: 0
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 40 pts </span>
 </div></div>
-<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Goblin Mob, Goblin Spear Mob, Goblin Wolf Riders, Orc Chariot, Goblin Shortbows</span>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Goblin Mob, Goblin Spear Mob, Goblin Wolf Riders, Orc Chariot, Goblin Shortbows, Giant Spider</span>
 
 <br />
 <span class = "section-name">Mounts</span>
@@ -188,6 +188,49 @@ nav_order: 0
 <img src = "images/GreenskinTribes/Wyvern.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/GreenskinTribes/GiantSpider.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Large Monster Long Base</span>
+</div>
+
+
+<div class = "unit-name">Giant Spider</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Fangs<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div>, <div class="tooltip">Poisoned Attacks<span class="tooltiptext">Enemies re-roll 6s on Damage Saves.</span></div>, <div class="tooltip">Web<span class="tooltiptext">Target a unit within 8. Reduce it's movement speed to 0 this turn. </span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >4 </span>
+<span class = "statbox" >5</span>
+<span class = "statbox" >5</span>
+<span class = "statbox" >6</span>
+<span class = "statbox" >7</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/GreenskinTribes/GiantSpider.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 60 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
 
 <br />
@@ -277,7 +320,7 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/OrcBrutes.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-18 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
@@ -303,12 +346,12 @@ nav_order: 0
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >2</span>
+<span class = "statbox" >3</span>
 <span class = "statbox" >3 </span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
-<span class = "statbox" >6</span>
+<span class = "statbox" >5</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -346,12 +389,12 @@ nav_order: 0
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >2</span>
+<span class = "statbox" >3</span>
 <span class = "statbox" >3 </span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
-<span class = "statbox" >6</span>
+<span class = "statbox" >5</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -436,12 +479,12 @@ nav_order: 0
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >2</span>
+<span class = "statbox" >3</span>
 <span class = "statbox" >3 </span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >2</span>
-<span class = "statbox" >6</span>
+<span class = "statbox" >5</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -481,7 +524,7 @@ nav_order: 0
                  
 <span class = "statbox" >3</span>
 <span class = "statbox" >4 </span>
-<span class = "statbox" >4</span>
+<span class = "statbox" >5</span>
 <span class = "statbox" >3</span>
 <span class = "statbox" >5</span>
 <span class = "statbox" >6</span>
@@ -526,12 +569,12 @@ nav_order: 0
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >2</span>
+<span class = "statbox" >3</span>
 <span class = "statbox" >3 </span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
-<span class = "statbox" >6</span>
+<span class = "statbox" >5</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -543,7 +586,7 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/GoblinShortbows.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 5 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 15-20 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
@@ -563,18 +606,18 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >2</span>
+<span class = "statbox" >3</span>
 <span class = "statbox" >3 </span>
 <span class = "statbox" >4</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >5</span>
-<span class = "statbox" >6</span>
+<span class = "statbox" >5</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -586,7 +629,7 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/GoblinBoltThrowers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 35 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 40 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
@@ -606,7 +649,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -617,7 +660,7 @@ nav_order: 0
 <span class = "statbox" >4</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >5</span>
-<span class = "statbox" >6</span>
+<span class = "statbox" >5</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -653,7 +696,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Regeneration<span class="tooltiptext">Unit recovers all missing wounds at end of turn.</span></div> </div>
 </div>
                 
 
@@ -676,7 +719,7 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/Trolls.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 26 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 30 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 3-4 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">

@@ -250,7 +250,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Explosive Charges (25 pts)<span class="tooltiptext">Range 8. 1D6 power 4.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, Magic Banner (up to 50pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Explosive Charges (25 pts)<span class="tooltiptext">Range 8. 1D6 power 4. One use per battle.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, Magic Banner (up to 50pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div> </div>
 </div>
                 
 
@@ -426,7 +426,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Cannon<span class="tooltiptext">Range 48. D3 hits, Power 8.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Cannon<span class="tooltiptext">Range 48. D3 hits, Power 8.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -449,7 +449,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfCannon.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
@@ -469,7 +469,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -492,7 +492,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfBoltThrower.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 45 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 40 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
@@ -512,7 +512,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -535,8 +535,8 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfStonethrower.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <br />
 <span class = "section-name">Elites</span>
@@ -582,7 +582,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/DwarfBerserkers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
 
 <div class="unit-card">
@@ -602,7 +602,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Masterwork Armor<span class="tooltiptext"> +1 to Damage Saves</span></div>, Magic Banner (up to 100pts) </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Masterwork Armor<span class="tooltiptext">+1 to Damage Saves</span></div>, Magic Banner (up to 100pts) </div>
 </div>
                 
 
@@ -649,7 +649,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Inferno Cannon<span class="tooltiptext">Range 16. 3D3 Power 5.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Inferno Cannon<span class="tooltiptext">Range 16. 3D3 Power 5.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -672,7 +672,7 @@ nav_order: 0
 </div>
 <img src = "images/DwarfHolds/InfernoCannon.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 75 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 70 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">

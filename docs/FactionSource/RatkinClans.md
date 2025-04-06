@@ -51,10 +51,10 @@ nav_order: 0
 </div>
 <img src = "images/RatkinClans/RatkinWarlock.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 40 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 45 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Ratkin Slingers, Ratkin Conscripts, Ratkin Legionaries, Doom Bell</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Hex Of Ruin, Shadow Bolt, Thousand Mouths, Primal Fury</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Hex Of Ruin, Shadow Bolt, Thousand Mouths, Primal Fury, Shroud</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -96,12 +96,12 @@ nav_order: 0
 </div>
 <img src = "images/RatkinClans/RatkinChieftain.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 45 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Ratkin Conscripts, Ratkin Legionaires</span>
 
 <br />
-<span class = "section-name"></span>
+<span class = "section-name">Mounts</span>
 <hr>
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -143,7 +143,7 @@ nav_order: 0
 </div>
 <img src = "images/RatkinClans/DoomBell.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 45 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
 
 <br />
@@ -190,7 +190,7 @@ nav_order: 0
 </div>
 <img src = "images/RatkinClans/RatkinLegionaries.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 7 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
@@ -409,7 +409,7 @@ nav_order: 0
 </div>
 <img src = "images/RatkinClans/RatkinFlamers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 22 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 20 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 2-4 </span></div></div>
 
 <br />
@@ -500,5 +500,48 @@ nav_order: 0
 <img src = "images/RatkinClans/RatkinAlphas.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 28 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 3-4 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/RatkinClans/RatSwarms.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Swarm</span>
+</div>
+
+
+<div class = "unit-name">Rat Swarms</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Frenzy<span class="tooltiptext">Re-roll missed Attack Rolls in the first round of combat.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >2</span>
+<span class = "statbox" >1 </span>
+<span class = "statbox" >1</span>
+<span class = "statbox" >5</span>
+<span class = "statbox" >5</span>
+<span class = "statbox" >8</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/RatkinClans/RatSwarms.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 26 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 3-4 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
