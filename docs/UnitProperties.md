@@ -43,7 +43,8 @@ A unit only benefits from Charge Bonus effects in the first turn of combat after
 |**Sturdy**| -1 Movement. Ignore the movement penalty from Heavy Armor. |
 |**Swift**| +1 Movement |
 |**Reanimated**| -1 Movement. Never fails Discipline tests.|
-|**Scout**| Forward Deployment|
+|**Scout**| Ignore movement penalties from Difficult Terrain.|
+|**Ambusher**| Unit can be deployed anywhere on it's owners side of the table. |
 |**Flying**| Fly Speed 20. Ignores Terrain.|
 |**Regeneration**| Unit recovers all missing wounds at end of turn.|
 |**Poisoned Attacks**| Enemies re-roll 6s on Damage Saves.|
