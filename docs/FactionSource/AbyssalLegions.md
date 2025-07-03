@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Abyssal Armor<span class="tooltiptext">+1 to Damage Saves</span></div>, <div class="tooltip">Demonic Possession<span class="tooltiptext">Activate once per battle. +3 Attacks, -3 Skill this turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Abyssal Armor<span class="tooltiptext">+1 to Damage Saves</span></div>, <div class="tooltip">Demonic Possession<span class="tooltiptext">Activate once per battle. +3 Attacks, -3 Skill for one turn.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -95,7 +95,7 @@ nav_order: 0
 </div>
 <img src = "images/AbyssalLegions/AbyssalSorcerer.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 65 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Northmen Axe, Northmen Horse, Abyssal Warriors, Abyssal Knights, Abyssal Chariot, Manticore, Abyssal Dragon</span>
 <span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Fireball, Hex Of Ruin, Arcane Web, Shroud</span>
@@ -540,7 +540,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/AbyssalLegions/ArchDevil.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/AbyssalLegions/Archdevil.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 150 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
@@ -583,7 +583,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/AbyssalLegions/DevilSpawn.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/AbyssalLegions/Devilspawn.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 15 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>

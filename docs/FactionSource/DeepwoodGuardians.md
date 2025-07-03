@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Hunters Bow (10 pts)<span class="tooltiptext">Range: 30. 3x Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">+4 Move Speed to all infantry units this turn. Activate once per battle. </span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Hunters Bow (10 pts)<span class="tooltiptext">Range: 30. 3x Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">+2 Move Speed to all infantry units for one turn. Activate once per battle. </span></div> </div>
 </div>
                 
 
@@ -95,10 +95,53 @@ nav_order: 0
 </div>
 <img src = "images/DeepwoodGuardians/DeepwoodDruid.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Deepwood Archers, Deepwood Guard, Deepwood Chariot, Deepwood Riders, Gryphon, Forest Dragon</span>
 <span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Regrowth, Wildform, Divine Favour, Arcane Web, Thousand Mouths, Radiant Shield, Shroud</span>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/DeepwoodGuardians/TreantElder.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Large Monster</span>
+</div>
+
+
+<div class = "unit-name">Treant Elder</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Forest Spirit<span class="tooltiptext">A spirit of nature. Ignores Difficult Terrain.</span></div>, <div class="tooltip">Barkskin<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Take Root<span class="tooltiptext">For one turn, reduce move speed to zero. Re-roll failed damage saves and discipline tests. Activate once per battle.</span></div>, Magic Weapon/Item </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >6 </span>
+<span class = "statbox" >6</span>
+<span class = "statbox" >6</span>
+<span class = "statbox" >8</span>
+<span class = "statbox" >10</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/DeepwoodGuardians/TreantElder.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 150 pts </span>
+</div></div>
 
 <br />
 <span class = "section-name">Mounts</span>
@@ -253,7 +296,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Barkskin<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Forest Spirit<span class="tooltiptext">A spirit of nature. Ignores Difficult Terrain.</span></div>, Magic Banner (up to 100pts) </div>
+<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Barkskin<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Forest Spirit<span class="tooltiptext">A spirit of nature. Ignores Difficult Terrain.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div> </div>
 </div>
                 
 
@@ -277,7 +320,7 @@ nav_order: 0
 <img src = "images/DeepwoodGuardians/Dryads.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 8-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -296,7 +339,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
 </div>
                 
 
@@ -343,7 +386,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Longbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div>, Magic Banner (up to 50pts) </div>
+<div class = "unit-props" > <div class="tooltip">Longbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, Magic Banner (up to 50pts) </div>
 </div>
                 
 
@@ -386,7 +429,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Longbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Longbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div> </div>
 </div>
                 
 

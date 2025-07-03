@@ -95,7 +95,7 @@ nav_order: 0
 </div>
 <img src = "images/DarkbornElves/DarkbornPriestess.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Darkborn Witches, Darkborn Crossbows, Darkborn Spears, Darkborn Riders, Darkborn Chariot, Darkborn Dreadguard, Dark Pegasus, Black Dragon</span>
 <span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Arcane Web, Frost Ward, Hex Of Ruin, Shroud</span>
@@ -386,7 +386,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Light Crossbow<span class="tooltiptext">Range: 24. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Light Crossbow<span class="tooltiptext">Range: 24. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div> </div>
 </div>
                 
 

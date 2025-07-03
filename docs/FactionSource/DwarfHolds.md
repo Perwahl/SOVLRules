@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Shield Wall<span class="tooltiptext">Activate once per battle. Commander and Retinue rerolls Damage Saves until end of turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Shield Wall<span class="tooltiptext">Activate once per battle. Commander and Retinue rerolls Damage Saves for one turn.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -72,7 +72,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Marksman Rifle (10 pts)<span class="tooltiptext">Range 48. 2x Power 4.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">+4 Move Speed to all infantry units this turn. Activate once per battle. </span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Marksman Rifle (10 pts)<span class="tooltiptext">Range 48. 2x Power 4.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">+2 Move Speed to all infantry units for one turn. Activate once per battle. </span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -383,7 +383,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Crossbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div>, Magic Banner (up to 100pts) </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Crossbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, Magic Banner (up to 100pts) </div>
 </div>
                 
 

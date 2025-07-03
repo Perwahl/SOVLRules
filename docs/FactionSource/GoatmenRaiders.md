@@ -51,7 +51,7 @@ nav_order: 0
 </div>
 <img src = "images/GoatmenRaiders/GoatmanShaman.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Mongrel Pack, Goatmen Warriors, Ibex Warriors, Raiding Chariot, Mongrel Skirmishers</span>
 <span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Wildform, Shadow Bolt, Thousand Mouths, Hex Of Ruin, Primal Fury, Shroud</span>
@@ -73,7 +73,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Raider<span class="tooltiptext">Commanders retinue deploys with Ambush.</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Raider<span class="tooltiptext">Commanders retinue deploys with Ambush.</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power for one turn.</span></div> </div>
 </div>
                 
 
@@ -251,7 +251,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
 </div>
                 
 
@@ -294,7 +294,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Extra Rank supporting attacks when not charging.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Extra Rank supporting attacks when not charging.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
 </div>
                 
 
@@ -365,7 +365,7 @@ nav_order: 0
 <img src = "images/GoatmenRaiders/RaidingChariot.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -427,7 +427,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Shortbows<span class="tooltiptext">Range: 20. Power 3.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Shortbows<span class="tooltiptext">Range: 20. Power 3.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
 </div>
                 
 
@@ -603,7 +603,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Boulder Throw (25 pts)<span class="tooltiptext">Throw a boulder at an enemy unit. Range 18, 2D3 Power 5.</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Boulder Throw (15 pts)<span class="tooltiptext">Throw a boulder at an enemy unit. Range 18, 2D3 Power 5.</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div> </div>
 </div>
                 
 

@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power this turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power for one turn.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -95,10 +95,10 @@ nav_order: 0
 </div>
 <img src = "images/GreenskinTribes/GoblinShaman.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 35 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Goblin Shortbows, Goblin Mob, Goblin Spear Mob, Goblin Wolf Riders, Orc Chariot, Giant Spider</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Primal Fury, Thousand Mouths, Shadow Bolt, Hex Of Ruin</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Primal Fury, Thousand Mouths, Shadow Bolt, Hex Of Ruin, Shroud</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -117,7 +117,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Power Of Many<span class="tooltiptext">All your Goblins are Fearless this turn. Activate once per battle. </span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Power Of Many<span class="tooltiptext">All your Goblins are Fearless for one turn. Activate once per battle. </span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -207,7 +207,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Fangs<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore Difficult Terrain</span></div>, <div class="tooltip">Poisoned Attacks<span class="tooltiptext">Enemies re-roll 6s on Damage Saves.</span></div>, <div class="tooltip">Web<span class="tooltiptext">Target a unit within 8. Reduce it's movement speed to 0 this turn. </span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Fangs<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, <div class="tooltip">Poisoned Attacks<span class="tooltiptext">Enemies re-roll 6s on Damage Saves.</span></div>, <div class="tooltip">Web<span class="tooltiptext">Target a unit within 8. Reduce it's movement speed to 0 this turn. </span></div> </div>
 </div>
                 
 

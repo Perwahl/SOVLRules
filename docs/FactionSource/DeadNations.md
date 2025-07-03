@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Reanimated<span class="tooltiptext">-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, Magic Weapon/Item, <div class="tooltip">Eternal Reign<span class="tooltiptext">Reduce Crumble by 1. Regeneration (restore all lost wounds at end of turn).</span></div>, <div class="tooltip">Unholy Vigour<span class="tooltiptext">Increase the move speed of target Reanimated unit by 3 until its next combat.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Reanimated<span class="tooltiptext">-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, Magic Weapon/Item, <div class="tooltip">Eternal Reign<span class="tooltiptext">Reduce Crumble by 1. Regeneration (restore all lost wounds at end of turn).</span></div>, Spellcaster(1) </div>
 </div>
                 
 
@@ -54,6 +54,7 @@ nav_order: 0
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Skeletons, Skeleton Spear, Zombies, Wights, Skeleton Knights, Bone Dragon</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Unholy Vigour</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -72,7 +73,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Weapon/Item, Spellcaster(2), <div class="tooltip">Unholy Vigour<span class="tooltiptext">Increase the move speed of target Reanimated unit by 3 until its next combat.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Weapon/Item, Spellcaster(2) </div>
 </div>
                 
 
@@ -95,10 +96,10 @@ nav_order: 0
 </div>
 <img src = "images/DeadNations/VampireKnight.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 55 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 70 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Skeleton Knights, Dread Knights, Wights, Skeletons, Skeleton Spear, Zombies, Bone Dragon</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Hex Of Ruin, Reanimate, Shroud</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Hex Of Ruin, Reanimate, Shroud, Unholy Vigour</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -117,7 +118,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, Magic Item, Spellcaster(2), <div class="tooltip">Unholy Vigour<span class="tooltiptext">Increase the move speed of target Reanimated unit by 3 until its next combat.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, Magic Item, Spellcaster(2) </div>
 </div>
                 
 
@@ -140,10 +141,10 @@ nav_order: 0
 </div>
 <img src = "images/DeadNations/Necromancer.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 45 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Skeleton Spear, Skeletons, Zombies, Wights, Skeleton Knights</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Raise Dead, Reanimate, Shadow Bolt, Hex Of Ruin, Shroud</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Raise Dead, Reanimate, Shadow Bolt, Hex Of Ruin, Shroud, Unholy Vigour</span>
 
 <br />
 <span class = "section-name">Mounts</span>

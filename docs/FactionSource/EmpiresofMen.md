@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Brace of Pistols (10 pts)<span class="tooltiptext">Range 18. 2x Power 4.</span></div>, <div class="tooltip">Inspire Valor<span class="tooltiptext">Activate once per battle. Give all your units +1 Combat Score until end of turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Brace of Pistols (10 pts)<span class="tooltiptext">Range 18. 2x Power 4.</span></div>, <div class="tooltip">Inspire Valor<span class="tooltiptext">Activate once per battle. Give all your units +1 Combat Score for one turn.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -72,7 +72,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Lance and Shield (10 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div> or <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Furious Charge<span class="tooltiptext">Activate once per battle. Commander and Retinue rerolls Attack Rolls this turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Lance and Shield (10 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div> or <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Furious Charge<span class="tooltiptext">Activate once per battle. Commander and Retinue rerolls Attack Rolls for one turn.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -139,10 +139,10 @@ nav_order: 0
 </div>
 <img src = "images/EmpiresofMen/ImperialWizard.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 45 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Imperial Archers, Imperial Crossbowmen, Imperial Handguns, Foot Knights, Gryphon, Imperial Dragon</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Fireball, Shadow Bolt, Hex Of Ruin, Radiant Shield, Divine Favour, Frost Ward</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Fireball, Frost Ward, Divine Favour, Shadow Bolt, Radiant Shield, Hex Of Ruin</span>
 
 <br />
 <span class = "section-name">Mounts</span>
