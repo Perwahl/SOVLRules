@@ -29,8 +29,8 @@ At start of the game before players roll for starting sides, each player places 
 
 Players can use units to capture objectives by moving them into their influence. If a unit is within 5" of the center point of an objective, they can capture that objective. An objective stays captured even if the unit moves away! If both players have units within 5" of the objective the objective cannot be captured, and instead stays contested.
 
-A unit that is currently fleeing or has the Flying special rule can not capture or contest objectives!
+Single model units or units that are fleeing can not capture or contest objectives!
 
-At the end of each turn, if a player controlls more objectives than their opponent, they gain 50 points. These points are added to their total at the end of the battle!
+At the end of each turn except the first, if a player controlls more objectives than their opponent, they gain 50 points. These points are added to their total at the end of the battle!
 
 ----
