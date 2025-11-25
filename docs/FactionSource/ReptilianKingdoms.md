@@ -73,7 +73,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power for one turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power for one turn.</span></div>, Magic Weapon/Item, <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div> </div>
 </div>
                 
 
@@ -143,7 +143,7 @@ nav_order: 0
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 70 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Saurian Warriors, Saurian Spear, Triceratops</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Radiant Shield, Divine Favour, Arcane Web, Primal Fury, Fireball, Frost Ward, Fiery Blades</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Radiant Shield, Divine Favour, Arcane Web, Primal Fury, Fireball, Frost Ward, Fiery Blades, Reality Rift, Hex Of Ruin, Shadow Bolt, Shroud, Wildform</span>
 
 <br />
 <span class = "section-name">Mounts</span>
@@ -235,7 +235,7 @@ nav_order: 0
 </div>
 <img src = "images/ReptilianKingdoms/SaurianWarriors.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-18 </span></div></div>
 
 <div class="unit-card">
@@ -298,7 +298,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Javelins (1 pts)<span class="tooltiptext">Range: 8. Power 2.</span></div>, Magic Banner (up to 50pts), <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Javelins (1 pts)<span class="tooltiptext">Range: 12. Power 2.</span></div>, Magic Banner (up to 50pts), <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> </div>
 </div>
                 
 
@@ -341,7 +341,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Extra Rank supporting attacks when not charging.</span></div>, Magic Banner (up to 100pts) </div>
+<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Extra Rank supporting attacks when not charging.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div> </div>
 </div>
                 
 
@@ -364,7 +364,7 @@ nav_order: 0
 </div>
 <img src = "images/ReptilianKingdoms/SaurianSpear.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 9 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-18 </span></div></div>
 
 <br />

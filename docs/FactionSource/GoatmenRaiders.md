@@ -53,8 +53,8 @@ nav_order: 0
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
-<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Mongrel Pack, Goatmen Warriors, Ibex Warriors, Raiding Chariot, Mongrel Skirmishers</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Wildform, Shadow Bolt, Thousand Mouths, Hex Of Ruin, Primal Fury, Shroud</span>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Mongrel Pack, Mongrel Spear, Goatmen Warriors, Ibex Warriors, Raiding Chariot, Mongrel Skirmishers</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Wildform, Shadow Bolt, Thousand Mouths, Hex Of Ruin, Primal Fury, Shroud, Blood Frenzy</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -73,7 +73,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Raider<span class="tooltiptext">Commanders retinue deploys with Ambush.</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power for one turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Raider<span class="tooltiptext">Commanders retinue deploys with Ambush.</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power for one turn.</span></div> </div>
 </div>
                 
 
@@ -165,7 +165,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div> </div>
 </div>
                 
 
@@ -188,7 +188,7 @@ nav_order: 0
 </div>
 <img src = "images/GoatmenRaiders/IbexWarriors.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-20 </span></div></div>
 
 <div class="unit-card">
@@ -470,7 +470,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Javelins<span class="tooltiptext">Range: 8. Power 3.</span></div> or <div class="tooltip">Shortbows (1 pts)<span class="tooltiptext">Range: 20. Power 3.</span></div>, Magic Banner (up to 100pts) </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Javelins<span class="tooltiptext">Range: 12. Power 3.</span></div> or <div class="tooltip">Shortbows (1 pts)<span class="tooltiptext">Range: 20. Power 3.</span></div>, Magic Banner (up to 100pts) </div>
 </div>
                 
 

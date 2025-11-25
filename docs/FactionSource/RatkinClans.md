@@ -54,7 +54,7 @@ nav_order: 0
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Ratkin Slingers, Ratkin Conscripts, Ratkin Legionaries, Doom Bell</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Hex Of Ruin, Shadow Bolt, Thousand Mouths, Primal Fury, Shroud</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Hex Of Ruin, Shadow Bolt, Thousand Mouths, Primal Fury, Shroud, Plague, Blood Frenzy</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -123,7 +123,7 @@ nav_order: 0
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >4</span>
+<span class = "statbox" >5</span>
 <span class = "statbox" >4 </span>
 <span class = "statbox" >3</span>
 <span class = "statbox" >3</span>
@@ -164,7 +164,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Doom Bell<span class="tooltiptext">All your units have Frenzy (reroll failed Attack Rolls) this turn. Activate once per battle.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Crushing Charge<span class="tooltiptext">Charge Bonus: +2 Power +2 Attacks</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Doom Bell<span class="tooltiptext">All your units have Frenzy (reroll failed Attack Rolls) this turn. Activate once per battle.</span></div>, <div class="tooltip">Crushing Charge<span class="tooltiptext">Charge Bonus: +2 Power +2 Attacks</span></div> </div>
 </div>
                 
 
@@ -563,7 +563,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Frenzy<span class="tooltiptext">Re-roll missed Attack Rolls in the first round of combat.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Frenzy<span class="tooltiptext">Re-roll missed Attack Rolls in the first round of combat.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
 </div>
                 
 

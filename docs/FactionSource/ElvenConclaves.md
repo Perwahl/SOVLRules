@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div>, <div class="tooltip">Rallying Cry<span class="tooltiptext">Rally a fleeing unit. One use per battle.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div>, <div class="tooltip">Rallying Cry<span class="tooltiptext">Rally a fleeing unit. One use per battle.</span></div> </div>
 </div>
                 
 
@@ -98,7 +98,7 @@ nav_order: 0
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Elf Archers, Elf City Guard, Weapon Masters, Elf Chariot, Elf Reavers, Gryphon, Ancient Dragon</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Divine Favour, Shadow Bolt, Fireball, Radiant Shield, Arcane Web, Frost Ward</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Divine Favour, Shadow Bolt, Fireball, Radiant Shield, Arcane Web, Frost Ward, Reality Rift</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -117,7 +117,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, Spellcaster(1) </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, Spellcaster(1) </div>
 </div>
                 
 
@@ -341,7 +341,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Halberd<span class="tooltiptext">Damage Saves against this weapon are never better than 4+.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Halberd<span class="tooltiptext">Damage Saves against this weapon are never better than 4+.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Elven Mastery<span class="tooltiptext">Re-roll missed Attack Rolls.</span></div>, <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div> </div>
 </div>
                 
 
@@ -474,7 +474,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 

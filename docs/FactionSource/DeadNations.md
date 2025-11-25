@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Reanimated<span class="tooltiptext">-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, Magic Weapon/Item, <div class="tooltip">Eternal Reign<span class="tooltiptext">Reduce Crumble by 1. Regeneration (restore all lost wounds at end of turn).</span></div>, Spellcaster(1) </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Reanimated<span class="tooltiptext">-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, Magic Weapon/Item, <div class="tooltip">Eternal Reign<span class="tooltiptext">Reduce Crumble by 1. Regeneration (restore all lost wounds at end of turn).</span></div>, Spellcaster(1) </div>
 </div>
                 
 
@@ -73,7 +73,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Weapon/Item, Spellcaster(2) </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Weapon/Item, Spellcaster(2) </div>
 </div>
                 
 
@@ -96,10 +96,10 @@ nav_order: 0
 </div>
 <img src = "images/DeadNations/VampireKnight.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 70 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Skeleton Knights, Dread Knights, Wights, Skeletons, Skeleton Spear, Zombies, Bone Dragon</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Hex Of Ruin, Reanimate, Shroud, Unholy Vigour</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Hex Of Ruin, Reanimate, Shroud, Unholy Vigour, Plague, Reality Rift</span>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -141,10 +141,10 @@ nav_order: 0
 </div>
 <img src = "images/DeadNations/Necromancer.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Skeleton Spear, Skeletons, Zombies, Wights, Skeleton Knights</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Raise Dead, Reanimate, Shadow Bolt, Hex Of Ruin, Shroud, Unholy Vigour</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Raise Dead, Reanimate, Shadow Bolt, Hex Of Ruin, Shroud, Unholy Vigour, Plague, Reality Rift</span>
 
 <br />
 <span class = "section-name">Mounts</span>
@@ -389,7 +389,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Reanimated<span class="tooltiptext">-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Reanimated<span class="tooltiptext">-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 

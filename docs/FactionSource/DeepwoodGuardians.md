@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Hunters Bow (10 pts)<span class="tooltiptext">Range: 30. 3x Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">+2 Move Speed to all infantry units for one turn. Activate once per battle. </span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Hunters Bow (10 pts)<span class="tooltiptext">Range: 30. 3x Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">+2 Move Speed to all infantry units for one turn. Activate once per battle. </span></div> </div>
 </div>
                 
 
@@ -296,7 +296,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Barkskin<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Forest Spirit<span class="tooltiptext">A spirit of nature. Ignores Difficult Terrain.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Claws<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Barkskin<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Forest Spirit<span class="tooltiptext">A spirit of nature. Ignores Difficult Terrain.</span></div>, Magic Banner (up to 100pts) </div>
 </div>
                 
 

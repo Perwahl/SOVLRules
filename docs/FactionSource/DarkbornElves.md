@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Exploit Weakness<span class="tooltiptext">Commander and Retinue gets +1 Attack if attacking Flank or Rear. Activate once per battle.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Feint<span class="tooltiptext">Target another friendly unit. It immediately makes a retreat move. One use per battle.</span></div> </div>
 </div>
                 
 
@@ -98,7 +98,51 @@ nav_order: 0
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Darkborn Witches, Darkborn Crossbows, Darkborn Spears, Darkborn Riders, Darkborn Chariot, Darkborn Dreadguard, Dark Pegasus, Black Dragon</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Arcane Web, Frost Ward, Hex Of Ruin, Shroud</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Arcane Web, Frost Ward, Hex Of Ruin, Shroud, Blood Frenzy, Reality Rift</span>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/DarkbornElves/DarkbornAssassin.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
+<div class = "unit-name">Darkborn Assassin</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Deadly Strike<span class="tooltiptext">Activate once per battle. Melee attacks deal 2x wounds against multiwound targets for one turn.</span></div>, Magic Weapon/Item, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Poisoned Attacks<span class="tooltiptext">Enemies re-roll 6s on Damage Saves.</span></div>, <div class="tooltip">Hidden<span class="tooltiptext">Commander is hidden from your opponent until engaged in combat or damaged.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >5</span>
+<span class = "statbox" >4 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >9</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/DarkbornElves/DarkbornAssassin.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+</div></div>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Darkborn Spears, Darkborn Crossbows, Darkborn Witches, Darkborn Dreadguard, Darkborn Riders, Raptor Knights</span>
 
 <br />
 <span class = "section-name">Mounts</span>
@@ -429,7 +473,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Protected Crew<span class="tooltiptext">Unit counts as being in Cover. (-1 to Ranged attack rolls against it).</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 

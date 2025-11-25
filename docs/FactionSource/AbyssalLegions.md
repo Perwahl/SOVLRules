@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (10 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (10 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Abyssal Armor<span class="tooltiptext">+1 to Damage Saves</span></div>, <div class="tooltip">Demonic Possession<span class="tooltiptext">Activate once per battle. +3 Attacks, -3 Skill for one turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Abyssal Armor<span class="tooltiptext">+1 to Damage Saves</span></div>, <div class="tooltip">Demonic Possession<span class="tooltiptext">Gain +3 Attacks this turm. Lose 1 Wound.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -98,7 +98,51 @@ nav_order: 0
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 65 pts </span>
 </div></div>
 <span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Northmen Axe, Northmen Horse, Abyssal Warriors, Abyssal Knights, Abyssal Chariot, Manticore, Abyssal Dragon</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Fireball, Hex Of Ruin, Arcane Web, Shroud</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Shadow Bolt, Fireball, Hex Of Ruin, Arcane Web, Shroud, Blood Frenzy, Reality Rift, Plague</span>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/AbyssalLegions/NorthmenPackleader.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
+<div class = "unit-name">Northmen Packleader</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Pack Tactics<span class="tooltiptext">Target a friendly unit that is attacking an enemy unit in the flank/rear. It re-rolls failed Attack rolls this turn.</span></div>, <div class="tooltip">Howl<span class="tooltiptext">All your Northmen are Fearless for one turn. Activate once per battle. </span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >4 </span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >8</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/AbyssalLegions/NorthmenPackleader.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+</div></div>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Northmen Axe, Northmen Horse, Abyssal Chariot, War Mammoth</span>
 
 <br />
 <span class = "section-name">Mounts</span>
@@ -343,7 +387,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Javelins (1 pts)<span class="tooltiptext">Range: 8. Power 3.</span></div>, Magic Banner (up to 50pts) </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Javelins (1 pts)<span class="tooltiptext">Range: 12. Power 3.</span></div>, Magic Banner (up to 50pts) </div>
 </div>
                 
 
@@ -519,7 +563,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Frenzy<span class="tooltiptext">Re-roll missed Attack Rolls in the first round of combat.</span></div>, <div class="tooltip">Flying<span class="tooltiptext">Fly Speed 20. Ignore Terrain.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Demonic<span class="tooltiptext">Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Gift Of War<span class="tooltiptext">Favoured by War. Unit has Frenzy (re-roll failed Attack Rolls in the first round of combat).</span></div>, <div class="tooltip">Flying<span class="tooltiptext">Fly Speed 20. Ignore Terrain.</span></div> </div>
 </div>
                 
 
@@ -562,7 +606,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Frenzy<span class="tooltiptext">Re-roll missed Attack Rolls in the first round of combat.</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Gift Of War<span class="tooltiptext">Favoured by War. Unit has Frenzy (re-roll failed Attack Rolls in the first round of combat).</span></div>, <div class="tooltip">Demonic<span class="tooltiptext">Never fails Discipline tests, loses D3 wounds on lost combat.</span></div> </div>
 </div>
                 
 
@@ -570,7 +614,7 @@ nav_order: 0
                  
 <span class = "statbox" >4</span>
 <span class = "statbox" >4 </span>
-<span class = "statbox" >3</span>
+<span class = "statbox" >4</span>
 <span class = "statbox" >2</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >10</span>
@@ -585,6 +629,53 @@ nav_order: 0
 </div>
 <img src = "images/AbyssalLegions/Devilspawn.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 15 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 6-10 </span></div></div>
+
+<br />
+<span class = "section-name">War Beasts</span>
+<span class = "section-min-max">Min: 0 Max: 1</span>
+<hr>
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/AbyssalLegions/WarMammoth.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Large Monster Long Base</span>
+</div>
+
+
+<div class = "unit-name">War Mammoth</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Tusks<span class="tooltiptext">Charge Bonus: +1 Power, +1 Attack</span></div>, <div class="tooltip">Javelins<span class="tooltiptext">Range: 12. 4x Power 3.</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >3</span>
+<span class = "statbox" >5 </span>
+<span class = "statbox" >6</span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >8</span>
+<span class = "statbox" >8</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/AbyssalLegions/WarMammoth.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 100 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
