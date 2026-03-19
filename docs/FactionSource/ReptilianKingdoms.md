@@ -73,7 +73,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power for one turn.</span></div>, Magic Weapon/Item, <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Warcry<span class="tooltiptext">All your units have +1 Power for one turn.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -212,7 +212,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, Magic Banner (up to 100pts) </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div> </div>
 </div>
                 
 
@@ -322,7 +322,7 @@ nav_order: 0
 <img src = "images/ReptilianKingdoms/NewtBraves.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 4 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 15-24 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 15-24 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -636,4 +636,47 @@ nav_order: 0
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 28 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 3 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/ReptilianKingdoms/Dreadmaw.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Gargantuan</span>
+</div>
+
+
+<div class = "unit-name">Dreadmaw</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Fangs<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div>, <div class="tooltip">Roar!<span class="tooltiptext">All enemy units have -2 Discipline for one turn. Can only be  activated when damaged.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >7 </span>
+<span class = "statbox" >6</span>
+<span class = "statbox" >8</span>
+<span class = "statbox" >12</span>
+<span class = "statbox" >10</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/ReptilianKingdoms/Dreadmaw.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 200 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
 

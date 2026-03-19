@@ -235,7 +235,7 @@ nav_order: 0
 <img src = "images/RatkinClans/RatkinLegionaries.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -297,7 +297,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Throwing Stars (1 pts)<span class="tooltiptext">Range: 8. Power 2.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Throwing Stars (1 pts)<span class="tooltiptext">Range: 8. Power 2.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> </div>
 </div>
                 
 
@@ -321,7 +321,7 @@ nav_order: 0
 <img src = "images/RatkinClans/RatkinSkulkers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 7 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <br />
 <span class = "section-name">Ranged Support</span>
@@ -458,7 +458,7 @@ nav_order: 0
 
 <br />
 <span class = "section-name">Vermin</span>
-<span class = "section-min-max">Min: 0 Max: 1</span>
+<span class = "section-min-max">Min: 0 Max: 2</span>
 <hr>
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >

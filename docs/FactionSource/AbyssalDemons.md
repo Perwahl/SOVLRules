@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Demonic<span class="tooltiptext">Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Flying<span class="tooltiptext">Fly Speed 20. Ignore Terrain.</span></div>, Spellcaster(2), Magic Weapon/Item, <div class="tooltip">Lord of Decay<span class="tooltiptext">Once per battle, all friendly units with Gift of Decay restore D3 Wounds.</span></div> or <div class="tooltip">Lord of Trickery<span class="tooltiptext">Once per battle, all friendly units with Gift of Trickery gain +3 move speed and Cover for one turn.</span></div> or <div class="tooltip">Lord Of War<span class="tooltiptext">Once per battle, all friendly units with Gift of War gain Deadly Strikes (2x Wounds caused).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Demonic<span class="tooltiptext">Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Flying<span class="tooltiptext">Fly Speed 20. Ignore Terrain.</span></div>, Spellcaster(2), Magic Weapon/Item, <div class="tooltip">Lord of Decay<span class="tooltiptext">Once per battle, all friendly units with Gift of Decay re-roll failed damage saves.</span></div> or <div class="tooltip">Lord of Trickery<span class="tooltiptext">Once per battle, all friendly units with Gift of Trickery gain +3 move speed and Cover for one turn.</span></div> or <div class="tooltip">Lord Of War<span class="tooltiptext">Once per battle, all friendly units with Gift of War gain Deadly Strikes (2x Wounds caused).</span></div> </div>
 </div>
                 
 
@@ -72,7 +72,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Demonic<span class="tooltiptext">Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Abyssal Armor<span class="tooltiptext">+1 to Damage Saves</span></div>, <div class="tooltip">Lord of Decay<span class="tooltiptext">Once per battle, all friendly units with Gift of Decay restore D3 Wounds.</span></div> or <div class="tooltip">Lord of Trickery<span class="tooltiptext">Once per battle, all friendly units with Gift of Trickery gain +3 move speed and Cover for one turn.</span></div> or <div class="tooltip">Lord Of War<span class="tooltiptext">Once per battle, all friendly units with Gift of War gain Deadly Strikes (2x Wounds caused).</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, Magic Weapon/Item, <div class="tooltip">Demonic<span class="tooltiptext">Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Abyssal Armor<span class="tooltiptext">+1 to Damage Saves</span></div>, <div class="tooltip">Lord of Decay<span class="tooltiptext">Once per battle, all friendly units with Gift of Decay re-roll failed damage saves.</span></div> or <div class="tooltip">Lord of Trickery<span class="tooltiptext">Once per battle, all friendly units with Gift of Trickery gain +3 move speed and Cover for one turn.</span></div> or <div class="tooltip">Lord Of War<span class="tooltiptext">Once per battle, all friendly units with Gift of War gain Deadly Strikes (2x Wounds caused).</span></div> </div>
 </div>
                 
 
@@ -97,7 +97,7 @@ nav_order: 0
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 55 pts </span>
 </div></div>
-<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Devil Spawn, Plague Walkers, Abyssal Reapers, Plague Flies</span>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Devil Spawn, Plague Walkers, Abyssal Reapers, Plague Flies, Hell Riders</span>
 
 <br />
 <span class = "section-name">Battle Line</span>
@@ -186,8 +186,8 @@ nav_order: 0
 </div>
 <img src = "images/AbyssalDemons/Devilspawn.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 6-10 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 13 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 6-15 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -419,7 +419,7 @@ nav_order: 0
 
 <div class="tooltip">
 <img src = "icons/AbyssalDemons/DemonicHounds.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Cavalry</span>
+ <span class="tooltiptext">Hounds</span>
 </div>
 
 
@@ -438,7 +438,7 @@ nav_order: 0
 <span class = "statbox" >3</span>
 <span class = "statbox" >4 </span>
 <span class = "statbox" >3</span>
-<span class = "statbox" >2</span>
+<span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >6</span>
 <span class = "stat-text" >Skill</span>
@@ -452,8 +452,8 @@ nav_order: 0
 </div>
 <img src = "images/AbyssalDemons/DemonicHounds.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >

@@ -389,7 +389,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Reanimated<span class="tooltiptext">-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Reanimated<span class="tooltiptext">-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -469,7 +469,7 @@ nav_order: 0
 
 <div class="tooltip">
 <img src = "icons/DeadNations/DireWolves.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Cavalry</span>
+ <span class="tooltiptext">Hounds</span>
 </div>
 
 
@@ -488,7 +488,7 @@ nav_order: 0
 <span class = "statbox" >3</span>
 <span class = "statbox" >4 </span>
 <span class = "statbox" >3</span>
-<span class = "statbox" >2</span>
+<span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >7</span>
 <span class = "stat-text" >Skill</span>
@@ -502,7 +502,7 @@ nav_order: 0
 </div>
 <img src = "images/DeadNations/DireWolves.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
 
 <div class="unit-card">

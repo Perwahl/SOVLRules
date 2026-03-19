@@ -463,7 +463,7 @@ nav_order: 0
 
 <div class="tooltip">
 <img src = "icons/AbyssalLegions/AbyssalHounds.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Cavalry</span>
+ <span class="tooltiptext">Hounds</span>
 </div>
 
 
@@ -482,7 +482,7 @@ nav_order: 0
 <span class = "statbox" >3</span>
 <span class = "statbox" >4 </span>
 <span class = "statbox" >3</span>
-<span class = "statbox" >2</span>
+<span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >6</span>
 <span class = "stat-text" >Skill</span>
@@ -496,8 +496,8 @@ nav_order: 0
 </div>
 <img src = "images/AbyssalLegions/AbyssalHounds.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -629,8 +629,8 @@ nav_order: 0
 </div>
 <img src = "images/AbyssalLegions/Devilspawn.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 14 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 6-10 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 13 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 6-15 </span></div></div>
 
 <br />
 <span class = "section-name">War Beasts</span>

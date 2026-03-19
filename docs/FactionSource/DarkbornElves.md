@@ -364,7 +364,7 @@ nav_order: 0
 <img src = "images/DarkbornElves/DarkbornWitches.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 10 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-18 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-18 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <br />
 <span class = "section-name">Ranged Support</span>
@@ -430,7 +430,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Light Crossbow<span class="tooltiptext">Range: 24. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Light Crossbow<span class="tooltiptext">Range: 24. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div> </div>
 </div>
                 
 
@@ -473,7 +473,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -587,7 +587,7 @@ nav_order: 0
 <img src = "images/DarkbornElves/DarkbornRiders.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 18 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -630,7 +630,7 @@ nav_order: 0
 <img src = "images/DarkbornElves/DarkbornChariot.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <br />
 <span class = "section-name">Tamed Beasts</span>

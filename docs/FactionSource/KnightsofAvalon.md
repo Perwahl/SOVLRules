@@ -1,12 +1,12 @@
 ---
-title: Empires of Men
+title: Knights of Avalon
 layout: default
 parent: Faction Source Lists
 nav_order: 0
 ---
  <link rel="stylesheet" href="../../style.css">
  <link rel = "stylesheet" href = "factionSource.css">
-# Empires of Men #
+# Knights of Avalon #
 <br />
 <span class = "section-name">Commanders</span>
 <span class = "section-min-max">Min: 1 Max: 1</span>
@@ -17,106 +17,18 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/Captain.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/KnightsofAvalon/Maiden.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
  <span class="tooltiptext">Infantry</span>
 </div>
 
 
-<div class = "unit-name">Captain</div>
+<div class = "unit-name">Maiden</div>
 
 </div>
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Brace of Pistols (5 pts)<span class="tooltiptext">Range 18. 2x Power 4.</span></div>, <div class="tooltip">Inspire Valor<span class="tooltiptext">Activate once per battle. Give all your units +1 Combat Score for one turn.</span></div>, Magic Weapon/Item </div>
-</div>
-                
-
-<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
-                 
-<span class = "statbox" >4</span>
-<span class = "statbox" >4 </span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >8</span>
-<span class = "stat-text" >Skill</span>
-<span class = "stat-text" >Power</span>
-<span class = "stat-text" >Defense</span>
-<span class = "stat-text" >Attacks</span>
-<span class = "stat-text" >Wounds</span>
-<span class = "stat-text" >Discipline</span>
-</div>
-
-</div>
-<img src = "images/EmpiresofMen/Captain.png" style="position:absolute; bottom:70px; right:0px; height:320px">
-<div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 45 pts </span>
-</div></div>
-<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Imperial Sword, Imperial Halberd, Imperial Spear, Light Cavalry, Gryphon</span>
-
-<div class="unit-card">
-<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
-
-<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-
-<div class="tooltip">
-<img src = "icons/EmpiresofMen/KnightCommander.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Infantry Large</span>
-</div>
-
-
-<div class = "unit-name">Knight Commander</div>
-
-</div>
-
-
-<div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Lance and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, <div class="tooltip">Furious Charge<span class="tooltiptext">Activate once per battle. Commander and Retinue rerolls Attack Rolls for one turn.</span></div>, Magic Weapon/Item </div>
-</div>
-                
-
-<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
-                 
-<span class = "statbox" >4</span>
-<span class = "statbox" >4 </span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >9</span>
-<span class = "stat-text" >Skill</span>
-<span class = "stat-text" >Power</span>
-<span class = "stat-text" >Defense</span>
-<span class = "stat-text" >Attacks</span>
-<span class = "stat-text" >Wounds</span>
-<span class = "stat-text" >Discipline</span>
-</div>
-
-</div>
-<img src = "images/EmpiresofMen/KnightCommander.png" style="position:absolute; bottom:70px; right:0px; height:320px">
-<div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
-</div></div>
-<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Imperial Knights, Foot Knights, Gryphon, Imperial Dragon</span>
-
-<div class="unit-card">
-<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
-
-<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-
-<div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialWizard.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Infantry</span>
-</div>
-
-
-<div class = "unit-name">Imperial Wizard</div>
-
-</div>
-
-
-<div class = "propsContainer">
-<div class = "unit-props" > Spellcaster(2), Magic Item </div>
+<div class = "unit-props" > Spellcaster(2), Magic Item, <div class="tooltip">Aura of Protection<span class="tooltiptext">Maiden and retinue rerolls 1s on Damage Saves.</span></div> </div>
 </div>
                 
 
@@ -137,12 +49,57 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialWizard.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/Maiden.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 60 pts </span>
 </div></div>
-<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Imperial Archers, Imperial Crossbowmen, Imperial Handguns, Foot Knights, Gryphon, Imperial Dragon</span>
-<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Fireball, Frost Ward, Divine Favour, Shadow Bolt, Radiant Shield, Hex Of Ruin</span>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Knight Aspirants, Sword Militia, Halberd Militia, Spear Militia, Longbowmen, Pegasus, Unicorn</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Divine Favour, Radiant Shield, Frost Ward, Shroud, Arcane Web</span>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/KnightsofAvalon/Paladin.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Infantry Large</span>
+</div>
+
+
+<div class = "unit-name">Paladin</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Lance and Shield (5 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Spellcaster(2), Magic Weapon/Item, <div class="tooltip">Aura of Vengeance<span class="tooltiptext">Paladin and retinue rerolls 1s on Attack Rolls.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >4 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >9</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/KnightsofAvalon/Paladin.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost:</b > 50 pts </span>
+</div></div>
+<span style= "display: inline-block; margin: 10px;"><b>Retinue Options: </b> Knight Aspirants, Sworn Knights, Kings Guard, Pegasus, Hippogryph</span>
+<span style= "display: inline-block; margin: 10px;"><b>Spell Options: </b> Holy Blade, Divine Favour, Shroud</span>
 
 <br />
 <span class = "section-name">Mounts</span>
@@ -153,12 +110,12 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/Gryphon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/KnightsofAvalon/Hippogryph.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
  <span class="tooltiptext">Monstrous Infantry</span>
 </div>
 
 
-<div class = "unit-name">Gryphon</div>
+<div class = "unit-name">Hippogryph</div>
 
 </div>
 
@@ -185,10 +142,10 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/Gryphon.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/Hippogryph.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -196,28 +153,72 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialDragon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Large Monster</span>
+<img src = "icons/KnightsofAvalon/Pegasus.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Monstrous Infantry</span>
 </div>
 
 
-<div class = "unit-name">Imperial Dragon</div>
+<div class = "unit-name">Pegasus</div>
 
 </div>
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Fangs<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fire Breath<span class="tooltiptext">Range 12. 2D3 Power 5.</span></div>, <div class="tooltip">Flying<span class="tooltiptext">Fly Speed 20. Ignore Terrain.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hooves<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Flying<span class="tooltiptext">Fly Speed 20. Ignore Terrain.</span></div> </div>
 </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
+<span class = "statbox" >3</span>
+<span class = "statbox" >4 </span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >8</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/KnightsofAvalon/Pegasus.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 40 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/KnightsofAvalon/Unicorn.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Monstrous Infantry</span>
+</div>
+
+
+<div class = "unit-name">Unicorn</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Hooves<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Fey<span class="tooltiptext">Reroll all sucessful Attack and Ranged Attack rolls against this unit.
+Ignores Difficult Terrain. </span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >4 </span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >3</span>
 <span class = "statbox" >5</span>
-<span class = "statbox" >6 </span>
-<span class = "statbox" >5</span>
-<span class = "statbox" >5</span>
-<span class = "statbox" >7</span>
 <span class = "statbox" >9</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
@@ -228,9 +229,9 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialDragon.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/Unicorn.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 150 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 35 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
 
 <br />
@@ -243,12 +244,12 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialSword.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/KnightsofAvalon/SwordMilitia.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
  <span class="tooltiptext">Infantry</span>
 </div>
 
 
-<div class = "unit-name">Imperial Sword</div>
+<div class = "unit-name">Sword Militia</div>
 
 </div>
 
@@ -275,7 +276,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialSword.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/SwordMilitia.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span></div></div>
@@ -286,29 +287,29 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/FootKnights.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/KnightsofAvalon/PeasantMob.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
  <span class="tooltiptext">Infantry</span>
 </div>
 
 
-<div class = "unit-name">Foot Knights</div>
+<div class = "unit-name">Peasant Mob</div>
 
 </div>
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (1 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, Magic Banner (up to 50pts) </div>
 </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >4</span>
+<span class = "statbox" >2</span>
 <span class = "statbox" >3 </span>
 <span class = "statbox" >3</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
-<span class = "statbox" >8</span>
+<span class = "statbox" >6</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
 <span class = "stat-text" >Defense</span>
@@ -318,10 +319,10 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/FootKnights.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/PeasantMob.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-18 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 4 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 15-21 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -329,12 +330,12 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialHalberd.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/KnightsofAvalon/HalberdMilitia.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
  <span class="tooltiptext">Infantry</span>
 </div>
 
 
-<div class = "unit-name">Imperial Halberd</div>
+<div class = "unit-name">Halberd Militia</div>
 
 </div>
 
@@ -361,7 +362,7 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialHalberd.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/HalberdMilitia.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span></div></div>
@@ -372,12 +373,12 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialSpear.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/KnightsofAvalon/SpearMilitia.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
  <span class="tooltiptext">Infantry</span>
 </div>
 
 
-<div class = "unit-name">Imperial Spear</div>
+<div class = "unit-name">Spear Militia</div>
 
 </div>
 
@@ -404,14 +405,14 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialSpear.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/SpearMilitia.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span></div></div>
 
 <br />
 <span class = "section-name">Fast Attack</span>
-<span class = "section-min-max">Min: 0 Max: 1</span>
+<span class = "section-min-max">Min: 0 Max: 2</span>
 <hr>
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -419,61 +420,19 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialKnights.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Cavalry</span>
+<img src = "icons/KnightsofAvalon/KnightAspirants.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Cavalry Lance</span>
 </div>
 
 
-<div class = "unit-name">Imperial Knights</div>
-
-</div>
-
-
-<div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (1 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Lance and Shield (2 pts)<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div> </div>
-</div>
-                
-
-<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
-                 
-<span class = "statbox" >4</span>
-<span class = "statbox" >3 </span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >2</span>
-<span class = "statbox" >2</span>
-<span class = "statbox" >8</span>
-<span class = "stat-text" >Skill</span>
-<span class = "stat-text" >Power</span>
-<span class = "stat-text" >Defense</span>
-<span class = "stat-text" >Attacks</span>
-<span class = "stat-text" >Wounds</span>
-<span class = "stat-text" >Discipline</span>
-</div>
-
-</div>
-<img src = "images/EmpiresofMen/ImperialKnights.png" style="position:absolute; bottom:70px; right:0px; height:320px">
-<div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 19 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
-
-<div class="unit-card">
-<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
-
-<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-
-<div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialLightCavalry.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Cavalry</span>
-</div>
-
-
-<div class = "unit-name">Imperial Light Cavalry</div>
+<div class = "unit-name">Knight Aspirants</div>
 
 </div>
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Brace of Pistols<span class="tooltiptext">Range 18. 2x Power 4.</span></div>, Magic Banner (up to 50pts) </div>
+<div class = "unit-props" > <div class="tooltip">Lance and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Banner (up to 50pts), <div class="tooltip">Horse Masters<span class="tooltiptext">Ignores movement penalty from Heavy Armor.
+When deployed 3 wide, models in flanks can attack as if in the front rank.</span></div> </div>
 </div>
                 
 
@@ -494,10 +453,140 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialLightCavalry.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/KnightAspirants.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 18 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 6-9 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/KnightsofAvalon/MountedHunters.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Cavalry</span>
+</div>
+
+
+<div class = "unit-name">Mounted Hunters</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Shortbows<span class="tooltiptext">Range: 20. Power 3.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >7</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/KnightsofAvalon/MountedHunters.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 19 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/KnightsofAvalon/SwornKnights.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Cavalry Lance</span>
+</div>
+
+
+<div class = "unit-name">Sworn Knights</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Lance and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div>, <div class="tooltip">Horse Masters<span class="tooltiptext">Ignores movement penalty from Heavy Armor.
+When deployed 3 wide, models in flanks can attack as if in the front rank.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >3 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >8</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/KnightsofAvalon/SwornKnights.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 20 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 6-9 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/KnightsofAvalon/HuntingDogs.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Hounds</span>
+</div>
+
+
+<div class = "unit-name">Hunting Dogs</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Fangs<span class="tooltiptext">Charge Bonus: +1 Power</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >1</span>
+<span class = "statbox" >1</span>
+<span class = "statbox" >5</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/KnightsofAvalon/HuntingDogs.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 6 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <br />
 <span class = "section-name">Ranged Support</span>
@@ -509,12 +598,98 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialArchers.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+<img src = "icons/KnightsofAvalon/Hunters.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
  <span class="tooltiptext">Infantry</span>
 </div>
 
 
-<div class = "unit-name">Imperial Archers</div>
+<div class = "unit-name">Hunters</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Shortbows<span class="tooltiptext">Range: 20. Power 3.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >1</span>
+<span class = "statbox" >1</span>
+<span class = "statbox" >7</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/KnightsofAvalon/Hunters.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 7 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/KnightsofAvalon/Trebuchet.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">War Machine</span>
+</div>
+
+
+<div class = "unit-name">Trebuchet</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >3</span>
+<span class = "statbox" >3 </span>
+<span class = "statbox" >5</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >5</span>
+<span class = "statbox" >7</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/KnightsofAvalon/Trebuchet.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/KnightsofAvalon/Longbowmen.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Infantry</span>
+</div>
+
+
+<div class = "unit-name">Longbowmen</div>
 
 </div>
 
@@ -541,185 +716,13 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialArchers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/Longbowmen.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
  <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
-
-<div class="unit-card">
-<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
-
-<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-
-<div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialCrossbowmen.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Infantry</span>
-</div>
-
-
-<div class = "unit-name">Imperial Crossbowmen</div>
-
-</div>
-
-
-<div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Crossbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, Magic Banner (up to 50pts) </div>
-</div>
-                
-
-<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
-                 
-<span class = "statbox" >3</span>
-<span class = "statbox" >3 </span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >1</span>
-<span class = "statbox" >1</span>
-<span class = "statbox" >7</span>
-<span class = "stat-text" >Skill</span>
-<span class = "stat-text" >Power</span>
-<span class = "stat-text" >Defense</span>
-<span class = "stat-text" >Attacks</span>
-<span class = "stat-text" >Wounds</span>
-<span class = "stat-text" >Discipline</span>
-</div>
-
-</div>
-<img src = "images/EmpiresofMen/ImperialCrossbowmen.png" style="position:absolute; bottom:70px; right:0px; height:320px">
-<div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
-
-<div class="unit-card">
-<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
-
-<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-
-<div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialHandguns.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Infantry</span>
-</div>
-
-
-<div class = "unit-name">Imperial Handguns</div>
-
-</div>
-
-
-<div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Handguns<span class="tooltiptext">Range: 24. Power 4. </span></div>, Magic Banner (up to 50pts) </div>
-</div>
-                
-
-<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
-                 
-<span class = "statbox" >3</span>
-<span class = "statbox" >3 </span>
-<span class = "statbox" >3</span>
-<span class = "statbox" >1</span>
-<span class = "statbox" >1</span>
-<span class = "statbox" >7</span>
-<span class = "stat-text" >Skill</span>
-<span class = "stat-text" >Power</span>
-<span class = "stat-text" >Defense</span>
-<span class = "stat-text" >Attacks</span>
-<span class = "stat-text" >Wounds</span>
-<span class = "stat-text" >Discipline</span>
-</div>
-
-</div>
-<img src = "images/EmpiresofMen/ImperialHandguns.png" style="position:absolute; bottom:70px; right:0px; height:320px">
-<div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span></div></div>
-
-<div class="unit-card">
-<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
-
-<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-
-<div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialCannon.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">War Machine</span>
-</div>
-
-
-<div class = "unit-name">Imperial Cannon</div>
-
-</div>
-
-
-<div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Cannon<span class="tooltiptext">Range 48. D3 hits, Power 8.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
-</div>
-                
-
-<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
-                 
-<span class = "statbox" >3</span>
-<span class = "statbox" >3 </span>
-<span class = "statbox" >5</span>
-<span class = "statbox" >2</span>
-<span class = "statbox" >5</span>
-<span class = "statbox" >7</span>
-<span class = "stat-text" >Skill</span>
-<span class = "stat-text" >Power</span>
-<span class = "stat-text" >Defense</span>
-<span class = "stat-text" >Attacks</span>
-<span class = "stat-text" >Wounds</span>
-<span class = "stat-text" >Discipline</span>
-</div>
-
-</div>
-<img src = "images/EmpiresofMen/ImperialCannon.png" style="position:absolute; bottom:70px; right:0px; height:320px">
-<div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 60 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
-
-<div class="unit-card">
-<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
-
-<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
-
-<div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialMortar.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">War Machine</span>
-</div>
-
-
-<div class = "unit-name">Imperial Mortar</div>
-
-</div>
-
-
-<div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Mortar<span class="tooltiptext">Range 48. 2D3+1 hits, Power 4.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
-</div>
-                
-
-<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
-                 
-<span class = "statbox" >3</span>
-<span class = "statbox" >3 </span>
-<span class = "statbox" >5</span>
-<span class = "statbox" >2</span>
-<span class = "statbox" >5</span>
-<span class = "statbox" >7</span>
-<span class = "stat-text" >Skill</span>
-<span class = "stat-text" >Power</span>
-<span class = "stat-text" >Defense</span>
-<span class = "stat-text" >Attacks</span>
-<span class = "stat-text" >Wounds</span>
-<span class = "stat-text" >Discipline</span>
-</div>
-
-</div>
-<img src = "images/EmpiresofMen/ImperialMortar.png" style="position:absolute; bottom:70px; right:0px; height:320px">
-<div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <br />
-<span class = "section-name">Imperial Armory</span>
+<span class = "section-name">Elites</span>
 <span class = "section-min-max">Min: 0 Max: 1</span>
 <hr>
 <div class="unit-card">
@@ -728,28 +731,29 @@ nav_order: 0
 <div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
 
 <div class="tooltip">
-<img src = "icons/EmpiresofMen/ImperialDreadnought.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">War Wagon</span>
+<img src = "icons/KnightsofAvalon/KingsGuard.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Cavalry Lance</span>
 </div>
 
 
-<div class = "unit-name">Imperial Dreadnought</div>
+<div class = "unit-name">Kings Guard</div>
 
 </div>
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Ramming Speed<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Steam Gun<span class="tooltiptext">Range 12. 2D3 Power 3.</span></div>, <div class="tooltip">Armor Plating<span class="tooltiptext">+1 Defense. -4 Move Speed.</span></div>, <div class="tooltip">Full Steam<span class="tooltiptext">Activate for +4 Movement this turn.</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Lance and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div>, <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Bodyguard<span class="tooltiptext">If a Commander is part of this unit it re-rolls failed Discipline tests.</span></div>, <div class="tooltip">Horse Masters<span class="tooltiptext">Ignores movement penalty from Heavy Armor.
+When deployed 3 wide, models in flanks can attack as if in the front rank.</span></div>, <div class="tooltip">Fearless<span class="tooltiptext">Ignores all penalties to Discipline tests.</span></div> </div>
 </div>
                 
 
 <div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
                  
-<span class = "statbox" >3</span>
-<span class = "statbox" >5 </span>
-<span class = "statbox" >6</span>
 <span class = "statbox" >5</span>
-<span class = "statbox" >8</span>
+<span class = "statbox" >4 </span>
+<span class = "statbox" >4</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >2</span>
 <span class = "statbox" >9</span>
 <span class = "stat-text" >Skill</span>
 <span class = "stat-text" >Power</span>
@@ -760,8 +764,51 @@ nav_order: 0
 </div>
 
 </div>
-<img src = "images/EmpiresofMen/ImperialDreadnought.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<img src = "images/KnightsofAvalon/KingsGuard.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 100 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 25 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 6 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+
+<div class="unit-card">
+<div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
+
+<div style = "width:600px; height:60px; background:#173d3b; border:1px solid; border-color:grey" >
+
+<div class="tooltip">
+<img src = "icons/KnightsofAvalon/PegasusKnights.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
+ <span class="tooltiptext">Monstrous Infantry</span>
+</div>
+
+
+<div class = "unit-name">Pegasus Knights</div>
+
+</div>
+
+
+<div class = "propsContainer">
+<div class = "unit-props" > <div class="tooltip">Lance and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +2 Power</span></div>, <div class="tooltip">Flying<span class="tooltiptext">Fly Speed 20. Ignore Terrain.</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Heavy Armor<span class="tooltiptext">-1 Movement. +1 Defense</span></div> </div>
+</div>
+                
+
+<div style = "position:absolute; bottom:19px; height:92px; left:20px; width:560px; background:grey;background-color: rgba(53,56,63, 0.8); text-align: center; z-index: 1;border-radius: 15px;" >
+                 
+<span class = "statbox" >4</span>
+<span class = "statbox" >3 </span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >3</span>
+<span class = "statbox" >2</span>
+<span class = "statbox" >8</span>
+<span class = "stat-text" >Skill</span>
+<span class = "stat-text" >Power</span>
+<span class = "stat-text" >Defense</span>
+<span class = "stat-text" >Attacks</span>
+<span class = "stat-text" >Wounds</span>
+<span class = "stat-text" >Discipline</span>
+</div>
+
+</div>
+<img src = "images/KnightsofAvalon/PegasusKnights.png" style="position:absolute; bottom:70px; right:0px; height:320px">
+<div class = "unit-details">
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 28 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 3-4 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 

@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Hunters Bow (10 pts)<span class="tooltiptext">Range: 30. 3x Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">+2 Move Speed to all infantry units for one turn. Activate once per battle. </span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div> or <div class="tooltip">Two Hand Weapons (5 pts)<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Hunters Bow (10 pts)<span class="tooltiptext">Range: 30. 3x Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, Magic Weapon/Item, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">All your units have +1 Skill for one turn.</span></div> </div>
 </div>
                 
 
@@ -230,7 +230,7 @@ nav_order: 0
 <img src = "images/DeepwoodGuardians/Gryphon.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <br />
 <span class = "section-name">Battle Line</span>
@@ -429,7 +429,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Longbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div>, <div class="tooltip">Longbows<span class="tooltiptext">Range: 30. Power 3.</span></div>, <div class="tooltip">Swift<span class="tooltiptext">+1 Movement</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div>, Magic Banner (up to 100pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div>, <div class="tooltip">Elven Accuracy<span class="tooltiptext">Re-roll missed Ranged Attack Rolls.</span></div> </div>
 </div>
                 
 
@@ -500,7 +500,7 @@ nav_order: 0
 <img src = "images/DeepwoodGuardians/DeepwoodRiders.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 18 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -543,7 +543,7 @@ nav_order: 0
 <img src = "images/DeepwoodGuardians/DeepwoodChariot.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -586,7 +586,7 @@ nav_order: 0
 <img src = "images/DeepwoodGuardians/GiantEagle.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >

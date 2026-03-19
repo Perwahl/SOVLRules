@@ -232,7 +232,7 @@ nav_order: 0
 <img src = "images/GoatmenRaiders/GoatmenWarriors.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 7 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-21 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-25 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -251,7 +251,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
 </div>
                 
 
@@ -294,7 +294,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Extra Rank supporting attacks when not charging.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Spear and Shield<span class="tooltiptext">+1 Defense. Extra Rank supporting attacks when not charging.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
 </div>
                 
 
@@ -341,7 +341,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Crushing Charge<span class="tooltiptext">Charge Bonus: +2 Power +2 Attacks</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon<span class="tooltiptext">Charge Bonus: +1 Power</span></div>, <div class="tooltip">Crushing Charge<span class="tooltiptext">Charge Bonus: +2 Power +2 Attacks</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div> </div>
 </div>
                 
 
@@ -365,7 +365,7 @@ nav_order: 0
 <img src = "images/GoatmenRaiders/RaidingChariot.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 55 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 1 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 3 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -374,7 +374,7 @@ nav_order: 0
 
 <div class="tooltip">
 <img src = "icons/GoatmenRaiders/FeralHounds.png" style = " height:52px; margin-top: 4px; margin-left: 4px">
- <span class="tooltiptext">Cavalry</span>
+ <span class="tooltiptext">Hounds</span>
 </div>
 
 
@@ -393,7 +393,7 @@ nav_order: 0
 <span class = "statbox" >3</span>
 <span class = "statbox" >4 </span>
 <span class = "statbox" >3</span>
-<span class = "statbox" >2</span>
+<span class = "statbox" >1</span>
 <span class = "statbox" >1</span>
 <span class = "statbox" >6</span>
 <span class = "stat-text" >Skill</span>
@@ -407,8 +407,8 @@ nav_order: 0
 </div>
 <img src = "images/GoatmenRaiders/FeralHounds.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
- <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 11 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 8 pts </span>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 5-10 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -427,7 +427,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Shortbows<span class="tooltiptext">Range: 20. Power 3.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Shortbows<span class="tooltiptext">Range: 20. Power 3.</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div>, <div class="tooltip">Scout<span class="tooltiptext">Ignore movement penalties from Difficult Terrain</span></div> </div>
 </div>
                 
 

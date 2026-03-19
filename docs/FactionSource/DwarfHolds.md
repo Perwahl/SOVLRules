@@ -28,7 +28,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Shield Wall<span class="tooltiptext">Commander and Retinue rerolls failed Damage Saves and reduces Move Speed to 0 for one turn.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Hand Weapon and Shield<span class="tooltiptext">+1 Defense. Charge Bonus: +1 Power</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Mountain's Will<span class="tooltiptext">Activate once per battle: All your units have +1 Defense for one turn.</span></div>, Magic Weapon/Item </div>
 </div>
                 
 
@@ -72,7 +72,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Marksman Rifle<span class="tooltiptext">Range 48. 2x Power 4.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Hunters Call<span class="tooltiptext">+2 Move Speed to all infantry units for one turn. Activate once per battle. </span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div>, Magic Weapon/Item </div>
+<div class = "unit-props" > <div class="tooltip">Two Hand Weapons<span class="tooltiptext">+1 Attack</span></div> or <div class="tooltip">Greatweapon (5 pts)<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Marksman Rifle<span class="tooltiptext">Range 48. 2x Power 4.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, <div class="tooltip">Ranger<span class="tooltiptext">Retinue has +2 Move Speed</span></div>, <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div>, Magic Weapon/Item, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div> </div>
 </div>
                 
 
@@ -250,7 +250,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Explosive Charges (25 pts)<span class="tooltiptext">Range 8. 1D6 power 4. One use per battle.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, Magic Banner (up to 50pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on it's owners side of the table.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Greatweapon<span class="tooltiptext">+1 Power. Charge Bonus: +1 Power.</span></div>, <div class="tooltip">Explosive Charges (25 pts)<span class="tooltiptext">Range 8. 1D6 power 4. One use per battle.</span></div>, <div class="tooltip">Sturdy<span class="tooltiptext">-1 Movement. Ignore the movement penalty from Heavy Armor.</span></div>, Magic Banner (up to 50pts), <div class="tooltip">Ambusher<span class="tooltiptext">Unit can be deployed anywhere on its owners side of the table.</span></div> </div>
 </div>
                 
 
@@ -278,7 +278,7 @@ nav_order: 0
 
 <br />
 <span class = "section-name">Ranged Support</span>
-<span class = "section-min-max">Min: 0 Max: 1</span>
+<span class = "section-min-max">Min: 0 Max: 2</span>
 <hr>
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -407,7 +407,7 @@ nav_order: 0
 <img src = "images/DwarfHolds/DwarfRangers.png" style="position:absolute; bottom:70px; right:0px; height:320px">
 <div class = "unit-details">
  <span style = "display: inline-block; margin: 10px;"><b> Cost per Model:</b > 12 pts </span>
- <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 1 </span></div></div>
+ <span style = "display: inline-block; margin: 10px;"><b> Unit Size: </b>: 10-15 </span><span style = "display: inline-block; margin: 10px;"><b> Max Count: </b>: 2 </span></div></div>
 
 <div class="unit-card">
 <div style = "position:absolute; top:50px; width:600px; height:300px; background-color: rgba(66,75,76, 1);border:1px solid; border-color:grey" >
@@ -426,7 +426,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Cannon<span class="tooltiptext">Range 48. D3 hits, Power 8.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Cannon<span class="tooltiptext">Range 48. D3 hits, Power 8.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -469,7 +469,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Bolt Thrower<span class="tooltiptext">Range 48. 3x Power 6.</span></div>, <div class="tooltip">Lethal Shots<span class="tooltiptext">This units ranged attack deals 2x wounds against multiwound targets.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -512,7 +512,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Catapult<span class="tooltiptext">Range 48. 2D3 hits, Power 5.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
@@ -649,7 +649,7 @@ nav_order: 0
 
 
 <div class = "propsContainer">
-<div class = "unit-props" > <div class="tooltip">Inferno Cannon<span class="tooltiptext">Range 16. 3D3 Power 5.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Unit always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
+<div class = "unit-props" > <div class="tooltip">Inferno Cannon<span class="tooltiptext">Range 16. 3D3 Power 5.</span></div>, <div class="tooltip">Crewed Weapon<span class="tooltiptext">Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.</span></div>, <div class="tooltip">Reposition<span class="tooltiptext">+6 Movement this turn.</span></div> </div>
 </div>
                 
 
