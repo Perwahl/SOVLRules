@@ -12,17 +12,36 @@ const GROUPS: { type: string; title: string; intro: string }[] = [
   { type: 'rangedAttack', title: 'Ranged weapons', intro: 'Bows, guns, war machines and breath weapons.' },
   { type: 'property', title: 'Unit properties', intro: 'Armour, special rules and traits.' },
   { type: 'gift', title: 'Gifts', intro: 'Blessings granted by dark powers.' },
-  { type: 'commanderAbility', title: 'Commander abilities', intro: 'Abilities a commander activates, usually a limited number of times per battle.' },
-  { type: 'spell', title: 'Spells', intro: 'Cast by spellcasters as their ability. Cantrips are the lesser spells.' },
+  { type: 'commanderAbility', title: 'Commander abilities', intro: 'Abilities a commander activates, usually once per battle. A few can be used in every activation, and a few are always active.' },
+  { type: 'spell', title: 'Spells', intro: 'Cast by spellcasters as their ability. Each spell has a set number of charges per battle, usually 1, 2 or 3. Cantrips are the lesser spells.' },
 ];
 
 type MagicRef = { id: string; cost?: number };
 const magicRefs = magicItemsJson as MagicRef[];
 const magicIds = new Set(magicRefs.map((m) => m.id));
-const anchor = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const entries = Object.entries(PROPERTIES).filter(([id]) => !magicIds.has(id));
+// Anchors from names, numbered when a name repeats (Flamer and Javelins come in several versions).
+const anchorsUsed = new Map<string, number>();
+const anchor = (name: string) => {
+  const base = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const n = (anchorsUsed.get(base) ?? 0) + 1;
+  anchorsUsed.set(base, n);
+  return n === 1 ? base : `${base}-${n}`;
+};
+
+// Separate properties that read exactly the same (a commander's and a unit's Brace of Pistols) are
+// one entry here; the ids are kept so every faction using either is listed.
+type Entry = [ids: string[], p: Property];
+const merged = new Map<string, Entry>();
+for (const [id, p] of Object.entries(PROPERTIES)) {
+  if (magicIds.has(id)) continue;
+  const key = `${p.type}|${p.name}|${p.description}`;
+  const existing = merged.get(key);
+  if (existing) existing[0].push(id);
+  else merged.set(key, [[id], p]);
+}
+const entries: Entry[] = [...merged.values()];
 const byType = (type: string) =>
-  entries.filter(([, p]) => p.type === type).sort(([, a], [, b]) => a.name.localeCompare(b.name));
+  entries.filter(([, p]) => p.type === type).sort(([, a], [, b]) => a.name.localeCompare(b.name) || a.description.localeCompare(b.description));
 const known = new Set(GROUPS.map((g) => g.type));
 const other = entries.filter(([, p]) => !known.has(p.type) && !p.type.startsWith('magic'));
 
@@ -38,7 +57,7 @@ for (const f of FACTIONS) {
     }
   }
 }
-const factionsUsing = (id: string) => [...(usedBy.get(id) ?? [])].sort().join(' · ');
+const factionsUsing = (ids: string[]) => [...new Set(ids.flatMap((id) => [...(usedBy.get(id) ?? [])]))].sort().join(' · ');
 
 const magic = magicRefs
   .map((m) => ({ ...m, p: PROPERTIES[m.id] as Property | undefined }))
@@ -76,12 +95,12 @@ const magicGroups = [
           <h2>{g.title}</h2>
           <p class="glossary-intro">{g.intro}</p>
           <dl class="glossary-list">
-            {list.map(([id, p]) => (
+            {list.map(([ids, p]) => (
               <div class="glossary-item" id={anchor(p.name)} data-text={`${p.name} ${p.description}`.toLowerCase()}>
                 <dt>{p.name}{p.cantrip && <span class="tag">Cantrip</span>}</dt>
                 <dd>
                   {p.description}
-                  {usedBy.has(id) && <span class="used-by">{factionsUsing(id)}</span>}
+                  {factionsUsing(ids) && <span class="used-by">{factionsUsing(ids)}</span>}
                 </dd>
               </div>
             ))}

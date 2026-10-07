@@ -20,6 +20,9 @@ const cantrips = spells?.options?.filter((o) => property(o.id)?.cantrip) ?? [];
 const majors = spells?.options?.filter((o) => !property(o.id)?.cantrip) ?? [];
 const sizes = ARMY_SIZES;
 const isRegiment = !unit.commander;
+// Monsters and war machines fielded as one model: no per-model pricing or unit size to show.
+const singleModel = Object.values(unit.models).length > 0 && Object.values(unit.models).every((m) => m.max === 1);
+const perModel = isRegiment && !unit.isMount && !singleModel;
 const sizeText = (id: string) => {
   const m = unit.models[id];
   if (!m) return '';
@@ -39,7 +42,7 @@ const sizeText = (id: string) => {
           {type?.name ?? unit.modelType}{type?.movement ? ` · Move ${inches(type.movement)}` : ''}{unit.solo ? ' · Fights alone' : ''}
         </p>
       </div>
-      <p class="unit-points"><span>{unit.points}</span> pts{isRegiment && !unit.isMount && ' / model'}</p>
+      <p class="unit-points"><span>{unit.points}</span> pts{perModel && ' / model'}</p>
     </header>
 
     <StatLine stats={unit.stats} compact />
@@ -50,7 +53,7 @@ const sizeText = (id: string) => {
           {s.options?.map((o, i) => (
             <>
               {i > 0 && <span class="or">or</span>}
-              <PropertyChip id={o.id} cost={o.cost} kind={property(o.id)?.type} regiment={isRegiment && !unit.isMount} />
+              <PropertyChip id={o.id} cost={o.cost} kind={property(o.id)?.type} regiment={perModel} />
             </>
           ))}
         </li>
@@ -61,13 +64,16 @@ const sizeText = (id: string) => {
       {optionals.length > 0 && (
         <li>
           <span class="prop-hint">Options</span>
-          {optionals.flatMap((s) => s.options ?? []).map((o) => <PropertyChip id={o.id} cost={o.cost} kind={property(o.id)?.type} regiment={isRegiment && !unit.isMount} />)}
+          {optionals.flatMap((s) => s.options ?? []).map((o) => <PropertyChip id={o.id} cost={o.cost} kind={property(o.id)?.type} regiment={perModel} />)}
         </li>
       )}
     </ul>
 
     {spells && (
-      <p class="unit-line"><span class="unit-line-label">Spells</span> Choose 1 cantrip: {cantrips.map((o, i) => <>{i > 0 && ', '}<PropertyChip id={o.id} kind="spell" /></>)}. And 1 spell: {majors.map((o, i) => <>{i > 0 && ', '}<PropertyChip id={o.id} kind="spell" /></>)}.</p>
+      <p class="unit-line"><span class="unit-line-label">Spells</span>
+        {cantrips.length > 0 && <>Choose 1 cantrip: {cantrips.map((o, i) => <>{i > 0 && ', '}<PropertyChip id={o.id} kind="spell" /></>)}. </>}
+        {majors.length > 0 && <>Choose 1 spell: {majors.map((o, i) => <>{i > 0 && ', '}<PropertyChip id={o.id} kind="spell" /></>)}.</>}
+      </p>
     )}
 
     {extras.length > 0 && (
@@ -81,7 +87,7 @@ const sizeText = (id: string) => {
     )}
 
     <footer class="unit-foot">
-      {isRegiment && !unit.isMount && (
+      {perModel && (
         <span class="foot-item">Unit size {sizes.map((s) => <span class="by-size" data-s={s.id}>{sizeText(s.id)}</span>)}</span>
       )}
       {sizes.some((s) => unit.maxPerArmy[s.id] !== undefined) && (

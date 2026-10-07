@@ -10,7 +10,7 @@ const L = cx - w / 2;
 const R = cx + w / 2;
 const reach = 8;
 const k = reach * Math.SQRT1_2;
-const sight = `M ${L} ${fy} L ${L - k} ${fy - k} A ${reach} ${reach} 0 0 1 ${L} ${fy - reach} L ${R} ${fy - reach} A ${reach} ${reach} 0 0 1 ${R + k} ${fy - k} Z`;
+const sight = `M ${L} ${fy} L ${L - k} ${fy - k} A ${reach} ${reach} 0 0 1 ${L} ${fy - reach} L ${R} ${fy - reach} A ${reach} ${reach} 0 0 1 ${R + k} ${fy - k} L ${R} ${fy} Z`;
 ---
 <Diagram width={36} height={23} title="Charge reach: a unit can charge enemies within its Move inside a 90 degree arc from its front edge, unless sight is blocked." caption="Charge reach of an Infantry unit with Move 8&quot;. Sight fans out 45° from each front corner and stops at the first unit or sight-blocking terrain.">
   <path class="dg-sight" d={sight} />

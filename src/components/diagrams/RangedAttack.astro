@@ -8,7 +8,7 @@ const cx = 20, fy = 25.2;
 const L = cx - w / 2, R = cx + w / 2;
 const fan = (rr: number) => {
   const k = rr * Math.SQRT1_2;
-  return `M ${L} ${fy} L ${L - k} ${fy - k} A ${rr} ${rr} 0 0 1 ${L} ${fy - rr} L ${R} ${fy - rr} A ${rr} ${rr} 0 0 1 ${R + k} ${fy - k} Z`;
+  return `M ${L} ${fy} L ${L - k} ${fy - k} A ${rr} ${rr} 0 0 1 ${L} ${fy - rr} L ${R} ${fy - rr} A ${rr} ${rr} 0 0 1 ${R + k} ${fy - k} L ${R} ${fy} Z`;
 };
 ---
 <Diagram width={40} height={29.6} title="Ranged attack: targets within half range are hit normally; targets beyond half range suffer -1 to hit; a target in a forest suffers a further -1 for cover." caption="Handguns, range 24&quot;. Beyond 12&quot; is long range (−1). The unit in the forest is in cover too (−1 more). Only the first two ranks shoot.">
