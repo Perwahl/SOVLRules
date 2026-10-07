@@ -1,0 +1,157 @@
+---
+layout: ../../layouts/RulesLayout.astro
+title: Combat Phase
+eyebrow: The Rules · Phase 3
+lede: Steel meets steel. Every melee on the battlefield is fought out, the losers test their nerve, and broken units run for their lives.
+description: Melee combat in SOVL - who attacks, attack rolls, damage saves, commanders in combat, combat score, break tests and fleeing.
+---
+import Figure from '../../components/Figure.astro';
+import Callout from '../../components/Callout.astro';
+import Dice from '../../components/Dice.astro';
+import WhoAttacksDiagram from '../../components/diagrams/WhoAttacks.astro';
+import unicornShot from '../../assets/site/unicorn-vs-prince.jpg';
+
+The Combat phase needs no decisions. Every unit in combat fights automatically, and the game shows each roll as it happens. Your decisions were made earlier: which charges to declare, which side to hit, how wide and deep to build each unit. This page explains what happens next.
+
+## Engagements
+
+Units in contact with each other form an **engagement**. Most engagements are one unit against one unit. When a third unit charges in, all of them belong to the same engagement and fight it out together. Each engagement is fought separately, one after the other:
+
+<ol class="steps">
+  <li><strong>Attack</strong> Every unit attacks at the same time: attack rolls, then damage saves. Casualties are only removed after everyone has attacked, so models killed this round still strike back.</li>
+  <li><strong>Combat score</strong> Each side adds up its combat score. The higher score wins the engagement.</li>
+  <li><strong>Break tests</strong> Every unit on the losing side takes a break test. Units that fail flee.</li>
+</ol>
+
+Units stay locked in combat, round after round, until one side is destroyed or breaks. A unit in combat can't move in the Strategic phase.
+
+## Who attacks
+
+Which models fight depends on which side of the unit the enemy is touching:
+
+<WhoAttacksDiagram />
+
+<dl class="rule-grid">
+  <dt>Front</dt><dd>Every model in the <strong>front rank</strong> attacks, rolling dice equal to its Attacks. Each model in the <strong>second rank</strong> adds one <strong>supporting attack</strong>, whatever its Attacks stat.</dd>
+  <dt>Flank</dt><dd>Every model along the engaged flank attacks with its full Attacks. There are no supporting attacks to the flank.</dd>
+  <dt>Rear</dt><dd>Nobody attacks. A unit caught in the rear can only hope its friends help.</dd>
+</dl>
+
+- Each model attacks **once** per round. A model on a corner fights to its front if it can, otherwise to its flank.
+- Units with **Spear and Shield** also get supporting attacks from the **third rank**, unless they have a charge bonus that round.
+- Models with **0 Attacks** make no supporting attacks either.
+- **Lance Cavalry** in a narrow wedge, fewer than four models wide, also fight with both flank files at full Attacks. A narrow lance hits harder than its frontage suggests.
+
+<Callout type="example">
+Twenty Orcs, five wide, with Attacks 1, fight an enemy to their front. The front rank rolls 5 dice and the second rank adds 5 supporting attacks: **10 attack dice**. With Two Hand Weapons (+1 Attacks), the front rank rolls 10 and the support still adds 5: **15 dice**.
+</Callout>
+
+## Attack roll
+
+Compare the attacker's **Skill** with the defender's:
+
+<div class="table-wrap">
+<table class="roll-table">
+<thead><tr><th>Attacker's Skill is…</th><th class="num">To hit</th></tr></thead>
+<tbody>
+<tr><td>Higher than the defender's</td><td class="target num">3+</td></tr>
+<tr><td>Equal to or lower than the defender's</td><td class="target num">4+</td></tr>
+</tbody>
+</table>
+</div>
+
+Abilities can add or subtract from the roll, but it is never worse than 6+ or better than 2+. Some let you **re-roll** misses or 1s, and some force *enemies* to re-roll their hits.
+
+## Damage save
+
+For every hit, the defender rolls a **damage save**. Compare the attacker's **Power** with the defender's **Defense**:
+
+<div class="table-wrap">
+<table class="roll-table">
+<thead><tr><th>Power compared with Defense</th><th class="num">Save on</th></tr></thead>
+<tbody>
+<tr><td>Power is 3 or more higher</td><td class="target num">6+</td></tr>
+<tr><td>Power is 1–2 higher</td><td class="target num">5+</td></tr>
+<tr><td>Power equals Defense</td><td class="target num">4+</td></tr>
+<tr><td>Defense is 1–2 higher</td><td class="target num">3+</td></tr>
+<tr><td>Defense is 3 or more higher</td><td class="target num">2+</td></tr>
+</tbody>
+</table>
+</div>
+
+Each **failed** save is one wound. Wounds are pooled across the unit, and a model is removed each time the pool reaches its Wounds stat (see [Wounds and casualties](../units/#wounds-and-casualties)).
+
+- A **Halberd** means enemy saves against it in melee are never better than 4+.
+- **Poisoned Attacks** make the defender re-roll saves of 6.
+- **Lethal Strikes** deal two wounds per failed save to models with more than one Wound.
+
+<Callout type="example">
+The 15 Orc dice need 4+ (Skill 3 against the Dwarfs' Skill 4). Eight hit. Orc Power 3 against Dwarf Defense 5 (Heavy Armor and shields): Defense is 2 higher, so the Dwarfs save on **3+**.
+
+<div class="dice-row"><Dice values={[4, 2, 6, 1, 3, 5, 2, 6]} hit={3} /> <span>Three saves fail: three wounds.</span></div>
+</Callout>
+
+## Commanders in combat
+
+A commander fights alongside its unit, but separately. It attacks with **its own** Skill, Power and Attacks, against one enemy it's in contact with. It fights to the front or a flank, and to the rear only if its unit is a single rank deep.
+
+- When **both** sides of a fight have a commander, the commanders **duel**. They attack each other, not the troops.
+- Enemy **rank-and-file never attack a commander** inside a unit. A commander only takes wounds from an enemy commander, or once its retinue is gone. Wounds that are left over after the last model of the retinue dies carry over to the commander.
+- A commander riding a monster or chariot fights as part of its mount.
+
+<Figure src={unicornShot} alt="A unicorn fights an Abyssal Prince on a lava field, with the game's attack roll panel open." caption="Heroes and monsters fight with their own stats. When two commanders meet, they duel." />
+
+## Combat score
+
+Once all attacks are made, each side adds up its combat score:
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Source</th><th class="num">Score</th></tr></thead>
+<tbody>
+<tr><td><strong>Wounds caused</strong>, including any wounds beyond what was needed to kill</td><td class="num">+1 each</td></tr>
+<tr><td><strong>Flank</strong>: for each of your units in contact with an enemy's flank</td><td class="num">+1</td></tr>
+<tr><td><strong>Rear</strong>: for each of your units in contact with an enemy's rear</td><td class="num">+1</td></tr>
+<tr><td><strong>Ranks</strong>: for each of your units that isn't disrupted, +1 for a second rank and +1 for a third</td><td class="num">up to +2</td></tr>
+<tr><td><strong>Banners and abilities</strong>, such as a War Banner</td><td class="num">as listed</td></tr>
+</tbody>
+</table>
+</div>
+
+A unit is **disrupted** if any enemy touches its flank or rear, or if it is fighting more than one enemy unit. A disrupted unit gets **no rank bonus** to combat score. This is why flank charges are so strong: they add +1 for you and take up to 2 away from the enemy.
+
+The side with the higher total **wins**. If the totals are equal, nobody tests and the fight carries on next turn.
+
+## Break tests
+
+Every unit on the losing side takes a **break test**: a [Discipline test](../units/#discipline-tests) with a penalty equal to the difference in combat score.
+
+<p style="text-align:center; font-size:1.25rem;"><strong>Pass on 2d6 ≤ Discipline + ranks − score difference</strong></p>
+
+- A unit with a living commander uses the **commander's Discipline**.
+- **Fearless** units ignore the score difference.
+- **Reanimated**, **Demonic** and **Construct** units never take a break test. Instead they **crumble**, losing **D3 wounds**.
+
+<Callout type="example">
+The Dwarfs scored 5 (5 wounds), the Orcs 6 (3 wounds, +1 flank, +2 ranks). The Dwarfs are disrupted by the flank attack, so they get no rank bonus. They lose by 1. The Dwarf unit has Discipline 9 and three ranks: 9 + 3 − 1 = 11. They need 11 or less on two dice, a 97% chance. Dwarfs don't run easily.
+</Callout>
+
+## Fleeing
+
+A unit that fails its break test **flees** at once. It turns and runs its full Move directly away from the enemy it was fighting.
+
+It doesn't get away if:
+
+- it was **surrounded**, with enemies on opposite sides (front and rear, or both flanks);
+- its Move is less than 1";
+- it runs off the edge of the battlefield.
+
+In any of these cases it is **destroyed** instead.
+
+The winners **don't pursue**. A unit with no enemies left in contact is free again next turn. A unit still in contact with a single enemy on its flank or rear **turns to face it**, ready for the next round.
+
+A fleeing unit keeps running in the Strategic phase unless it rallies. See [Rallying fleeing units](../strategic-phase/#rallying-fleeing-units).
+
+## Charge bonuses
+
+Weapon charge bonuses and other "first round" effects such as **Frenzy** apply only in the **first round** of combat after a charge. After that round, a combat is a straight slog.

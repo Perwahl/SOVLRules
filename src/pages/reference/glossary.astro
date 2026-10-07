@@ -1,0 +1,142 @@
+---
+import Base from '../../layouts/Base.astro';
+import '../../styles/rules.css';
+import '../../styles/armies.css';
+import '../../styles/reference.css';
+import magicItemsJson from '../../data/magicItems.json';
+import { PROPERTIES, FACTIONS, type Property } from '../../lib/factions';
+import { url } from '../../lib/site';
+
+const GROUPS: { type: string; title: string; intro: string }[] = [
+  { type: 'weaponSet', title: 'Weapon sets', intro: 'What a unit fights with in melee.' },
+  { type: 'rangedAttack', title: 'Ranged weapons', intro: 'Bows, guns, war machines and breath weapons.' },
+  { type: 'property', title: 'Unit properties', intro: 'Armour, special rules and traits.' },
+  { type: 'gift', title: 'Gifts', intro: 'Blessings granted by dark powers.' },
+  { type: 'commanderAbility', title: 'Commander abilities', intro: 'Abilities a commander activates, usually a limited number of times per battle.' },
+  { type: 'spell', title: 'Spells', intro: 'Cast by spellcasters as their ability. Cantrips are the lesser spells.' },
+];
+
+type MagicRef = { id: string; cost?: number };
+const magicRefs = magicItemsJson as MagicRef[];
+const magicIds = new Set(magicRefs.map((m) => m.id));
+const anchor = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const entries = Object.entries(PROPERTIES).filter(([id]) => !magicIds.has(id));
+const byType = (type: string) =>
+  entries.filter(([, p]) => p.type === type).sort(([, a], [, b]) => a.name.localeCompare(b.name));
+const known = new Set(GROUPS.map((g) => g.type));
+const other = entries.filter(([, p]) => !known.has(p.type) && !p.type.startsWith('magic'));
+
+// Which factions use each property, so the glossary doubles as a cross-reference.
+const usedBy = new Map<string, Set<string>>();
+for (const f of FACTIONS) {
+  for (const u of Object.values(f.units)) {
+    for (const s of [u.weaponSet, u.ranged, ...(u.properties ?? [])]) {
+      for (const o of s?.options ?? []) {
+        if (!usedBy.has(o.id)) usedBy.set(o.id, new Set());
+        usedBy.get(o.id)!.add(f.name);
+      }
+    }
+  }
+}
+const factionsUsing = (id: string) => [...(usedBy.get(id) ?? [])].sort().join(' · ');
+
+const magic = magicRefs
+  .map((m) => ({ ...m, p: PROPERTIES[m.id] as Property | undefined }))
+  .filter((m): m is MagicRef & { p: Property } => !!m.p);
+const magicGroups = [
+  { type: 'magicWeapon', title: 'Magic weapons' },
+  { type: 'magicItem', title: 'Magic items' },
+  { type: 'magicBanner', title: 'Magic banners' },
+];
+---
+<Base title="Glossary" description="Every weapon, property, ability, spell and magic item in SOVL, with what it does." section="Reference">
+  <div class="glossary">
+    <header class="glossary-head">
+      <p class="eyebrow">Reference</p>
+      <h1>Glossary</h1>
+      <p class="lede">Every weapon, property, ability and spell in the army lists, with what it does. It's the same text you see when you tap a property in the game.</p>
+      <label class="glossary-filter">
+        <span class="visually-hidden">Filter the glossary</span>
+        <input type="search" placeholder="Filter: try charge, Frenzy or Range" data-filter />
+      </label>
+      <nav class="glossary-jump" aria-label="Glossary sections">
+        {GROUPS.filter((g) => byType(g.type).length).map((g) => <a href={`#${g.type}`}>{g.title}</a>)}
+        {magic.length > 0 && <a href="#magic-items">Magic items</a>}
+      </nav>
+    </header>
+
+    {entries.length === 0 && (
+      <p class="pending">The glossary is being updated from the latest version of the game. Until then, the most common weapons and properties are explained on the <a href={url('/rules/units/#properties')}>Units</a> page.</p>
+    )}
+
+    {GROUPS.map((g) => {
+      const list = byType(g.type);
+      return list.length > 0 && (
+        <section class="glossary-group" id={g.type}>
+          <h2>{g.title}</h2>
+          <p class="glossary-intro">{g.intro}</p>
+          <dl class="glossary-list">
+            {list.map(([id, p]) => (
+              <div class="glossary-item" id={anchor(p.name)} data-text={`${p.name} ${p.description}`.toLowerCase()}>
+                <dt>{p.name}{p.cantrip && <span class="tag">Cantrip</span>}</dt>
+                <dd>
+                  {p.description}
+                  {usedBy.has(id) && <span class="used-by">{factionsUsing(id)}</span>}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      );
+    })}
+
+    {other.length > 0 && (
+      <section class="glossary-group" id="other">
+        <h2>Other</h2>
+        <dl class="glossary-list">
+          {other.map(([, p]) => (
+            <div class="glossary-item" id={anchor(p.name)} data-text={`${p.name} ${p.description}`.toLowerCase()}>
+              <dt>{p.name}</dt><dd>{p.description}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    )}
+
+    {magic.length > 0 && (
+      <section class="glossary-group" id="magic-items">
+        <h2>Magic items</h2>
+        <p class="glossary-intro">Commanders can carry a magic weapon or item, and some units a magic banner, if their card says so. Each item's cost is added to the unit.</p>
+        {magicGroups.map((mg) => {
+          const list = magic.filter((m) => m.p.type === mg.type).sort((a, b) => a.p.name.localeCompare(b.p.name));
+          return list.length > 0 && (
+            <>
+              <h3>{mg.title}</h3>
+              <dl class="glossary-list">
+                {list.map((m) => (
+                  <div class="glossary-item" id={anchor(m.p.name)} data-text={`${m.p.name} ${m.p.description}`.toLowerCase()}>
+                    <dt>{m.p.name}<span class="tag tag-gold">{m.cost} pts</span></dt>
+                    <dd>{m.p.description}</dd>
+                  </div>
+                ))}
+              </dl>
+            </>
+          );
+        })}
+      </section>
+    )}
+  </div>
+
+  <script is:inline>
+    (() => {
+      const input = document.querySelector('[data-filter]');
+      const items = [...document.querySelectorAll('.glossary-item')];
+      const groups = [...document.querySelectorAll('.glossary-group')];
+      input?.addEventListener('input', () => {
+        const q = input.value.trim().toLowerCase();
+        items.forEach((i) => { i.hidden = q !== '' && !i.dataset.text.includes(q); });
+        groups.forEach((g) => { g.hidden = q !== '' && !g.querySelector('.glossary-item:not([hidden])'); });
+      });
+    })();
+  </script>
+</Base>

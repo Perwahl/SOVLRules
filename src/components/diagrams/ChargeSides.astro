@@ -1,0 +1,31 @@
+---
+import Diagram from './Diagram.astro';
+import Unit from './Unit.astro';
+
+// Target: 6 wide, 4 deep infantry facing up, centred.
+const cx = 18, cy = 12;
+const w = 6 * 0.79, d = 4 * 0.79;
+const corners = [
+  [cx - w / 2, cy - d / 2, -1, -1],
+  [cx + w / 2, cy - d / 2, 1, -1],
+  [cx - w / 2, cy + d / 2, -1, 1],
+  [cx + w / 2, cy + d / 2, 1, 1],
+];
+const len = 14;
+---
+<Diagram width={36} height={24} title="Charge sides: lines at 45 degrees from each corner of the target split the ground into front, left flank, right flank and rear arcs." caption="The arc that holds the charger's centre is the side it charges. This charger's centre is in the left flank arc.">
+  <path class="dg-arc dg-arc-front" d={`M ${cx - w / 2} ${cy - d / 2} L ${cx - w / 2 - len} ${cy - d / 2 - len} L ${cx + w / 2 + len} ${cy - d / 2 - len} L ${cx + w / 2} ${cy - d / 2} Z`} />
+  <path class="dg-arc dg-arc-rear" d={`M ${cx - w / 2} ${cy + d / 2} L ${cx - w / 2 - len} ${cy + d / 2 + len} L ${cx + w / 2 + len} ${cy + d / 2 + len} L ${cx + w / 2} ${cy + d / 2} Z`} />
+  <path class="dg-arc dg-arc-flank" d={`M ${cx - w / 2} ${cy - d / 2} L ${cx - w / 2 - len} ${cy - d / 2 - len} L ${cx - w / 2 - len} ${cy + d / 2 + len} L ${cx - w / 2} ${cy + d / 2} Z`} />
+  <path class="dg-arc dg-arc-flank" d={`M ${cx + w / 2} ${cy - d / 2} L ${cx + w / 2 + len} ${cy - d / 2 - len} L ${cx + w / 2 + len} ${cy + d / 2 + len} L ${cx + w / 2} ${cy + d / 2} Z`} />
+  {corners.map(([x, y, dx, dy]) => <line class="dg-split" x1={x} y1={y} x2={x + dx * len} y2={y + dy * len} />)}
+
+  <text class="dg-zone" x={cx} y={3}>Front</text>
+  <text class="dg-zone" x={cx} y={22.4}>Rear</text>
+  <text class="dg-zone" x={4.2} y={12.4}>Left flank</text>
+  <text class="dg-zone" x={31.8} y={12.4}>Right flank</text>
+
+  <Unit x={cx} y={cy} cols={6} side="enemy" label="Target" labelPos="above" />
+  <Unit x={7.4} y={15.6} cols={4} rows={2} base={[0.98, 1.97]} rot={70} side="friend" dot />
+  <line class="dg-ray" x1={8.6} y1={15.2} x2={cx - w / 2 - 0.4} y2={12.6} marker-end="url(#arrow)" />
+</Diagram>

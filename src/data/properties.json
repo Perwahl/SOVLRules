@@ -1,0 +1,753 @@
+{
+  "2CCW": {
+    "name": "Two Hand Weapons",
+    "description": "+1 Attack",
+    "type": "weaponSet"
+  },
+  "abyssalArmor": {
+    "name": "Abyssal Armor",
+    "description": "+1 to Damage Saves",
+    "type": "property"
+  },
+  "ambusher": {
+    "name": "Ambusher",
+    "description": "Unit can be deployed anywhere on its owners side of the table.",
+    "type": "property"
+  },
+  "ancientKnowledge": {
+    "name": "Ancient Knowledge",
+    "description": "Restore all used spell charges. ",
+    "type": "commanderAbility"
+  },
+  "arcaneWeb": {
+    "name": "Arcane Web",
+    "description": "Reduce target units movement speed to 0 for one turn.",
+    "type": "spell"
+  },
+  "auraOfProtection": {
+    "name": "Aura of Protection",
+    "description": "Maiden and retinue rerolls 1s on Damage Saves.",
+    "type": "commanderAbility"
+  },
+  "auraOfVengeance": {
+    "name": "Aura of Vengeance",
+    "description": "Paladin and retinue rerolls 1s on Attack Rolls.",
+    "type": "commanderAbility"
+  },
+  "bannerOfFury": {
+    "name": "Banner of Fury",
+    "description": "Charge Bonus: +1 Power",
+    "type": "magicBanner",
+    "perUnit": true,
+    "cost": 20
+  },
+  "bannerOfMist": {
+    "name": "Banner of Mist",
+    "description": "Unit counts as being in Cover. (-1 to Ranged attack rolls against it).",
+    "type": "magicBanner",
+    "perUnit": true,
+    "cost": 25
+  },
+  "bannerOfSwiftness": {
+    "name": "Banner of Swiftness",
+    "description": "+1 Movement",
+    "type": "magicBanner",
+    "perUnit": true,
+    "cost": 25
+  },
+  "bannerOfValor": {
+    "name": "Banner of Valor",
+    "description": "Reroll failed Discipline Tests",
+    "type": "magicBanner",
+    "perUnit": true,
+    "cost": 15
+  },
+  "barkskin": {
+    "name": "Barkskin",
+    "description": "-1 Movement. +1 Defense",
+    "type": "property"
+  },
+  "bloodFrenzy": {
+    "name": "Blood Frenzy",
+    "description": "Target unit loses D3 wounds and gains +1 Attack this turn.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "bloodFury": {
+    "name": "Blood Fury",
+    "description": "+2 Attacks this turn. Activate once per battle when wounded.",
+    "type": "commanderAbility"
+  },
+  "bodyguard": {
+    "name": "Bodyguard",
+    "description": "If a Commander is part of this unit it re-rolls failed Discipline tests.",
+    "type": "property"
+  },
+  "boltThrower": {
+    "name": "Bolt Thrower",
+    "description": "Range 48. 3x Power 6.",
+    "type": "rangedAttack"
+  },
+  "boulderThrow": {
+    "name": "Boulder Throw",
+    "description": "Throw a boulder at an enemy unit. Range 18, 2D3 Power 5.",
+    "type": "rangedAttack"
+  },
+  "bracePistols": {
+    "name": "Brace of Pistols",
+    "description": "Range 18. 2x Power 4.",
+    "type": "rangedAttack"
+  },
+  "bracePistolsCommander": {
+    "name": "Brace of Pistols",
+    "description": "Range 18. 2x Power 4.",
+    "type": "rangedAttack"
+  },
+  "cannon": {
+    "name": "Cannon",
+    "description": "Range 48. D3 hits, Power 8.",
+    "type": "rangedAttack"
+  },
+  "catapult": {
+    "name": "Catapult",
+    "description": "Range 48. 2D3 hits, Power 5.",
+    "type": "rangedAttack"
+  },
+  "ccw": {
+    "name": "Hand Weapon",
+    "description": "Charge Bonus: +1 Power",
+    "type": "weaponSet"
+  },
+  "ccwshield": {
+    "name": "Hand Weapon and Shield",
+    "description": "+1 Defense. Charge Bonus: +1 Power",
+    "type": "weaponSet"
+  },
+  "chariotBows": {
+    "name": "Bows",
+    "description": "Range: 20. 2x Power 3.",
+    "type": "rangedAttack"
+  },
+  "claws": {
+    "name": "Claws",
+    "description": "Charge Bonus: +1 Power",
+    "type": "weaponSet"
+  },
+  "command": {
+    "name": "Command",
+    "description": "+1 Discipline",
+    "type": "magicItem",
+    "cost": 10
+  },
+  "crossbow": {
+    "name": "Crossbows",
+    "description": "Range: 30. Power 3.",
+    "type": "rangedAttack"
+  },
+  "cruelMotivation": {
+    "name": "Cruel Motivation",
+    "description": "Retinue gets +2 Movement Speed and re-rolls missed Attack Rolls for one Turn. It loses one model.",
+    "type": "commanderAbility"
+  },
+  "cruelty": {
+    "name": "Cruelty",
+    "description": "Opponent re-rolls successful damage saves.",
+    "type": "magicWeapon",
+    "cost": 20
+  },
+  "crushingCharge": {
+    "name": "Crushing Charge",
+    "description": "Charge Bonus: +2 Power +2 Attacks",
+    "type": "property"
+  },
+  "cursedStandard": {
+    "name": "Cursed Standard",
+    "description": "Unit has +1 Attack this turn. Activate once per battle.",
+    "type": "magicBanner",
+    "perUnit": true,
+    "cost": 40
+  },
+  "deadlyStrike": {
+    "name": "Deadly Strike",
+    "description": "Activate once per battle. Melee attacks deal 2x wounds against multiwound targets for one turn.",
+    "type": "commanderAbility"
+  },
+  "demonFlamer": {
+    "name": "Flamer",
+    "description": "Range 12. D3 Power 4.",
+    "type": "rangedAttack",
+    "perUnit": true
+  },
+  "demonic": {
+    "name": "Demonic",
+    "description": "Never fails Discipline tests, loses D3 wounds on lost combat.",
+    "type": "property"
+  },
+  "demonicPossession": {
+    "name": "Demonic Possession",
+    "description": "Gain +3 Attacks this turm. Lose 1 Wound.",
+    "type": "commanderAbility"
+  },
+  "divineFavour": {
+    "name": "Divine Favour",
+    "description": "Target unit gets +1 Skill and rerolls failed Discipline tests for one turn.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "doomBellAbility": {
+    "name": "Doom Bell",
+    "description": "All your units have Frenzy (reroll failed Attack Rolls) this turn. Activate once per battle.",
+    "type": "property"
+  },
+  "dwarfPistol": {
+    "name": "Dwarf Pistol",
+    "description": "Range 18. 2x Power 4.",
+    "type": "rangedAttack"
+  },
+  "elvenAccuracy": {
+    "name": "Elven Accuracy",
+    "description": "Re-roll missed Ranged Attack Rolls.",
+    "type": "property"
+  },
+  "elvenMastery": {
+    "name": "Elven Mastery",
+    "description": "Re-roll missed Attack Rolls.",
+    "type": "property"
+  },
+  "eternalReign": {
+    "name": "Eternal Reign",
+    "description": "Reduce Crumble by 1. Regeneration (restore all lost wounds at end of turn).",
+    "type": "commanderAbility"
+  },
+  "explosiveCharges": {
+    "name": "Explosive Charges",
+    "description": "Range 8. 1D6 power 4. One use per battle.",
+    "type": "rangedAttack",
+    "perUnit": true
+  },
+  "fangs": {
+    "name": "Fangs",
+    "description": "Charge Bonus: +1 Power",
+    "type": "weaponSet"
+  },
+  "fearless": {
+    "name": "Fearless",
+    "description": "Ignores all penalties to Discipline tests.",
+    "type": "property"
+  },
+  "feint": {
+    "name": "Feint",
+    "description": "Target another friendly unit. It immediately makes a retreat move. One use per battle.",
+    "type": "commanderAbility"
+  },
+  "fey": {
+    "name": "Fey",
+    "description": "Reroll all successful Attack and Ranged Attack rolls against this unit.\nIgnores Difficult Terrain.",
+    "type": "property"
+  },
+  "fieryBlades": {
+    "name": "Fiery Blades",
+    "description": "Target unit gets +1 Power on their next Ranged or Close Combat Attack.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "fireball": {
+    "name": "Fireball",
+    "description": "D6 Power 5 hits. Range 30.",
+    "type": "spell"
+  },
+  "fireBreath": {
+    "name": "Fire Breath",
+    "description": "Range 12. 2D3 Power 5.",
+    "type": "rangedAttack",
+    "perUnit": true
+  },
+  "flamer": {
+    "name": "Flamer",
+    "description": "Range 12. D3 Power 5.",
+    "type": "rangedAttack",
+    "perUnit": true
+  },
+  "flametounge": {
+    "name": "Flametongue",
+    "description": "+1 Power.",
+    "type": "magicWeapon",
+    "cost": 15
+  },
+  "flying": {
+    "name": "Flying",
+    "description": "Fly Speed 20. Ignore Terrain.",
+    "type": "property"
+  },
+  "forestSpirit": {
+    "name": "Forest Spirit",
+    "description": "A spirit of nature. Ignores Difficult Terrain.",
+    "type": "property"
+  },
+  "frenzy": {
+    "name": "Frenzy",
+    "description": "Re-roll missed Attack Rolls in the first round of combat.",
+    "type": "property"
+  },
+  "frostWard": {
+    "name": "Frost Ward",
+    "description": "Target unit gets +1 to Damage Saves for one turn. It must re-roll succesfull Attack and Ranged Attack rolls.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "fullSteam": {
+    "name": "Full Steam",
+    "description": "Activate for +4 Movement this turn.",
+    "type": "property"
+  },
+  "furiousCharge": {
+    "name": "Furious Charge",
+    "description": "Activate once per battle. Commander and Retinue rerolls Attack Rolls for one turn.",
+    "type": "commanderAbility"
+  },
+  "giftOfDecay": {
+    "name": "Gift Of Decay",
+    "description": "Favoured by Decay. +1 Wounds. -1 Move Speed.",
+    "type": "property"
+  },
+  "giftOfTrickery": {
+    "name": "Gift Of Trickery",
+    "description": "Favoured by Trickery. Unit has Ambush Deployment and +1 Move Speed. Can Flee from Charges.",
+    "type": "property"
+  },
+  "giftOfWar": {
+    "name": "Gift Of War",
+    "description": "Favoured by War. Unit has Frenzy (re-roll failed Attack Rolls in the first round of combat).",
+    "type": "property"
+  },
+  "greatweapon": {
+    "name": "Greatweapon",
+    "description": "+1 Power. Charge Bonus: +1 Power.",
+    "type": "weaponSet"
+  },
+  "halberd": {
+    "name": "Halberd",
+    "description": "Charge Bonus: +1 Power \nDamage Saves against this weapon are never better than 4+.",
+    "type": "weaponSet"
+  },
+  "handgun": {
+    "name": "Handguns",
+    "description": "Range: 24. Power 4. ",
+    "type": "rangedAttack"
+  },
+  "heartSeeker": {
+    "name": "Heart Seeker",
+    "description": "+1 to Hit rolls.",
+    "type": "magicWeapon",
+    "cost": 10
+  },
+  "heavyArmor": {
+    "name": "Heavy Armor",
+    "description": "-1 Movement. +1 Defense",
+    "type": "property"
+  },
+  "hexOfRuin": {
+    "name": "Hex Of Ruin",
+    "description": "Target unit has -2 Defense for one turn.",
+    "type": "spell"
+  },
+  "hidden": {
+    "name": "Hidden",
+    "description": "Commander is hidden from your opponent until engaged in combat or damaged.",
+    "type": "property"
+  },
+  "holyBlade": {
+    "name": "Holy Blade",
+    "description": "Caster has +1 Power and deals double wounds against Monsters this turn.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "hooves ": {
+    "name": "Hooves",
+    "description": "Charge Bonus: +1 Power",
+    "type": "weaponSet"
+  },
+  "horns": {
+    "name": "Horns",
+    "description": "Charge Bonus: +1 Power, +1 Attack",
+    "type": "weaponSet"
+  },
+  "horseMasters": {
+    "name": "Horse Masters",
+    "description": "Ignores movement penalty from Heavy Armor.\nWhen deployed 3 wide, models in flanks can attack as if in the front rank.",
+    "type": "property"
+  },
+  "howl": {
+    "name": "Howl",
+    "description": "All your Northmen are Fearless for one turn. Activate once per battle. ",
+    "type": "commanderAbility"
+  },
+  "huntersBow": {
+    "name": "Hunters Bow",
+    "description": "Range: 30. 3x Power 3.",
+    "type": "rangedAttack"
+  },
+  "huntersCall": {
+    "name": "Hunters Call",
+    "description": "All your units have +1 Skill for one turn.",
+    "type": "commanderAbility"
+  },
+  "infernoCannonWeapon": {
+    "name": "Inferno Cannon",
+    "description": "Range 16. 3D3 Power 5.",
+    "type": "rangedAttack",
+    "perUnit": true
+  },
+  "inspireValor": {
+    "name": "Inspire Valor",
+    "description": "Activate once per battle. Give all your units +1 Combat Score for one turn.",
+    "type": "commanderAbility"
+  },
+  "javelins": {
+    "name": "Javelins",
+    "description": "Range: 12. Power 3.",
+    "type": "rangedAttack"
+  },
+  "javelinsLight": {
+    "name": "Javelins",
+    "description": "Range: 12. Power 2.",
+    "type": "rangedAttack"
+  },
+  "lanceShield": {
+    "name": "Lance and Shield",
+    "description": "+1 Defense. Charge Bonus: +2 Power",
+    "type": "weaponSet"
+  },
+  "lethalShots": {
+    "name": "Lethal Shots",
+    "description": "This units ranged attack deals 2x wounds against multiwound targets.",
+    "type": "property"
+  },
+  "lightCrossbow": {
+    "name": "Light Crossbow",
+    "description": "Range: 24. Power 3.",
+    "type": "rangedAttack"
+  },
+  "longbow": {
+    "name": "Longbows",
+    "description": "Range: 30. Power 3.",
+    "type": "rangedAttack"
+  },
+  "lordOfDecay": {
+    "name": "Lord of Decay",
+    "description": "Once per battle, all friendly units with Gift of Decay re-roll failed damage saves.",
+    "type": "property"
+  },
+  "lordOfTrickery": {
+    "name": "Lord of Trickery",
+    "description": "Once per battle, all friendly units with Gift of Trickery gain +3 move speed and Cover for one turn.",
+    "type": "property"
+  },
+  "lordOfWar": {
+    "name": "Lord Of War",
+    "description": "Once per battle, all friendly units with Gift of War gain Deadly Strikes (2x Wounds caused).",
+    "type": "property"
+  },
+  "mammothJavelins": {
+    "name": "Javelins",
+    "description": "Range: 12. 4x Power 3.",
+    "type": "rangedAttack"
+  },
+  "marksmanRifle": {
+    "name": "Marksman Rifle",
+    "description": "Range 48. Power 4. Deadly Shots (Deals 2x Wounds)",
+    "type": "rangedAttack"
+  },
+  "masterworkArmor": {
+    "name": "Masterwork Armor",
+    "description": "+1 to Damage Saves",
+    "type": "property"
+  },
+  "mechanicalExpertise": {
+    "name": "Mechanical Expertise",
+    "description": "Target Warmachine gets +2 Defense and rerolls 1s on Ranged Attack rolls this battle.",
+    "type": "commanderAbility"
+  },
+  "mortar": {
+    "name": "Mortar",
+    "description": "Range 48. 2D3+1 hits, Power 4.",
+    "type": "rangedAttack"
+  },
+  "mountainsWill": {
+    "name": "Mountain's Will",
+    "description": "Activate once per battle: All your units have +1 Defense for one turn.",
+    "type": "commanderAbility"
+  },
+  "packTactics": {
+    "name": "Pack Tactics",
+    "description": "Target a friendly unit that is attacking an enemy unit in the flank/rear. It re-rolls failed Attack rolls this turn.",
+    "type": "commanderAbility"
+  },
+  "phaseOut": {
+    "name": "Phase Out",
+    "description": "Activate for +4 Movement and Flying for one turn.",
+    "type": "property"
+  },
+  "plague": {
+    "name": "Plague",
+    "description": "Target unit has -1 Skill and -1 Move Speed. Lasts until end of battle.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "poisonedAttacks": {
+    "name": "Poisoned Attacks",
+    "description": "Enemies re-roll 6s on Damage Saves.",
+    "type": "property"
+  },
+  "potionOfPower": {
+    "name": "Potion of Power",
+    "description": "One use, +2 Power and + 1 Attack until end of turn.",
+    "type": "magicItem",
+    "cost": 25
+  },
+  "powerOfMany": {
+    "name": "Power Of Many",
+    "description": "All your Goblins are Fearless for one turn. Activate once per battle. ",
+    "type": "commanderAbility"
+  },
+  "primalFury": {
+    "name": "Primal Fury",
+    "description": "Target unit has +1 Power and rerolls missed Attack Rolls for one turn.",
+    "type": "spell"
+  },
+  "protectedCrew": {
+    "name": "Crewed Weapon",
+    "description": "Always counts as being in Cover. -2 Defense in Close Combat. Unit can't charge.",
+    "type": "property"
+  },
+  "prowess": {
+    "name": "Prowess",
+    "description": "+2 Skill",
+    "type": "magicItem",
+    "cost": 10
+  },
+  "putridStench": {
+    "name": "Putrid Stench",
+    "description": "Opponents re-roll hits in close combat.",
+    "type": "property"
+  },
+  "radiantShield": {
+    "name": "Radiant Shield",
+    "description": "Target unit rerolls failed damage saves for one turn.",
+    "type": "spell"
+  },
+  "raider": {
+    "name": "Raider",
+    "description": "Commanders retinue deploys with Ambush.",
+    "type": "commanderAbility"
+  },
+  "raiseDead": {
+    "name": "Raise Dead",
+    "description": "Raise D3+3 models on a Zombie or Skeleton Warrior, Spear or Archer unit. ",
+    "type": "spell",
+    "cantrip": true
+  },
+  "rallyingCry": {
+    "name": "Rallying Cry",
+    "description": "Rally a fleeing unit. One use per battle.",
+    "type": "commanderAbility"
+  },
+  "rammingSpeed": {
+    "name": "Ramming Speed",
+    "description": "Charge Bonus: +1 Power",
+    "type": "weaponSet"
+  },
+  "ranger": {
+    "name": "Ranger",
+    "description": "Re-rolls missed ranged Attack rolls. Retinue has +2 Move Speed",
+    "type": "commanderAbility"
+  },
+  "ratkinLongrifle": {
+    "name": "Longrifle",
+    "description": "Range 48. Power 5.",
+    "type": "rangedAttack"
+  },
+  "realityRift": {
+    "name": "Reality Rift",
+    "description": "Caster and retinue gains Flying and Move Speed 20 for one turn",
+    "type": "spell"
+  },
+  "reanimate": {
+    "name": "Reanimate",
+    "description": "Restore D3+1 wounds to a Reanimated unit.",
+    "type": "spell"
+  },
+  "reanimated": {
+    "name": "Reanimated",
+    "description": "-1 Movement. Never fails Discipline tests, loses D3 wounds on lost combat.",
+    "type": "property"
+  },
+  "regeneration": {
+    "name": "Regeneration",
+    "description": "Unit recovers all missing wounds at end of turn.",
+    "type": "property"
+  },
+  "regrowth": {
+    "name": "Regrowth",
+    "description": "Restore D3 wounds to a Forest Spirit unit.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "relentless": {
+    "name": "Relentless",
+    "description": "+1 Attack.",
+    "type": "magicWeapon",
+    "cost": 15
+  },
+  "reposition": {
+    "name": "Reposition",
+    "description": "+6 Movement this turn.",
+    "type": "property"
+  },
+  "roar": {
+    "name": "Roar!",
+    "description": "All enemy units have -2 Discipline for one turn. Can only be  activated when damaged.",
+    "type": "commanderAbility"
+  },
+  "scalySkin": {
+    "name": "Scaly Skin",
+    "description": "-1 Movement. +1 Defense",
+    "type": "property"
+  },
+  "scout": {
+    "name": "Scout",
+    "description": "Ignore movement penalties from Difficult Terrain",
+    "type": "property"
+  },
+  "shadowBolt": {
+    "name": "Shadow Bolt",
+    "description": "3 x Power 3 hits. Range: 18.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "shortbow": {
+    "name": "Shortbows",
+    "description": "Range: 20. Power 3.",
+    "type": "rangedAttack"
+  },
+  "shroud": {
+    "name": "Shroud",
+    "description": "Target unit counts as being in Cover against ranged attacks until it's next combat.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "sling": {
+    "name": "Sling",
+    "description": "Range: 20. Power 2.",
+    "type": "rangedAttack"
+  },
+  "spearshield": {
+    "name": "Spear and Shield",
+    "description": "+1 Defense. Extra Rank supporting attacks when not charging.",
+    "type": "weaponSet"
+  },
+  "steamGun": {
+    "name": "Steam Gun",
+    "description": "Range 12. 2D3 Power 3.",
+    "type": "rangedAttack",
+    "perUnit": true
+  },
+  "sturdy": {
+    "name": "Sturdy",
+    "description": "-1 Movement. Ignore the movement penalty from Heavy Armor.",
+    "type": "property"
+  },
+  "swift": {
+    "name": "Swift",
+    "description": "+1 Movement",
+    "type": "property"
+  },
+  "takeRoot": {
+    "name": "Take Root",
+    "description": "For one turn, reduce move speed to zero. Re-roll failed damage saves and discipline tests. Activate once per battle.",
+    "type": "commanderAbility"
+  },
+  "tankArmor": {
+    "name": "Armor Plating",
+    "description": "+1 Defense. -4 Move Speed.",
+    "type": "property"
+  },
+  "thousandMouths": {
+    "name": "Thousand Mouths",
+    "description": "3D6 Power 1 hits. Range 18.",
+    "type": "spell"
+  },
+  "throwingStars": {
+    "name": "Throwing Stars",
+    "description": "Range: 8. Power 2.",
+    "type": "rangedAttack"
+  },
+  "triceratopsShortbows": {
+    "name": "Newt Shortbows",
+    "description": "Range: 20. 4x Power 3.",
+    "type": "rangedAttack"
+  },
+  "trueStrike": {
+    "name": "True Strike",
+    "description": "Reroll missed attacks.",
+    "type": "magicWeapon",
+    "cost": 10
+  },
+  "tusks": {
+    "name": "Tusks",
+    "description": "Charge Bonus: +1 Power, +1 Attack",
+    "type": "weaponSet"
+  },
+  "unarmed": {
+    "name": "Unarmed",
+    "description": "Unarmed attacks",
+    "type": "weaponSet"
+  },
+  "unaturalPower": {
+    "name": "Unnatural Power",
+    "description": "+1 Power. +1 Defense",
+    "type": "magicItem",
+    "cost": 20
+  },
+  "unholyVigour": {
+    "name": "Unholy Vigour",
+    "description": "Increase the move speed of target Reanimated unit by 3 until its next combat.",
+    "type": "spell",
+    "cantrip": true
+  },
+  "unyielding": {
+    "name": "Unyielding",
+    "description": "Reroll failed damage saves.",
+    "type": "magicItem",
+    "cost": 10
+  },
+  "vitality": {
+    "name": "Vitality",
+    "description": "+1 Defense. +1 Wounds",
+    "type": "magicItem",
+    "cost": 15
+  },
+  "warBanner": {
+    "name": "War Banner",
+    "description": "+1 Combat Score",
+    "type": "magicBanner",
+    "perUnit": true,
+    "cost": 25
+  },
+  "warcry": {
+    "name": "Warcry",
+    "description": "All your units have +1 Power for one turn.",
+    "type": "commanderAbility"
+  },
+  "web": {
+    "name": "Web",
+    "description": "Reduce an enemy units Move Speed by 4. Range 12.",
+    "type": "spell"
+  },
+  "wildform": {
+    "name": "Wildform",
+    "description": "Caster has +1 Power,  +1 Defense and +2 Attacks for one turn.",
+    "type": "spell",
+    "cantrip": true
+  }
+}

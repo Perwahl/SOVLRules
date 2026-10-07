@@ -1,0 +1,1255 @@
+{
+  "id": "EmpiresOfMen",
+  "name": "Empires of Men",
+  "primaryColor": "#671819",
+  "secondaryColor": "#221C1A",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "captain",
+        "knightCommander",
+        "imperialWizard"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "gryphon",
+        "imperialDragon"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "imperialSword",
+        "footKnights",
+        "imperialHalberd",
+        "imperialSpear"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "imperialKnights",
+        "imperialLightCavalry"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "imperialArchers",
+        "imperialCrossbowmen",
+        "imperialHandguns",
+        "imperialCannon",
+        "imperialMortar"
+      ]
+    },
+    {
+      "name": "Imperial Armory",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "imperialDreadnought",
+        "imperialCannon",
+        "imperialMortar"
+      ]
+    }
+  ],
+  "units": {
+    "captain": {
+      "unitID": "captain",
+      "name": "Captain",
+      "modelType": "Infantry",
+      "points": 45,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "bracePistolsCommander",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "inspireValor"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "imperialSword",
+          "name": "Imperial Sword"
+        },
+        {
+          "unitID": "imperialHalberd",
+          "name": "Imperial Halberd"
+        },
+        {
+          "unitID": "imperialSpear",
+          "name": "Imperial Spear"
+        },
+        {
+          "unitID": "imperialLightCavalry",
+          "name": "Imperial Light Cavalry"
+        },
+        {
+          "unitID": "gryphon",
+          "name": "Gryphon",
+          "mount": true
+        }
+      ],
+      "image": "EmpiresOfMen/captain.png",
+      "icon": "visored-helm.png"
+    },
+    "knightCommander": {
+      "unitID": "knightCommander",
+      "name": "Knight Commander",
+      "modelType": "InfantryLarge",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "lanceShield",
+            "cost": 5
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "furiousCharge"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "imperialKnights",
+          "name": "Imperial Knights"
+        },
+        {
+          "unitID": "footKnights",
+          "name": "Foot Knights"
+        },
+        {
+          "unitID": "gryphon",
+          "name": "Gryphon",
+          "mount": true
+        },
+        {
+          "unitID": "imperialDragon",
+          "name": "Imperial Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "EmpiresOfMen/knightCommander.png",
+      "icon": "frog-mouth-helm.png"
+    },
+    "imperialWizard": {
+      "unitID": "imperialWizard",
+      "name": "Imperial Wizard",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "properties": [
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "fireball"
+            },
+            {
+              "id": "frostWard"
+            },
+            {
+              "id": "divineFavour"
+            },
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "radiantShield"
+            },
+            {
+              "id": "hexOfRuin"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "imperialArchers",
+          "name": "Imperial Archers"
+        },
+        {
+          "unitID": "imperialCrossbowmen",
+          "name": "Imperial Crossbowmen"
+        },
+        {
+          "unitID": "imperialHandguns",
+          "name": "Imperial Handguns"
+        },
+        {
+          "unitID": "footKnights",
+          "name": "Foot Knights"
+        },
+        {
+          "unitID": "gryphon",
+          "name": "Gryphon",
+          "mount": true
+        },
+        {
+          "unitID": "imperialDragon",
+          "name": "Imperial Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "EmpiresOfMen/imperialWizard.png",
+      "icon": "orb-wand.png"
+    },
+    "gryphon": {
+      "unitID": "gryphon",
+      "name": "Gryphon",
+      "modelType": "MonstrousInfantry",
+      "points": 55,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "EmpiresOfMen/gryphon.png",
+      "icon": "griffin-symbol.png"
+    },
+    "imperialDragon": {
+      "unitID": "imperialDragon",
+      "name": "Imperial Dragon",
+      "modelType": "LargeMonster",
+      "points": 125,
+      "isMount": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 6,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 7,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fireBreath"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "EmpiresOfMen/imperialDragon.png",
+      "icon": "spiked-dragon-head.png"
+    },
+    "imperialSword": {
+      "unitID": "imperialSword",
+      "name": "Imperial Sword",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "EmpiresOfMen/imperialSword.png",
+      "icon": "iron_cross.png"
+    },
+    "footKnights": {
+      "unitID": "footKnights",
+      "name": "Foot Knights",
+      "modelType": "Infantry",
+      "points": 8,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 18
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 18
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        }
+      ],
+      "image": "EmpiresOfMen/footKnights.png",
+      "icon": "closed-barbute_(1).png"
+    },
+    "imperialHalberd": {
+      "unitID": "imperialHalberd",
+      "name": "Imperial Halberd",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "halberd"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "EmpiresOfMen/imperialHalberd.png",
+      "icon": "sharp-halberd.png"
+    },
+    "imperialSpear": {
+      "unitID": "imperialSpear",
+      "name": "Imperial Spear",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "EmpiresOfMen/imperialSpear.png",
+      "icon": "spearShield.png"
+    },
+    "imperialKnights": {
+      "unitID": "imperialKnights",
+      "name": "Imperial Knights",
+      "modelType": "Cavalry",
+      "points": 19,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 15
+        },
+        "Legion": {
+          "min": 5,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "lanceShield",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        }
+      ],
+      "image": "EmpiresOfMen/imperialKnights.png",
+      "icon": "gothic-cross.png"
+    },
+    "imperialLightCavalry": {
+      "unitID": "imperialLightCavalry",
+      "name": "Imperial Light Cavalry",
+      "modelType": "Cavalry",
+      "points": 18,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 15
+        },
+        "Legion": {
+          "min": 5,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "bracePistols"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "EmpiresOfMen/imperialLightCavalry.png",
+      "icon": "crossed-pistols.png"
+    },
+    "imperialArchers": {
+      "unitID": "imperialArchers",
+      "name": "Imperial Archers",
+      "modelType": "Infantry",
+      "points": 8,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "longbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "EmpiresOfMen/imperialArchers.png",
+      "icon": "feather.png"
+    },
+    "imperialCrossbowmen": {
+      "unitID": "imperialCrossbowmen",
+      "name": "Imperial Crossbowmen",
+      "modelType": "Infantry",
+      "points": 8,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "crossbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "EmpiresOfMen/imperialCrossbowmen.png",
+      "icon": "crossbow.png"
+    },
+    "imperialHandguns": {
+      "unitID": "imperialHandguns",
+      "name": "Imperial Handguns",
+      "modelType": "Infantry",
+      "points": 8,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "handgun"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "EmpiresOfMen/imperialHandguns.png",
+      "icon": "musket.png"
+    },
+    "imperialCannon": {
+      "unitID": "imperialCannon",
+      "name": "Imperial Cannon",
+      "modelType": "WarMachine",
+      "points": 55,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "cannon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "lethalShots"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "EmpiresOfMen/imperialCannon.png",
+      "icon": "cannon.png"
+    },
+    "imperialMortar": {
+      "unitID": "imperialMortar",
+      "name": "Imperial Mortar",
+      "modelType": "WarMachine",
+      "points": 50,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "mortar"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "EmpiresOfMen/imperialMortar.png",
+      "icon": "mortar.png"
+    },
+    "imperialDreadnought": {
+      "unitID": "imperialDreadnought",
+      "name": "Imperial Dreadnought",
+      "modelType": "WarWagon",
+      "points": 100,
+      "stats": {
+        "Skill": 3,
+        "Power": 5,
+        "Defense": 6,
+        "Attacks": 5,
+        "Wounds": 8,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "rammingSpeed"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "steamGun"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "tankArmor"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fullSteam"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        }
+      ],
+      "image": "EmpiresOfMen/imperialDreadnought.png",
+      "icon": "tank.png"
+    }
+  }
+}

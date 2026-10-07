@@ -1,0 +1,1239 @@
+{
+  "id": "DeepwoodGuardians",
+  "name": "Deepwood Guardians",
+  "dlc": "Deepwood Guardians",
+  "primaryColor": "#323F20",
+  "secondaryColor": "#779051",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "deepwoodLord",
+        "deepwoodDruid",
+        "treantElder"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "forestDragon",
+        "gryphonElf"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "deepwoodGuard",
+        "dryads",
+        "dancers"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "deepwoodArchers",
+        "deepwoodRangers"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "deepwoodRiders",
+        "deepwoodChariot",
+        "giantEagle",
+        "stagRiders"
+      ]
+    },
+    {
+      "name": "Forest Guardians",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "treant"
+      ]
+    }
+  ],
+  "units": {
+    "deepwoodLord": {
+      "unitID": "deepwoodLord",
+      "name": "Deepwood Noble",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "huntersBow",
+            "cost": 10
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "elvenAccuracy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "huntersCall"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "deepwoodGuard",
+          "name": "Deepwood Guard"
+        },
+        {
+          "unitID": "deepwoodArchers",
+          "name": "Deepwood Archers"
+        },
+        {
+          "unitID": "deepwoodChariot",
+          "name": "Deepwood Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "deepwoodRiders",
+          "name": "Deepwood Riders"
+        },
+        {
+          "unitID": "gryphonElf",
+          "name": "Gryphon",
+          "mount": true
+        },
+        {
+          "unitID": "forestDragon",
+          "name": "Forest Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "DeepwoodGuardians/deepwoodLord.png",
+      "icon": "crown-of-thorns.png"
+    },
+    "deepwoodDruid": {
+      "unitID": "deepwoodDruid",
+      "name": "Deepwood Druid",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "regrowth"
+            },
+            {
+              "id": "wildform"
+            },
+            {
+              "id": "divineFavour"
+            },
+            {
+              "id": "arcaneWeb"
+            },
+            {
+              "id": "thousandMouths"
+            },
+            {
+              "id": "radiantShield"
+            },
+            {
+              "id": "shroud"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "deepwoodArchers",
+          "name": "Deepwood Archers"
+        },
+        {
+          "unitID": "deepwoodGuard",
+          "name": "Deepwood Guard"
+        },
+        {
+          "unitID": "deepwoodChariot",
+          "name": "Deepwood Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "deepwoodRiders",
+          "name": "Deepwood Riders"
+        },
+        {
+          "unitID": "gryphonElf",
+          "name": "Gryphon",
+          "mount": true
+        },
+        {
+          "unitID": "forestDragon",
+          "name": "Forest Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "DeepwoodGuardians/deepwoodDruid.png",
+      "icon": "lotus-flower.png"
+    },
+    "treantElder": {
+      "unitID": "treantElder",
+      "name": "Treant Elder",
+      "modelType": "LargeMonster",
+      "points": 150,
+      "commander": true,
+      "solo": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 6,
+        "Defense": 6,
+        "Attacks": 6,
+        "Wounds": 8,
+        "Discipline": 10
+      },
+      "models": {},
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "forestSpirit"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "barkskin"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "takeRoot"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "image": "DeepwoodGuardians/treantElder.png",
+      "icon": "deku-tree.png"
+    },
+    "forestDragon": {
+      "unitID": "forestDragon",
+      "name": "Forest Dragon",
+      "modelType": "LargeMonster",
+      "points": 125,
+      "isMount": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 6,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 7,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fireBreath"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "DeepwoodGuardians/forestDragon.png",
+      "icon": "spiked-dragon-head.png"
+    },
+    "gryphonElf": {
+      "unitID": "gryphonElf",
+      "name": "Gryphon",
+      "modelType": "MonstrousInfantry",
+      "points": 55,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "DeepwoodGuardians/gryphonElf.png",
+      "icon": "griffin-symbol.png"
+    },
+    "deepwoodGuard": {
+      "unitID": "deepwoodGuard",
+      "name": "Deepwood Guard",
+      "modelType": "Infantry",
+      "points": 7,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 12,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DeepwoodGuardians/deepwoodGuard.png",
+      "icon": "leafshield.png"
+    },
+    "dryads": {
+      "unitID": "dryads",
+      "name": "Dryads",
+      "modelType": "InfantryLarge",
+      "points": 14,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 2,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 8,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 20
+        },
+        "Legion": {
+          "min": 8,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "barkskin"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "forestSpirit"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DeepwoodGuardians/dryads.png",
+      "icon": "vine-flower.png"
+    },
+    "dancers": {
+      "unitID": "dancers",
+      "name": "Deepwood Dancers",
+      "modelType": "Infantry",
+      "points": 11,
+      "stats": {
+        "Skill": 5,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 18
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 18
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 21
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "elvenMastery"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "DeepwoodGuardians/dancers.png",
+      "icon": "swords-power.png"
+    },
+    "deepwoodArchers": {
+      "unitID": "deepwoodArchers",
+      "name": "Deepwood Archers",
+      "modelType": "Infantry",
+      "points": 10,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 20
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 20
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "longbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DeepwoodGuardians/deepwoodArchers.png",
+      "icon": "quiver.png"
+    },
+    "deepwoodRangers": {
+      "unitID": "deepwoodRangers",
+      "name": "Deepwood Rangers",
+      "modelType": "Infantry",
+      "points": 15,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "longbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "elvenAccuracy"
+            }
+          ]
+        }
+      ],
+      "image": "DeepwoodGuardians/deepwoodRangers.png",
+      "icon": "vine-leaf.png"
+    },
+    "deepwoodRiders": {
+      "unitID": "deepwoodRiders",
+      "name": "Deepwood Riders",
+      "modelType": "Cavalry",
+      "points": 17,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccw"
+          },
+          {
+            "id": "ccwshield",
+            "cost": 2
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "shortbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DeepwoodGuardians/deepwoodRiders.png",
+      "icon": "horse-head.png"
+    },
+    "deepwoodChariot": {
+      "unitID": "deepwoodChariot",
+      "name": "Deepwood Chariot",
+      "modelType": "Chariot",
+      "points": 55,
+      "sectionCost": "Half",
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "chariotBows"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "crushingCharge"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "DeepwoodGuardians/deepwoodChariot.png",
+      "icon": "chariot.png"
+    },
+    "giantEagle": {
+      "unitID": "giantEagle",
+      "name": "Giant Eagle",
+      "modelType": "MonstrousInfantry",
+      "points": 55,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 4,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "DeepwoodGuardians/giantEagle.png",
+      "icon": "bird-claw.png"
+    },
+    "stagRiders": {
+      "unitID": "stagRiders",
+      "name": "Stag Riders",
+      "modelType": "Cavalry",
+      "points": 22,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "horns"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DeepwoodGuardians/stagRiders.png",
+      "icon": "stag-head(1).png"
+    },
+    "treant": {
+      "unitID": "treant",
+      "name": "Treant",
+      "modelType": "LargeMonster",
+      "points": 100,
+      "stats": {
+        "Skill": 4,
+        "Power": 6,
+        "Defense": 6,
+        "Attacks": 5,
+        "Wounds": 8,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "forestSpirit"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "barkskin"
+            }
+          ]
+        }
+      ],
+      "image": "DeepwoodGuardians/treant.png",
+      "icon": "evil-tree.png"
+    }
+  }
+}

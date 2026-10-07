@@ -1,0 +1,1180 @@
+{
+  "id": "AbyssalLegions",
+  "name": "Abyssal Legions",
+  "dlc": "Into The Abyss",
+  "primaryColor": "#143464",
+  "secondaryColor": "#122020",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "abyssalChampion",
+        "abyssalSorcerer",
+        "northmenPackleader"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "abyssalDragon",
+        "manticore"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "northmenAxe",
+        "abyssalWarriors",
+        "dragonSpawn"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 2
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 3
+        },
+        "Legion": {
+          "min": 0,
+          "max": 4
+        }
+      },
+      "units": [
+        "northmenHorse",
+        "abyssalKnights",
+        "abyssalHounds",
+        "abyssalChariot"
+      ]
+    },
+    {
+      "name": "Demonic Allies",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "archDevil",
+        "devilSpawn"
+      ]
+    },
+    {
+      "name": "War Beasts",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 1
+        },
+        "Legion": {
+          "min": 0,
+          "max": 2
+        }
+      },
+      "units": [
+        "mammoth"
+      ]
+    }
+  ],
+  "units": {
+    "abyssalChampion": {
+      "unitID": "abyssalChampion",
+      "name": "Abyssal Champion",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "abyssalArmor"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonicPossession"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "northmenAxe",
+          "name": "Northmen Axe"
+        },
+        {
+          "unitID": "abyssalWarriors",
+          "name": "Abyssal Warriors"
+        },
+        {
+          "unitID": "abyssalKnights",
+          "name": "Abyssal Knights"
+        },
+        {
+          "unitID": "abyssalChariot",
+          "name": "Abyssal Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "manticore",
+          "name": "Manticore",
+          "mount": true
+        },
+        {
+          "unitID": "abyssalDragon",
+          "name": "Abyssal Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "AbyssalLegions/abyssalChampion.png",
+      "icon": "warlord-helmet.png"
+    },
+    "abyssalSorcerer": {
+      "unitID": "abyssalSorcerer",
+      "name": "Abyssal Sorcerer",
+      "modelType": "Infantry",
+      "points": 65,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "abyssalArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "fireball"
+            },
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "arcaneWeb"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "bloodFrenzy"
+            },
+            {
+              "id": "realityRift"
+            },
+            {
+              "id": "plague"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "northmenAxe",
+          "name": "Northmen Axe"
+        },
+        {
+          "unitID": "northmenHorse",
+          "name": "Northmen Horse"
+        },
+        {
+          "unitID": "abyssalWarriors",
+          "name": "Abyssal Warriors"
+        },
+        {
+          "unitID": "abyssalKnights",
+          "name": "Abyssal Knights"
+        },
+        {
+          "unitID": "abyssalChariot",
+          "name": "Abyssal Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "manticore",
+          "name": "Manticore",
+          "mount": true
+        },
+        {
+          "unitID": "abyssalDragon",
+          "name": "Abyssal Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "AbyssalLegions/abyssalSorcerer.png",
+      "icon": "abstract-097.png"
+    },
+    "northmenPackleader": {
+      "unitID": "northmenPackleader",
+      "name": "Northmen Packleader",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "packTactics"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "howl"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "northmenAxe",
+          "name": "Northmen Axe"
+        },
+        {
+          "unitID": "northmenHorse",
+          "name": "Northmen Horse"
+        },
+        {
+          "unitID": "abyssalChariot",
+          "name": "Abyssal Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "mammoth",
+          "name": "War Mammoth",
+          "mount": true
+        }
+      ],
+      "image": "AbyssalLegions/northmenPackleader.png",
+      "icon": "claw-string.png"
+    },
+    "abyssalDragon": {
+      "unitID": "abyssalDragon",
+      "name": "Abyssal Dragon",
+      "modelType": "LargeMonster",
+      "points": 125,
+      "isMount": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 6,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 7,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fireBreath"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalLegions/abyssalDragon.png",
+      "icon": "spiked-dragon-head.png"
+    },
+    "manticore": {
+      "unitID": "manticore",
+      "name": "Manticore",
+      "modelType": "MonstrousInfantry",
+      "points": 65,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 4,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalLegions/manticore.png",
+      "icon": "lion.png"
+    },
+    "northmenAxe": {
+      "unitID": "northmenAxe",
+      "name": "Northmen Axe",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 25
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 30
+        },
+        "Legion": {
+          "min": 15,
+          "max": 36
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "2CCW",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "AbyssalLegions/northmenAxe.png",
+      "icon": "sharp-axe.png"
+    },
+    "abyssalWarriors": {
+      "unitID": "abyssalWarriors",
+      "name": "Abyssal Warriors",
+      "modelType": "InfantryLarge",
+      "points": 12,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "halberd"
+          },
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "abyssalArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "AbyssalLegions/abyssalWarriors.png",
+      "icon": "brutal-helm.png"
+    },
+    "dragonSpawn": {
+      "unitID": "dragonSpawn",
+      "name": "Dragon Spawn",
+      "modelType": "MonstrousInfantry",
+      "points": 42,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 4,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 6
+        },
+        "Legion": {
+          "min": 3,
+          "max": 8
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scalySkin"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalLegions/dragonSpawn.png",
+      "icon": "dragon-head.png"
+    },
+    "northmenHorse": {
+      "unitID": "northmenHorse",
+      "name": "Northmen Horse",
+      "modelType": "Cavalry",
+      "points": 15,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "javelins",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "AbyssalLegions/northmenHorse.png",
+      "icon": "horned-helm.png"
+    },
+    "abyssalKnights": {
+      "unitID": "abyssalKnights",
+      "name": "Abyssal Knights",
+      "modelType": "Cavalry",
+      "points": 28,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 5
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 5
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "abyssalArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "AbyssalLegions/abyssalKnights.png",
+      "icon": "mounted-knight.png"
+    },
+    "abyssalHounds": {
+      "unitID": "abyssalHounds",
+      "name": "Abyssal Hounds",
+      "modelType": "Hounds",
+      "points": 7,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 10
+        },
+        "Legion": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 3,
+        "Legion": 4
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalLegions/abyssalHounds.png",
+      "icon": "saber-toothed-cat-head.png"
+    },
+    "abyssalChariot": {
+      "unitID": "abyssalChariot",
+      "name": "Abyssal Chariot",
+      "modelType": "Chariot",
+      "points": 70,
+      "sectionCost": "Half",
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "crushingCharge"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "abyssalArmor"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalLegions/abyssalChariot.png",
+      "icon": "chariot.png"
+    },
+    "archDevil": {
+      "unitID": "archDevil",
+      "name": "Archdevil",
+      "modelType": "LargeMonster",
+      "points": 150,
+      "stats": {
+        "Skill": 5,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 6,
+        "Wounds": 6,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfWar"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalLegions/archDevil.png",
+      "icon": "horned-skull.png"
+    },
+    "devilSpawn": {
+      "unitID": "devilSpawn",
+      "name": "Devilspawn",
+      "modelType": "InfantryLarge",
+      "points": 13,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 6,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 6,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 15
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfWar"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalLegions/devilSpawn.png",
+      "icon": "demon_skull.png"
+    },
+    "mammoth": {
+      "unitID": "mammoth",
+      "name": "War Mammoth",
+      "modelType": "LargeMonsterLongBase",
+      "points": 100,
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 5,
+        "Defense": 6,
+        "Attacks": 4,
+        "Wounds": 8,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "tusks"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "mammothJavelins"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalLegions/mammoth.png",
+      "icon": "mammoth.png"
+    }
+  }
+}

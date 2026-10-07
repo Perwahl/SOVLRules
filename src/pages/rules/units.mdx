@@ -1,0 +1,146 @@
+---
+layout: ../../layouts/RulesLayout.astro
+title: Units
+eyebrow: The Rules
+lede: Every regiment, monster and hero is a unit. A unit's stat line, its type and its properties tell you how it moves, how it fights and how long it holds.
+description: Unit stat lines, unit types and movement, ranks and rank bonus, wounds, commanders and Discipline tests in SOVL.
+---
+import Figure from '../../components/Figure.astro';
+import Callout from '../../components/Callout.astro';
+import UnitTypesTable from '../../components/UnitTypesTable.astro';
+import cardShot from '../../assets/site/unit-card.jpg';
+
+A **unit** is a block of models that moves and fights as one: twenty Dwarf Warriors in four ranks of five, a squadron of five knights, or a single dragon. Units are always activated, moved and attacked as a whole.
+
+## The stat line
+
+Every unit has six stats. You'll find them on the unit card in the game, and on every unit in the [army lists](../../armies/).
+
+<Figure src={cardShot} alt="The in-game unit card for Lucia Flamebringer, a Maiden, showing Skill 4, Power 3, Defense 3, Attacks 2, Wounds 3 and Discipline 8, with her spells and abilities listed above." caption="A commander's card in the game. Spells and abilities are listed above the stat line; hover them in the game for details." narrow />
+
+<dl class="rule-grid">
+  <dt>Skill</dt><dd>Training and fighting ability. Compared with the enemy's Skill to decide your chance to hit in melee, and sets your chance to hit with ranged attacks.</dd>
+  <dt>Power</dt><dd>Strength and striking force. Compared with the target's Defense to decide how hard your hits are to save.</dd>
+  <dt>Defense</dt><dd>Toughness and armour. Sets the damage save the unit makes against incoming hits.</dd>
+  <dt>Attacks</dt><dd>How many attack dice each model rolls in melee.</dd>
+  <dt>Wounds</dt><dd>How much damage each model takes before it is removed.</dd>
+  <dt>Discipline</dt><dd>Courage and nerve. The target for Discipline tests: roll it or under on two dice to hold firm.</dd>
+</dl>
+
+Stats can be changed by weapons, armour, spells and abilities. The game always shows the current value, with any modifiers already applied.
+
+## Unit types
+
+A unit's **type** sets its base size, how far it moves, and how wide its ranks can be. Most units can change their stats with equipment, but their type never changes.
+
+<UnitTypesTable />
+
+- **Move** is the distance the unit can move in one activation, and also its charge reach. Some properties change it. For example, Heavy Armor costs 1", Swift adds 1", and Flying sets it to 20".
+- **Turn 90°** is what it costs to pivot a quarter turn. Pivots cost a quarter of the unit's Move per 90°, so a half turn costs half its Move. War Machines pivot for free.
+- **Rank width** is how many models a unit can have in its front rank. You choose the width in the Army Builder. A dash means the unit is a single model, or fights as one.
+
+<Callout type="example">
+A unit of Orc Warriors (Infantry, Move 8") wants to turn around and march back. A 180° pivot costs 4", leaving 4" to move forward.
+</Callout>
+
+## Ranks and rank bonus
+
+Models in a unit stand in **ranks**, filling the front rank first. A unit's **ranks** are its full ranks, plus a partial rear rank if it has at least three models. A unit with fewer than three models has no ranks.
+
+Ranks give a unit staying power:
+
+- **Discipline tests** add the unit's full rank count to its Discipline. Twenty Dwarf Warriors, five wide, have four ranks and test on Discipline +4.
+- **Combat score**: a unit in melee adds +1 for its second rank and +1 more for a third, up to **+2**, as long as it isn't *disrupted*. See [Combat score](../combat-phase/#combat-score).
+- **Supporting attacks**: models in the second rank add attacks to the front. See [Who attacks](../combat-phase/#who-attacks).
+
+Wide units hit harder and are harder to flank. Deep units hold their nerve. Choosing the width is one of the first decisions you make with every unit.
+
+## Wounds and casualties
+
+Damage on a unit is pooled. Each wound the unit suffers goes onto the pool, and every time the pool reaches the unit's **Wounds** stat, one model is removed and the pool empties. Extra wounds carry over to the next model. A wounded model's damage stays from one turn to the next, so a half-dead Troll is still half dead next turn.
+
+A unit is **destroyed** when its last model is removed.
+
+## Commanders
+
+Every army is led by **Commanders**. In the Army Builder each commander is attached to a unit, its **retinue**, and fights at the head of it for the whole battle.
+
+- A commander has its **own stat line** and fights in melee with its own Skill, Power and Attacks. See [Commanders in combat](../combat-phase/#commanders-in-combat).
+- While the commander lives, the unit uses the **commander's Discipline** for all its Discipline tests.
+- The commander gets its own **ability** each activation, as well as the unit's. See [Abilities and spells](../strategic-phase/#abilities-and-spells).
+- Enemy rank-and-file can't single out a commander in a unit. Shooting always hits the retinue. Only an enemy commander can attack a commander directly, until the retinue is gone.
+
+If the whole retinue is destroyed, the commander fights on alone as a **solo commander**, with its own stats and no ranks. Some commanders ride a monster or a chariot instead. If that mount is slain, the rider falls with it. A few commanders are monsters themselves and never have a retinue.
+
+<Callout type="tip">
+Commanders make their unit braver as well as deadlier. A commander's high Discipline is worth guarding: if it falls, the unit goes back to its own, usually lower, Discipline.
+</Callout>
+
+## Discipline tests
+
+Some moments test a unit's nerve. Roll **two dice** and add them together. The unit passes if the total is **equal to or less than** its target:
+
+<p style="text-align:center; font-size:1.25rem;"><strong>Target = Discipline + ranks − penalty</strong></p>
+
+The game makes a Discipline test in two situations:
+
+1. **Break tests**, after losing a melee. The penalty is how much the combat was lost by. See [Break tests](../combat-phase/#break-tests).
+2. **Rally tests**, when a fleeing unit tries to recover. There is no penalty. See [Rallying](../strategic-phase/#rallying-fleeing-units).
+
+Nothing else makes a unit test. Heavy shooting, a nearby unit fleeing, or a commander's death never forces a Discipline test on its own.
+
+<Callout type="example">
+A unit with Discipline 6 and three ranks loses a combat by 4. Their target is 6 + 3 − 4 = **5**. It needs 5 or less on two dice, only a 28% chance. Most likely it runs.
+</Callout>
+
+Some properties change Discipline tests:
+
+- **Fearless** units ignore the penalty for losing a combat. Their ranks still count.
+- **Reanimated**, **Demonic** and **Construct** units never flee. Instead they **crumble**: when they lose a combat they don't roll, and lose D3 wounds instead.
+- **Bodyguard** units re-roll a failed test when a commander is with them.
+
+## Properties
+
+Everything else a unit can do comes from its **properties**:
+
+- weapon sets, such as Hand Weapon and Shield, Spear and Shield, and Greatweapon;
+- ranged weapons;
+- armour;
+- special rules, such as Fearless, Frenzy, Scout and Flying;
+- commanders' abilities and spells.
+
+Each property is listed on the unit in the [army lists](../../armies/) and explained in the [Glossary](../../reference/glossary/). The most common ones are below.
+
+### Weapon sets
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Weapon set</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td><strong>Hand Weapon</strong></td><td>Charge bonus: +1 Power.</td></tr>
+<tr><td><strong>Hand Weapon and Shield</strong></td><td>+1 Defense. Charge bonus: +1 Power.</td></tr>
+<tr><td><strong>Spear and Shield</strong></td><td>+1 Defense. When the unit has no charge bonus, its third rank also makes supporting attacks.</td></tr>
+<tr><td><strong>Greatweapon</strong></td><td>+1 Power. Charge bonus: +1 Power.</td></tr>
+<tr><td><strong>Halberd</strong></td><td>Charge bonus: +1 Power. Enemy damage saves against it in melee are never better than 4+.</td></tr>
+<tr><td><strong>Two Hand Weapons</strong></td><td>+1 Attacks.</td></tr>
+<tr><td><strong>Lance and Shield</strong></td><td>+1 Defense. Charge bonus: +2 Power.</td></tr>
+</tbody>
+</table>
+</div>
+
+A **charge bonus** applies only in the first round of combat after the unit charges or counter-charges. Monsters and beasts fight with claws, fangs, horns or tusks, which give charge bonuses of their own.
+
+### Common properties
+
+<dl class="rule-grid">
+  <dt>Heavy Armor</dt><dd>+1 Defense, −1" Move.</dd>
+  <dt>Sturdy</dt><dd>−1" Move, but ignores the Move penalty from Heavy Armor.</dd>
+  <dt>Swift</dt><dd>+1" Move.</dd>
+  <dt>Scout</dt><dd>Ignores difficult terrain.</dd>
+  <dt>Flying</dt><dd>Move becomes 20". Flies over all terrain and units, but can't end a move on them. Never in cover, and can't capture objectives.</dd>
+  <dt>Ambusher</dt><dd>Deploys in the ambush zone, much further forward than your normal deployment zone.</dd>
+  <dt>Fearless</dt><dd>Ignores the penalty for losing a combat on Discipline tests.</dd>
+  <dt>Frenzy</dt><dd>Re-rolls missed attack rolls in the first round of combat. Can't flee from a charge.</dd>
+  <dt>Regeneration</dt><dd>At the start of each Strategic phase, heals any wounds on partly wounded models. Models already removed don't come back.</dd>
+  <dt>Poisoned Attacks</dt><dd>Enemies re-roll damage saves of 6.</dd>
+</dl>

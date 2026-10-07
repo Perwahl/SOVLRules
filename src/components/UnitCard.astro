@@ -1,0 +1,94 @@
+---
+import { Image } from 'astro:assets';
+import StatLine from './StatLine.astro';
+import PropertyChip from './PropertyChip.astro';
+import { portrait, anchorFor, property, type Unit, type Selector } from '../lib/factions';
+import { modelType, inches, ARMY_SIZES } from '../lib/data';
+import { url } from '../lib/site';
+
+interface Props { unit: Unit; accent?: string; /** Omit for a unit's second appearance, so ids stay unique. */ anchored?: boolean }
+const { unit, accent, anchored = true } = Astro.props;
+const img = portrait(unit.image);
+const type = modelType(unit.modelType);
+const selectors: Selector[] = [unit.weaponSet, unit.ranged, ...(unit.properties ?? [])].filter((s): s is Selector => !!s);
+const choices = selectors.filter((s) => s.kind === 'pickOne' && (s.options?.length ?? 0) > 1);
+const builtIns = selectors.filter((s) => s.kind === 'builtIn' || (s.kind === 'pickOne' && (s.options?.length ?? 0) === 1)).flatMap((s) => s.options ?? []);
+const optionals = selectors.filter((s) => s.kind === 'optional');
+const spells = selectors.find((s) => s.kind === 'spells');
+const extras = selectors.filter((s) => s.kind === 'magicItems' || s.kind === 'magicBanner');
+const cantrips = spells?.options?.filter((o) => property(o.id)?.cantrip) ?? [];
+const majors = spells?.options?.filter((o) => !property(o.id)?.cantrip) ?? [];
+const sizes = ARMY_SIZES;
+const isRegiment = !unit.commander;
+const sizeText = (id: string) => {
+  const m = unit.models[id];
+  if (!m) return '';
+  return m.min === m.max ? `${m.min}` : `${m.min}–${m.max}`;
+};
+---
+<article class="unit-card" id={anchored ? anchorFor(unit.unitID) : undefined} style={accent ? `--accent:${accent}` : undefined}>
+  <div class="unit-art">
+    {img ? <Image src={img} alt="" width={360} widths={[180, 360]} sizes="180px" loading="lazy" /> : <div class="unit-art-empty" />}
+  </div>
+  <div class="unit-main">
+    <header class="unit-head">
+      {unit.icon && <span class="type-icon" style={`--icon:url("${url('/unit-icons/' + encodeURIComponent(unit.icon))}")`} aria-hidden="true" />}
+      <div>
+        <h3 class="unit-name">{unit.name}</h3>
+        <p class="unit-type">
+          {type?.name ?? unit.modelType}{type?.movement ? ` · Move ${inches(type.movement)}` : ''}{unit.solo ? ' · Fights alone' : ''}
+        </p>
+      </div>
+      <p class="unit-points"><span>{unit.points}</span> pts{isRegiment && !unit.isMount && ' / model'}</p>
+    </header>
+
+    <StatLine stats={unit.stats} compact />
+
+    <ul class="unit-props">
+      {choices.map((s) => (
+        <li>
+          {s.options?.map((o, i) => (
+            <>
+              {i > 0 && <span class="or">or</span>}
+              <PropertyChip id={o.id} cost={o.cost} kind={property(o.id)?.type} regiment={isRegiment && !unit.isMount} />
+            </>
+          ))}
+        </li>
+      ))}
+      {builtIns.length > 0 && (
+        <li>{builtIns.map((o) => <PropertyChip id={o.id} cost={o.cost} kind={property(o.id)?.type} />)}</li>
+      )}
+      {optionals.length > 0 && (
+        <li>
+          <span class="prop-hint">Options</span>
+          {optionals.flatMap((s) => s.options ?? []).map((o) => <PropertyChip id={o.id} cost={o.cost} kind={property(o.id)?.type} regiment={isRegiment && !unit.isMount} />)}
+        </li>
+      )}
+    </ul>
+
+    {spells && (
+      <p class="unit-line"><span class="unit-line-label">Spells</span> Choose 1 cantrip: {cantrips.map((o, i) => <>{i > 0 && ', '}<PropertyChip id={o.id} kind="spell" /></>)}. And 1 spell: {majors.map((o, i) => <>{i > 0 && ', '}<PropertyChip id={o.id} kind="spell" /></>)}.</p>
+    )}
+
+    {extras.length > 0 && (
+      <p class="unit-line"><span class="unit-line-label">Magic</span> {extras.map((s) => s.label).join(' · ')}</p>
+    )}
+
+    {unit.retinues && unit.retinues.length > 0 && (
+      <p class="unit-line"><span class="unit-line-label">Leads</span> {unit.retinues.map((r, i) => (
+        <>{i > 0 && ', '}<a href={`#${anchorFor(r.unitID)}`}>{r.name}</a>{r.notInWarband && <span class="note" title="Not available in a Warband"> (not in Warband)</span>}</>
+      ))}</p>
+    )}
+
+    <footer class="unit-foot">
+      {isRegiment && !unit.isMount && (
+        <span class="foot-item">Unit size {sizes.map((s) => <span class="by-size" data-s={s.id}>{sizeText(s.id)}</span>)}</span>
+      )}
+      {sizes.some((s) => unit.maxPerArmy[s.id] !== undefined) && (
+        <span class="foot-item">Max per army {sizes.map((s) => <span class="by-size" data-s={s.id}>{unit.maxPerArmy[s.id] ?? 'no limit'}</span>)}</span>
+      )}
+      {unit.sectionCost && <span class="foot-item">Counts as {unit.sectionCost === 'Half' ? '½' : '2'} {unit.sectionCost === 'Half' ? 'a unit' : 'units'} in its section</span>}
+      {unit.sectionBonus && <span class="foot-item">Unlocks +1 {unit.sectionBonus} unit</span>}
+    </footer>
+  </div>
+</article>

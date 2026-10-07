@@ -1,0 +1,25 @@
+---
+import Diagram from './Diagram.astro';
+import Unit from './Unit.astro';
+
+// Three panels, 12" wide each. The blue unit is fighting; highlighted models attack.
+const b = 0.79;
+const d = 4 * b;
+const w = 5 * b;
+---
+<Diagram width={36} height={14} title="Who attacks: engaged in the front, the front rank attacks and the second rank supports; engaged in the flank, the models along that flank attack; engaged in the rear, nobody attacks." caption="Highlighted models attack. Front: the front rank, plus one supporting attack from each model in the second rank. Flank: the file along that flank. Rear: no one.">
+  <text class="dg-zone" x={6} y={1.6}>Front</text>
+  <Unit x={6} y={4.6} rot={180} side="enemy" />
+  <Unit x={6} y={4.6 + d} side="friend" hiRows={1} support />
+
+  <line class="dg-split" x1={12} y1={0.6} x2={12} y2={13.4} />
+  <text class="dg-zone" x={18} y={1.6}>Flank</text>
+  <Unit x={18 - w / 2 - d / 2} y={8.2} rot={90} side="enemy" />
+  <Unit x={18} y={8.2} side="friend" hiLeft />
+
+  <line class="dg-split" x1={24} y1={0.6} x2={24} y2={13.4} />
+  <text class="dg-zone" x={30} y={1.6}>Rear</text>
+  <Unit x={30} y={4.6} side="friend" />
+  <Unit x={30} y={4.6 + d} side="enemy" />
+  <text class="dg-x" x={30} y={13.2} text-anchor="middle">No attacks</text>
+</Diagram>

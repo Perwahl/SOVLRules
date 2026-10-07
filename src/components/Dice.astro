@@ -1,0 +1,21 @@
+---
+/** A row of d6 faces; values at or above `hit` are shown as successes. */
+interface Props { values: number[]; hit?: number; }
+const { values, hit = 7 } = Astro.props;
+const pips: Record<number, [number, number][]> = {
+  1: [[2, 2]],
+  2: [[1, 1], [3, 3]],
+  3: [[1, 1], [2, 2], [3, 3]],
+  4: [[1, 1], [3, 1], [1, 3], [3, 3]],
+  5: [[1, 1], [3, 1], [2, 2], [1, 3], [3, 3]],
+  6: [[1, 1], [3, 1], [1, 2], [3, 2], [1, 3], [3, 3]],
+};
+---
+<span class="dice" role="img" aria-label={`Dice: ${values.join(', ')}`}>
+  {values.map((v) => (
+    <svg class:list={['die', { hit: v >= hit }]} viewBox="0 0 40 40" width="30" height="30" aria-hidden="true">
+      <rect x="2" y="2" width="36" height="36" rx="8" />
+      {pips[v].map(([x, y]) => <circle cx={x * 10} cy={y * 10} r="3.6" />)}
+    </svg>
+  ))}
+</span>

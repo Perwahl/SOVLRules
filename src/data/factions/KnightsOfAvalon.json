@@ -1,0 +1,1324 @@
+{
+  "id": "KnightsOfAvalon",
+  "name": "Knights of Avalon",
+  "dlc": "Knights Of Avalon",
+  "primaryColor": "#671819",
+  "secondaryColor": "#9C8D80",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "maiden",
+        "paladin"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "hippogryph",
+        "pegasus",
+        "unicorn"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "swordMilitia",
+        "peasants",
+        "halberdMilitia",
+        "spearMilitia"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 2
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 3
+        },
+        "Legion": {
+          "min": 0,
+          "max": 4
+        }
+      },
+      "units": [
+        "knightAspirants",
+        "mountedHunters",
+        "swornKnights",
+        "huntingDogs"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "hunters",
+        "trebuchet",
+        "longbowmen"
+      ]
+    },
+    {
+      "name": "Elites",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "kingsGuard",
+        "pegasusKnights"
+      ]
+    }
+  ],
+  "units": {
+    "maiden": {
+      "unitID": "maiden",
+      "name": "Maiden",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "properties": [
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "divineFavour"
+            },
+            {
+              "id": "radiantShield"
+            },
+            {
+              "id": "frostWard"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "arcaneWeb"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "auraOfProtection"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "knightAspirants",
+          "name": "Knight Aspirants"
+        },
+        {
+          "unitID": "swordMilitia",
+          "name": "Sword Militia"
+        },
+        {
+          "unitID": "halberdMilitia",
+          "name": "Halberd Militia"
+        },
+        {
+          "unitID": "spearMilitia",
+          "name": "Spear Militia"
+        },
+        {
+          "unitID": "longbowmen",
+          "name": "Longbowmen"
+        },
+        {
+          "unitID": "pegasus",
+          "name": "Pegasus",
+          "mount": true
+        },
+        {
+          "unitID": "unicorn",
+          "name": "Unicorn",
+          "mount": true
+        }
+      ],
+      "image": "KnightsOfAvalon/maiden.png",
+      "icon": "cowled.png"
+    },
+    "paladin": {
+      "unitID": "paladin",
+      "name": "Paladin",
+      "modelType": "InfantryLarge",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "lanceShield",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "holyBlade"
+            },
+            {
+              "id": "shroud"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "auraOfVengeance"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "knightAspirants",
+          "name": "Knight Aspirants"
+        },
+        {
+          "unitID": "swornKnights",
+          "name": "Sworn Knights"
+        },
+        {
+          "unitID": "kingsGuard",
+          "name": "Kings Guard"
+        },
+        {
+          "unitID": "pegasus",
+          "name": "Pegasus",
+          "mount": true
+        },
+        {
+          "unitID": "hippogryph",
+          "name": "Hippogryph",
+          "mount": true
+        }
+      ],
+      "image": "KnightsOfAvalon/paladin.png",
+      "icon": "griffin-shield.png"
+    },
+    "hippogryph": {
+      "unitID": "hippogryph",
+      "name": "Hippogryph",
+      "modelType": "MonstrousInfantry",
+      "points": 55,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/hippogryph.png",
+      "icon": "griffin-symbol.png"
+    },
+    "pegasus": {
+      "unitID": "pegasus",
+      "name": "Pegasus",
+      "modelType": "MonstrousInfantry",
+      "points": 45,
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 4,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "hooves "
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/pegasus.png",
+      "icon": "pegasus.png"
+    },
+    "unicorn": {
+      "unitID": "unicorn",
+      "name": "Unicorn",
+      "modelType": "MonstrousInfantry",
+      "points": 45,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "hooves "
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fey"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/unicorn.png",
+      "icon": "unicorn_1.png"
+    },
+    "swordMilitia": {
+      "unitID": "swordMilitia",
+      "name": "Sword Militia",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "KnightsOfAvalon/swordMilitia.png",
+      "icon": "iron_cross.png"
+    },
+    "peasants": {
+      "unitID": "peasants",
+      "name": "Peasant Mob",
+      "modelType": "Infantry",
+      "points": 4,
+      "stats": {
+        "Skill": 2,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 18,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "KnightsOfAvalon/peasants.png",
+      "icon": "farmer.png"
+    },
+    "halberdMilitia": {
+      "unitID": "halberdMilitia",
+      "name": "Halberd Militia",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "halberd"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "KnightsOfAvalon/halberdMilitia.png",
+      "icon": "sharp-halberd.png"
+    },
+    "spearMilitia": {
+      "unitID": "spearMilitia",
+      "name": "Spear Militia",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "KnightsOfAvalon/spearMilitia.png",
+      "icon": "spearShield.png"
+    },
+    "knightAspirants": {
+      "unitID": "knightAspirants",
+      "name": "Knight Aspirants",
+      "modelType": "CavalryLance",
+      "points": 18,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 6,
+          "max": 9
+        },
+        "BorderPatrol": {
+          "min": 6,
+          "max": 9
+        },
+        "Battalion": {
+          "min": 6,
+          "max": 9
+        },
+        "Legion": {
+          "min": 6,
+          "max": 12
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "lanceShield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "horseMasters"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/knightAspirants.png",
+      "icon": "mounted-knight.png"
+    },
+    "mountedHunters": {
+      "unitID": "mountedHunters",
+      "name": "Mounted Hunters",
+      "modelType": "Cavalry",
+      "points": 19,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 15
+        },
+        "Legion": {
+          "min": 5,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "shortbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/mountedHunters.png",
+      "icon": "cavalry(2).png"
+    },
+    "swornKnights": {
+      "unitID": "swornKnights",
+      "name": "Sworn Knights",
+      "modelType": "CavalryLance",
+      "points": 20,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 6,
+          "max": 9
+        },
+        "BorderPatrol": {
+          "min": 6,
+          "max": 9
+        },
+        "Battalion": {
+          "min": 6,
+          "max": 9
+        },
+        "Legion": {
+          "min": 6,
+          "max": 12
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "lanceShield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "horseMasters"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/swornKnights.png",
+      "icon": "mounted-knight.png"
+    },
+    "huntingDogs": {
+      "unitID": "huntingDogs",
+      "name": "Hunting Dogs",
+      "modelType": "Hounds",
+      "points": 6,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 10
+        },
+        "Legion": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/huntingDogs.png",
+      "icon": "sitting-dog.png"
+    },
+    "hunters": {
+      "unitID": "hunters",
+      "name": "Hunters",
+      "modelType": "Infantry",
+      "points": 7,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "shortbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/hunters.png",
+      "icon": "feather.png"
+    },
+    "trebuchet": {
+      "unitID": "trebuchet",
+      "name": "Trebuchet",
+      "modelType": "WarMachine",
+      "points": 55,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "catapult"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/trebuchet.png",
+      "icon": "trebuchet.png"
+    },
+    "longbowmen": {
+      "unitID": "longbowmen",
+      "name": "Longbowmen",
+      "modelType": "Infantry",
+      "points": 8,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "longbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "KnightsOfAvalon/longbowmen.png",
+      "icon": "archer.png"
+    },
+    "kingsGuard": {
+      "unitID": "kingsGuard",
+      "name": "Kings Guard",
+      "modelType": "CavalryLance",
+      "points": 28,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 6,
+          "max": 6
+        },
+        "BorderPatrol": {
+          "min": 6,
+          "max": 6
+        },
+        "Battalion": {
+          "min": 6,
+          "max": 9
+        },
+        "Legion": {
+          "min": 6,
+          "max": 12
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "lanceShield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "horseMasters"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/kingsGuard.png",
+      "icon": "fleur-de-lys.png"
+    },
+    "pegasusKnights": {
+      "unitID": "pegasusKnights",
+      "name": "Pegasus Knights",
+      "modelType": "MonstrousInfantry",
+      "points": 28,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 8
+        },
+        "Legion": {
+          "min": 3,
+          "max": 8
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "lanceShield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        }
+      ],
+      "image": "KnightsOfAvalon/pegasusKnights.png",
+      "icon": "pegasus.png"
+    }
+  }
+}

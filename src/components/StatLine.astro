@@ -1,0 +1,16 @@
+---
+interface Props {
+  stats: Record<string, number>;
+  compact?: boolean;
+}
+const ORDER = ['Skill', 'Power', 'Defense', 'Attacks', 'Wounds', 'Discipline'];
+const { stats, compact = false } = Astro.props;
+---
+<dl class:list={['statline', { compact }]}>
+  {ORDER.map((name) => (
+    <div class="stat">
+      <dt>{name}</dt>
+      <dd>{stats[name] ?? '–'}</dd>
+    </div>
+  ))}
+</dl>

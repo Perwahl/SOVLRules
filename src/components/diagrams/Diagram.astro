@@ -1,0 +1,31 @@
+---
+/** Frame for an SVG rules diagram drawn in battlefield inches. */
+interface Props {
+  width: number;
+  height: number;
+  title: string;
+  caption?: string;
+}
+const { width, height, title, caption } = Astro.props;
+---
+<figure class="diagram">
+  <svg viewBox={`0 0 ${width} ${height}`} role="img" aria-label={title}>
+    <defs>
+      <pattern id="grass" width="4" height="4" patternUnits="userSpaceOnUse">
+        <rect width="4" height="4" fill="#33402a" />
+        <circle cx="1" cy="1.3" r="0.08" fill="#46553a" />
+        <circle cx="3.1" cy="2.7" r="0.07" fill="#2c3824" />
+        <circle cx="2.2" cy="0.4" r="0.06" fill="#4a5a3c" />
+      </pattern>
+      <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+        <path d="M0 0L10 5L0 10z" fill="#f1d58e" />
+      </marker>
+      <marker id="arrow-bad" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+        <path d="M0 0L10 5L0 10z" fill="#e0776b" />
+      </marker>
+    </defs>
+    <rect width={width} height={height} fill="url(#grass)" />
+    <slot />
+  </svg>
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>

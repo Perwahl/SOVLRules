@@ -1,0 +1,144 @@
+---
+layout: ../../layouts/RulesLayout.astro
+title: Strategic Phase
+eyebrow: The Rules · Phase 2
+lede: Manoeuvre, shoot, cast and rally. The Strategic phase is where you set up next turn's charges and soften up the enemy before they arrive.
+description: Movement, pivots, ranged attacks, abilities, spells and rallying fleeing units in the SOVL Strategic phase.
+---
+import Callout from '../../components/Callout.astro';
+import Dice from '../../components/Dice.astro';
+import PivotDiagram from '../../components/diagrams/Pivot.astro';
+import RangeDiagram from '../../components/diagrams/RangedAttack.astro';
+
+Players take turns activating one unit at a time, as described in [The Turn](../turn/). When you activate a unit it can:
+
+- **move**, using up to its full Move, and
+- use **one ability**: a ranged attack, a spell or another activated ability. It can do this before, after or in the middle of its move.
+
+If the unit has a commander, the commander gets **one ability of its own** in the same activation.
+
+A unit in combat can't move, and can only use the few abilities that work in combat. A fleeing unit can only try to [rally](#rallying-fleeing-units).
+
+## Movement
+
+A unit moves in two ways, which you can chain together in any order until its Move is used up:
+
+<dl class="rule-grid">
+  <dt>Advance</dt><dd>Move straight forward. Each inch costs 1" of Move, or 2" while in a forest. Units can't move backwards or sideways.</dd>
+  <dt>Pivot</dt><dd>Turn on the spot around the unit's centre, by any angle. A pivot costs a quarter of the unit's Move for every 90°.</dd>
+</dl>
+
+<PivotDiagram />
+
+- An advance stops at the first unit or impassable terrain in the way. You can't push through friends.
+- A pivot is only blocked by **enemy** units. You can swing past friends and terrain.
+- A unit can't end its move overlapping another unit, or within about half an inch of one.
+- **War Machines** have Move 0 but pivot for free, so they can always turn to face a target.
+- A unit that pursued a fleeing enemy in this turn's Charge phase can't move, but it can still use abilities.
+
+In the game you drag the move handle to advance, and drag the pivot handles to turn. Right-click undoes the last step; double-click confirms.
+
+<Callout type="example">
+A unit of Cavalry (Move 16") pivots 45° to face a gap, costing 2". It advances 10" through it, then pivots another 90° to face the enemy flank for 4". Total: 16".
+</Callout>
+
+## Ranged attacks
+
+A unit with a ranged weapon can shoot it as its ability for the activation. The target must be:
+
+- within the weapon's **range**, measured to the nearest point of the target;
+- in the shooter's **line of sight**: the same 90° arc from the front edge used for charges, blocked by units, forests, buildings and cliffs. See [Who it can reach](../charge-phase/#who-it-can-reach);
+- **not in combat**. A unit in combat can't shoot, and you can't shoot into a melee.
+
+A unit may still move after shooting if it has Move left.
+
+<RangeDiagram />
+
+### Number of shots
+
+Each model in the unit's **first two ranks** shoots once. Models further back can't see past their comrades. Some weapons fire two or more shots per model. A commander shoots with its own weapon, using its own ability.
+
+### The roll to hit
+
+Roll a die for each shot. The number needed depends on the shooter's **Skill**:
+
+<div class="table-wrap">
+<table class="roll-table">
+<thead><tr><th>Shooter's Skill</th><th class="num">1</th><th class="num">2</th><th class="num">3</th><th class="num">4</th><th class="num">5+</th></tr></thead>
+<tbody>
+<tr><td><strong>Hits on</strong></td><td class="target num">6+</td><td class="target num">5+</td><td class="target num">4+</td><td class="target num">3+</td><td class="target num">2+</td></tr>
+</tbody>
+</table>
+</div>
+
+Then apply modifiers. Each one makes the roll 1 harder or easier, but a roll is never worse than 6+ or better than 2+:
+
+<dl class="rule-grid">
+  <dt>Long range −1</dt><dd>The target is more than half the weapon's range away. Only weapons with a range of 12" or more suffer this.</dd>
+  <dt>Cover −1</dt><dd>The target is in a forest, or always counts as in cover.</dd>
+</dl>
+
+Each hit then makes a [damage save](../combat-phase/#damage-save) against the **weapon's Power**, exactly as in melee.
+
+<Callout type="example">
+Ten archers with Skill 4 shoot longbows at Orcs in a forest 20" away. A longbow has range 30", so 20" is long range. Skill 4 hits on 3+, then −1 for long range and −1 for cover: they need **5+**.
+
+<div class="dice-row"><Dice values={[5, 2, 6, 3, 1, 5, 4, 2, 6, 3]} hit={5} /> <span>Four hits. The Orcs now make four damage saves against Power 3.</span></div>
+</Callout>
+
+### War machines and fire
+
+Cannons, catapults, mortars, flamers and other blast weapons don't roll to hit. Roll the dice shown on the weapon, such as **D3**, **2D3** or **D6**, and the total is the number of hits. These weapons ignore long range. Against a target in cover, each die rolled loses 1 hit.
+
+### Common ranged weapons
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Weapon</th><th class="num">Range</th><th class="num">Power</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td><strong>Longbow</strong></td><td class="num">30"</td><td class="num">3</td><td></td></tr>
+<tr><td><strong>Crossbow</strong></td><td class="num">30"</td><td class="num">3</td><td></td></tr>
+<tr><td><strong>Shortbow</strong></td><td class="num">20"</td><td class="num">3</td><td></td></tr>
+<tr><td><strong>Light Crossbow</strong></td><td class="num">24"</td><td class="num">3</td><td></td></tr>
+<tr><td><strong>Handgun</strong></td><td class="num">24"</td><td class="num">4</td><td></td></tr>
+<tr><td><strong>Sling</strong></td><td class="num">20"</td><td class="num">2</td><td></td></tr>
+<tr><td><strong>Javelins</strong></td><td class="num">12"</td><td class="num">3</td><td></td></tr>
+<tr><td><strong>Bolt Thrower</strong></td><td class="num">48"</td><td class="num">6</td><td>3 shots, rolled to hit</td></tr>
+<tr><td><strong>Cannon</strong></td><td class="num">48"</td><td class="num">8</td><td>D3 hits</td></tr>
+<tr><td><strong>Catapult</strong></td><td class="num">48"</td><td class="num">5</td><td>2D3 hits</td></tr>
+<tr><td><strong>Mortar</strong></td><td class="num">48"</td><td class="num">4</td><td>2D3+1 hits</td></tr>
+</tbody>
+</table>
+</div>
+
+Every other weapon is listed in the [Glossary](../../reference/glossary/).
+
+## Abilities and spells
+
+Many units and most commanders have **activated abilities**: spells, war cries, battle drugs and stranger things. Using one takes the unit's ability for the activation, just like shooting.
+
+- **No casting roll.** An ability always works. Its limit is how many times it can be used: most can be used **once or twice per battle**, and the game shows the uses left.
+- **Targets** depend on the ability. It might affect an enemy in line of sight, a friend within range, everything within range, or just the user.
+- **Duration**: most effects last until the start of the next Strategic phase. Some last the whole battle, or until the target's next combat.
+- **In combat**: units in combat can only use abilities marked as usable in combat, and most abilities can't target units in combat.
+
+**Spellcasters** choose their spells in the Army Builder: one **cantrip** and one **major spell**, from their faction's list.
+
+<Callout type="tip">
+A unit with a commander can act twice in one activation. Cast the commander's spell, *then* shoot with the unit, *then* move. All in one turn of the alternating activations.
+</Callout>
+
+## Rallying fleeing units
+
+A **fleeing** unit has lost its nerve, after failing a break test or fleeing from a charge. When you activate it, the only thing it can do is try to **rally**: take a [Discipline test](../units/#discipline-tests) with no penalty. Its Discipline plus its ranks is the target.
+
+- **Pass**: the unit rallies and fights on as normal from now on.
+- **Fail**: it keeps fleeing.
+
+Either way, its activation ends and it can't move this turn.
+
+### Flight
+
+At the **end of the Strategic phase**, every unit still fleeing runs its full Move toward the nearest table edge, unless it already fled this turn. A fleeing unit runs around impassable terrain and ignores difficult terrain. If it reaches the edge of the battlefield, it is **gone**: it counts as destroyed.
+
+A unit still fleeing at the end of the battle counts as lost, so rallying it is worth points.

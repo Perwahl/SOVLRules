@@ -1,0 +1,102 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import UnitCard from '../../components/UnitCard.astro';
+import '../../styles/rules.css';
+import '../../styles/armies.css';
+import { FACTIONS, FACTION_BLURBS, slug, heroUnit, portrait, unitCount, accentColor, type Faction } from '../../lib/factions';
+import { ARMY_SIZES } from '../../lib/data';
+import { ARMY_BUILDER_URL, url } from '../../lib/site';
+
+export function getStaticPaths() {
+  return FACTIONS.map((faction) => ({ params: { faction: slug(faction.id) }, props: { faction } }));
+}
+
+interface Props { faction: Faction }
+const { faction } = Astro.props;
+const hero = heroUnit(faction);
+const heroImg = portrait(hero?.image);
+const accent = accentColor(faction);
+// A unit can be listed in two sections (Dwarf war machines); only its first card gets the anchor.
+const seen = new Set<string>();
+const firstTime = (unitID: string) => (seen.has(unitID) ? false : (seen.add(unitID), true));
+const index = FACTIONS.findIndex((f) => f.id === faction.id);
+const prev = FACTIONS[(index - 1 + FACTIONS.length) % FACTIONS.length];
+const next = FACTIONS[(index + 1) % FACTIONS.length];
+const limitText = (min: number, max: number) => (max >= 99 ? (min > 0 ? `at least ${min}` : 'any number') : min === max ? `${min}` : `${min}–${max}`);
+---
+<Base title={faction.name} description={`The ${faction.name} army list for SOVL: every commander and unit, with stats, points and options.`} section="Armies">
+  <div class="faction" data-size="Warband" style={`--accent:${accent}`}>
+    <header class="faction-hero">
+      <div class="faction-hero-text">
+        <p class="eyebrow"><a href={url('/armies/')}>Armies</a>{faction.dlc && <span class="dlc">DLC · {faction.dlc}</span>}</p>
+        <h1>{faction.name}</h1>
+        <p class="lede">{FACTION_BLURBS[faction.id] ?? ''}</p>
+        <p class="faction-meta">{unitCount(faction)} units · <a href="#rules">How army lists work</a></p>
+        <div class="faction-cta">
+          <a class="btn btn-gold" href={ARMY_BUILDER_URL}>Build this army</a>
+        </div>
+      </div>
+      {heroImg && <Image class="faction-hero-art" src={heroImg} alt={hero?.name ?? ''} width={520} widths={[300, 520]} sizes="(max-width: 700px) 60vw, 520px" loading="eager" />}
+    </header>
+
+    <div class="size-bar" role="group" aria-label="Army size">
+      <span class="size-bar-label">Army size</span>
+      {ARMY_SIZES.map((s, i) => (
+        <button type="button" data-set-size={s.id} aria-pressed={i === 0 ? 'true' : 'false'}>
+          {s.name}<small>{s.points} pts</small>
+        </button>
+      ))}
+    </div>
+
+    {faction.sections.map((section) => (
+      <section class="army-section">
+        <header class="army-section-head">
+          <h2>{section.name}</h2>
+          {section.limits && (
+            <p class="section-limit">
+              {ARMY_SIZES.map((s) => {
+                const l = section.limits![s.id];
+                return <span class="by-size" data-s={s.id}>{l ? limitText(l.min, l.max) : 'any number'} {(section.kind === 'commanders' ? 'commander' : 'unit') + (l && l.max === 1 && l.min <= 1 ? '' : 's')}</span>;
+              })}
+            </p>
+          )}
+          {section.kind === 'mounts' && <p class="section-limit">Taken by commanders as their retinue</p>}
+        </header>
+        <div class="unit-grid">
+          {section.units.map((id) => faction.units[id] && <UnitCard unit={faction.units[id]} accent={accent} anchored={firstTime(faction.units[id].unitID)} />)}
+        </div>
+      </section>
+    ))}
+
+    <aside class="faction-rules prose" id="rules">
+      <h2>Reading the army list</h2>
+      <ul>
+        <li><strong>Points</strong> are per model for regiments, and per commander for commanders. An option with a cost adds that many points per model, or per unit where it says so.</li>
+        <li><strong>Unit size</strong> and section limits change with the army size. Pick a size above to see them.</li>
+        <li><strong>Commanders</strong> lead one of the units listed under <em>Leads</em>. A commander and its retinue are one unit. The retinue counts towards its section's minimum, but not its maximum.</li>
+        <li>Tap or hover any property to read what it does. Every rule is explained in the <a href={url('/rules/')}>rules</a>.</li>
+      </ul>
+      <p>See <a href={url('/armies/')}>Building an Army</a> for the full army-building rules.</p>
+    </aside>
+
+    <nav class="faction-pager" aria-label="Other factions">
+      <a href={url(`/armies/${slug(prev.id)}/`)}>← {prev.name}</a>
+      <a href={url(`/armies/${slug(next.id)}/`)}>{next.name} →</a>
+    </nav>
+  </div>
+
+  <script is:inline>
+    (() => {
+      const root = document.querySelector('.faction');
+      const buttons = [...document.querySelectorAll('[data-set-size]')];
+      const set = (size) => {
+        root.dataset.size = size;
+        buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.setSize === size)));
+        try { localStorage.setItem('sovl-army-size', size); } catch {}
+      };
+      buttons.forEach((b) => b.addEventListener('click', () => set(b.dataset.setSize)));
+      try { const saved = localStorage.getItem('sovl-army-size'); if (saved && buttons.some((b) => b.dataset.setSize === saved)) set(saved); } catch {}
+    })();
+  </script>
+</Base>

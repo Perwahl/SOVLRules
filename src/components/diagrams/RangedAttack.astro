@@ -1,0 +1,28 @@
+---
+import Diagram from './Diagram.astro';
+import Unit from './Unit.astro';
+
+// A Handgun unit (range 24"), 5 wide x 3 deep; the first two ranks shoot.
+const w = 5 * 0.79;
+const cx = 20, fy = 25.2;
+const L = cx - w / 2, R = cx + w / 2;
+const fan = (rr: number) => {
+  const k = rr * Math.SQRT1_2;
+  return `M ${L} ${fy} L ${L - k} ${fy - k} A ${rr} ${rr} 0 0 1 ${L} ${fy - rr} L ${R} ${fy - rr} A ${rr} ${rr} 0 0 1 ${R + k} ${fy - k} Z`;
+};
+---
+<Diagram width={40} height={29.6} title="Ranged attack: targets within half range are hit normally; targets beyond half range suffer -1 to hit; a target in a forest suffers a further -1 for cover." caption="Handguns, range 24&quot;. Beyond 12&quot; is long range (−1). The unit in the forest is in cover too (−1 more). Only the first two ranks shoot.">
+  <path class="dg-sight dg-long" d={fan(24)} />
+  <path class="dg-sight" d={fan(12)} />
+  <text class="dg-label" x={cx} y={fy - 12.6} text-anchor="middle">12" · half range</text>
+  <text class="dg-label" x={cx} y={fy - 24 + 1.2} text-anchor="middle">24" · long range −1</text>
+
+  <path class="dg-forest" d="M 26.6 6.6 C 28.6 5.0, 32.4 5.6, 32.9 8.0 C 33.4 10.6, 30.8 12.0, 28.6 11.4 C 26.2 10.8, 25.2 8.0, 26.6 6.6 Z" />
+  <text class="dg-note" x="29.6" y="12.9" text-anchor="middle">Forest</text>
+
+  <Unit x={14.2} y={16.4} rot={165} side="enemy" label="4+ to hit" labelPos="left" />
+  <Unit x={15.6} y={6.6} rot={180} side="enemy" label="5+ (long range)" labelPos="left" />
+  <Unit x={29.6} y={8.8} rot={210} side="enemy" label="6+ (long, cover)" labelPos="right" />
+
+  <Unit x={cx} y={fy + (3 * 0.79) / 2} rows={3} hiRows={2} side="friend" label="Skill 3 · Handguns" />
+</Diagram>

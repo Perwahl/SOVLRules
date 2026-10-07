@@ -1,0 +1,1226 @@
+{
+  "id": "GreenskinTribes",
+  "name": "Greenskin Tribes",
+  "primaryColor": "#323F20",
+  "secondaryColor": "#221C1A",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "warchief",
+        "goblinShaman",
+        "goblinKing"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "wyvern",
+        "giantSpider"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "orcWarriors",
+        "orcBrutes",
+        "goblinMob",
+        "goblinSpears"
+      ]
+    },
+    {
+      "name": "Raiders",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "boarRiders",
+        "goblinWolf",
+        "orcChariot"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "goblinShortbows",
+        "goblinBoltThrowers",
+        "goblinStonethrower"
+      ]
+    },
+    {
+      "name": "Big Stuff",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 3
+        },
+        "Legion": {
+          "min": 0,
+          "max": 5
+        }
+      },
+      "units": [
+        "trolls",
+        "giant"
+      ]
+    }
+  ],
+  "units": {
+    "warchief": {
+      "unitID": "warchief",
+      "name": "War Chief",
+      "modelType": "InfantryLarge",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 7
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "warcry"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "orcWarriors",
+          "name": "Orc Warriors"
+        },
+        {
+          "unitID": "orcBrutes",
+          "name": "Orc Brutes"
+        },
+        {
+          "unitID": "boarRiders",
+          "name": "Boar Riders"
+        },
+        {
+          "unitID": "orcChariot",
+          "name": "Orc Boar Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "wyvern",
+          "name": "Wyvern",
+          "mount": true
+        }
+      ],
+      "image": "GreenskinTribes/warchief.png",
+      "icon": "diablo_skull.png"
+    },
+    "goblinShaman": {
+      "unitID": "goblinShaman",
+      "name": "Goblin Shaman",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 6
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "properties": [
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "primalFury"
+            },
+            {
+              "id": "thousandMouths"
+            },
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "wildform"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "goblinShortbows",
+          "name": "Goblin Shortbows"
+        },
+        {
+          "unitID": "goblinMob",
+          "name": "Goblin Mob"
+        },
+        {
+          "unitID": "goblinSpears",
+          "name": "Goblin Spear Mob"
+        },
+        {
+          "unitID": "goblinWolf",
+          "name": "Goblin Wolf Riders"
+        },
+        {
+          "unitID": "orcChariot",
+          "name": "Orc Boar Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "giantSpider",
+          "name": "Giant Spider",
+          "mount": true
+        }
+      ],
+      "image": "GreenskinTribes/goblinShaman.png",
+      "icon": "goblin-head.png"
+    },
+    "goblinKing": {
+      "unitID": "goblinKing",
+      "name": "Goblin King",
+      "modelType": "InfantryLarge",
+      "points": 40,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 7
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "powerOfMany"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "goblinMob",
+          "name": "Goblin Mob"
+        },
+        {
+          "unitID": "goblinSpears",
+          "name": "Goblin Spear Mob"
+        },
+        {
+          "unitID": "goblinWolf",
+          "name": "Goblin Wolf Riders"
+        },
+        {
+          "unitID": "orcChariot",
+          "name": "Orc Boar Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "goblinShortbows",
+          "name": "Goblin Shortbows"
+        },
+        {
+          "unitID": "giantSpider",
+          "name": "Giant Spider",
+          "mount": true
+        }
+      ],
+      "image": "GreenskinTribes/goblinKing.png",
+      "icon": "sharp-crown.png"
+    },
+    "wyvern": {
+      "unitID": "wyvern",
+      "name": "Wyvern",
+      "modelType": "MonstrousInfantry",
+      "points": 55,
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 4,
+        "Wounds": 5,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "GreenskinTribes/wyvern.png",
+      "icon": "dragon-head.png"
+    },
+    "giantSpider": {
+      "unitID": "giantSpider",
+      "name": "Giant Spider",
+      "modelType": "LargeMonsterLongBase",
+      "points": 60,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 6,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "poisonedAttacks"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "web"
+            }
+          ]
+        }
+      ],
+      "image": "GreenskinTribes/giantSpider.png",
+      "icon": "spider-face.png"
+    },
+    "orcWarriors": {
+      "unitID": "orcWarriors",
+      "name": "Orc Warriors",
+      "modelType": "InfantryLarge",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 12,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 30
+        },
+        "Legion": {
+          "min": 15,
+          "max": 36
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "2CCW",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "GreenskinTribes/orcWarriors.png",
+      "icon": "battered_axe.png"
+    },
+    "orcBrutes": {
+      "unitID": "orcBrutes",
+      "name": "Orc Brutes",
+      "modelType": "InfantryLarge",
+      "points": 9,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 18
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 18
+        },
+        "Battalion": {
+          "min": 12,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        }
+      ],
+      "image": "GreenskinTribes/orcBrutes.png",
+      "icon": "war-axe.png"
+    },
+    "goblinMob": {
+      "unitID": "goblinMob",
+      "name": "Goblin Mob",
+      "modelType": "Infantry",
+      "points": 4,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 24
+        },
+        "BorderPatrol": {
+          "min": 18,
+          "max": 24
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 30
+        },
+        "Legion": {
+          "min": 15,
+          "max": 36
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "GreenskinTribes/goblinMob.png",
+      "icon": "goblin-head.png"
+    },
+    "goblinSpears": {
+      "unitID": "goblinSpears",
+      "name": "Goblin Spear Mob",
+      "modelType": "Infantry",
+      "points": 4,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 24
+        },
+        "BorderPatrol": {
+          "min": 18,
+          "max": 24
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 30
+        },
+        "Legion": {
+          "min": 15,
+          "max": 36
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "GreenskinTribes/goblinSpears.png",
+      "icon": "spears.png"
+    },
+    "boarRiders": {
+      "unitID": "boarRiders",
+      "name": "Boar Riders",
+      "modelType": "Cavalry",
+      "points": 19,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 15
+        },
+        "Legion": {
+          "min": 5,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "GreenskinTribes/boarRiders.png",
+      "icon": "boar.png"
+    },
+    "goblinWolf": {
+      "unitID": "goblinWolf",
+      "name": "Goblin Wolf Riders",
+      "modelType": "Cavalry",
+      "points": 12,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 15
+        },
+        "Legion": {
+          "min": 5,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "shortbow",
+            "cost": 2
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "GreenskinTribes/goblinWolf.png",
+      "icon": "wolf-head.png"
+    },
+    "orcChariot": {
+      "unitID": "orcChariot",
+      "name": "Orc Boar Chariot",
+      "modelType": "Chariot",
+      "points": 55,
+      "sectionCost": "Half",
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 4
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "crushingCharge"
+            }
+          ]
+        }
+      ],
+      "image": "GreenskinTribes/orcChariot.png",
+      "icon": "chariot.png"
+    },
+    "goblinShortbows": {
+      "unitID": "goblinShortbows",
+      "name": "Goblin Shortbows",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "shortbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "GreenskinTribes/goblinShortbows.png",
+      "icon": "pocket-bow.png"
+    },
+    "goblinBoltThrowers": {
+      "unitID": "goblinBoltThrowers",
+      "name": "Goblin Bolt Throwers",
+      "modelType": "WarMachine",
+      "points": 40,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 4,
+        "Legion": 6
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "boltThrower"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "lethalShots"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "GreenskinTribes/goblinBoltThrowers.png",
+      "icon": "BoltThrower.png"
+    },
+    "goblinStonethrower": {
+      "unitID": "goblinStonethrower",
+      "name": "Goblin Stonethrower",
+      "modelType": "WarMachine",
+      "points": 50,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "catapult"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "GreenskinTribes/goblinStonethrower.png",
+      "icon": "catapult.png"
+    },
+    "trolls": {
+      "unitID": "trolls",
+      "name": "Trolls",
+      "modelType": "MonstrousInfantry",
+      "points": 30,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 8
+        },
+        "Legion": {
+          "min": 3,
+          "max": 12
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "regeneration"
+            }
+          ]
+        }
+      ],
+      "image": "GreenskinTribes/trolls.png",
+      "icon": "gluttonous-smile.png"
+    },
+    "giant": {
+      "unitID": "giant",
+      "name": "Giant",
+      "modelType": "LargeMonster",
+      "points": 100,
+      "stats": {
+        "Skill": 3,
+        "Power": 6,
+        "Defense": 6,
+        "Attacks": 5,
+        "Wounds": 8,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        }
+      ],
+      "image": "GreenskinTribes/giant.png",
+      "icon": "totem-head.png"
+    }
+  }
+}

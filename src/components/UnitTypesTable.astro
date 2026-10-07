@@ -1,0 +1,25 @@
+---
+import { MODEL_TYPES, inches } from '../lib/data';
+
+// Reading order on the page: line troops first, then the big stuff.
+const ORDER = ['Infantry', 'InfantryLarge', 'Swarm', 'WeaponTeam', 'Hounds', 'Cavalry', 'CavalryLance', 'MonstrousInfantry', 'LightChariot', 'Chariot', 'WarWagon', 'LargeMonster', 'LargeMonsterLongBase', 'Gargantuan', 'WarMachine'];
+const types = ORDER.map((id) => MODEL_TYPES.find((m) => m.id === id)).filter((m) => m !== undefined);
+---
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr><th>Unit type</th><th class="num">Move</th><th class="num">Turn 90°</th><th class="num">Rank width</th><th class="num">Base (mm)</th></tr>
+    </thead>
+    <tbody>
+      {types.map((t) => (
+        <tr>
+          <td><strong>{t.name}</strong></td>
+          <td class="num">{inches(t.movement)}</td>
+          <td class="num">{t.id === 'WarMachine' ? 'free' : inches((t.movement ?? 0) / 4)}</td>
+          <td class="num">{t.minWidth ? `${t.minWidth}–${t.maxWidth}` : '—'}</td>
+          <td class="num">{t.baseWidth}×{t.baseDepth}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

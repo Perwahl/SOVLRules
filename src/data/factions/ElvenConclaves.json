@@ -1,0 +1,1347 @@
+{
+  "id": "ElvenConclaves",
+  "name": "Elven Conclaves",
+  "primaryColor": "#143464",
+  "secondaryColor": "#A2AAB9",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "elfNoble",
+        "elfMage",
+        "elfSpellsword"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "ancientDragon",
+        "gryphonElf"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "elfSpears",
+        "cityGuard",
+        "weaponMasters"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "elfArchers",
+        "elfWatchers",
+        "elfBoltThrower"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 2
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 3
+        },
+        "Legion": {
+          "min": 0,
+          "max": 4
+        }
+      },
+      "units": [
+        "elfLancers",
+        "elfReavers",
+        "elfChariot",
+        "giantEagle",
+        "dragonKnights"
+      ]
+    }
+  ],
+  "units": {
+    "elfNoble": {
+      "unitID": "elfNoble",
+      "name": "Elf Noble",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "elvenMastery"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "rallyingCry"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "elfSpears",
+          "name": "Elf Spears"
+        },
+        {
+          "unitID": "elfLancers",
+          "name": "Elf Lancers"
+        },
+        {
+          "unitID": "elfReavers",
+          "name": "Elf Reavers"
+        },
+        {
+          "unitID": "elfChariot",
+          "name": "Elf Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "gryphonElf",
+          "name": "Gryphon",
+          "mount": true
+        },
+        {
+          "unitID": "ancientDragon",
+          "name": "Ancient Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "ElvenConclaves/elfNoble.png",
+      "icon": "elf-helmet.png"
+    },
+    "elfMage": {
+      "unitID": "elfMage",
+      "name": "Elf Mage",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "divineFavour"
+            },
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "fireball"
+            },
+            {
+              "id": "radiantShield"
+            },
+            {
+              "id": "arcaneWeb"
+            },
+            {
+              "id": "frostWard"
+            },
+            {
+              "id": "realityRift"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "elfArchers",
+          "name": "Elf Archers"
+        },
+        {
+          "unitID": "cityGuard",
+          "name": "Elf City Guard",
+          "notInWarband": true
+        },
+        {
+          "unitID": "weaponMasters",
+          "name": "Weapon Masters"
+        },
+        {
+          "unitID": "elfChariot",
+          "name": "Elf Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "elfReavers",
+          "name": "Elf Reavers"
+        },
+        {
+          "unitID": "gryphonElf",
+          "name": "Gryphon",
+          "mount": true
+        },
+        {
+          "unitID": "ancientDragon",
+          "name": "Ancient Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "ElvenConclaves/elfMage.png",
+      "icon": "winged-scepter.png"
+    },
+    "elfSpellsword": {
+      "unitID": "elfSpellsword",
+      "name": "Elf Spellsword",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "elvenMastery"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "fieryBlades"
+            },
+            {
+              "id": "divineFavour"
+            },
+            {
+              "id": "shroud"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "weaponMasters",
+          "name": "Weapon Masters"
+        },
+        {
+          "unitID": "elfSpears",
+          "name": "Elf Spears"
+        },
+        {
+          "unitID": "elfLancers",
+          "name": "Elf Lancers"
+        },
+        {
+          "unitID": "elfReavers",
+          "name": "Elf Reavers"
+        },
+        {
+          "unitID": "elfChariot",
+          "name": "Elf Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "gryphonElf",
+          "name": "Gryphon",
+          "mount": true
+        },
+        {
+          "unitID": "ancientDragon",
+          "name": "Ancient Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "ElvenConclaves/elfSpellsword.png",
+      "icon": "sparkling-sabre.png"
+    },
+    "ancientDragon": {
+      "unitID": "ancientDragon",
+      "name": "Ancient Dragon",
+      "modelType": "LargeMonster",
+      "points": 125,
+      "isMount": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 6,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 7,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fireBreath"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "ElvenConclaves/ancientDragon.png",
+      "icon": "spiked-dragon-head.png"
+    },
+    "gryphonElf": {
+      "unitID": "gryphonElf",
+      "name": "Gryphon",
+      "modelType": "MonstrousInfantry",
+      "points": 55,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "ElvenConclaves/gryphonElf.png",
+      "icon": "griffin-symbol.png"
+    },
+    "elfSpears": {
+      "unitID": "elfSpears",
+      "name": "Elf Spears",
+      "modelType": "Infantry",
+      "points": 7,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 12,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "ElvenConclaves/elfSpears.png",
+      "icon": "spearShield.png"
+    },
+    "cityGuard": {
+      "unitID": "cityGuard",
+      "name": "Elf City Guard",
+      "modelType": "Infantry",
+      "points": 11,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 21
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "longbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "ElvenConclaves/cityGuard.png",
+      "icon": "spearShield.png"
+    },
+    "weaponMasters": {
+      "unitID": "weaponMasters",
+      "name": "Weapon Masters",
+      "modelType": "Infantry",
+      "points": 10,
+      "stats": {
+        "Skill": 5,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 18
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 18
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "halberd"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "elvenMastery"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        }
+      ],
+      "image": "ElvenConclaves/weaponMasters.png",
+      "icon": "fire-shield.png"
+    },
+    "elfArchers": {
+      "unitID": "elfArchers",
+      "name": "Elf Archers",
+      "modelType": "Infantry",
+      "points": 10,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "longbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "ElvenConclaves/elfArchers.png",
+      "icon": "arrow-cluster.png"
+    },
+    "elfWatchers": {
+      "unitID": "elfWatchers",
+      "name": "Elf Watchers",
+      "modelType": "Infantry",
+      "points": 13,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "longbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        }
+      ],
+      "image": "ElvenConclaves/elfWatchers.png",
+      "icon": "freedom_dove.png"
+    },
+    "elfBoltThrower": {
+      "unitID": "elfBoltThrower",
+      "name": "Elf Bolt Thrower",
+      "modelType": "WarMachine",
+      "points": 50,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 3,
+        "Legion": 6
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "boltThrower"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "lethalShots"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "ElvenConclaves/elfBoltThrower.png",
+      "icon": "BoltThrower.png"
+    },
+    "elfLancers": {
+      "unitID": "elfLancers",
+      "name": "Elf Lancers",
+      "modelType": "Cavalry",
+      "points": 21,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "lanceShield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "ElvenConclaves/elfLancers.png",
+      "icon": "mounted-knight.png"
+    },
+    "elfReavers": {
+      "unitID": "elfReavers",
+      "name": "Elf Reavers",
+      "modelType": "Cavalry",
+      "points": 16,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "shortbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "ElvenConclaves/elfReavers.png",
+      "icon": "curly-wing.png"
+    },
+    "elfChariot": {
+      "unitID": "elfChariot",
+      "name": "Elf Chariot",
+      "modelType": "Chariot",
+      "points": 55,
+      "sectionCost": "Half",
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "chariotBows",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "crushingCharge"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "ElvenConclaves/elfChariot.png",
+      "icon": "chariot.png"
+    },
+    "giantEagle": {
+      "unitID": "giantEagle",
+      "name": "Giant Eagle",
+      "modelType": "MonstrousInfantry",
+      "points": 55,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 4,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "ElvenConclaves/giantEagle.png",
+      "icon": "bird-claw.png"
+    },
+    "dragonKnights": {
+      "unitID": "dragonKnights",
+      "name": "Dragon Knights",
+      "modelType": "Cavalry",
+      "points": 25,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 5
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 5
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "lanceShield",
+            "cost": 2
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "elvenMastery"
+            }
+          ]
+        }
+      ],
+      "image": "ElvenConclaves/dragonKnights.png",
+      "icon": "spiked-dragon-head.png"
+    }
+  }
+}
