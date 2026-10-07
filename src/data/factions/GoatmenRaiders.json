@@ -285,6 +285,7 @@
       "modelType": "MonstrousInfantry",
       "points": 60,
       "commander": true,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 5,
@@ -955,6 +956,7 @@
       "name": "Feral Giant",
       "modelType": "LargeMonster",
       "points": 90,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 6,

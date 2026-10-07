@@ -443,6 +443,7 @@
       "modelType": "LargeMonster",
       "points": 125,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 5,
         "Power": 6,
@@ -507,6 +508,7 @@
       "modelType": "MonstrousInfantry",
       "points": 45,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 4,
@@ -1204,6 +1206,7 @@
       "name": "Hydra",
       "modelType": "LargeMonsterLongBase",
       "points": 90,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 5,

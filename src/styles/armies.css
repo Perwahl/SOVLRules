@@ -95,7 +95,7 @@
 .unit-card {
   scroll-margin-top: 8rem;
   position: relative;
-  display: grid; grid-template-columns: var(--art-w, 11rem) minmax(0, 1fr);
+  display: grid; grid-template-columns: 14.5rem minmax(0, 1fr);
   border-radius: var(--radius); border: 1px solid var(--line); overflow: hidden;
   background:
     linear-gradient(180deg, rgb(255 255 255 / 0.02), transparent 40%),
@@ -108,15 +108,18 @@
     radial-gradient(120% 90% at 50% 100%, color-mix(in srgb, var(--accent, #6fd0cc) 40%, transparent), transparent 70%),
     linear-gradient(180deg, #1c2833, #121a22);
   border-right: 1px solid var(--line);
+  overflow: hidden;
 }
-/* Portraits range from tall and narrow (crossbowmen) to wide (rat swarms, dragons). The image fills
-   the art column without cropping; the faction page sizes each column to the card's height times the
-   portrait's aspect (--art-w), so a tall commander card gets a big figure and a dragon a wide column. */
+/* Every portrait is a whole cell from the game's sheet, drawn in the same square frame, so a model's
+   size in its cell shows its size against other units, as in the game. largeImage units are drawn 1.2x,
+   as on the in-game card; the column is sized so they fit. */
 .unit-art img {
-  position: absolute; left: 0.5rem; right: 0.5rem; top: 0.75rem; bottom: 0;
-  width: calc(100% - 1rem); height: calc(100% - 0.75rem);
+  position: absolute; bottom: 0; left: 50%;
+  width: 12rem; height: 12rem; max-width: none;
   object-fit: contain; object-position: center bottom;
+  transform: translateX(-50%); transform-origin: center bottom;
 }
+.unit-card.large-image .unit-art img { transform: translateX(-50%) scale(1.2); }
 .unit-main { padding: 0.85rem 1rem 0.75rem; min-width: 0; display: grid; gap: 0.6rem; align-content: start; }
 .unit-head { display: grid; grid-template-columns: auto 1fr auto; gap: 0.65rem; align-items: center; }
 .type-icon {
@@ -175,6 +178,6 @@
 }
 @media (max-width: 560px) {
   .unit-card { grid-template-columns: 1fr; }
-  .unit-art { height: 12rem; border-right: 0; border-bottom: 1px solid var(--line); }
+  .unit-art { height: 14.5rem; border-right: 0; border-bottom: 1px solid var(--line); }
   .faction-card { grid-template-columns: 6rem 1fr; }
 }

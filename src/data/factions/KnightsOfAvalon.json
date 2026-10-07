@@ -340,6 +340,7 @@
       "modelType": "MonstrousInfantry",
       "points": 55,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 5,
@@ -397,6 +398,7 @@
       "modelType": "MonstrousInfantry",
       "points": 45,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 4,
@@ -456,6 +458,7 @@
       "modelType": "MonstrousInfantry",
       "points": 45,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 4,

@@ -29,9 +29,9 @@ const sizeText = (id: string) => {
   return m.min === m.max ? `${m.min}` : `${m.min}–${m.max}`;
 };
 ---
-<article class="unit-card" id={anchored ? anchorFor(unit.unitID) : undefined} style={accent ? `--accent:${accent}` : undefined} data-aspect={img ? (img.width / img.height).toFixed(3) : undefined}>
+<article class:list={["unit-card", { "large-image": unit.largeImage }]} id={anchored ? anchorFor(unit.unitID) : undefined} style={accent ? `--accent:${accent}` : undefined}>
   <div class="unit-art">
-    {img ? <Image src={img} alt="" width={360} widths={[180, 360]} sizes="180px" loading="lazy" /> : <div class="unit-art-empty" />}
+    {img ? <Image src={img} alt="" width={480} widths={[240, 480]} sizes="16rem" loading="lazy" /> : <div class="unit-art-empty" />}
   </div>
   <div class="unit-main">
     <header class="unit-head">

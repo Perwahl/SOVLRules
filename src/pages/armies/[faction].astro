@@ -98,29 +98,6 @@ const limitText = (min: number, max: number) => (max >= 99 ? (min > 0 ? `at leas
       buttons.forEach((b) => b.addEventListener('click', () => set(b.dataset.setSize)));
       try { const saved = localStorage.getItem('sovl-army-size'); if (saved && buttons.some((b) => b.dataset.setSize === saved)) set(saved); } catch {}
 
-      // Size each card's portrait column to the card: its height times the portrait's aspect, so the
-      // whole figure shows as large as the card allows. Two passes, since a wider column makes the
-      // text column narrower and the card taller.
-      const cards = [...document.querySelectorAll('.unit-card[data-aspect]')];
-      const stacked = window.matchMedia('(max-width: 560px)');
-      const fit = () => {
-        const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
-        for (const card of cards) {
-          if (stacked.matches) { card.style.removeProperty('--art-w'); continue; }
-          const aspect = parseFloat(card.dataset.aspect);
-          for (let pass = 0; pass < 2; pass++) {
-            const h = card.querySelector('.unit-main').offsetHeight;
-            const w = (h - 0.75 * rem) * aspect + rem;
-            card.style.setProperty('--art-w', Math.round(Math.min(17 * rem, Math.max(9 * rem, w))) + 'px');
-          }
-        }
-      };
-      let pending;
-      const refit = () => { cancelAnimationFrame(pending); pending = requestAnimationFrame(fit); };
-      fit();
-      document.fonts?.ready.then(refit);
-      window.addEventListener('resize', refit);
-      buttons.forEach((b) => b.addEventListener('click', refit));
     })();
   </script>
 </Base>

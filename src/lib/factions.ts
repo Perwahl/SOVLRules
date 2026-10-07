@@ -28,6 +28,8 @@ export interface Unit {
   commander?: boolean;
   solo?: boolean;
   isMount?: boolean;
+  /** Drawn 1.2x on the in-game unit card (UIUnitCard.Flash). */
+  largeImage?: boolean;
   sectionBonus?: string;
   stats: Record<string, number>;
   models: Record<string, Limit>;

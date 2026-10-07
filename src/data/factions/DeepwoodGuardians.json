@@ -422,6 +422,7 @@
       "modelType": "LargeMonster",
       "points": 125,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 5,
         "Power": 6,
@@ -1174,6 +1175,7 @@
       "name": "Treant",
       "modelType": "LargeMonster",
       "points": 100,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 6,

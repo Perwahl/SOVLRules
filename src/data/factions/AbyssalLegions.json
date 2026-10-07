@@ -425,6 +425,7 @@
       "modelType": "LargeMonster",
       "points": 125,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 5,
         "Power": 6,
@@ -489,6 +490,7 @@
       "modelType": "MonstrousInfantry",
       "points": 65,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 5,
@@ -971,6 +973,7 @@
       "name": "Archdevil",
       "modelType": "LargeMonster",
       "points": 150,
+      "largeImage": true,
       "stats": {
         "Skill": 5,
         "Power": 5,
@@ -1115,6 +1118,7 @@
       "modelType": "LargeMonsterLongBase",
       "points": 100,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 5,

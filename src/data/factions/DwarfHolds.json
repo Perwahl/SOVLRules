@@ -1158,6 +1158,7 @@
       "name": "Inferno Cannon",
       "modelType": "WarMachine",
       "points": 70,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 3,
@@ -1225,6 +1226,7 @@
       "modelType": "WarMachine",
       "points": 65,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 4,
