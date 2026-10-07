@@ -1,9 +1,8 @@
 {
-  "Regeneration": "At the start of each Strategic phase, heals any wounds on partly wounded models. Models already removed don't come back.",
-  "Web": "Reduce an enemy unit's Move by 4. Range 8.",
-  "Ambusher": "Deploys in the ambush zone: anywhere on your half of the battlefield, except a strip about 2\" deep either side of the centre line.",
-  "Frenzy": "Re-roll missed attack rolls in the first round of combat. Can't flee from a charge.",
-  "Reanimated": "-1 Move. Never flees: instead of taking a break test it loses D3 wounds. Can't flee from a charge.",
-  "Demonic": "Never flees: instead of taking a break test it loses D3 wounds. Can't flee from a charge.",
-  "Halberd": "Charge Bonus: +1 Power. Enemy damage saves against this weapon in melee are never better than 4+."
+  "Regeneration": "Heals all missing wounds at end of turn.",
+  "Frenzy": "Re-roll missed Attack Rolls in the first round of combat. Can't flee from charges.",
+  "Reanimated": "-1 Movement. Never flees: loses D3 wounds instead of taking a break test. Can't flee from charges.",
+  "Demonic": "Never flees: loses D3 wounds instead of taking a break test. Can't flee from charges.",
+  "Ambusher": "Deploys anywhere on your half of the battlefield, up to 2\" from the centre line.",
+  "Halberd": "Charge Bonus: +1 Power. Damage Saves against this weapon are never better than 4+."
 }

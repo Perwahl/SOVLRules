@@ -29,14 +29,14 @@ FBS `main` on 2026-10-07.
 | Army sizes, section limits, retinues | armies | `ArmyListBuilder/ArmyBuilder.cs`, `Model/ArmyList/ArmyList.cs` `IsListValid`, `Model/ArmyList/ArmyListSection.cs` |
 | Option costs per model / per unit | armies | `Model/ArmyList/ArmyListRegiment.cs` `PointsCost`, `ArmyListEntry.cs` `PropertyCostUnit` |
 
-## Known differences between the game and its own text
+## Game text the site corrects
 
-The glossary uses the game's property descriptions. These ones say something the code doesn't do, so
-`src/data/overrides.json` replaces them on the site:
+`src/data/overrides.json` replaces game descriptions that were out of date. The game was fixed to the
+same wording in Perwahl/FBS#115, and Web's range there was changed from 8 to 12 to match its text. Once
+that is merged, the next export carries the new text, and these overrides can be removed:
 
-- **Regeneration**: the game text says "recovers all missing wounds at end of turn". The code clears partial
-  wounds at the start of the Strategic phase, and lost models stay lost.
-- **Web**: the game text says range 12. The spell asset has range 8.
-- **Frenzy**: the game text doesn't mention that a Frenzied unit can't flee from a charge.
-- **Reanimated / Demonic**: same. Neither can flee from a charge.
-- **Ambusher**: the zone isn't the whole of your half; it stops about 2" short of the centre line.
+- **Regeneration**: "Heals all missing wounds at end of turn."
+- **Frenzy**, **Reanimated**, **Demonic**: add "Can't flee from charges." Reanimated and Demonic lose D3
+  wounds instead of taking a break test.
+- **Ambusher**: the zone stops 2" short of the centre line.
+- **Halberd**: missing full stop.
