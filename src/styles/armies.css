@@ -153,9 +153,9 @@
   box-shadow: var(--shadow);
 }
 .chip-pop::backdrop { background: rgb(0 0 0 / 0.45); }
-.chip-pop p { margin: 0; }
+.chip-pop:popover-open { display: grid; gap: 0.2rem; }
 .chip-pop-type { font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal); }
-.chip-pop-name { font-family: var(--font-display); font-size: 1.2rem; color: var(--gold-soft); margin: 0.2rem 0 0.4rem !important; }
+.chip-pop-name { font-family: var(--font-display); font-size: 1.2rem; color: var(--gold-soft); margin: 0.1rem 0 0.3rem; }
 .chip-pop-desc { font-size: 1.05rem; line-height: 1.5; }
 
 .faction-rules { max-width: var(--content-w); margin-top: 3rem; padding: 1.25rem 1.5rem 0.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-raised); }

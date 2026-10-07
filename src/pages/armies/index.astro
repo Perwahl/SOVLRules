@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import Callout from '../../components/Callout.astro';
 import '../../styles/rules.css';
 import '../../styles/armies.css';
-import { FACTIONS, FACTION_BLURBS, slug, heroUnit, portrait, unitCount } from '../../lib/factions';
+import { accentColor, FACTIONS, FACTION_BLURBS, slug, heroUnit, portrait, unitCount } from '../../lib/factions';
 import { ARMY_SIZES } from '../../lib/data';
 import { ARMY_BUILDER_URL, url } from '../../lib/site';
 import builderShot from '../../assets/site/army-builder.jpg';
@@ -77,7 +77,7 @@ import builderShot from '../../assets/site/army-builder.jpg';
             const hero = heroUnit(f);
             const img = portrait(hero?.image);
             return (
-              <a class="faction-card" href={url(`/armies/${slug(f.id)}/`)} style={`--accent:${f.primaryColor ?? '#6fd0cc'}`}>
+              <a class="faction-card" href={url(`/armies/${slug(f.id)}/`)} style={`--accent:${accentColor(f)}`}>
                 {img && <Image class="faction-card-art" src={img} alt="" width={300} widths={[220, 300]} sizes="220px" loading="lazy" />}
                 <span class="faction-card-text">
                   <span class="faction-card-name">{f.name}</span>

@@ -1,0 +1,1198 @@
+{
+  "id": "DeadNations",
+  "name": "Dead Nations",
+  "primaryColor": "#211A1F",
+  "secondaryColor": "#A2AAB9",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "wightLord",
+        "vampireKnight",
+        "necromancer"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "boneDragon"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "skeletons",
+        "zombies",
+        "wights",
+        "skeletonSpear"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "unearthedCatapult",
+        "skeletonBowmen"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "wolves",
+        "skeletonKnights",
+        "dreadKnights",
+        "bats"
+      ]
+    },
+    {
+      "name": "Abominations",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "zombieGiant"
+      ]
+    }
+  ],
+  "units": {
+    "wightLord": {
+      "unitID": "wightLord",
+      "name": "Wight Lord",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 10
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "eternalReign"
+            }
+          ]
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "unholyVigour"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "skeletons",
+          "name": "Skeleton Warriors"
+        },
+        {
+          "unitID": "skeletonSpear",
+          "name": "Skeleton Spear"
+        },
+        {
+          "unitID": "zombies",
+          "name": "Zombies"
+        },
+        {
+          "unitID": "wights",
+          "name": "Wight Guard"
+        },
+        {
+          "unitID": "skeletonKnights",
+          "name": "Skeleton Knights"
+        },
+        {
+          "unitID": "boneDragon",
+          "name": "Bone Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "DeadNations/wightLord.png",
+      "icon": "crowned-skull.png"
+    },
+    "vampireKnight": {
+      "unitID": "vampireKnight",
+      "name": "Vampire Knight",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "reanimate"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "unholyVigour"
+            },
+            {
+              "id": "plague"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "skeletonKnights",
+          "name": "Skeleton Knights"
+        },
+        {
+          "unitID": "dreadKnights",
+          "name": "Dread Knights"
+        },
+        {
+          "unitID": "wights",
+          "name": "Wight Guard"
+        },
+        {
+          "unitID": "skeletons",
+          "name": "Skeleton Warriors"
+        },
+        {
+          "unitID": "skeletonSpear",
+          "name": "Skeleton Spear"
+        },
+        {
+          "unitID": "zombies",
+          "name": "Zombies"
+        },
+        {
+          "unitID": "boneDragon",
+          "name": "Bone Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "DeadNations/vampireKnight.png",
+      "icon": "fangs.png"
+    },
+    "necromancer": {
+      "unitID": "necromancer",
+      "name": "Necromancer",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "raiseDead"
+            },
+            {
+              "id": "reanimate"
+            },
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "unholyVigour"
+            },
+            {
+              "id": "plague"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "skeletonSpear",
+          "name": "Skeleton Spear"
+        },
+        {
+          "unitID": "skeletons",
+          "name": "Skeleton Warriors"
+        },
+        {
+          "unitID": "zombies",
+          "name": "Zombies"
+        },
+        {
+          "unitID": "wights",
+          "name": "Wight Guard"
+        },
+        {
+          "unitID": "skeletonKnights",
+          "name": "Skeleton Knights"
+        }
+      ],
+      "image": "DeadNations/necromancer.png",
+      "icon": "skull-staff.png"
+    },
+    "boneDragon": {
+      "unitID": "boneDragon",
+      "name": "Bone Dragon",
+      "modelType": "LargeMonster",
+      "points": 125,
+      "isMount": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 6,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 7,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fireBreath"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        }
+      ],
+      "image": "DeadNations/boneDragon.png",
+      "icon": "spiked-dragon-head.png"
+    },
+    "skeletons": {
+      "unitID": "skeletons",
+      "name": "Skeleton Warriors",
+      "modelType": "Infantry",
+      "points": 5,
+      "stats": {
+        "Skill": 2,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 25
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DeadNations/skeletons.png",
+      "icon": "skeleton.png"
+    },
+    "zombies": {
+      "unitID": "zombies",
+      "name": "Zombies",
+      "modelType": "Infantry",
+      "points": 4,
+      "stats": {
+        "Skill": 2,
+        "Power": 2,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 25
+        },
+        "BorderPatrol": {
+          "min": 18,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 30
+        },
+        "Legion": {
+          "min": 15,
+          "max": 36
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "unarmed"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        }
+      ],
+      "image": "DeadNations/zombies.png",
+      "icon": "shambling-zombie.png"
+    },
+    "wights": {
+      "unitID": "wights",
+      "name": "Wight Guard",
+      "modelType": "Infantry",
+      "points": 10,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DeadNations/wights.png",
+      "icon": "skull-mask.png"
+    },
+    "skeletonSpear": {
+      "unitID": "skeletonSpear",
+      "name": "Skeleton Spear",
+      "modelType": "Infantry",
+      "points": 5,
+      "stats": {
+        "Skill": 2,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 25
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DeadNations/skeletonSpear.png",
+      "icon": "raise-skeleton.png"
+    },
+    "unearthedCatapult": {
+      "unitID": "unearthedCatapult",
+      "name": "Unearthed Catapult",
+      "modelType": "WarMachine",
+      "points": 55,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "catapult"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "DeadNations/unearthedCatapult.png",
+      "icon": "catapult.png"
+    },
+    "skeletonBowmen": {
+      "unitID": "skeletonBowmen",
+      "name": "Skeleton Bowmen",
+      "modelType": "Infantry",
+      "points": 5,
+      "stats": {
+        "Skill": 2,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "longbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DeadNations/skeletonBowmen.png",
+      "icon": "william-tell-skull.png"
+    },
+    "wolves": {
+      "unitID": "wolves",
+      "name": "Dire Wolves",
+      "modelType": "Hounds",
+      "points": 7,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 10
+        },
+        "Legion": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "DeadNations/wolves.png",
+      "icon": "wolf-head.png"
+    },
+    "skeletonKnights": {
+      "unitID": "skeletonKnights",
+      "name": "Skeleton Knights",
+      "modelType": "Cavalry",
+      "points": 19,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 12
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "lanceShield",
+            "cost": 2
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DeadNations/skeletonKnights.png",
+      "icon": "skull-shield.png"
+    },
+    "dreadKnights": {
+      "unitID": "dreadKnights",
+      "name": "Dread Knights",
+      "modelType": "Cavalry",
+      "points": 30,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 5
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 5
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "lanceShield",
+            "cost": 2
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DeadNations/dreadKnights.png",
+      "icon": "warlord-helmet.png"
+    },
+    "bats": {
+      "unitID": "bats",
+      "name": "Fell Bats",
+      "modelType": "MonstrousInfantry",
+      "points": 18,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 4
+        },
+        "Legion": {
+          "min": 3,
+          "max": 4
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "DeadNations/bats.png",
+      "icon": "bat.png"
+    },
+    "zombieGiant": {
+      "unitID": "zombieGiant",
+      "name": "Zombie Giant",
+      "modelType": "LargeMonster",
+      "points": 90,
+      "stats": {
+        "Skill": 2,
+        "Power": 6,
+        "Defense": 6,
+        "Attacks": 4,
+        "Wounds": 8,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reanimated"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "putridStench"
+            }
+          ]
+        }
+      ],
+      "image": "DeadNations/zombieGiant.png",
+      "icon": "totem-head.png"
+    }
+  }
+}

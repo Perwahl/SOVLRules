@@ -1,0 +1,1136 @@
+{
+  "id": "ReptilianKingdoms",
+  "name": "Reptilian Kingdoms",
+  "dlc": "Reptilian Kingdoms",
+  "primaryColor": "#478579",
+  "secondaryColor": "#71413B",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "newtPriest",
+        "saurianWarlord",
+        "ancientToad"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "tyrannosaur"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "saurianWarriors",
+        "crocoliskBruisers",
+        "newtBraves",
+        "saurianSpear"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "raptorRiders",
+        "pterodactylRiders"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "newtSkirmishers",
+        "firelizard"
+      ]
+    },
+    {
+      "name": "Jungle Beasts",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "triceratops",
+        "jungleSwarm",
+        "dreadmaw"
+      ]
+    }
+  ],
+  "units": {
+    "newtPriest": {
+      "unitID": "newtPriest",
+      "name": "Newt Priest",
+      "modelType": "Infantry",
+      "points": 55,
+      "commander": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 7
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "properties": [
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "divineFavour"
+            },
+            {
+              "id": "arcaneWeb"
+            },
+            {
+              "id": "radiantShield"
+            },
+            {
+              "id": "primalFury"
+            },
+            {
+              "id": "fireball"
+            },
+            {
+              "id": "wildform"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "newtBraves",
+          "name": "Newt Braves"
+        },
+        {
+          "unitID": "newtSkirmishers",
+          "name": "Newt Skirmishers"
+        },
+        {
+          "unitID": "pterodactylRiders",
+          "name": "Pterodactyl Riders"
+        },
+        {
+          "unitID": "triceratops",
+          "name": "Triceratops",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "ReptilianKingdoms/newtPriest.png",
+      "icon": "snake-totem.png"
+    },
+    "saurianWarlord": {
+      "unitID": "saurianWarlord",
+      "name": "Saurian Warlord",
+      "modelType": "InfantryLarge",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "warcry"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "saurianWarriors",
+          "name": "Saurian Warriors"
+        },
+        {
+          "unitID": "saurianSpear",
+          "name": "Saurian Spear"
+        },
+        {
+          "unitID": "raptorRiders",
+          "name": "Raptor Riders"
+        },
+        {
+          "unitID": "tyrannosaur",
+          "name": "Tyrannosaur",
+          "mount": true
+        }
+      ],
+      "image": "ReptilianKingdoms/saurianWarlord.png",
+      "icon": "t-rex-skull.png"
+    },
+    "ancientToad": {
+      "unitID": "ancientToad",
+      "name": "Ancient Toad",
+      "modelType": "Infantry",
+      "points": 70,
+      "commander": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "properties": [
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "radiantShield"
+            },
+            {
+              "id": "divineFavour"
+            },
+            {
+              "id": "arcaneWeb"
+            },
+            {
+              "id": "primalFury"
+            },
+            {
+              "id": "fireball"
+            },
+            {
+              "id": "frostWard"
+            },
+            {
+              "id": "fieryBlades"
+            },
+            {
+              "id": "realityRift"
+            },
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "wildform"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ancientKnowledge"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "saurianWarriors",
+          "name": "Saurian Warriors"
+        },
+        {
+          "unitID": "saurianSpear",
+          "name": "Saurian Spear"
+        },
+        {
+          "unitID": "triceratops",
+          "name": "Triceratops",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "ReptilianKingdoms/ancientToad.png",
+      "icon": "frog.png"
+    },
+    "tyrannosaur": {
+      "unitID": "tyrannosaur",
+      "name": "Tyrannosaur",
+      "modelType": "LargeMonsterLongBase",
+      "points": 65,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 6,
+        "Defense": 5,
+        "Attacks": 6,
+        "Wounds": 6,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/tyrannosaur.png",
+      "icon": "dinosaur-rex.png"
+    },
+    "saurianWarriors": {
+      "unitID": "saurianWarriors",
+      "name": "Saurian Warriors",
+      "modelType": "InfantryLarge",
+      "points": 9,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 18
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 18
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/saurianWarriors.png",
+      "icon": "horned-reptile.png"
+    },
+    "crocoliskBruisers": {
+      "unitID": "crocoliskBruisers",
+      "name": "Crocolisk Bruisers",
+      "modelType": "MonstrousInfantry",
+      "points": 30,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 6
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 6
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 8
+        },
+        "Legion": {
+          "min": 3,
+          "max": 12
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scalySkin"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/crocoliskBruisers.png",
+      "icon": "croc-jaws.png"
+    },
+    "newtBraves": {
+      "unitID": "newtBraves",
+      "name": "Newt Braves",
+      "modelType": "Infantry",
+      "points": 4,
+      "stats": {
+        "Skill": 3,
+        "Power": 2,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 24
+        },
+        "BorderPatrol": {
+          "min": 18,
+          "max": 24
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 30
+        },
+        "Legion": {
+          "min": 15,
+          "max": 36
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "javelinsLight",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/newtBraves.png",
+      "icon": "cuauhtli.png"
+    },
+    "saurianSpear": {
+      "unitID": "saurianSpear",
+      "name": "Saurian Spear",
+      "modelType": "InfantryLarge",
+      "points": 9,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 18
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 18
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/saurianSpear.png",
+      "icon": "turtle-shell.png"
+    },
+    "raptorRiders": {
+      "unitID": "raptorRiders",
+      "name": "Raptor Riders",
+      "modelType": "Cavalry",
+      "points": 21,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 15
+        },
+        "Legion": {
+          "min": 5,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "ReptilianKingdoms/raptorRiders.png",
+      "icon": "velociraptor.png"
+    },
+    "pterodactylRiders": {
+      "unitID": "pterodactylRiders",
+      "name": "Pterodactyl Riders",
+      "modelType": "MonstrousInfantry",
+      "points": 25,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 2,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 8
+        },
+        "Legion": {
+          "min": 3,
+          "max": 8
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "shortbow",
+            "cost": 2
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "ReptilianKingdoms/pterodactylRiders.png",
+      "icon": "pterodactylus.png"
+    },
+    "newtSkirmishers": {
+      "unitID": "newtSkirmishers",
+      "name": "Newt Skirmishers",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 2,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 20
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 20
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "shortbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/newtSkirmishers.png",
+      "icon": "triton-head.png"
+    },
+    "firelizard": {
+      "unitID": "firelizard",
+      "name": "Firelizard",
+      "modelType": "LargeMonster",
+      "points": 65,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fireBreath"
+          }
+        ]
+      },
+      "properties": [],
+      "image": "ReptilianKingdoms/firelizard.png",
+      "icon": "dimetrodon.png"
+    },
+    "triceratops": {
+      "unitID": "triceratops",
+      "name": "Triceratops",
+      "modelType": "LargeMonsterLongBase",
+      "points": 110,
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 5,
+        "Defense": 7,
+        "Attacks": 4,
+        "Wounds": 8,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "horns"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "triceratopsShortbows"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/triceratops.png",
+      "icon": "triceratops-head.png"
+    },
+    "jungleSwarm": {
+      "unitID": "jungleSwarm",
+      "name": "Jungle Swarm",
+      "modelType": "Swarm",
+      "points": 28,
+      "stats": {
+        "Skill": 2,
+        "Power": 2,
+        "Defense": 2,
+        "Attacks": 5,
+        "Wounds": 5,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 6
+        },
+        "Legion": {
+          "min": 3,
+          "max": 6
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "poisonedAttacks"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/jungleSwarm.png",
+      "icon": "medusa-head.png"
+    },
+    "dreadmaw": {
+      "unitID": "dreadmaw",
+      "name": "Dreadmaw",
+      "modelType": "Gargantuan",
+      "points": 200,
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 7,
+        "Defense": 6,
+        "Attacks": 8,
+        "Wounds": 12,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 0,
+        "BorderPatrol": 0,
+        "Battalion": 1,
+        "Legion": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "roar"
+            }
+          ]
+        }
+      ],
+      "image": "ReptilianKingdoms/dreadmaw.png",
+      "icon": "beast-eye.png"
+    }
+  }
+}

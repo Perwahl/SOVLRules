@@ -13,11 +13,11 @@ const popId = `pop-${Math.random().toString(36).slice(2, 10)}`;
     <button class:list={['chip', kind && `chip-${kind}`]} type="button" popovertarget={popId} title={p.description}>
       {name}{cost ? <span class="chip-cost">+{cost}{per}</span> : null}
     </button>
-    <div class="chip-pop" id={popId} popover>
-      <p class="chip-pop-type">{p.type.replace(/([a-z])([A-Z])/g, '$1 $2')}</p>
-      <p class="chip-pop-name">{name}{cost ? ` · ${cost} pts${per ? ' per ' + per.slice(1) : ''}` : ''}</p>
-      <p class="chip-pop-desc">{p.description}</p>
-    </div>
+    <span class="chip-pop" id={popId} popover>
+      <span class="chip-pop-type">{p.type.replace(/([a-z])([A-Z])/g, '$1 $2')}</span>
+      <span class="chip-pop-name">{name}{cost ? ` · ${cost} pts${per ? ' per ' + per.slice(1) : ''}` : ''}</span>
+      <span class="chip-pop-desc">{p.description}</span>
+    </span>
   </>
 ) : (
   <span class="chip">{name}</span>

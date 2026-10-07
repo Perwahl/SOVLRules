@@ -1,0 +1,1021 @@
+{
+  "id": "GoatmenRaiders",
+  "name": "Goatmen Raiders",
+  "dlc": "Mark Of The Beast",
+  "primaryColor": "#3B1717",
+  "secondaryColor": "#D1B384",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "goatmanShaman",
+        "goatmanLonghorn",
+        "minotaurLord"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "ibexWarriors",
+        "goatmenWarriors",
+        "mongrelPack",
+        "mongrelSpear"
+      ]
+    },
+    {
+      "name": "Raiders",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 2
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 3
+        },
+        "Legion": {
+          "min": 0,
+          "max": 4
+        }
+      },
+      "units": [
+        "raidingChariot",
+        "feralHounds",
+        "mongrelSkirmishers",
+        "centaurs"
+      ]
+    },
+    {
+      "name": "Wild Beasts",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "minotaurs",
+        "harpies",
+        "feralGiant"
+      ]
+    }
+  ],
+  "units": {
+    "goatmanShaman": {
+      "unitID": "goatmanShaman",
+      "name": "Goatman Shaman",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 7
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "wildform"
+            },
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "thousandMouths"
+            },
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "primalFury"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "bloodFrenzy"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "mongrelPack",
+          "name": "Mongrel Pack"
+        },
+        {
+          "unitID": "mongrelSpear",
+          "name": "Mongrel Spear"
+        },
+        {
+          "unitID": "goatmenWarriors",
+          "name": "Goatmen Warriors"
+        },
+        {
+          "unitID": "ibexWarriors",
+          "name": "Ibex Warriors"
+        },
+        {
+          "unitID": "raidingChariot",
+          "name": "Raiding Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "mongrelSkirmishers",
+          "name": "Mongrel Skirmishers"
+        }
+      ],
+      "image": "GoatmenRaiders/goatmanShaman.png",
+      "icon": "pick-of-destiny.png"
+    },
+    "goatmanLonghorn": {
+      "unitID": "goatmanLonghorn",
+      "name": "Goatman Longhorn",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "raider"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "warcry"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "goatmenWarriors",
+          "name": "Goatmen Warriors"
+        },
+        {
+          "unitID": "ibexWarriors",
+          "name": "Ibex Warriors"
+        },
+        {
+          "unitID": "raidingChariot",
+          "name": "Raiding Chariot",
+          "mount": true
+        }
+      ],
+      "image": "GoatmenRaiders/goatmanLonghorn.png",
+      "icon": "ivory-tusks.png"
+    },
+    "minotaurLord": {
+      "unitID": "minotaurLord",
+      "name": "Minotaur Lord",
+      "modelType": "MonstrousInfantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 5,
+        "Defense": 4,
+        "Attacks": 4,
+        "Wounds": 4,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "2CCW"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "frenzy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bloodFury"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "minotaurs",
+          "name": "Minotaurs"
+        }
+      ],
+      "image": "GoatmenRaiders/minotaurLord.png",
+      "icon": "bull-horns.png"
+    },
+    "ibexWarriors": {
+      "unitID": "ibexWarriors",
+      "name": "Ibex Warriors",
+      "modelType": "InfantryLarge",
+      "points": 10,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 20
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 20
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/ibexWarriors.png",
+      "icon": "bull-horns.png"
+    },
+    "goatmenWarriors": {
+      "unitID": "goatmenWarriors",
+      "name": "Goatmen Warriors",
+      "modelType": "InfantryLarge",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 25
+        },
+        "BorderPatrol": {
+          "min": 12,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 30
+        },
+        "Legion": {
+          "min": 15,
+          "max": 36
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "2CCW",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "GoatmenRaiders/goatmenWarriors.png",
+      "icon": "desert-skull.png"
+    },
+    "mongrelPack": {
+      "unitID": "mongrelPack",
+      "name": "Mongrel Pack",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 25
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/mongrelPack.png",
+      "icon": "evil-minion.png"
+    },
+    "mongrelSpear": {
+      "unitID": "mongrelSpear",
+      "name": "Mongrel Spear",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 25
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/mongrelSpear.png",
+      "icon": "evil-minion.png"
+    },
+    "raidingChariot": {
+      "unitID": "raidingChariot",
+      "name": "Raiding Chariot",
+      "modelType": "Chariot",
+      "points": 55,
+      "sectionCost": "Half",
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 4,
+        "Wounds": 5,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 3,
+        "BorderPatrol": 3,
+        "Battalion": 4,
+        "Legion": 6
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "crushingCharge"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/raidingChariot.png",
+      "icon": "Chariot.png"
+    },
+    "feralHounds": {
+      "unitID": "feralHounds",
+      "name": "Feral Hounds",
+      "modelType": "Hounds",
+      "points": 7,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 10
+        },
+        "Legion": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 3,
+        "Legion": 4
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/feralHounds.png",
+      "icon": "saber-toothed-cat-head.png"
+    },
+    "mongrelSkirmishers": {
+      "unitID": "mongrelSkirmishers",
+      "name": "Mongrel Skirmishers",
+      "modelType": "Infantry",
+      "points": 7,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "shortbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/mongrelSkirmishers.png",
+      "icon": "pocket-bow.png"
+    },
+    "centaurs": {
+      "unitID": "centaurs",
+      "name": "Centaurs",
+      "modelType": "Cavalry",
+      "points": 17,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "javelins"
+          },
+          {
+            "id": "shortbow",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "GoatmenRaiders/centaurs.png",
+      "icon": "centaur.png"
+    },
+    "minotaurs": {
+      "unitID": "minotaurs",
+      "name": "Minotaurs",
+      "modelType": "MonstrousInfantry",
+      "points": 38,
+      "stats": {
+        "Skill": 4,
+        "Power": 5,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 6
+        },
+        "Legion": {
+          "min": 3,
+          "max": 8
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "2CCW"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "frenzy"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/minotaurs.png",
+      "icon": "minotaur.png"
+    },
+    "harpies": {
+      "unitID": "harpies",
+      "name": "Harpies",
+      "modelType": "InfantryLarge",
+      "points": 12,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 8,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 15
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/harpies.png",
+      "icon": "harpy.png"
+    },
+    "feralGiant": {
+      "unitID": "feralGiant",
+      "name": "Feral Giant",
+      "modelType": "LargeMonster",
+      "points": 90,
+      "stats": {
+        "Skill": 3,
+        "Power": 6,
+        "Defense": 6,
+        "Attacks": 5,
+        "Wounds": 8,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "boulderThrow",
+            "cost": 15
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        }
+      ],
+      "image": "GoatmenRaiders/feralGiant.png",
+      "icon": "animal-skull.png"
+    }
+  }
+}

@@ -4,5 +4,6 @@
   "Ambusher": "Deploys in the ambush zone: anywhere on your half of the battlefield, except a strip about 2\" deep either side of the centre line.",
   "Frenzy": "Re-roll missed attack rolls in the first round of combat. Can't flee from a charge.",
   "Reanimated": "-1 Move. Never flees: instead of taking a break test it loses D3 wounds. Can't flee from a charge.",
-  "Demonic": "Never flees: instead of taking a break test it loses D3 wounds. Can't flee from a charge."
+  "Demonic": "Never flees: instead of taking a break test it loses D3 wounds. Can't flee from a charge.",
+  "Halberd": "Charge Bonus: +1 Power. Enemy damage saves against this weapon in melee are never better than 4+."
 }

@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "id": "cruelty",
+    "cost": 20
+  },
+  {
+    "id": "flametounge",
+    "cost": 15
+  },
+  {
+    "id": "relentless",
+    "cost": 15
+  },
+  {
+    "id": "heartSeeker",
+    "cost": 10
+  },
+  {
+    "id": "trueStrike",
+    "cost": 10
+  },
+  {
+    "id": "vitality",
+    "cost": 15
+  },
+  {
+    "id": "unyielding",
+    "cost": 10
+  },
+  {
+    "id": "command",
+    "cost": 10
+  },
+  {
+    "id": "prowess",
+    "cost": 10
+  },
+  {
+    "id": "unaturalPower",
+    "cost": 20
+  },
+  {
+    "id": "potionOfPower",
+    "cost": 25
+  },
+  {
+    "id": "bannerOfSwiftness",
+    "cost": 25
+  },
+  {
+    "id": "bannerOfFury",
+    "cost": 20
+  },
+  {
+    "id": "bannerOfValor",
+    "cost": 15
+  },
+  {
+    "id": "bannerOfMist",
+    "cost": 25
+  },
+  {
+    "id": "warBanner",
+    "cost": 25
+  },
+  {
+    "id": "cursedStandard",
+    "cost": 40
+  }
+]

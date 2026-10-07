@@ -6,7 +6,7 @@ import logo from '../assets/site/logo.png';
 import hero from '../assets/site/hero-lava.jpg';
 import builderShot from '../assets/site/army-builder.jpg';
 import chargeShot from '../assets/site/flank-charge.jpg';
-import { FACTIONS, slug, heroUnit, portrait } from '../lib/factions';
+import { accentColor, FACTIONS, slug, heroUnit, portrait } from '../lib/factions';
 import { ARMY_BUILDER_URL, STEAM_URL, url } from '../lib/site';
 ---
 <Base title="SOVL Rules" description="The rules of SOVL: Fantasy Warfare. Learn to play in five minutes, look up any rule, and browse every faction's army list.">
@@ -64,7 +64,7 @@ import { ARMY_BUILDER_URL, STEAM_URL, url } from '../lib/site';
           const u = heroUnit(f);
           const img = portrait(u?.image);
           return (
-            <a class="strip-card" href={url(`/armies/${slug(f.id)}/`)} style={`--accent:${f.primaryColor ?? '#6fd0cc'}`}>
+            <a class="strip-card" href={url(`/armies/${slug(f.id)}/`)} style={`--accent:${accentColor(f)}`}>
               {img && <Image src={img} alt="" width={220} widths={[160, 220]} sizes="160px" loading="lazy" />}
               <span>{f.name}</span>
             </a>

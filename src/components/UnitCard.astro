@@ -6,8 +6,8 @@ import { portrait, anchorFor, property, type Unit, type Selector } from '../lib/
 import { modelType, inches, ARMY_SIZES } from '../lib/data';
 import { url } from '../lib/site';
 
-interface Props { unit: Unit; accent?: string }
-const { unit, accent } = Astro.props;
+interface Props { unit: Unit; accent?: string; /** Omit for a unit's second appearance, so ids stay unique. */ anchored?: boolean }
+const { unit, accent, anchored = true } = Astro.props;
 const img = portrait(unit.image);
 const type = modelType(unit.modelType);
 const selectors: Selector[] = [unit.weaponSet, unit.ranged, ...(unit.properties ?? [])].filter((s): s is Selector => !!s);
@@ -26,13 +26,13 @@ const sizeText = (id: string) => {
   return m.min === m.max ? `${m.min}` : `${m.min}–${m.max}`;
 };
 ---
-<article class="unit-card" id={anchorFor(unit.unitID)} style={accent ? `--accent:${accent}` : undefined}>
+<article class="unit-card" id={anchored ? anchorFor(unit.unitID) : undefined} style={accent ? `--accent:${accent}` : undefined}>
   <div class="unit-art">
     {img ? <Image src={img} alt="" width={360} widths={[180, 360]} sizes="180px" loading="lazy" /> : <div class="unit-art-empty" />}
   </div>
   <div class="unit-main">
     <header class="unit-head">
-      {unit.icon && <span class="type-icon" style={`--icon:url(${url('/unit-icons/' + unit.icon)})`} aria-hidden="true" />}
+      {unit.icon && <span class="type-icon" style={`--icon:url("${url('/unit-icons/' + encodeURIComponent(unit.icon))}")`} aria-hidden="true" />}
       <div>
         <h3 class="unit-name">{unit.name}</h3>
         <p class="unit-type">
@@ -85,7 +85,7 @@ const sizeText = (id: string) => {
         <span class="foot-item">Unit size {sizes.map((s) => <span class="by-size" data-s={s.id}>{sizeText(s.id)}</span>)}</span>
       )}
       {sizes.some((s) => unit.maxPerArmy[s.id] !== undefined) && (
-        <span class="foot-item">Max per army {sizes.map((s) => <span class="by-size" data-s={s.id}>{unit.maxPerArmy[s.id] ?? '—'}</span>)}</span>
+        <span class="foot-item">Max per army {sizes.map((s) => <span class="by-size" data-s={s.id}>{unit.maxPerArmy[s.id] ?? 'no limit'}</span>)}</span>
       )}
       {unit.sectionCost && <span class="foot-item">Counts as {unit.sectionCost === 'Half' ? '½' : '2'} {unit.sectionCost === 'Half' ? 'a unit' : 'units'} in its section</span>}
       {unit.sectionBonus && <span class="foot-item">Unlocks +1 {unit.sectionBonus} unit</span>}

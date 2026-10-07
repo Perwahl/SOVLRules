@@ -104,7 +104,23 @@ export function heroUnit(f: Faction): Unit | undefined {
 }
 
 export function unitCount(f: Faction): number {
-  return f.sections.filter((s) => s.kind !== 'mounts').reduce((n, s) => n + s.units.length, 0);
+  // A unit listed in two sections counts once.
+  const ids = f.sections.filter((s) => s.kind !== 'mounts').flatMap((s) => s.units.map((id) => f.units[id]?.unitID ?? id));
+  return new Set(ids).size;
+}
+
+/**
+ * A readable accent for a faction. The game's army colours are often very dark (Darkborn is
+ * #232329), so take the brighter of the two and lift it until it reads on the dark page.
+ */
+export function accentColor(f: Faction): string {
+  const parse = (hex?: string) => (hex && /^#[0-9a-f]{6}$/i.test(hex) ? [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16)) : null);
+  const lum = ([r, g, b]: number[]) => (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+  const options = [parse(f.primaryColor), parse(f.secondaryColor)].filter((c): c is number[] => !!c);
+  if (!options.length) return '#6fd0cc';
+  let c = options.sort((a, b) => lum(b) - lum(a))[0];
+  while (lum(c) < 0.45) c = c.map((v) => Math.min(255, Math.round(v + (255 - v) * 0.18)));
+  return '#' + c.map((v) => v.toString(16).padStart(2, '0')).join('');
 }
 
 export function anchorFor(unitID: string): string {

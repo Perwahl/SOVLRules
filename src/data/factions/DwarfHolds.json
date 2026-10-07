@@ -1,0 +1,1356 @@
+{
+  "id": "DwarfHolds",
+  "name": "Dwarf Holds",
+  "primaryColor": "#671819",
+  "secondaryColor": "#143464",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "foreman",
+        "rangerCaptain",
+        "dwarfEngineer"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "dwarfWarriors",
+        "dwarfVeterans",
+        "dwarfMiners"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 2
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "dwarfCrossbows",
+        "dwarfHandguns",
+        "dwarfRangers",
+        "dwarfCannon",
+        "dwarfBoltThrower",
+        "dwarfStonethrower"
+      ]
+    },
+    {
+      "name": "Elites",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "dwarfBerserkers",
+        "deepGuard"
+      ]
+    },
+    {
+      "name": "Machines of War",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "infernoCannon",
+        "dwarfFlyingMachine",
+        "dwarfCannon",
+        "dwarfStoneThrower",
+        "dwarfBoltThrower"
+      ]
+    }
+  ],
+  "units": {
+    "foreman": {
+      "unitID": "foreman",
+      "name": "Dwarf Foreman",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "mountainsWill"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "dwarfWarriors",
+          "name": "Dwarf Warriors"
+        },
+        {
+          "unitID": "dwarfMiners",
+          "name": "Dwarf Miners"
+        },
+        {
+          "unitID": "dwarfVeterans",
+          "name": "Dwarf Veterans"
+        }
+      ],
+      "image": "DwarfHolds/foreman.png",
+      "icon": "dwarf-helmet.png"
+    },
+    "rangerCaptain": {
+      "unitID": "rangerCaptain",
+      "name": "Ranger Captain",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "2CCW"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "marksmanRifle"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ranger"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "dwarfCrossbows",
+          "name": "Dwarf Crossbows"
+        },
+        {
+          "unitID": "dwarfRangers",
+          "name": "Dwarf Rangers"
+        },
+        {
+          "unitID": "dwarfHandguns",
+          "name": "Dwarf Handguns"
+        }
+      ],
+      "image": "DwarfHolds/rangerCaptain.png",
+      "icon": "hunting-horn.png"
+    },
+    "dwarfEngineer": {
+      "unitID": "dwarfEngineer",
+      "name": "Dwarf Engineer",
+      "modelType": "Infantry",
+      "points": 45,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "dwarfPistol",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "mechanicalExpertise"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "dwarfCrossbows",
+          "name": "Dwarf Crossbows"
+        },
+        {
+          "unitID": "dwarfHandguns",
+          "name": "Dwarf Handguns"
+        },
+        {
+          "unitID": "dwarfFlyingMachine",
+          "name": "Dwarf Flying Machine",
+          "mount": true
+        }
+      ],
+      "image": "DwarfHolds/dwarfEngineer.png",
+      "icon": "cog_(1).png"
+    },
+    "dwarfWarriors": {
+      "unitID": "dwarfWarriors",
+      "name": "Dwarf Warriors",
+      "modelType": "Infantry",
+      "points": 6,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/dwarfWarriors.png",
+      "icon": "round-shield.png"
+    },
+    "dwarfVeterans": {
+      "unitID": "dwarfVeterans",
+      "name": "Dwarf Veterans",
+      "modelType": "Infantry",
+      "points": 9,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 18
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 18
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DwarfHolds/dwarfVeterans.png",
+      "icon": "viking-shield.png"
+    },
+    "dwarfMiners": {
+      "unitID": "dwarfMiners",
+      "name": "Dwarf Miners",
+      "modelType": "Infantry",
+      "points": 7,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 12,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "explosiveCharges",
+            "cost": 25
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/dwarfMiners.png",
+      "icon": "war-pick.png"
+    },
+    "dwarfCrossbows": {
+      "unitID": "dwarfCrossbows",
+      "name": "Dwarf Crossbows",
+      "modelType": "Infantry",
+      "points": 8,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "crossbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DwarfHolds/dwarfCrossbows.png",
+      "icon": "crossbow.png"
+    },
+    "dwarfHandguns": {
+      "unitID": "dwarfHandguns",
+      "name": "Dwarf Handguns",
+      "modelType": "Infantry",
+      "points": 9,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "handgun"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DwarfHolds/dwarfHandguns.png",
+      "icon": "musket.png"
+    },
+    "dwarfRangers": {
+      "unitID": "dwarfRangers",
+      "name": "Dwarf Rangers",
+      "modelType": "Infantry",
+      "points": 12,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "crossbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DwarfHolds/dwarfRangers.png",
+      "icon": "crossbow.png"
+    },
+    "dwarfCannon": {
+      "unitID": "dwarfCannon",
+      "name": "Dwarf Cannon",
+      "modelType": "WarMachine",
+      "points": 55,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "cannon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "lethalShots"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/dwarfCannon.png",
+      "icon": "cannon.png"
+    },
+    "dwarfBoltThrower": {
+      "unitID": "dwarfBoltThrower",
+      "name": "Dwarf Bolt Thrower",
+      "modelType": "WarMachine",
+      "points": 40,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "boltThrower"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "lethalShots"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/dwarfBoltThrower.png",
+      "icon": "BoltThrower.png"
+    },
+    "dwarfStonethrower": {
+      "unitID": "dwarfStonethrower",
+      "name": "Dwarf Stonethrower",
+      "modelType": "WarMachine",
+      "points": 50,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "catapult"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/dwarfStonethrower.png",
+      "icon": "catapult.png"
+    },
+    "dwarfBerserkers": {
+      "unitID": "dwarfBerserkers",
+      "name": "Dwarf Berserkers",
+      "modelType": "Infantry",
+      "points": 9,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "frenzy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DwarfHolds/dwarfBerserkers.png",
+      "icon": "crossed-axes.png"
+    },
+    "deepGuard": {
+      "unitID": "deepGuard",
+      "name": "Deep Guard",
+      "modelType": "Infantry",
+      "points": 12,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "sturdy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "masterworkArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "bodyguard"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/deepGuard.png",
+      "icon": "dwarf-helmet.png"
+    },
+    "infernoCannon": {
+      "unitID": "infernoCannon",
+      "name": "Inferno Cannon",
+      "modelType": "WarMachine",
+      "points": 70,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "infernoCannonWeapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/infernoCannon.png",
+      "icon": "InfernoCannon.png"
+    },
+    "dwarfFlyingMachine": {
+      "unitID": "dwarfFlyingMachine",
+      "name": "Dwarf Flying Machine",
+      "modelType": "WarMachine",
+      "points": 65,
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 4,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "rammingSpeed"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "steamGun"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/dwarfFlyingMachine.png",
+      "icon": "FlyingMachine.png"
+    },
+    "dwarfStoneThrower": {
+      "unitID": "dwarfStonethrower",
+      "name": "Dwarf Stonethrower",
+      "modelType": "WarMachine",
+      "points": 50,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "catapult"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "DwarfHolds/dwarfStonethrower.png",
+      "icon": "catapult.png"
+    }
+  }
+}

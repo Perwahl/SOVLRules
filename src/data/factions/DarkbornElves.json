@@ -1,0 +1,1322 @@
+{
+  "id": "DarkbornElves",
+  "name": "Darkborn Elves",
+  "dlc": "Darkborn Elves",
+  "primaryColor": "#232329",
+  "secondaryColor": "#422433",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "darkbornNoble",
+        "darkbornPriestess",
+        "darkbornAssassin"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "blackDragon",
+        "darkPegasus"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "darkbornSpears",
+        "darkbornDreadguard",
+        "darkbornWitches"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "darkbornCrossbows",
+        "darkbornShadows",
+        "darkbornBoltthrower"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 2
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 3
+        },
+        "Legion": {
+          "min": 0,
+          "max": 4
+        }
+      },
+      "units": [
+        "raptorKnights",
+        "darkbornRiders",
+        "darkbornChariot"
+      ]
+    },
+    {
+      "name": "Tamed Beasts",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "hydra",
+        "darkbornHarpies"
+      ]
+    }
+  ],
+  "units": {
+    "darkbornNoble": {
+      "unitID": "darkbornNoble",
+      "name": "Darkborn Noble",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "feint"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "darkbornRiders",
+          "name": "Darkborn Riders"
+        },
+        {
+          "unitID": "darkbornSpears",
+          "name": "Darkborn Spears"
+        },
+        {
+          "unitID": "raptorKnights",
+          "name": "Raptor Knights"
+        },
+        {
+          "unitID": "darkbornChariot",
+          "name": "Darkborn Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "darkbornDreadguard",
+          "name": "Darkborn Dreadguard"
+        },
+        {
+          "unitID": "blackDragon",
+          "name": "Black Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "DarkbornElves/darkbornNoble.png",
+      "icon": "overlord-helm.png"
+    },
+    "darkbornPriestess": {
+      "unitID": "darkbornPriestess",
+      "name": "Darkborn Priestess",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 8
+      },
+      "models": {},
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "arcaneWeb"
+            },
+            {
+              "id": "frostWard"
+            },
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "bloodFrenzy"
+            },
+            {
+              "id": "realityRift"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "darkbornWitches",
+          "name": "Darkborn Witches"
+        },
+        {
+          "unitID": "darkbornCrossbows",
+          "name": "Darkborn Crossbows"
+        },
+        {
+          "unitID": "darkbornSpears",
+          "name": "Darkborn Spears"
+        },
+        {
+          "unitID": "darkbornRiders",
+          "name": "Darkborn Riders"
+        },
+        {
+          "unitID": "darkbornChariot",
+          "name": "Darkborn Chariot",
+          "mount": true
+        },
+        {
+          "unitID": "darkbornDreadguard",
+          "name": "Darkborn Dreadguard"
+        },
+        {
+          "unitID": "darkPegasus",
+          "name": "Dark Pegasus",
+          "mount": true
+        },
+        {
+          "unitID": "blackDragon",
+          "name": "Black Dragon",
+          "notInWarband": true,
+          "mount": true
+        }
+      ],
+      "image": "DarkbornElves/darkbornPriestess.png",
+      "icon": "winged-scepter.png"
+    },
+    "darkbornAssassin": {
+      "unitID": "darkbornAssassin",
+      "name": "Darkborn Assassin",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 9
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "deadlyStrike"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "poisonedAttacks"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "hidden"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "darkbornSpears",
+          "name": "Darkborn Spears"
+        },
+        {
+          "unitID": "darkbornCrossbows",
+          "name": "Darkborn Crossbows"
+        },
+        {
+          "unitID": "darkbornWitches",
+          "name": "Darkborn Witches"
+        },
+        {
+          "unitID": "darkbornDreadguard",
+          "name": "Darkborn Dreadguard"
+        },
+        {
+          "unitID": "darkbornRiders",
+          "name": "Darkborn Riders"
+        },
+        {
+          "unitID": "raptorKnights",
+          "name": "Raptor Knights"
+        }
+      ],
+      "image": "DarkbornElves/darkbornAssassin.png",
+      "icon": "daggers.png"
+    },
+    "blackDragon": {
+      "unitID": "blackDragon",
+      "name": "Black Dragon",
+      "modelType": "LargeMonster",
+      "points": 125,
+      "isMount": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 6,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 7,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fireBreath"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "DarkbornElves/blackDragon.png",
+      "icon": "spiked-dragon-head.png"
+    },
+    "darkPegasus": {
+      "unitID": "darkPegasus",
+      "name": "Dark Pegasus",
+      "modelType": "MonstrousInfantry",
+      "points": 45,
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 4,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "hooves "
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "DarkbornElves/darkPegasus.png",
+      "icon": "pegasus.png"
+    },
+    "darkbornSpears": {
+      "unitID": "darkbornSpears",
+      "name": "Darkborn Spears",
+      "modelType": "Infantry",
+      "points": 7,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 12,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "spearshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DarkbornElves/darkbornSpears.png",
+      "icon": "spartan.png"
+    },
+    "darkbornDreadguard": {
+      "unitID": "darkbornDreadguard",
+      "name": "Darkborn Dreadguard",
+      "modelType": "Infantry",
+      "points": 10,
+      "stats": {
+        "Skill": 5,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "halberd"
+          },
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DarkbornElves/darkbornDreadguard.png",
+      "icon": "halberd.png"
+    },
+    "darkbornWitches": {
+      "unitID": "darkbornWitches",
+      "name": "Darkborn Witches",
+      "modelType": "Infantry",
+      "points": 10,
+      "stats": {
+        "Skill": 5,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 18
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 18
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "frenzy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "poisonedAttacks"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DarkbornElves/darkbornWitches.png",
+      "icon": "sword-clash(1).png"
+    },
+    "darkbornCrossbows": {
+      "unitID": "darkbornCrossbows",
+      "name": "Darkborn Crossbows",
+      "modelType": "Infantry",
+      "points": 10,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "crossbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DarkbornElves/darkbornCrossbows.png",
+      "icon": "crossbow.png"
+    },
+    "darkbornShadows": {
+      "unitID": "darkbornShadows",
+      "name": "Darkborn Shadows",
+      "modelType": "Infantry",
+      "points": 13,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 9
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 20
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "lightCrossbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        }
+      ],
+      "image": "DarkbornElves/darkbornShadows.png",
+      "icon": "cultist.png"
+    },
+    "darkbornBoltthrower": {
+      "unitID": "darkbornBoltthrower",
+      "name": "Darkborn Boltthrower",
+      "modelType": "WarMachine",
+      "points": 50,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 3,
+        "Legion": 6
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "boltThrower"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "lethalShots"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "protectedCrew"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "reposition"
+            }
+          ]
+        }
+      ],
+      "image": "DarkbornElves/darkbornBoltthrower.png",
+      "icon": "BoltThrower.png"
+    },
+    "raptorKnights": {
+      "unitID": "raptorKnights",
+      "name": "Raptor Knights",
+      "modelType": "Cavalry",
+      "points": 21,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "lanceShield",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "DarkbornElves/raptorKnights.png",
+      "icon": "velociraptor.png"
+    },
+    "darkbornRiders": {
+      "unitID": "darkbornRiders",
+      "name": "Darkborn Riders",
+      "modelType": "Cavalry",
+      "points": 17,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 2,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "lightCrossbow"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "DarkbornElves/darkbornRiders.png",
+      "icon": "bloody-sword.png"
+    },
+    "darkbornChariot": {
+      "unitID": "darkbornChariot",
+      "name": "Darkborn Chariot",
+      "modelType": "Chariot",
+      "points": 55,
+      "sectionCost": "Half",
+      "isMount": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 3,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "chariotBows",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "crushingCharge"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "DarkbornElves/darkbornChariot.png",
+      "icon": "chariot.png"
+    },
+    "hydra": {
+      "unitID": "hydra",
+      "name": "Hydra",
+      "modelType": "LargeMonsterLongBase",
+      "points": 90,
+      "stats": {
+        "Skill": 4,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "regeneration"
+            }
+          ]
+        }
+      ],
+      "image": "DarkbornElves/hydra.png",
+      "icon": "hydra.png"
+    },
+    "darkbornHarpies": {
+      "unitID": "darkbornHarpies",
+      "name": "Harpies",
+      "modelType": "InfantryLarge",
+      "points": 12,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 8,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 15
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "DarkbornElves/darkbornHarpies.png",
+      "icon": "harpy.png"
+    }
+  }
+}

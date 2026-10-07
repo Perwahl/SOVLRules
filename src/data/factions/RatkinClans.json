@@ -1,0 +1,1078 @@
+{
+  "id": "RatkinClans",
+  "name": "Ratkin Clans",
+  "dlc": "Ratkin Clans",
+  "primaryColor": "#423934",
+  "secondaryColor": "#71413B",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "ratkinWarlock",
+        "ratkinChieftain",
+        "ratkinInfiltrator"
+      ]
+    },
+    {
+      "name": "Mounts",
+      "kind": "mounts",
+      "units": [
+        "doomBell"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "ratkinLegionaries",
+        "ratkinConscripts",
+        "ratkinSkulkers"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "ratkinLongrifles",
+        "ratkinSlingers",
+        "ratkinFlamers"
+      ]
+    },
+    {
+      "name": "Vermin",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 2
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "ratkinMonstrosity",
+        "ratkinBrutes",
+        "ratSwarms",
+        "giantRats"
+      ]
+    }
+  ],
+  "units": {
+    "ratkinWarlock": {
+      "unitID": "ratkinWarlock",
+      "name": "Ratkin Warlock",
+      "modelType": "Infantry",
+      "points": 60,
+      "commander": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 6
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ccw"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicItems",
+          "label": "Magic Item",
+          "items": true
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "thousandMouths"
+            },
+            {
+              "id": "primalFury"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "plague"
+            },
+            {
+              "id": "bloodFrenzy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "ratkinSlingers",
+          "name": "Ratkin Slingers"
+        },
+        {
+          "unitID": "ratkinConscripts",
+          "name": "Ratkin Conscripts"
+        },
+        {
+          "unitID": "ratkinLegionaries",
+          "name": "Ratkin Legionaries"
+        },
+        {
+          "unitID": "doomBell",
+          "name": "Doom Bell",
+          "mount": true
+        }
+      ],
+      "image": "RatkinClans/ratkinWarlock.png",
+      "icon": "warlock-eye.png"
+    },
+    "ratkinChieftain": {
+      "unitID": "ratkinChieftain",
+      "name": "Ratkin Chieftain",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 7
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "cruelMotivation"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "ratkinConscripts",
+          "name": "Ratkin Conscripts"
+        },
+        {
+          "unitID": "ratkinLegionaries",
+          "name": "Ratkin Legionaries"
+        }
+      ],
+      "image": "RatkinClans/ratkinChieftain.png",
+      "icon": "samurai-helmet.png"
+    },
+    "ratkinInfiltrator": {
+      "unitID": "ratkinInfiltrator",
+      "name": "Ratkin Infiltrator",
+      "modelType": "Infantry",
+      "points": 50,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 6
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "deadlyStrike"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "poisonedAttacks"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "hidden"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "ratkinSkulkers",
+          "name": "Ratkin Skulkers"
+        },
+        {
+          "unitID": "ratkinSlingers",
+          "name": "Ratkin Slingers"
+        },
+        {
+          "unitID": "ratkinConscripts",
+          "name": "Ratkin Conscripts"
+        },
+        {
+          "unitID": "ratkinLegionaries",
+          "name": "Ratkin Legionaries"
+        }
+      ],
+      "image": "RatkinClans/ratkinInfiltrator.png",
+      "icon": "hooded-assassin.png"
+    },
+    "doomBell": {
+      "unitID": "doomBell",
+      "name": "Doom Bell",
+      "modelType": "WarWagon",
+      "points": 55,
+      "isMount": true,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 5,
+        "Attacks": 2,
+        "Wounds": 8,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {},
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "doomBellAbility"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "crushingCharge"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/doomBell.png",
+      "icon": "carillon.png"
+    },
+    "ratkinLegionaries": {
+      "unitID": "ratkinLegionaries",
+      "name": "Ratkin Legionaries",
+      "modelType": "Infantry",
+      "points": 8,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 7
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "halberd"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "heavyArmor"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/ratkinLegionaries.png",
+      "icon": "Halberd.png"
+    },
+    "ratkinConscripts": {
+      "unitID": "ratkinConscripts",
+      "name": "Ratkin Conscripts",
+      "modelType": "Infantry",
+      "points": 5,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 25
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 25
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 30
+        },
+        "Legion": {
+          "min": 15,
+          "max": 30
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "spearshield"
+          },
+          {
+            "id": "ccwshield"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        }
+      ],
+      "image": "RatkinClans/ratkinConscripts.png",
+      "icon": "RatHead.png"
+    },
+    "ratkinSkulkers": {
+      "unitID": "ratkinSkulkers",
+      "name": "Ratkin Skulkers",
+      "modelType": "Infantry",
+      "points": 7,
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "ranged": {
+        "kind": "optional",
+        "options": [
+          {
+            "id": "throwingStars",
+            "cost": 1
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "ambusher"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/ratkinSkulkers.png",
+      "icon": "trefoil-shuriken.png"
+    },
+    "ratkinLongrifles": {
+      "unitID": "ratkinLongrifles",
+      "name": "Ratkin Longrifles",
+      "modelType": "WeaponTeam",
+      "points": 20,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 4,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 2,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 2,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 5
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "ratkinLongrifle"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "lethalShots"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/ratkinLongrifles.png",
+      "icon": "musket.png"
+    },
+    "ratkinSlingers": {
+      "unitID": "ratkinSlingers",
+      "name": "Ratkin Slingers",
+      "modelType": "Infantry",
+      "points": 5,
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 15,
+          "max": 20
+        },
+        "BorderPatrol": {
+          "min": 15,
+          "max": 20
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 4,
+        "Legion": 6
+      },
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "sling"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/ratkinSlingers.png",
+      "icon": "sling.png"
+    },
+    "ratkinFlamers": {
+      "unitID": "ratkinFlamers",
+      "name": "Ratkin Flamers",
+      "modelType": "WeaponTeam",
+      "points": 20,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 2,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 2,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 5
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "flamer"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/ratkinFlamers.png",
+      "icon": "small-fire.png"
+    },
+    "ratkinMonstrosity": {
+      "unitID": "ratkinMonstrosity",
+      "name": "Ratkin Monstrosity",
+      "modelType": "LargeMonsterLongBase",
+      "points": 100,
+      "stats": {
+        "Skill": 3,
+        "Power": 6,
+        "Defense": 6,
+        "Attacks": 6,
+        "Wounds": 6,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "frenzy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/ratkinMonstrosity.png",
+      "icon": "animal-skull.png"
+    },
+    "ratkinBrutes": {
+      "unitID": "ratkinBrutes",
+      "name": "Ratkin Alphas",
+      "modelType": "MonstrousInfantry",
+      "points": 28,
+      "stats": {
+        "Skill": 3,
+        "Power": 5,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 6
+        },
+        "Legion": {
+          "min": 3,
+          "max": 8
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "swift"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/ratkinBrutes.png",
+      "icon": "paw.png"
+    },
+    "ratSwarms": {
+      "unitID": "ratSwarms",
+      "name": "Rat Swarms",
+      "modelType": "Swarm",
+      "points": 26,
+      "stats": {
+        "Skill": 2,
+        "Power": 1,
+        "Defense": 1,
+        "Attacks": 5,
+        "Wounds": 5,
+        "Discipline": 8
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 6
+        },
+        "Legion": {
+          "min": 3,
+          "max": 6
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "fearless"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "frenzy"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "RatkinClans/ratSwarms.png",
+      "icon": "rat(1).png"
+    },
+    "giantRats": {
+      "unitID": "giantRats",
+      "name": "Giant Rats",
+      "modelType": "Hounds",
+      "points": 5,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 2,
+        "Power": 3,
+        "Defense": 2,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 5
+      },
+      "models": {
+        "Warband": {
+          "min": 8,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 10
+        },
+        "Legion": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 3,
+        "Legion": 4
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [],
+      "image": "RatkinClans/giantRats.png",
+      "icon": "RatHead.png"
+    }
+  }
+}

@@ -4,7 +4,7 @@ import Base from '../../layouts/Base.astro';
 import UnitCard from '../../components/UnitCard.astro';
 import '../../styles/rules.css';
 import '../../styles/armies.css';
-import { FACTIONS, FACTION_BLURBS, slug, heroUnit, portrait, unitCount, type Faction } from '../../lib/factions';
+import { FACTIONS, FACTION_BLURBS, slug, heroUnit, portrait, unitCount, accentColor, type Faction } from '../../lib/factions';
 import { ARMY_SIZES } from '../../lib/data';
 import { ARMY_BUILDER_URL, url } from '../../lib/site';
 
@@ -16,7 +16,10 @@ interface Props { faction: Faction }
 const { faction } = Astro.props;
 const hero = heroUnit(faction);
 const heroImg = portrait(hero?.image);
-const accent = faction.primaryColor ?? '#6fd0cc';
+const accent = accentColor(faction);
+// A unit can be listed in two sections (Dwarf war machines); only its first card gets the anchor.
+const seen = new Set<string>();
+const firstTime = (unitID: string) => (seen.has(unitID) ? false : (seen.add(unitID), true));
 const index = FACTIONS.findIndex((f) => f.id === faction.id);
 const prev = FACTIONS[(index - 1 + FACTIONS.length) % FACTIONS.length];
 const next = FACTIONS[(index + 1) % FACTIONS.length];
@@ -61,7 +64,7 @@ const limitText = (min: number, max: number) => (max >= 99 ? (min > 0 ? `at leas
           {section.kind === 'mounts' && <p class="section-limit">Taken by commanders as their retinue</p>}
         </header>
         <div class="unit-grid">
-          {section.units.map((id) => faction.units[id] && <UnitCard unit={faction.units[id]} accent={accent} />)}
+          {section.units.map((id) => faction.units[id] && <UnitCard unit={faction.units[id]} accent={accent} anchored={firstTime(faction.units[id].unitID)} />)}
         </div>
       </section>
     ))}

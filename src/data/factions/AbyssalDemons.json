@@ -1,0 +1,1093 @@
+{
+  "id": "AbyssalDemons",
+  "name": "Abyssal Demons",
+  "dlc": "Abyssal Demons",
+  "primaryColor": "#875C7A",
+  "secondaryColor": "#779F9D",
+  "sections": [
+    {
+      "name": "Commanders",
+      "kind": "commanders",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 2
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 2
+        },
+        "Legion": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "units": [
+        "abyssalPrince",
+        "abyssalHerald"
+      ]
+    },
+    {
+      "name": "Battle Line",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 1,
+          "max": 3
+        },
+        "BorderPatrol": {
+          "min": 2,
+          "max": 3
+        },
+        "Battalion": {
+          "min": 2,
+          "max": 5
+        },
+        "Legion": {
+          "min": 3,
+          "max": 7
+        }
+      },
+      "units": [
+        "abyssalVipers",
+        "devilSpawnDemons",
+        "plagueWalkers",
+        "plaguelings"
+      ]
+    },
+    {
+      "name": "Ranged Support",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "fireDevils"
+      ]
+    },
+    {
+      "name": "Fast Attack",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "plagueFlies",
+        "abyssalReapers",
+        "demonicHounds",
+        "hellRiders"
+      ]
+    },
+    {
+      "name": "Abyssal Terrors",
+      "kind": "units",
+      "limits": {
+        "Warband": {
+          "min": 0,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 0,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 0,
+          "max": 2
+        },
+        "Legion": {
+          "min": 0,
+          "max": 3
+        }
+      },
+      "units": [
+        "plagueHulk",
+        "archDevilDemons"
+      ]
+    }
+  ],
+  "units": {
+    "abyssalPrince": {
+      "unitID": "abyssalPrince",
+      "name": "Abyssal Prince",
+      "modelType": "LargeMonster",
+      "points": 150,
+      "commander": true,
+      "solo": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 5,
+        "Defense": 4,
+        "Attacks": 5,
+        "Wounds": 5,
+        "Discipline": 10
+      },
+      "models": {},
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "arcaneWeb"
+            },
+            {
+              "id": "frostWard"
+            },
+            {
+              "id": "hexOfRuin"
+            },
+            {
+              "id": "shroud"
+            },
+            {
+              "id": "plague"
+            },
+            {
+              "id": "bloodFrenzy"
+            }
+          ]
+        },
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "pickOne",
+          "options": [
+            {
+              "id": "lordOfDecay"
+            },
+            {
+              "id": "lordOfTrickery"
+            },
+            {
+              "id": "lordOfWar"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/abyssalPrince.png",
+      "icon": "gargoyle.png"
+    },
+    "abyssalHerald": {
+      "unitID": "abyssalHerald",
+      "name": "Abyssal Herald",
+      "modelType": "Infantry",
+      "points": 55,
+      "commander": true,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 3,
+        "Discipline": 10
+      },
+      "models": {},
+      "maxPerArmy": {
+        "BorderPatrol": 1
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "ccwshield"
+          },
+          {
+            "id": "greatweapon",
+            "cost": 5
+          },
+          {
+            "id": "2CCW",
+            "cost": 5
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicItems",
+          "label": "Magic Weapon/Item",
+          "weapons": true,
+          "items": true
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "abyssalArmor"
+            }
+          ]
+        },
+        {
+          "kind": "pickOne",
+          "options": [
+            {
+              "id": "lordOfDecay"
+            },
+            {
+              "id": "lordOfTrickery"
+            },
+            {
+              "id": "lordOfWar"
+            }
+          ]
+        }
+      ],
+      "retinues": [
+        {
+          "unitID": "devilSpawnDemons",
+          "name": "Devilspawn"
+        },
+        {
+          "unitID": "plagueWalkers",
+          "name": "Plague Walkers"
+        },
+        {
+          "unitID": "abyssalReapers",
+          "name": "Abyssal Reapers"
+        },
+        {
+          "unitID": "plagueFlies",
+          "name": "Plague Flies"
+        },
+        {
+          "unitID": "hellRiders",
+          "name": "Hell Riders"
+        }
+      ],
+      "image": "AbyssalDemons/abyssalHerald.png",
+      "icon": "tarot-05-the-hierophant.png"
+    },
+    "abyssalVipers": {
+      "unitID": "abyssalVipers",
+      "name": "Abyssal Vipers",
+      "modelType": "InfantryLarge",
+      "points": 12,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 10,
+          "max": 20
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfTrickery"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/abyssalVipers.png",
+      "icon": "alien-bug.png"
+    },
+    "devilSpawnDemons": {
+      "unitID": "devilSpawnDemons",
+      "name": "Devilspawn",
+      "modelType": "InfantryLarge",
+      "points": 13,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 2,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 6,
+          "max": 15
+        },
+        "BorderPatrol": {
+          "min": 6,
+          "max": 15
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 15
+        },
+        "Legion": {
+          "min": 10,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfWar"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/devilSpawnDemons.png",
+      "icon": "demon_skull.png"
+    },
+    "plagueWalkers": {
+      "unitID": "plagueWalkers",
+      "name": "Plague Walkers",
+      "modelType": "InfantryLarge",
+      "points": 9,
+      "stats": {
+        "Skill": 2,
+        "Power": 3,
+        "Defense": 4,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 10,
+          "max": 21
+        },
+        "BorderPatrol": {
+          "min": 10,
+          "max": 21
+        },
+        "Battalion": {
+          "min": 15,
+          "max": 25
+        },
+        "Legion": {
+          "min": 15,
+          "max": 25
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfDecay"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "plague"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/plagueWalkers.png",
+      "icon": "shambling-mound.png"
+    },
+    "plaguelings": {
+      "unitID": "plaguelings",
+      "name": "Plaguelings",
+      "modelType": "Swarm",
+      "points": 27,
+      "stats": {
+        "Skill": 2,
+        "Power": 2,
+        "Defense": 3,
+        "Attacks": 5,
+        "Wounds": 5,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 6
+        },
+        "Legion": {
+          "min": 3,
+          "max": 6
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 2,
+        "Legion": 3
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfDecay"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/plaguelings.png",
+      "icon": "transparent-slime.png"
+    },
+    "fireDevils": {
+      "unitID": "fireDevils",
+      "name": "Fire Devils",
+      "modelType": "InfantryLarge",
+      "points": 15,
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 2,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 6
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 6
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {},
+      "ranged": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "demonFlamer"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 50pts)",
+          "bannerLimit": 50
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "phaseOut"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/fireDevils.png",
+      "icon": "spark-spirit.png"
+    },
+    "plagueFlies": {
+      "unitID": "plagueFlies",
+      "name": "Plague Flies",
+      "modelType": "MonstrousInfantry",
+      "points": 22,
+      "stats": {
+        "Skill": 2,
+        "Power": 3,
+        "Defense": 3,
+        "Attacks": 2,
+        "Wounds": 3,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 3,
+          "max": 4
+        },
+        "BorderPatrol": {
+          "min": 3,
+          "max": 4
+        },
+        "Battalion": {
+          "min": 3,
+          "max": 6
+        },
+        "Legion": {
+          "min": 3,
+          "max": 6
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfDecay"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/plagueFlies.png",
+      "icon": "fly_1.png"
+    },
+    "abyssalReapers": {
+      "unitID": "abyssalReapers",
+      "name": "Abyssal Reapers",
+      "modelType": "Cavalry",
+      "points": 26,
+      "stats": {
+        "Skill": 5,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 3,
+        "Wounds": 2,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "claws"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfTrickery"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        }
+      ],
+      "image": "AbyssalDemons/abyssalReapers.png",
+      "icon": "dragon-spiral.png"
+    },
+    "demonicHounds": {
+      "unitID": "demonicHounds",
+      "name": "Demonic Hounds",
+      "modelType": "Hounds",
+      "points": 7,
+      "sectionCost": "Half",
+      "stats": {
+        "Skill": 3,
+        "Power": 4,
+        "Defense": 3,
+        "Attacks": 1,
+        "Wounds": 1,
+        "Discipline": 6
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 8,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 8,
+          "max": 10
+        },
+        "Legion": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 2,
+        "BorderPatrol": 2,
+        "Battalion": 3,
+        "Legion": 4
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "fangs"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "scout"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/demonicHounds.png",
+      "icon": "saber-toothed-cat-head.png"
+    },
+    "hellRiders": {
+      "unitID": "hellRiders",
+      "name": "Hell Riders",
+      "modelType": "Cavalry",
+      "points": 28,
+      "stats": {
+        "Skill": 4,
+        "Power": 4,
+        "Defense": 4,
+        "Attacks": 3,
+        "Wounds": 2,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 5,
+          "max": 10
+        },
+        "BorderPatrol": {
+          "min": 5,
+          "max": 10
+        },
+        "Battalion": {
+          "min": 5,
+          "max": 10
+        },
+        "Legion": {
+          "min": 5,
+          "max": 15
+        }
+      },
+      "maxPerArmy": {},
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "magicBanner",
+          "label": "Magic Banner (up to 100pts)",
+          "bannerLimit": 100
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfWar"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/hellRiders.png",
+      "icon": "bull.png"
+    },
+    "plagueHulk": {
+      "unitID": "plagueHulk",
+      "name": "Plague Hulk",
+      "modelType": "LargeMonster",
+      "points": 110,
+      "stats": {
+        "Skill": 3,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 5,
+        "Wounds": 8,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "builtIn",
+        "options": [
+          {
+            "id": "greatweapon"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfDecay"
+            }
+          ]
+        },
+        {
+          "kind": "spells",
+          "options": [
+            {
+              "id": "plague"
+            },
+            {
+              "id": "shadowBolt"
+            },
+            {
+              "id": "shroud"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/plagueHulk.png",
+      "icon": "totem-head.png"
+    },
+    "archDevilDemons": {
+      "unitID": "archDevilDemons",
+      "name": "Archdevil",
+      "modelType": "LargeMonster",
+      "points": 150,
+      "stats": {
+        "Skill": 5,
+        "Power": 5,
+        "Defense": 5,
+        "Attacks": 6,
+        "Wounds": 6,
+        "Discipline": 10
+      },
+      "models": {
+        "Warband": {
+          "min": 1,
+          "max": 1
+        },
+        "BorderPatrol": {
+          "min": 1,
+          "max": 1
+        },
+        "Battalion": {
+          "min": 1,
+          "max": 1
+        },
+        "Legion": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "maxPerArmy": {
+        "Warband": 1,
+        "BorderPatrol": 1,
+        "Battalion": 1,
+        "Legion": 2
+      },
+      "weaponSet": {
+        "kind": "pickOne",
+        "options": [
+          {
+            "id": "greatweapon"
+          },
+          {
+            "id": "2CCW"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "demonic"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "giftOfWar"
+            }
+          ]
+        },
+        {
+          "kind": "builtIn",
+          "options": [
+            {
+              "id": "flying"
+            }
+          ]
+        }
+      ],
+      "image": "AbyssalDemons/archDevilDemons.png",
+      "icon": "horned-skull.png"
+    }
+  }
+}
