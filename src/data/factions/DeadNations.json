@@ -442,6 +442,7 @@
       "modelType": "LargeMonster",
       "points": 125,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 5,
         "Power": 6,
@@ -1141,6 +1142,7 @@
       "name": "Zombie Giant",
       "modelType": "LargeMonster",
       "points": 90,
+      "largeImage": true,
       "stats": {
         "Skill": 2,
         "Power": 6,

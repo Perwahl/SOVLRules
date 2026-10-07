@@ -376,6 +376,7 @@
       "modelType": "WarWagon",
       "points": 55,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 3,
@@ -823,6 +824,7 @@
       "name": "Ratkin Monstrosity",
       "modelType": "LargeMonsterLongBase",
       "points": 100,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 6,

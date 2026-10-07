@@ -392,6 +392,7 @@
       "modelType": "MonstrousInfantry",
       "points": 55,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 5,
@@ -446,6 +447,7 @@
       "modelType": "LargeMonsterLongBase",
       "points": 60,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 4,
@@ -1050,6 +1052,7 @@
       "name": "Goblin Stonethrower",
       "modelType": "WarMachine",
       "points": 50,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 3,
@@ -1169,6 +1172,7 @@
       "name": "Giant",
       "modelType": "LargeMonster",
       "points": 100,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 6,

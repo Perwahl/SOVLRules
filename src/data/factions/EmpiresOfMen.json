@@ -405,6 +405,7 @@
       "modelType": "MonstrousInfantry",
       "points": 55,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 5,
@@ -461,6 +462,7 @@
       "modelType": "LargeMonster",
       "points": 125,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 5,
         "Power": 6,
@@ -1174,6 +1176,7 @@
       "name": "Imperial Dreadnought",
       "modelType": "WarWagon",
       "points": 100,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 5,

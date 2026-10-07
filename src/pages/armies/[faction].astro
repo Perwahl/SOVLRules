@@ -97,6 +97,7 @@ const limitText = (min: number, max: number) => (max >= 99 ? (min > 0 ? `at leas
       };
       buttons.forEach((b) => b.addEventListener('click', () => set(b.dataset.setSize)));
       try { const saved = localStorage.getItem('sovl-army-size'); if (saved && buttons.some((b) => b.dataset.setSize === saved)) set(saved); } catch {}
+
     })();
   </script>
 </Base>

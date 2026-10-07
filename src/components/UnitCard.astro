@@ -29,9 +29,9 @@ const sizeText = (id: string) => {
   return m.min === m.max ? `${m.min}` : `${m.min}–${m.max}`;
 };
 ---
-<article class="unit-card" id={anchored ? anchorFor(unit.unitID) : undefined} style={accent ? `--accent:${accent}` : undefined}>
+<article class:list={["unit-card", { "large-image": unit.largeImage }]} id={anchored ? anchorFor(unit.unitID) : undefined} style={accent ? `--accent:${accent}` : undefined}>
   <div class="unit-art">
-    {img ? <Image src={img} alt="" width={360} widths={[180, 360]} sizes="180px" loading="lazy" /> : <div class="unit-art-empty" />}
+    {img ? <Image src={img} alt="" width={480} widths={[240, 480]} sizes="16rem" loading="lazy" /> : <div class="unit-art-empty" />}
   </div>
   <div class="unit-main">
     <header class="unit-head">
@@ -91,7 +91,7 @@ const sizeText = (id: string) => {
         <span class="foot-item">Unit size {sizes.map((s) => <span class="by-size" data-s={s.id}>{sizeText(s.id)}</span>)}</span>
       )}
       {sizes.some((s) => unit.maxPerArmy[s.id] !== undefined) && (
-        <span class="foot-item">Max per army {sizes.map((s) => <span class="by-size" data-s={s.id}>{unit.maxPerArmy[s.id] ?? 'no limit'}</span>)}</span>
+        <span class="foot-item">Max per army {sizes.map((s) => <span class="by-size" data-s={s.id}>{unit.maxPerArmy[s.id] === 0 ? 'not allowed' : unit.maxPerArmy[s.id] ?? 'no limit'}</span>)}</span>
       )}
       {unit.sectionCost && <span class="foot-item">Counts as {unit.sectionCost === 'Half' ? '½' : '2'} {unit.sectionCost === 'Half' ? 'a unit' : 'units'} in its section</span>}
       {unit.sectionBonus && <span class="foot-item">Unlocks +1 {unit.sectionBonus} unit</span>}

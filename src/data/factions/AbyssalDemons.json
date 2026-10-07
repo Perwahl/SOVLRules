@@ -147,6 +147,7 @@
       "points": 150,
       "commander": true,
       "solo": true,
+      "largeImage": true,
       "stats": {
         "Skill": 5,
         "Power": 5,
@@ -937,6 +938,7 @@
       "name": "Plague Hulk",
       "modelType": "LargeMonster",
       "points": 110,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 5,
@@ -1017,6 +1019,7 @@
       "name": "Archdevil",
       "modelType": "LargeMonster",
       "points": 150,
+      "largeImage": true,
       "stats": {
         "Skill": 5,
         "Power": 5,

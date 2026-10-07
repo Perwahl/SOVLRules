@@ -390,6 +390,7 @@
       "modelType": "LargeMonsterLongBase",
       "points": 65,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 6,
@@ -938,6 +939,7 @@
       "modelType": "LargeMonsterLongBase",
       "points": 110,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 3,
         "Power": 5,
@@ -1071,6 +1073,7 @@
       "modelType": "Gargantuan",
       "points": 200,
       "isMount": true,
+      "largeImage": true,
       "stats": {
         "Skill": 4,
         "Power": 7,
