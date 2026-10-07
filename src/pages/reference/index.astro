@@ -1,0 +1,110 @@
+---
+import RulesLayout from '../../layouts/RulesLayout.astro';
+import '../../styles/reference.css';
+import { url } from '../../lib/site';
+
+const frontmatter = {
+  title: 'Quick Reference',
+  eyebrow: 'Reference',
+  lede: 'Every table you need during a battle, on one page.',
+  description: 'SOVL quick reference - turn sequence, to-hit and damage save tables, combat score, break tests and key distances.',
+};
+const headings = [
+  { depth: 2, slug: 'the-turn', text: 'The turn' },
+  { depth: 2, slug: 'melee-to-hit', text: 'Melee: to hit' },
+  { depth: 2, slug: 'ranged-to-hit', text: 'Ranged: to hit' },
+  { depth: 2, slug: 'damage-save', text: 'Damage save' },
+  { depth: 2, slug: 'combat-score', text: 'Combat score' },
+  { depth: 2, slug: 'break-test', text: 'Break test' },
+  { depth: 2, slug: 'charges', text: 'Charges' },
+  { depth: 2, slug: 'distances', text: 'Distances' },
+];
+---
+<RulesLayout frontmatter={frontmatter} headings={headings}>
+  <div class="ref-grid">
+    <section class="ref-card">
+      <h2 id="the-turn">The turn</h2>
+      <ol>
+        <li><strong>Charge</strong>: declare charges in turn, then resolve them. None on turn 1.</li>
+        <li><strong>Strategic</strong>: activate units in turn. Move, and use one ability: shoot, cast or activate. A commander gets one extra ability. Fleeing units may rally.</li>
+        <li><strong>Combat</strong>: every melee is fought, and losers take break tests.</li>
+      </ol>
+      <p>The battle ends after turn 7, or when an army is wiped out.</p>
+    </section>
+
+    <section class="ref-card">
+      <h2 id="melee-to-hit">Melee: to hit</h2>
+      <div class="table-wrap"><table class="roll-table"><tbody>
+        <tr><td>Your Skill is higher</td><td class="target num">3+</td></tr>
+        <tr><td>Your Skill is equal or lower</td><td class="target num">4+</td></tr>
+      </tbody></table></div>
+      <p>Front rank: full Attacks. Second rank: 1 supporting attack each. Flank: the flank file attacks. Rear: no attacks.</p>
+    </section>
+
+    <section class="ref-card">
+      <h2 id="ranged-to-hit">Ranged: to hit</h2>
+      <div class="table-wrap"><table class="roll-table">
+        <thead><tr><th>Skill</th><th class="num">1</th><th class="num">2</th><th class="num">3</th><th class="num">4</th><th class="num">5+</th></tr></thead>
+        <tbody><tr><td>Hits on</td><td class="target num">6+</td><td class="target num">5+</td><td class="target num">4+</td><td class="target num">3+</td><td class="target num">2+</td></tr></tbody>
+      </table></div>
+      <p><strong>−1</strong> at long range (over half range; weapons of 12" or more). <strong>−1</strong> if the target is in cover. Never worse than 6+. The first two ranks shoot.</p>
+    </section>
+
+    <section class="ref-card">
+      <h2 id="damage-save">Damage save</h2>
+      <div class="table-wrap"><table class="roll-table"><tbody>
+        <tr><td>Power 3+ higher than Defense</td><td class="target num">6+</td></tr>
+        <tr><td>Power 1–2 higher</td><td class="target num">5+</td></tr>
+        <tr><td>Equal</td><td class="target num">4+</td></tr>
+        <tr><td>Defense 1–2 higher</td><td class="target num">3+</td></tr>
+        <tr><td>Defense 3+ higher</td><td class="target num">2+</td></tr>
+      </tbody></table></div>
+      <p>Each failed save is one wound.</p>
+    </section>
+
+    <section class="ref-card">
+      <h2 id="combat-score">Combat score</h2>
+      <ul>
+        <li>+1 per wound caused</li>
+        <li>+1 per unit on an enemy flank</li>
+        <li>+1 per unit on an enemy rear</li>
+        <li>+1 for a second rank, +1 for a third, if not disrupted</li>
+        <li>Banners and abilities</li>
+      </ul>
+      <p><em>Disrupted</em>: an enemy on your flank or rear, or more than one enemy unit in contact. A tie means no break tests.</p>
+    </section>
+
+    <section class="ref-card">
+      <h2 id="break-test">Break test</h2>
+      <p>Hold on <strong>2d6 ≤ Discipline + ranks − score difference</strong>.</p>
+      <ul>
+        <li>A living commander's Discipline replaces the unit's.</li>
+        <li>Fearless: ignore the score difference.</li>
+        <li>Reanimated, Demonic, Construct: lose D3 wounds instead.</li>
+        <li>Fail: flee a full Move away. Destroyed if surrounded.</li>
+      </ul>
+    </section>
+
+    <section class="ref-card">
+      <h2 id="charges">Charges</h2>
+      <ul>
+        <li>Reach = Move, inside the 90° arc from the front edge.</li>
+        <li>Side = the arc (45° from the target's corners) holding the charger's centre.</li>
+        <li>Charged by one enemy: counter-charge it, or flee if fast enough.</li>
+        <li>Intercept a charging enemy if your charge is shorter, hits its flank or rear, or it is already being charged.</li>
+      </ul>
+      <p><a href={url('/rules/charge-phase/')}>Charge phase rules</a></p>
+    </section>
+
+    <section class="ref-card">
+      <h2 id="distances">Distances</h2>
+      <ul>
+        <li>Pivot: Move ÷ 4 per 90°. War Machines pivot free.</li>
+        <li>Forest: movement costs double.</li>
+        <li>Objective capture radius: 3.76".</li>
+        <li>Units end about ½" apart.</li>
+        <li>Win on points by 50 or more, or it's a draw.</li>
+      </ul>
+    </section>
+  </div>
+</RulesLayout>

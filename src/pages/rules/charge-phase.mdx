@@ -1,0 +1,114 @@
+---
+layout: ../../layouts/RulesLayout.astro
+title: Charge Phase
+eyebrow: The Rules · Phase 1
+lede: Charges win battles. In the Charge phase both players send units crashing into the enemy, and the side, the angle and the timing of each charge matter as much as the dice.
+description: How to declare charges in SOVL - charge reach, line of sight, charge sides, counter-charges, intercepts and fleeing from a charge.
+---
+import Figure from '../../components/Figure.astro';
+import Callout from '../../components/Callout.astro';
+import ChargeReachDiagram from '../../components/diagrams/ChargeReach.astro';
+import ChargeSidesDiagram from '../../components/diagrams/ChargeSides.astro';
+import flankShot from '../../assets/site/flank-charge.jpg';
+
+The Charge phase has two parts. First, players take turns **declaring** charges, one at a time, until both have passed. Then all the declared charges are **resolved** together and the chargers move into contact. Nothing moves until every charge has been declared, so you can react to your opponent's charges with charges, counter-charges and flight of your own.
+
+There is no Charge phase on turn 1.
+
+## Declaring a charge
+
+To declare a charge, pick one of your units that **can charge**, then an enemy unit it **can reach**.
+
+### Who can charge
+
+A unit can declare a charge if:
+
+- it isn't already in combat, and isn't fleeing;
+- it hasn't declared a charge this phase;
+- it isn't the target of an enemy charge. A unit charged by **exactly one** enemy may still *counter-charge* that enemy. See [Counter-charges](#counter-charges).
+
+A unit with Move 0 can't charge, and neither can **Crewed Weapon** units.
+
+### Who it can reach
+
+The target must be within the charger's **Move** and in its **line of sight**:
+
+- **Line of sight** spreads forward from the charger's front edge. It covers everything straight ahead of the unit, plus a 45° wedge outward from each front corner. That is a 90° arc, widened by the unit's own frontage. Nothing behind or beside the unit is in sight.
+- **Blocking**: sight stops at the first unit or sight-blocking terrain it meets: forests, buildings, cliffs and rocks. An enemy hidden behind another unit or a building can't be charged. You can see *into* a forest, so a unit inside the edge of a forest can be charged.
+- **Room**: there must be space next to the target for the charger to end in contact, with a clear path to it.
+
+<ChargeReachDiagram />
+
+In the game, selecting a unit in the Charge phase shows its charge reach, and highlights every enemy it can charge.
+
+## Charge sides
+
+Every charge hits one **side** of its target: the **front**, the **left flank**, the **right flank** or the **rear**. The side is decided by where the charger stands. Draw a line out at 45° from each corner of the target, and you split the ground around it into four arcs. The arc that holds the **centre of the charger** is the side it charges.
+
+<ChargeSidesDiagram />
+
+Flank and rear charges are what break armies:
+
+- A unit fighting an enemy on its flank or rear loses its **rank bonus** to combat score.
+- The charger scores **+1 combat score** for being on the flank, or +1 for the rear.
+- Models in a unit charged in the **rear can't attack back** at all.
+
+See the [Combat phase](../combat-phase/) for all of this.
+
+### One charge per side
+
+Only one unit can charge each side of a target. A side that already has a charge declared against it, or is already in combat, can't be charged again. A unit already in combat can still be charged on a **free side**, and the charger joins that fight.
+
+If the side you are in the arc for is taken, the game tries the next side round. From a flank arc it tries the front, if you are ahead of the target's front line. From the rear arc it tries the flank on your side.
+
+<Figure src={flankShot} alt="Imperial Knights charge into the flank of an Orc regiment, with the attack roll panel showing the result." caption="A cavalry charge into an enemy's flank: the most feared move in the game." />
+
+## Counter-charges
+
+A unit charged by exactly one enemy may answer with a **counter-charge** against that same enemy, if it can reach it. When the charges resolve, the two units rush to meet each other halfway and fight front to front. **Both** units count as charging, so both get their charge bonus.
+
+A counter-charge also turns a flank or rear charge into a fight between two fronts. That makes it the best answer to an enemy who has caught your unit at a bad angle.
+
+## Intercepting a charge
+
+Normally an enemy unit that has already declared a charge can't be charged. You can still **intercept** it if your charge would:
+
+- be **shorter** than the charge it declared, **or**
+- hit it in the **flank or rear**, **or**
+- hit a unit that **another of your units is already charging**.
+
+An intercepted unit's own charge is **cancelled**. It never reaches its target, and must deal with you instead.
+
+<Callout type="example">
+Enemy Wolf Riders declare a charge across the battlefield into your archers. Your nearby spearmen are closer to the Wolf Riders than the Wolf Riders are to the archers, so you intercept. The Wolf Riders' charge is cancelled, and they get caught by the spears.
+</Callout>
+
+## Fleeing from a charge
+
+Sometimes it's better to run. Instead of counter-charging, a unit charged by exactly one enemy may declare that it **flees**. It can flee only if:
+
+- it is charged by **one** unit only, isn't in combat, and hasn't declared a charge itself;
+- its Move is not 0;
+- it isn't **Frenzied**, **Reanimated** or **Demonic**. These units never run. A few Demonic units with the right gift are the exception;
+- it is fast enough. Its Move must be at least the charger's Move **minus** the distance of the charge.
+
+If another enemy charges the same unit afterwards, its flight is cancelled and it stays to fight.
+
+When the charges resolve, the fleeing unit turns and runs its **full Move** directly away from the charger. The charger turns to follow and moves its full Move straight ahead, but the fight doesn't happen. A charger that pursued like this **can't move again this turn**, though it can still use abilities.
+
+A unit that flees from a charge is **fleeing**. It must [rally](../strategic-phase/#rallying-fleeing-units) or keep running, and if it is still fleeing at the end of the battle it counts as lost.
+
+<Callout type="tip">
+Fleeing isn't free, but it can pull a charger out of position. The pursuing unit lands where you want it, and can't move in the Strategic phase.
+</Callout>
+
+## Resolving charges
+
+When both players have passed, the declared charges resolve:
+
+1. **Counter-charges** first. Both units meet at the midpoint between them.
+2. **Every other charge**, in the order it was declared. If the target declared that it flees, it runs and the charger pursues. Otherwise the charger moves into contact with the chosen side of its target, centred on that side when there is room. If it isn't centred, it slides along the side to the nearest clear spot.
+
+If a charger can't fit in contact when its turn comes, because terrain or another unit is in the way, the charge **fails** and the charger stays where it is.
+
+Units that charged, and units that were charged, are now **in combat**. They will fight in the Combat phase at the end of this turn.

@@ -1,0 +1,95 @@
+---
+import Base from './Base.astro';
+import '../styles/rules.css';
+import { RULES_NAV, RULES_ORDER, url } from '../lib/site';
+
+interface Heading { depth: number; slug: string; text: string }
+interface Props {
+  frontmatter: { title: string; description?: string; eyebrow?: string; lede?: string; section?: string };
+  headings?: Heading[];
+}
+
+const { frontmatter, headings = [] } = Astro.props;
+const here = Astro.url.pathname.replace(/\/?$/, '/');
+const isCurrent = (href: string) => url(href).replace(/\/?$/, '/') === here;
+const index = RULES_ORDER.findIndex((i) => isCurrent(i.href));
+const prev = index > 0 ? RULES_ORDER[index - 1] : undefined;
+const next = index >= 0 && index < RULES_ORDER.length - 1 ? RULES_ORDER[index + 1] : undefined;
+const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const section = frontmatter.section ?? (here.includes('/reference') ? 'Reference' : here.endsWith('/rules/') ? 'Learn' : 'Rules');
+---
+<Base title={frontmatter.title} description={frontmatter.description} section={section}>
+  <div class="doc">
+    <aside class="doc-nav" aria-label="Rules contents">
+      {RULES_NAV.map((group) => (
+        <div class="doc-nav-group">
+          <p class="doc-nav-title">{group.title}</p>
+          <ul class="nav-list">
+            {group.items.map((item) => (
+              <li><a href={url(item.href)} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.title}</a></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </aside>
+
+    <article class="doc-article prose">
+      <details class="doc-mobile-nav">
+        <summary>Rules contents</summary>
+        <div class="doc-nav-inner">
+          {RULES_NAV.map((group) => (
+            <div class="doc-nav-group">
+              <p class="doc-nav-title">{group.title}</p>
+              <ul class="nav-list">
+                {group.items.map((item) => (
+                  <li><a href={url(item.href)} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.title}</a></li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </details>
+
+      <header class="doc-header">
+        {frontmatter.eyebrow && <p class="eyebrow">{frontmatter.eyebrow}</p>}
+        <h1>{frontmatter.title}</h1>
+        {frontmatter.lede && <p class="lede">{frontmatter.lede}</p>}
+      </header>
+
+      <slot />
+
+      {(prev || next) && (
+        <nav class="pager" aria-label="Previous and next page">
+          {prev && <a class="prev" href={url(prev.href)}><span class="dir">← Previous</span><span class="name">{prev.title}</span></a>}
+          {next && <a class="next" href={url(next.href)}><span class="dir">Next →</span><span class="name">{next.title}</span></a>}
+        </nav>
+      )}
+    </article>
+
+    {toc.length > 1 && (
+      <aside class="doc-toc" aria-label="On this page" data-pagefind-ignore>
+        <p class="doc-toc-title">On this page</p>
+        <ul>
+          {toc.map((h) => <li class={`depth-${h.depth}`}><a href={`#${h.slug}`}>{h.text}</a></li>)}
+        </ul>
+      </aside>
+    )}
+  </div>
+
+  <script is:inline>
+    (() => {
+      const links = [...document.querySelectorAll('.doc-toc a')];
+      if (!links.length || !('IntersectionObserver' in window)) return;
+      const map = new Map(links.map((a) => [decodeURIComponent(a.hash.slice(1)), a]));
+      const obs = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            links.forEach((l) => l.classList.remove('active'));
+            map.get(e.target.id)?.classList.add('active');
+          }
+        }
+      }, { rootMargin: '-80px 0px -70% 0px' });
+      map.forEach((_, id) => { const el = document.getElementById(id); if (el) obs.observe(el); });
+    })();
+  </script>
+</Base>

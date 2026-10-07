@@ -1,0 +1,115 @@
+---
+layout: ../../layouts/RulesLayout.astro
+title: The Battlefield
+eyebrow: The Rules
+lede: Forests to hide in, cliffs and rivers to funnel the enemy, and objectives worth fighting over. Learn the ground before you deploy on it.
+description: Battlefield sizes, terrain types, deployment and ambush zones, scenarios, scoring and victory conditions in SOVL.
+---
+import Figure from '../../components/Figure.astro';
+import Callout from '../../components/Callout.astro';
+import farmShot from '../../assets/site/battle-farmstead.jpg';
+import jungleShot from '../../assets/site/jungle-lines.jpg';
+
+## Battlefields
+
+Every battle is fought on a map with its own terrain. Maps come in two sizes. All distances in SOVL are in inches.
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Size</th><th class="num">Battlefield</th><th class="num">Deployment zone depth</th></tr></thead>
+<tbody>
+<tr><td><strong>Small</strong></td><td class="num">60" × 40"</td><td class="num">7.5"</td></tr>
+<tr><td><strong>Standard</strong></td><td class="num">72" × 48"</td><td class="num">11.5"</td></tr>
+</tbody>
+</table>
+</div>
+
+<Figure src={farmShot} alt="Two Goatmen regiments advance across a farmstead battlefield past a road and a farmhouse." caption="Roads and fields are open ground. Forests, buildings, rivers and cliffs are what shape a battle." />
+
+## Terrain
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Terrain</th><th>Movement</th><th>Line of sight</th></tr></thead>
+<tbody>
+<tr><td><strong>Open ground</strong><br/><small>fields, roads, snow, sand</small></td><td>No effect.</td><td>Clear.</td></tr>
+<tr><td><strong>Forest</strong><br/><small>woods, trees, dead trees</small></td><td><strong>Difficult terrain</strong>: movement costs double.</td><td>Blocks sight through it. You can see into a forest, and a unit inside can see out. A unit in a forest is <strong>in cover</strong>.</td></tr>
+<tr><td><strong>Water, lava and chasms</strong></td><td>Impassable.</td><td>Clear. You can see and shoot across them.</td></tr>
+<tr><td><strong>Buildings</strong></td><td>Impassable.</td><td>Blocks.</td></tr>
+<tr><td><strong>Cliffs and rocks</strong></td><td>Impassable.</td><td>Blocks.</td></tr>
+</tbody>
+</table>
+</div>
+
+### Difficult terrain
+
+While the middle of a unit is over forest, every inch it moves forward costs 2" of its Move. Pivoting is never slowed. A unit doesn't need Move left over to enter a forest; it simply moves as far as its remaining Move takes it.
+
+**Scout**, **Fey** and **Forest Spirit** units ignore difficult terrain. **Flying** units ignore all terrain while moving. They can't end a move on impassable terrain or on another unit, though.
+
+### Cover
+
+A unit is in cover when its centre is inside a forest. Ranged attacks against it suffer **−1 to hit**. Some properties, such as **Crewed Weapon**, always count as being in cover. Flying units are never in cover.
+
+### Units as obstacles
+
+Units block movement and line of sight, friend and foe alike. A unit can't end its move within about **half an inch** of another unit, though it may pass that close on the way. Pivoting is only blocked by enemy units.
+
+## Deployment
+
+Each army deploys in its own **deployment zone**, a strip along its long table edge. The two zones are about 24" apart, leaving the middle of the battlefield empty. The game decides at random which side each army deploys on.
+
+Both players deploy **at the same time, in secret**. You can't see where your opponent is placing their units until both of you press Ready. Each unit must be placed entirely inside your zone, clear of impassable terrain and of other units.
+
+### Ambushers
+
+Units with **Ambusher** deploy in the much larger **ambush zone**. It covers your whole half of the battlefield, except a strip about 2" deep either side of the centre line. That lets an Ambusher start a turn's march or less from the enemy, in a flank or a forest of your choosing. The zone is 17.5" deep on a small map and 21.5" deep on a standard map. A commander with Ambusher brings its whole unit along.
+
+<Callout type="tip">
+Ambushers can't charge on turn 1, because there is no Charge phase on turn 1. But placed well, they threaten a charge into a flank on turn 2 that your opponent has to answer.
+</Callout>
+
+### Who goes first
+
+After deployment each player rolls a die, re-rolling ties. The higher roll acts first in the Strategic phase of turn 1. After that, the first player in the Strategic phase **alternates every turn**. See [The Turn](../turn/).
+
+## Scenarios and victory
+
+Every battle uses one of two scenarios. The game picks one, or picks at random.
+
+### Pitched Battle
+
+Line up and fight. The battle lasts **seven turns**.
+
+### Scoring Objectives
+
+As Pitched Battle, but **objective markers** are placed on the battlefield. Each map has several prepared layouts, and one is picked at random.
+
+- A unit **captures** a marker when any part of it touches the marker's circle (radius 3.76").
+- If units from both sides touch a marker, it is **contested** and doesn't change hands.
+- A captured marker **stays yours** after your unit leaves, until the enemy captures it.
+- **Fleeing** units and **Flying** units can't capture or contest objectives.
+- At the end of every turn **from turn 2 onwards**, the player who holds **more** markers scores **50 points**. That's up to 300 points over a battle.
+
+<Figure src={jungleShot} alt="Battle lines face each other across a jungle battlefield." caption="Objectives pull armies apart: holding ground turn after turn can be worth more than winning a single fight." />
+
+### Scoring
+
+At the end of the battle, each player scores points for what they did to the enemy:
+
+<div class="table-wrap">
+<table>
+<thead><tr><th>Enemy unit at the end of the battle</th><th>You score</th></tr></thead>
+<tbody>
+<tr><td>Destroyed, fleeing, or reduced to its commander alone</td><td>Its full points cost</td></tr>
+<tr><td>Below half of its starting models</td><td>Half its points cost</td></tr>
+<tr><td>Its commander is dead, or its unit is destroyed or fleeing</td><td>The commander's full points cost</td></tr>
+</tbody>
+</table>
+</div>
+
+Add any objective points. The player with the higher score wins, but only by a margin of **50 points or more**. A closer result is a **draw**.
+
+### Ending early
+
+The battle ends at once when one army has no units left that are neither destroyed nor fleeing. That army is **wiped out** and loses, whatever the score. A player who concedes or leaves an online battle loses too.

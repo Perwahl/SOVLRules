@@ -1,0 +1,65 @@
+---
+layout: ../../layouts/RulesLayout.astro
+title: How a Battle Works
+eyebrow: Learn to Play
+lede: Two armies, one battlefield, seven turns. Here is everything you need for your first battle, in five minutes. The rest of the rules fill in the details.
+description: A five-minute introduction to SOVL - armies, the battlefield, the three phases of a turn, dice, and how to win.
+---
+import Figure from '../../components/Figure.astro';
+import Callout from '../../components/Callout.astro';
+import Dice from '../../components/Dice.astro';
+import { url as link } from '../../lib/site';
+import heroShot from '../../assets/site/battle-snow.jpg';
+import rollShot from '../../assets/site/dragon-vs-trolls.jpg';
+
+SOVL is a game of fantasy battles. You command an army of regiments, monsters and heroes, and you win by out-fighting and out-manoeuvring your opponent. Units march across the battlefield, crash into each other in melee, loose volleys of arrows and hurl spells. Dice decide how well each attack lands, but your plan decides which fights happen in the first place.
+
+<Figure src={heroShot} alt="An Abyssal Legions army clashes with an Empire army on a snowy battlefield, with a dragon circling overhead." caption="Regiments fight in blocks of models. Where they meet, and which side they hit, decides most battles." />
+
+## Your army
+
+Every army comes from one **faction**: the stubborn Dwarf Holds, the savage Greenskin Tribes, the swift Elven Conclaves, and ten more. You build it from that faction's units, spending points up to an agreed limit. Every army is led by at least one **Commander**, a hero who fights at the head of a unit.
+
+Each unit has a **stat line** (Skill, Power, Defense, Attacks, Wounds and Discipline), a **unit type** that sets its base size and speed, and **properties** such as weapons, armour and special abilities. [Units](units/) explains all of them. [Building an Army](../armies/) covers points and army sizes, and the [Army Builder](https://perwahl.github.io/sovl-army-builder/) lets you put a list together in your browser.
+
+## The turn
+
+A battle lasts **seven turns**. Each turn has three phases, always in the same order:
+
+<div class="phase-cards">
+  <a class="phase-card" href={link('/rules/charge-phase/')}><span class="num">Phase 1</span><span class="name">Charge</span><span class="what">Declare charges into enemy units. They are resolved together at the end of the phase.</span></a>
+  <a class="phase-card" href={link('/rules/strategic-phase/')}><span class="num">Phase 2</span><span class="name">Strategic</span><span class="what">Move, shoot, cast spells, use abilities and rally fleeing units.</span></a>
+  <a class="phase-card" href={link('/rules/combat-phase/')}><span class="num">Phase 3</span><span class="name">Combat</span><span class="what">Every melee is fought. Losers test their nerve and may flee.</span></a>
+</div>
+
+In the Charge and Strategic phases you and your opponent take turns: you act with one unit, then they act with one, and so on. That is an **alternating activation**. You never get to move your whole army while your opponent waits, so every choice is a response to theirs. There are no charges on turn 1, because the armies start too far apart.
+
+## Rolling dice
+
+SOVL uses six-sided dice (d6). A roll needs to meet a **target number**: "4+" means a 4, 5 or 6 succeeds. The game rolls one die per attack and shows you the results, highlighting the successes.
+
+<div class="dice-row"><Dice values={[6, 2, 4, 5, 1, 3, 4, 6, 2, 5]} hit={4} /> <span>Ten attacks needing 4+: six succeed.</span></div>
+
+Most attacks go through two rolls. First an **attack roll** to hit, set by comparing Skill. Then the defender makes a **damage save**, set by comparing the attacker's Power to the defender's Defense. Each failed save is one wound.
+
+A few rolls use a **D3**, a die numbered 1–3. Discipline tests roll **2d6**, two dice added together.
+
+<Figure src={rollShot} alt="The Attack Roll panel in the game: dice for an Imperial Dragon's attacks against Trolls, with the hits highlighted and the damage saves listed below." caption="The game shows every roll. Here an Imperial Dragon's attack roll needs 4+ to hit; the saves are listed underneath." />
+
+## Winning
+
+A battle ends after the **Combat phase of turn 7**, or earlier if one army has no units left that are neither destroyed nor fleeing. That army has been **wiped out** and loses.
+
+Otherwise you count up points. You score the points cost of every enemy unit you destroyed or put to flight, and half the cost of every enemy unit you cut below half strength. In the Scoring Objectives scenario, held objectives score as well. To win on points you must lead by **at least 50**. Anything closer is a draw. See [Scenarios and Victory](battlefield/#scenarios-and-victory).
+
+<Callout type="tip">
+A unit that flees is as good as dead for scoring, unless it rallies. Breaking an enemy's nerve is often faster than killing every model.
+</Callout>
+
+## Where to next
+
+1. [Units](units/): stat lines, unit types, ranks and commanders.
+2. [The Battlefield](battlefield/): terrain, deployment and scenarios.
+3. [The Turn](turn/), then the three phases in order.
+
+Keep the [Quick Reference](../reference/) open while you play. It has every table on one page.

@@ -1,0 +1,17 @@
+{
+  "name": "sovl-rules",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/redirects.mjs && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "node scripts/check-links.mjs"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.14",
+    "astro": "^5.18.2",
+    "pagefind": "^1.5.2",
+    "sharp": "^0.35.5"
+  }
+}

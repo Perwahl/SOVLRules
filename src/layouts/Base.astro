@@ -1,0 +1,136 @@
+---
+import '../styles/global.css';
+import '../styles/chrome.css';
+import { Image } from 'astro:assets';
+import logo from '../assets/site/logo.png';
+import { TOP_NAV, ARMY_BUILDER_URL, STEAM_URL, url } from '../lib/site';
+
+interface Props {
+  title: string;
+  description?: string;
+  /** Section of the top nav to mark as current. */
+  section?: string;
+  wide?: boolean;
+}
+
+const { title, description = 'The complete rules of SOVL: Fantasy Warfare, with every faction’s army list.', section } = Astro.props;
+const fullTitle = title === 'SOVL Rules' ? title : `${title} · SOVL Rules`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0d131a" />
+    <link rel="icon" href={url('/favicon.ico')} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href={url('/pagefind/pagefind-ui.css')} />
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href={url('/')} aria-label="SOVL Rules home">
+          <Image src={logo} alt="" width={132} loading="eager" />
+          <span class="brand-label">Rules</span>
+        </a>
+        <nav class="top-nav" aria-label="Main">
+          {TOP_NAV.map((item) => (
+            <a href={url(item.href)} aria-current={section === item.title ? 'page' : undefined}>{item.title}</a>
+          ))}
+        </nav>
+        <div class="header-actions">
+          <button class="icon-btn search-open" type="button" aria-label="Search the rules" data-search-open>
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <a class="btn btn-gold btn-sm builder-link" href={ARMY_BUILDER_URL}>Army Builder</a>
+          <button class="icon-btn menu-open" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </div>
+      <nav class="mobile-nav" aria-label="Main" data-menu hidden>
+        {TOP_NAV.map((item) => <a href={url(item.href)}>{item.title}</a>)}
+        <a href={ARMY_BUILDER_URL}>Army Builder ↗</a>
+        <a href={STEAM_URL}>SOVL on Steam ↗</a>
+      </nav>
+    </header>
+
+    <div class="search-dialog" data-search hidden>
+      <div class="search-panel" role="dialog" aria-modal="true" aria-label="Search">
+        <div id="search"></div>
+        <button class="btn btn-sm search-close" type="button" data-search-close>Close</button>
+      </div>
+    </div>
+
+    <main id="main" data-pagefind-body>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div>
+          <p class="footer-title">SOVL: Fantasy Warfare</p>
+          <p class="footer-text">Rules for the battles of SOVL. Build your army in the browser, then take it to the field on Steam.</p>
+        </div>
+        <div class="footer-links">
+          <a class="btn btn-gold btn-sm" href={ARMY_BUILDER_URL}>Open the Army Builder</a>
+          <a class="btn btn-sm" href={STEAM_URL}>Get SOVL on Steam</a>
+        </div>
+      </div>
+    </footer>
+
+    <script is:inline define:vars={{ base: url('/') }}>
+      (() => {
+        const menuBtn = document.querySelector('[data-menu-toggle]');
+        const menu = document.querySelector('[data-menu]');
+        menuBtn?.addEventListener('click', () => {
+          const open = menu.hidden;
+          menu.hidden = !open;
+          menuBtn.setAttribute('aria-expanded', String(open));
+        });
+
+        const dialog = document.querySelector('[data-search]');
+        let loaded = false;
+        const openSearch = async () => {
+          dialog.hidden = false;
+          if (!loaded) {
+            loaded = true;
+            try {
+              await new Promise((resolve, reject) => {
+                const s = document.createElement('script');
+                s.src = base + 'pagefind/pagefind-ui.js';
+                s.onload = resolve;
+                s.onerror = reject;
+                document.head.appendChild(s);
+              });
+              new PagefindUI({ element: '#search', showSubResults: true, showImages: false, autofocus: true });
+            } catch {
+              document.querySelector('#search').textContent = 'Search is available on the published site.';
+            }
+          }
+          setTimeout(() => dialog.querySelector('input')?.focus(), 50);
+        };
+        const closeSearch = () => { dialog.hidden = true; };
+        document.querySelectorAll('[data-search-open]').forEach((b) => b.addEventListener('click', openSearch));
+        dialog.querySelector('[data-search-close]').addEventListener('click', closeSearch);
+        dialog.addEventListener('click', (e) => { if (e.target === dialog) closeSearch(); });
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') closeSearch();
+          if (e.key === '/' && !/input|textarea/i.test(document.activeElement?.tagName ?? '')) { e.preventDefault(); openSearch(); }
+        });
+      })();
+    </script>
+  </body>
+</html>

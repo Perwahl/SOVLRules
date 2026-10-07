@@ -1,0 +1,165 @@
+/* SOVL rules site - design tokens and base styles.
+   Palette from the SOVL logo: iron navy, logo teal, gold rim, ivory. */
+
+:root {
+  --bg: #0d131a;
+  --bg-raised: #131c25;
+  --panel: #18232e;
+  --panel-2: #1e2b38;
+  --line: #2a3a49;
+  --line-strong: #3a4e60;
+
+  --text: #ebe4d3;
+  --text-soft: #c9c2b0;
+  --muted: #9a9686;
+
+  --teal: #6fd0cc;
+  --teal-strong: #9ef0ea;
+  --teal-deep: #173d3b;
+  --teal-ink: #0f2a29;
+  --gold: #d9ab4f;
+  --gold-soft: #f1d58e;
+  --gold-deep: #6b4f1d;
+  --crimson: #b8473c;
+  --green: #6fbf73;
+
+  --font-display: 'Cinzel', 'Trajan Pro', Georgia, serif;
+  --font-body: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  --font-ui: 'Josefin Sans', system-ui, sans-serif;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow: 0 10px 30px rgb(0 0 0 / 0.35);
+  --header-h: 64px;
+  --content-w: 46rem;
+
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 1rem);
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgb(111 208 204 / 0.06), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgb(217 171 79 / 0.05), transparent 60%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1.1875rem;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img { max-width: 100%; height: auto; }
+
+a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { color: var(--teal-strong); }
+
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 3px; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--gold-soft);
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+}
+h1 { font-size: clamp(2rem, 4vw + 1rem, 3rem); margin: 0 0 0.5rem; }
+h2 {
+  font-size: 1.65rem;
+  margin: 3rem 0 0.75rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--line);
+}
+h3 { font-size: 1.25rem; margin: 2rem 0 0.5rem; color: var(--text); }
+h4 { font-size: 1.05rem; margin: 1.5rem 0 0.25rem; color: var(--text); }
+
+h2 a.anchor, h3 a.anchor { color: inherit; text-decoration: none; }
+
+p, ul, ol { margin: 0 0 1rem; }
+li { margin: 0.25rem 0; }
+li::marker { color: var(--gold); }
+strong { color: #fff6df; font-weight: 600; }
+em { color: var(--text-soft); }
+hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+
+code, kbd {
+  font-family: var(--font-ui);
+  font-size: 0.85em;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.05em 0.35em;
+}
+
+.lede { font-size: 1.3rem; color: var(--text-soft); line-height: 1.55; }
+
+/* Tables */
+.table-wrap { overflow-x: auto; margin: 1.25rem 0 1.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-raised); }
+table { width: 100%; border-collapse: collapse; font-size: 1.02rem; }
+th, td { padding: 0.55rem 0.85rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+thead th {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--panel);
+}
+tbody tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: center; font-variant-numeric: tabular-nums; }
+
+/* Utility */
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.15rem 0.55rem;
+  border-radius: 999px;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  text-decoration: none;
+  border: 1px solid var(--line-strong);
+  color: var(--text);
+  background: var(--panel);
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.btn:hover { color: #fff; border-color: var(--teal); transform: translateY(-1px); }
+.btn-gold {
+  color: #1c1404;
+  background: linear-gradient(180deg, #f3d38a, #d4a347);
+  border-color: #f6dc9c;
+  box-shadow: 0 4px 18px rgb(217 171 79 / 0.25);
+}
+.btn-gold:hover { color: #000; border-color: #fff0c7; }
+.btn-sm { padding: 0.45rem 0.85rem 0.38rem; font-size: 0.85rem; }
+
+.eyebrow {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin: 0 0 0.5rem;
+}
+
+.figure { margin: 1.75rem 0; }
+.figure img { display: block; border-radius: var(--radius); border: 1px solid var(--line); }
+.figure figcaption { font-size: 0.98rem; color: var(--muted); margin-top: 0.5rem; font-style: italic; }

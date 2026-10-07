@@ -1,0 +1,153 @@
+{
+  "gameVersion": "pending export",
+  "armySizes": [
+    {
+      "id": "Warband",
+      "name": "Warband",
+      "points": 500,
+      "maxUnits": 6
+    },
+    {
+      "id": "BorderPatrol",
+      "name": "Border Patrol",
+      "points": 650,
+      "maxUnits": 7
+    },
+    {
+      "id": "Battalion",
+      "name": "Battalion",
+      "points": 1000,
+      "maxUnits": 9
+    },
+    {
+      "id": "Legion",
+      "name": "Legion",
+      "points": 1500,
+      "maxUnits": 12
+    }
+  ],
+  "modelTypes": [
+    {
+      "id": "Infantry",
+      "name": "Infantry",
+      "baseWidth": 20,
+      "baseDepth": 20,
+      "movement": 8.0,
+      "minWidth": 5,
+      "maxWidth": 7
+    },
+    {
+      "id": "InfantryLarge",
+      "name": "Large Infantry",
+      "baseWidth": 25,
+      "baseDepth": 25,
+      "movement": 8.0,
+      "minWidth": 4,
+      "maxWidth": 6
+    },
+    {
+      "id": "Cavalry",
+      "name": "Cavalry",
+      "baseWidth": 25,
+      "baseDepth": 50,
+      "movement": 16.0,
+      "minWidth": 4,
+      "maxWidth": 6
+    },
+    {
+      "id": "MonstrousInfantry",
+      "name": "Monstrous Infantry",
+      "baseWidth": 40,
+      "baseDepth": 40,
+      "movement": 12.0,
+      "minWidth": 3,
+      "maxWidth": 4
+    },
+    {
+      "id": "Chariot",
+      "name": "Chariot",
+      "baseWidth": 50,
+      "baseDepth": 100,
+      "movement": 16.0
+    },
+    {
+      "id": "LargeMonster",
+      "name": "Large Monster",
+      "baseWidth": 50,
+      "baseDepth": 50,
+      "movement": 12.0
+    },
+    {
+      "id": "WarMachine",
+      "name": "War Machine",
+      "baseWidth": 50,
+      "baseDepth": 50
+    },
+    {
+      "id": "WeaponTeam",
+      "name": "Weapon Team",
+      "baseWidth": 25,
+      "baseDepth": 50,
+      "movement": 8.0,
+      "minWidth": 4,
+      "maxWidth": 6
+    },
+    {
+      "id": "WarWagon",
+      "name": "War Wagon",
+      "baseWidth": 50,
+      "baseDepth": 100,
+      "movement": 12.0
+    },
+    {
+      "id": "LargeMonsterLongBase",
+      "name": "Large Monster (long base)",
+      "baseWidth": 50,
+      "baseDepth": 100,
+      "movement": 12.0
+    },
+    {
+      "id": "Swarm",
+      "name": "Swarm",
+      "baseWidth": 40,
+      "baseDepth": 40,
+      "movement": 8.0,
+      "minWidth": 3,
+      "maxWidth": 4
+    },
+    {
+      "id": "CavalryLance",
+      "name": "Lance Cavalry",
+      "baseWidth": 25,
+      "baseDepth": 50,
+      "movement": 16.0,
+      "minWidth": 3,
+      "maxWidth": 6
+    },
+    {
+      "id": "Gargantuan",
+      "name": "Gargantuan",
+      "baseWidth": 100,
+      "baseDepth": 150,
+      "movement": 12.0
+    },
+    {
+      "id": "Hounds",
+      "name": "Beasts",
+      "baseWidth": 20,
+      "baseDepth": 40,
+      "movement": 12.0,
+      "minWidth": 4,
+      "maxWidth": 6
+    },
+    {
+      "id": "LightChariot",
+      "name": "Light Chariot",
+      "baseWidth": 50,
+      "baseDepth": 100,
+      "movement": 16.0,
+      "minWidth": 2,
+      "maxWidth": 3
+    }
+  ]
+}

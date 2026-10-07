@@ -1,0 +1,76 @@
+.home-hero {
+  position: relative;
+  isolation: isolate;
+  min-height: min(82vh, 46rem);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 4rem 1rem 5rem;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+}
+.home-hero-bg {
+  position: absolute; inset: 0; z-index: -2;
+  width: 100%; height: 100%; object-fit: cover;
+}
+.home-hero::after {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background:
+    radial-gradient(60% 55% at 50% 45%, rgb(13 19 26 / 0.45), rgb(13 19 26 / 0.55) 75%),
+    linear-gradient(180deg, rgb(13 19 26 / 0) 40%, var(--bg) 99%);
+}
+.home-hero-inner { max-width: 44rem; }
+.home-logo { width: min(560px, 82vw); height: auto; filter: drop-shadow(0 10px 30px rgb(0 0 0 / 0.6)); }
+.home-tagline {
+  font-family: var(--font-display); font-size: clamp(1.3rem, 2.5vw + 0.6rem, 2rem); color: var(--gold-soft);
+  margin: 1.25rem 0 0.5rem; text-shadow: 0 2px 10px rgb(0 0 0 / 0.7);
+}
+.home-sub { font-size: 1.2rem; color: var(--text); text-shadow: 0 1px 6px rgb(0 0 0 / 0.8); }
+.home-cta { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-top: 1.5rem; }
+
+.home-paths {
+  max-width: 76rem; margin: -3rem auto 0; padding: 0 1rem; position: relative; z-index: 1;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem;
+}
+.path-card {
+  display: grid; gap: 0.35rem; padding: 1.4rem 1.4rem 1.2rem; text-decoration: none; color: var(--text);
+  border-radius: var(--radius); border: 1px solid var(--line-strong);
+  background: linear-gradient(160deg, rgb(111 208 204 / 0.08), transparent 50%), var(--bg-raised);
+  box-shadow: var(--shadow);
+  transition: transform 0.15s, border-color 0.15s;
+}
+.path-card:hover { transform: translateY(-3px); border-color: var(--gold); color: var(--text); }
+.path-num { font-family: var(--font-ui); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal); }
+.path-title { font-family: var(--font-display); font-size: 1.35rem; color: var(--gold-soft); }
+.path-text { color: var(--text-soft); line-height: 1.5; }
+
+.home-feature, .home-builder {
+  max-width: 76rem; margin: 5rem auto 0; padding: 0 1rem;
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 3rem; align-items: center;
+}
+.home-builder { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+.home-feature h2, .home-builder h2, .home-section-head h2 { border: 0; margin: 0 0 0.75rem; font-size: 2rem; padding: 0; }
+.home-feature-shot, .home-builder-shot { width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.home-builder .home-cta { justify-content: flex-start; }
+
+.home-factions { max-width: 76rem; margin: 5rem auto 0; padding: 0 1rem; }
+.home-section-head { max-width: 40rem; margin-bottom: 1.5rem; }
+.home-section-head p:last-child { color: var(--text-soft); }
+.faction-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: 0.75rem; }
+.strip-card {
+  display: grid; grid-template-rows: 9rem auto; text-decoration: none; color: var(--text);
+  border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line);
+  background:
+    radial-gradient(100% 80% at 50% 90%, color-mix(in srgb, var(--accent) 45%, transparent), transparent 70%),
+    var(--bg-raised);
+  transition: transform 0.15s, border-color 0.15s;
+}
+.strip-card:hover { transform: translateY(-3px); border-color: var(--accent); color: #fff; }
+.strip-card img { width: 100%; height: 9rem; object-fit: cover; object-position: top center; }
+.strip-card span { font-family: var(--font-display); font-size: 0.95rem; text-align: center; padding: 0.55rem 0.4rem 0.6rem; border-top: 1px solid var(--line); background: rgb(0 0 0 / 0.25); }
+
+@media (max-width: 860px) {
+  .home-paths { grid-template-columns: 1fr; margin-top: -2rem; }
+  .home-feature, .home-builder { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; margin-top: 3.5rem; }
+  .home-builder-shot { order: 2; }
+}

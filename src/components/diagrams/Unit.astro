@@ -1,0 +1,46 @@
+---
+/**
+ * A unit seen from above, drawn in battlefield inches. (x, y) is the centre; rot is the facing in
+ * degrees, 0 = facing up the page. The front edge is drawn bright so facing reads at a glance.
+ */
+interface Props {
+  x: number;
+  y: number;
+  cols?: number;
+  rows?: number;
+  /** Model base in inches. Infantry is 20 mm, about 0.79". */
+  base?: [number, number];
+  rot?: number;
+  side?: 'friend' | 'enemy' | 'ghost';
+  label?: string;
+  labelPos?: 'above' | 'below' | 'left' | 'right';
+  dot?: boolean;
+  /** Highlight this many ranks from the front (shooters, attackers). */
+  hiRows?: number;
+  /** Lightly highlight the rank behind the highlighted ones (supporting attacks). */
+  support?: boolean;
+  /** Highlight the left-hand file (flank attackers). */
+  hiLeft?: boolean;
+}
+const { x, y, cols = 5, rows = 4, base = [0.79, 0.79], rot = 0, side = 'friend', label, labelPos = 'below', dot = false, hiRows = 0, support = false, hiLeft = false } = Astro.props;
+const w = cols * base[0];
+const d = rows * base[1];
+// Labels sit outside the rotated footprint, in page space, so they never turn with the unit.
+const rad = (rot * Math.PI) / 180;
+const hb = (Math.abs(w * Math.cos(rad)) + Math.abs(d * Math.sin(rad))) / 2;
+const vb = (Math.abs(w * Math.sin(rad)) + Math.abs(d * Math.cos(rad))) / 2;
+const lx = labelPos === 'left' ? x - hb - 0.4 : labelPos === 'right' ? x + hb + 0.4 : x;
+const ly = labelPos === 'above' ? y - vb - 0.45 : labelPos === 'below' ? y + vb + 1.05 : y + 0.3;
+const anchor = labelPos === 'left' ? 'end' : labelPos === 'right' ? 'start' : 'middle';
+---
+<g class={`u u-${side}`} transform={`translate(${x} ${y}) rotate(${rot})`}>
+  <rect class="u-body" x={-w / 2} y={-d / 2} width={w} height={d} rx="0.12" />
+  {Array.from({ length: cols - 1 }, (_, i) => <line class="u-grid" x1={-w / 2 + (i + 1) * base[0]} y1={-d / 2} x2={-w / 2 + (i + 1) * base[0]} y2={d / 2} />)}
+  {Array.from({ length: rows - 1 }, (_, i) => <line class="u-grid" x1={-w / 2} y1={-d / 2 + (i + 1) * base[1]} x2={w / 2} y2={-d / 2 + (i + 1) * base[1]} />)}
+  {hiRows > 0 && <rect class="u-hi" x={-w / 2} y={-d / 2} width={w} height={hiRows * base[1]} />}
+  {support && <rect class="u-support" x={-w / 2} y={-d / 2 + hiRows * base[1]} width={w} height={base[1]} />}
+  {hiLeft && <rect class="u-hi" x={-w / 2} y={-d / 2} width={base[0]} height={d} />}
+  <line class="u-front" x1={-w / 2} y1={-d / 2} x2={w / 2} y2={-d / 2} />
+  {dot && <circle class="u-dot" r="0.28" />}
+</g>
+{label && <text class="u-label" x={lx} y={ly} text-anchor={anchor}>{label}</text>}

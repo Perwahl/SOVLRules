@@ -1,0 +1,24 @@
+---
+import { property } from '../lib/factions';
+
+interface Props { id: string; cost?: number; kind?: string; regiment?: boolean }
+const { id, cost, kind, regiment = false } = Astro.props;
+const p = property(id);
+const name = p?.name ?? id;
+const per = regiment ? (p?.perUnit ? '/unit' : '/model') : '';
+const popId = `pop-${Math.random().toString(36).slice(2, 10)}`;
+---
+{p ? (
+  <>
+    <button class:list={['chip', kind && `chip-${kind}`]} type="button" popovertarget={popId} title={p.description}>
+      {name}{cost ? <span class="chip-cost">+{cost}{per}</span> : null}
+    </button>
+    <div class="chip-pop" id={popId} popover>
+      <p class="chip-pop-type">{p.type.replace(/([a-z])([A-Z])/g, '$1 $2')}</p>
+      <p class="chip-pop-name">{name}{cost ? ` · ${cost} pts${per ? ' per ' + per.slice(1) : ''}` : ''}</p>
+      <p class="chip-pop-desc">{p.description}</p>
+    </div>
+  </>
+) : (
+  <span class="chip">{name}</span>
+)}

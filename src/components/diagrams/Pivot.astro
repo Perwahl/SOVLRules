@@ -1,0 +1,23 @@
+---
+import Diagram from './Diagram.astro';
+import Unit from './Unit.astro';
+
+// Infantry, Move 8": pivot 90° (2"), then advance 6".
+const cx = 9, cy = 9;
+const r = 3.4;
+---
+<Diagram width={36} height={17} title="Moving a unit: pivot 90 degrees on the spot for a quarter of its Move, then advance straight forward with the rest." caption="Infantry with Move 8&quot;: a 90° pivot costs 2&quot;, leaving 6&quot; to advance.">
+  <Unit x={cx} y={cy} side="ghost" label="Start" labelPos="above" />
+  <path class="dg-path" d={`M ${cx} ${cy - r} A ${r} ${r} 0 0 1 ${cx + r} ${cy}`} marker-end="url(#arrow)" />
+  <text class="dg-label" x={cx + 3.4} y={cy - 3.1}>Pivot 90° · 2"</text>
+  <Unit x={cx} y={cy} rot={90} side="ghost" />
+  <line class="dg-ray" x1={cx + 2.2} y1={cy} x2={cx + 6 - 1.9} y2={cy} marker-end="url(#arrow)" />
+  <text class="dg-label" x={cx + 3.2} y={cy + 3.4} text-anchor="middle">Advance 6"</text>
+  <Unit x={cx + 6} y={cy} rot={90} side="friend" label="End" labelPos="right" />
+
+  <text class="dg-note" x={27} y={5}>Cost per 90°</text>
+  <text class="dg-note" x={27} y={6.6}>= Move ÷ 4</text>
+  <text class="dg-note" x={27} y={9.2}>Infantry 8" → 2"</text>
+  <text class="dg-note" x={27} y={10.8}>Cavalry 16" → 4"</text>
+  <text class="dg-note" x={27} y={12.4}>Monsters 12" → 3"</text>
+</Diagram>

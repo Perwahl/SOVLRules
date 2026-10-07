@@ -1,0 +1,188 @@
+/* Rules prose and content components */
+
+.prose > p:first-of-type { margin-top: 0; }
+.prose ul, .prose ol { padding-left: 1.4rem; }
+
+/* Callouts */
+.callout {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem 0.25rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  background: linear-gradient(135deg, rgb(111 208 204 / 0.07), transparent 60%), var(--bg-raised);
+}
+.callout-label {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin: 0 0 0.35rem;
+}
+.callout-example { border-left-color: var(--gold); background: linear-gradient(135deg, rgb(217 171 79 / 0.08), transparent 60%), var(--bg-raised); }
+.callout-example .callout-label { color: var(--gold); }
+.callout-tip { border-left-color: var(--green); background: linear-gradient(135deg, rgb(111 191 115 / 0.07), transparent 60%), var(--bg-raised); }
+.callout-tip .callout-label { color: var(--green); }
+.callout-game { border-left-color: var(--line-strong); }
+.callout-game .callout-label { color: var(--muted); }
+.callout-body > :last-child { margin-bottom: 0.75rem; }
+
+/* Stat line, styled after the in-game unit card */
+.statline {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.4rem;
+  margin: 1rem 0;
+  padding: 0.6rem;
+  background: rgb(10 16 22 / 0.65);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  max-width: 30rem;
+}
+.statline .stat { display: flex; flex-direction: column-reverse; align-items: center; gap: 0.3rem; margin: 0; }
+.statline dd {
+  margin: 0;
+  width: 100%;
+  max-width: 3.2rem;
+  aspect-ratio: 1.1;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding-top: 0.15em;
+  color: #fff;
+  text-shadow: 0 1px 2px #000;
+  background: linear-gradient(180deg, #3d8c79, #24584b);
+  border: 1px solid #0c201b;
+  border-radius: 7px;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.18);
+}
+.statline dt {
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-soft);
+}
+.statline.compact { padding: 0.45rem; gap: 0.3rem; margin: 0; max-width: none; }
+.statline.compact dd { font-size: 1.15rem; max-width: 2.6rem; }
+.statline.compact dt { font-size: 0.6rem; }
+
+/* Dice */
+.dice { display: inline-flex; flex-wrap: wrap; gap: 0.3rem; vertical-align: middle; }
+.die rect { fill: #e9e3d2; stroke: #8b8470; stroke-width: 1.5; }
+.die circle { fill: #3a3a3a; }
+.die.hit rect { fill: #7fe3dc; stroke: #2a8c86; }
+.die.hit circle { fill: #0c2b2a; }
+.dice-row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; margin: 0.5rem 0 1rem; }
+
+/* Key/value rule list (term on the left) */
+.rule-grid { display: grid; grid-template-columns: max-content 1fr; gap: 0.5rem 1.25rem; margin: 1rem 0 1.5rem; }
+.rule-grid dt { font-family: var(--font-ui); font-weight: 600; color: var(--gold-soft); padding-top: 0.15rem; }
+.rule-grid dd { margin: 0; }
+@media (max-width: 560px) {
+  .rule-grid { grid-template-columns: 1fr; gap: 0.15rem; }
+  .rule-grid dd { margin-bottom: 0.6rem; }
+}
+
+/* Numbered sequence (turn structure, combat steps) */
+.steps { list-style: none; padding: 0 !important; counter-reset: step; margin: 1.25rem 0 1.5rem; }
+.steps > li {
+  counter-increment: step;
+  position: relative;
+  padding: 0.85rem 1rem 0.6rem 3.4rem;
+  margin: 0 0 0.6rem;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.steps > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0.9rem;
+  top: 0.85rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: #1c1404;
+  background: linear-gradient(180deg, #f3d38a, #c99a3f);
+}
+.steps > li > strong:first-child { display: block; font-family: var(--font-display); color: var(--gold-soft); font-weight: 600; }
+
+/* Roll tables: big target numbers */
+.roll-table td.target {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--teal-strong);
+  white-space: nowrap;
+}
+
+/* Phase cards on the turn overview */
+.phase-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; margin: 1.5rem 0; }
+.phase-card {
+  display: block;
+  padding: 1.1rem 1.1rem 0.9rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--bg-raised);
+  text-decoration: none;
+  color: var(--text);
+}
+a.phase-card:hover { border-color: var(--teal); color: var(--text); }
+.phase-card .num { font-family: var(--font-ui); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+.phase-card .name { display: block; font-family: var(--font-display); font-size: 1.2rem; color: var(--gold-soft); margin: 0.15rem 0 0.35rem; }
+.phase-card .what { font-size: 1rem; color: var(--text-soft); line-height: 1.45; }
+@media (max-width: 680px) { .phase-cards { grid-template-columns: 1fr; } }
+
+.figure.narrow { max-width: 30rem; margin-inline: auto; }
+
+/* SVG rules diagrams (drawn in battlefield inches) */
+.diagram { margin: 1.75rem 0; }
+.diagram svg { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); background: #33402a; }
+.diagram figcaption { font-size: 0.98rem; color: var(--muted); margin-top: 0.5rem; font-style: italic; }
+.u-body { stroke-width: 0.08; }
+.u-friend .u-body { fill: #2d6e93; stroke: #a8dcf5; }
+.u-enemy .u-body { fill: #8e2f28; stroke: #f0a39a; }
+.u-ghost .u-body { fill: rgb(255 255 255 / 0.08); stroke: rgb(255 255 255 / 0.6); stroke-dasharray: 0.3 0.2; }
+.u-grid { stroke: rgb(0 0 0 / 0.35); stroke-width: 0.04; }
+.u-front { stroke: #fff3cf; stroke-width: 0.22; stroke-linecap: round; }
+.u-dot { fill: #f1d58e; stroke: #1b1305; stroke-width: 0.08; }
+.u-label, .dg-note, .dg-zone, .dg-x, .dg-label {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  paint-order: stroke;
+  stroke: rgb(0 0 0 / 0.75);
+  stroke-width: 0.22;
+  stroke-linejoin: round;
+}
+.u-label { font-size: 0.85px; fill: #fff; }
+.dg-note { font-size: 0.75px; fill: #d8efd0; }
+.dg-label { font-size: 0.8px; fill: #f1d58e; }
+.dg-zone { font-size: 1px; fill: #f1d58e; text-anchor: middle; letter-spacing: 0.06px; text-transform: uppercase; }
+.dg-x { font-size: 1.3px; fill: #e0776b; }
+.dg-sight { fill: rgb(111 208 204 / 0.18); stroke: rgb(158 240 234 / 0.75); stroke-width: 0.1; stroke-dasharray: 0.4 0.25; }
+.dg-forest { fill: #1f3a1d; stroke: #4c7a3c; stroke-width: 0.12; }
+.dg-water { fill: #2a4f63; stroke: #6aa3bf; stroke-width: 0.1; }
+.dg-ray { stroke: #f1d58e; stroke-width: 0.14; fill: none; }
+.dg-ray-bad { stroke: #e0776b; stroke-dasharray: 0.35 0.2; }
+.dg-path { stroke: #f1d58e; stroke-width: 0.12; fill: none; stroke-dasharray: 0.4 0.25; }
+.dg-split { stroke: rgb(241 213 142 / 0.7); stroke-width: 0.08; stroke-dasharray: 0.35 0.25; }
+.dg-arc { stroke: none; }
+.dg-arc-front { fill: rgb(255 255 255 / 0.04); }
+.dg-arc-flank { fill: rgb(217 171 79 / 0.13); }
+.dg-arc-rear { fill: rgb(184 71 60 / 0.16); }
+.dg-zone-fill { fill: rgb(111 208 204 / 0.14); stroke: rgb(158 240 234 / 0.6); stroke-width: 0.12; stroke-dasharray: 0.5 0.3; }
+.dg-zone-enemy { fill: rgb(184 71 60 / 0.14); stroke: rgb(240 163 154 / 0.6); }
+.dg-zone-ambush { fill: rgb(217 171 79 / 0.1); stroke: rgb(241 213 142 / 0.7); }
+.u-hi { fill: rgb(241 213 142 / 0.4); }
+.dg-long { fill: rgb(111 208 204 / 0.07); }
+.u-support { fill: rgb(241 213 142 / 0.18); }

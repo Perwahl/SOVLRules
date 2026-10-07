@@ -1,0 +1,46 @@
+---
+layout: ../../layouts/RulesLayout.astro
+title: The Turn
+eyebrow: The Rules
+lede: Every turn runs Charge, Strategic, Combat. Both players act in each phase, taking turns unit by unit, so nobody ever moves their whole army unanswered.
+description: Turn structure and alternating activations in SOVL - who acts first, passing, and how the three phases fit together.
+---
+import Callout from '../../components/Callout.astro';
+import { url as link } from '../../lib/site';
+
+## Turn sequence
+
+A battle lasts seven turns. Each turn is split into three phases, played in this order:
+
+<ol class="steps">
+  <li><strong>Charge phase</strong> Players take turns declaring charges. When both have finished, every charge is resolved and the units slam into combat. Skipped on turn 1. <a href={link('/rules/charge-phase/')}>Charge phase rules</a></li>
+  <li><strong>Strategic phase</strong> Players take turns activating units to move, shoot, cast spells, use abilities or rally. <a href={link('/rules/strategic-phase/')}>Strategic phase rules</a></li>
+  <li><strong>Combat phase</strong> Every melee is fought out, losers take break tests, and broken units flee. No decisions here: the game resolves it all. <a href={link('/rules/combat-phase/')}>Combat phase rules</a></li>
+</ol>
+
+Charges come *before* movement. A unit that wants to fight this turn must already be within reach at the start of the turn, so where you end each Strategic phase sets up the next turn's charges. Ending a move just out of the enemy's reach, or just inside your own, is the heart of SOVL.
+
+## Alternating activations
+
+In the Charge and Strategic phases, players take turns. On your turn you **activate one unit**, do everything you want with it, and then play passes to your opponent. Then they activate one of theirs, and so on.
+
+### In the Charge phase
+
+Each time it is your turn, you either **declare one charge** or **pass**. Once you pass, you are out of the Charge phase. Your opponent may keep declaring charges until they pass too.
+
+There is one exception. If one of your units is charged after you passed, and it is able to flee, you get a turn back to decide whether it **flees**.
+
+### In the Strategic phase
+
+Each time it is your turn, you activate one unit that hasn't acted yet this turn. When it's done, play passes. A player who has nothing left to activate is skipped, and the other player carries on until all their units have acted too.
+
+A unit can be activated **once per Strategic phase**. Units in combat and fleeing units can still be activated, but they can do less. See [Strategic Phase](../strategic-phase/).
+
+### Who goes first
+
+- In the **Strategic phase** of turn 1, the player who won the roll-off after deployment goes first. After that, the first player **swaps every turn**.
+- In the **Charge phase**, the player who went first in the previous turn's Strategic phase declares first.
+
+<Callout type="tip">
+Activating a weak or unimportant unit first is a classic trick. It makes your opponent commit before your important units move.
+</Callout>
