@@ -14,8 +14,8 @@ import { ARMY_BUILDER_URL, STEAM_URL, url } from '../lib/site';
     <Image class="home-hero-bg" src={hero} alt="" widths={[960, 1600, 2400]} sizes="100vw" loading="eager" />
     <div class="home-hero-inner">
       <Image class="home-logo" src={logo} alt="SOVL: Fantasy Warfare" width={560} widths={[320, 560, 1000]} sizes="(max-width: 640px) 80vw, 560px" loading="eager" />
-      <p class="home-tagline">Every rule of the battlefield, explained.</p>
-      <p class="home-sub">Regiments, monsters and heroes. Charges, flanks and broken nerve. Learn how a battle works in five minutes, then look up any rule as you play.</p>
+      <p class="home-tagline">The rules of SOVL: Fantasy Warfare</p>
+      <p class="home-sub">Learn how a battle works in five minutes, then look up any rule as you play.</p>
       <div class="home-cta">
         <a class="btn btn-gold" href={url('/rules/')}>Learn to play</a>
         <a class="btn" href={ARMY_BUILDER_URL}>Open the Army Builder</a>
@@ -25,17 +25,17 @@ import { ARMY_BUILDER_URL, STEAM_URL, url } from '../lib/site';
 
   <section class="home-paths">
     <a class="path-card" href={url('/rules/')}>
-      <span class="path-num">5 minutes</span>
+      <span class="path-num">Start here</span>
       <span class="path-title">How a Battle Works</span>
       <span class="path-text">Armies, the battlefield, the three phases of a turn, dice and winning. Start here.</span>
     </a>
     <a class="path-card" href={url('/rules/units/')}>
-      <span class="path-num">The rules</span>
-      <span class="path-title">Every rule, explained</span>
+      <span class="path-num">Rules</span>
+      <span class="path-title">The Rules</span>
       <span class="path-text">Units, terrain, charges, shooting, magic and melee, with diagrams and worked examples.</span>
     </a>
     <a class="path-card" href={url('/reference/')}>
-      <span class="path-num">At the table</span>
+      <span class="path-num">Reference</span>
       <span class="path-title">Quick Reference</span>
       <span class="path-text">To-hit, saves, combat score and break tests on one page. Keep it open while you play.</span>
     </a>
@@ -44,7 +44,7 @@ import { ARMY_BUILDER_URL, STEAM_URL, url } from '../lib/site';
   <section class="home-feature">
     <div class="home-feature-text">
       <p class="eyebrow">How SOVL plays</p>
-      <h2>Charge first, think always</h2>
+      <h2>How a turn plays out</h2>
       <p>Every turn opens with charges, before anyone moves. Where you leave a unit at the end of a turn decides who can hit whom at the start of the next. Catch an enemy in the flank and their ranks count for nothing. Get caught yourself and your best regiment runs.</p>
       <p>Players take turns unit by unit, so every move answers your opponent's last one.</p>
       <a class="btn" href={url('/rules/charge-phase/')}>Read the Charge rules</a>
