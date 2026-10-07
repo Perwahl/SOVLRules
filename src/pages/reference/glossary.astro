@@ -12,8 +12,8 @@ const GROUPS: { type: string; title: string; intro: string }[] = [
   { type: 'rangedAttack', title: 'Ranged weapons', intro: 'Bows, guns, war machines and breath weapons.' },
   { type: 'property', title: 'Unit properties', intro: 'Armour, special rules and traits.' },
   { type: 'gift', title: 'Gifts', intro: 'Blessings granted by dark powers.' },
-  { type: 'commanderAbility', title: 'Commander abilities', intro: 'Abilities a commander activates, usually a limited number of times per battle.' },
-  { type: 'spell', title: 'Spells', intro: 'Cast by spellcasters as their ability. Cantrips are the lesser spells.' },
+  { type: 'commanderAbility', title: 'Commander abilities', intro: 'Abilities a commander activates, usually once per battle. A few can be used in every activation, and a few are always active.' },
+  { type: 'spell', title: 'Spells', intro: 'Cast by spellcasters as their ability. Each spell has a set number of charges per battle, usually 1, 2 or 3. Cantrips are the lesser spells.' },
 ];
 
 type MagicRef = { id: string; cost?: number };
