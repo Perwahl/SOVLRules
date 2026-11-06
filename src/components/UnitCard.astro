@@ -9,6 +9,7 @@ import { url } from '../lib/site';
 interface Props { unit: Unit; accent?: string; /** Omit for a unit's second appearance, so ids stay unique. */ anchored?: boolean }
 const { unit, accent, anchored = true } = Astro.props;
 const img = portrait(unit.image);
+const portraitScale = unit.portraitScale ?? (unit.largeImage ? 1.2 : 1);
 const type = modelType(unit.modelType);
 const selectors: Selector[] = [unit.weaponSet, unit.ranged, ...(unit.properties ?? [])].filter((s): s is Selector => !!s);
 const choices = selectors.filter((s) => s.kind === 'pickOne' && (s.options?.length ?? 0) > 1);
@@ -29,8 +30,8 @@ const sizeText = (id: string) => {
   return m.min === m.max ? `${m.min}` : `${m.min}–${m.max}`;
 };
 ---
-<article class:list={["unit-card", { "large-image": unit.largeImage }]} id={anchored ? anchorFor(unit.unitID) : undefined} style={accent ? `--accent:${accent}` : undefined}>
-  <div class="unit-art">
+<article class="unit-card" id={anchored ? anchorFor(unit.unitID) : undefined} style={accent ? `--accent:${accent}` : undefined}>
+  <div class="unit-art" style={`--portrait-scale:${portraitScale}`}>
     {img ? <Image src={img} alt="" width={480} widths={[240, 480]} sizes="16rem" loading="lazy" /> : <div class="unit-art-empty" />}
   </div>
   <div class="unit-main">

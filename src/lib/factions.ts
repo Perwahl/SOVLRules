@@ -28,7 +28,9 @@ export interface Unit {
   commander?: boolean;
   solo?: boolean;
   isMount?: boolean;
-  /** Drawn 1.2x on the in-game unit card (UIUnitCard.Flash). */
+  /** How big the portrait is drawn, from its feet, as on the in-game unit card (UIUnitCard.Flash). */
+  portraitScale?: number;
+  /** Data exported before portraitScale: 1.2x. */
   largeImage?: boolean;
   sectionBonus?: string;
   stats: Record<string, number>;
