@@ -110,16 +110,15 @@
   border-right: 1px solid var(--line);
   overflow: hidden;
 }
-/* Every portrait is a whole cell from the game's sheet, drawn in the same square frame, so a model's
-   size in its cell shows its size against other units, as in the game. largeImage units are drawn 1.2x,
-   as on the in-game card; the column is sized so they fit. */
+/* Every portrait is a whole cell from the game's sheet, standing on the same ground line and drawn at
+   its unit's portraitScale, as on the in-game card. The art fills its cell whatever it shows, so that
+   scale is what shows a unit's size against the others. The base size leaves room for the largest. */
 .unit-art img {
   position: absolute; bottom: 0; left: 50%;
-  width: 12rem; height: 12rem; max-width: none;
+  width: 10.5rem; height: 10.5rem; max-width: none;
   object-fit: contain; object-position: center bottom;
-  transform: translateX(-50%); transform-origin: center bottom;
+  transform: translateX(-50%) scale(var(--portrait-scale, 1)); transform-origin: center bottom;
 }
-.unit-card.large-image .unit-art img { transform: translateX(-50%) scale(1.2); }
 .unit-main { padding: 0.85rem 1rem 0.75rem; min-width: 0; display: grid; gap: 0.6rem; align-content: start; }
 .unit-head { display: grid; grid-template-columns: auto 1fr auto; gap: 0.65rem; align-items: center; }
 .type-icon {
